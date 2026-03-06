@@ -22,6 +22,13 @@ Die Daten werden über die **FastF1 API** bezogen, welche offizielle Timing- und
 * **TyreLife:** Das Alter des Reifens in Runden (berücksichtigt den Performance-Abfall).
 * **Stint:** Die Nummer des aktuellen Stints im Rennen.
 
+### zu eliminierende Runden:
+* Runden mit SafetyCar
+* Runden mit Regen
+* Runden mit gelber Flagge
+* nicht abgeschlossene Rennen
+
+
 ### Zielvariable (Labels):
 
 * `Compound`: Kategoriale Variable [0: Soft, 1: Medium, 2: Hard].
