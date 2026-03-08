@@ -6,7 +6,7 @@ from tqdm import tqdm
 class FastF1:
     def __init__(self):
         if not os.path.exists('cache'): os.makedirs('cache')
-        fastf1.Cache.enable_cache('cache')
+        fastf1.Cache.enable_cache('cache')  # Verhindert wiederholte API-Calls bei erneutem Laden
 
         self.races_to_load = [
             (2021, 'Belgium'),
@@ -17,11 +17,10 @@ class FastF1:
         ]
 
         self.teams = ['Red Bull Racing', 'Mercedes', 'Ferrari', 'McLaren']
-
         self.all_laps_data = []
 
     def load_newDataSet(self):
-        final_df = pd.DataFrame()  # Fix: immer initialisieren
+        final_df = pd.DataFrame()
 
         for year, grandprix in self.races_to_load:
             print(f"\n--- Lade {grandprix} {year} ---")
@@ -29,6 +28,7 @@ class FastF1:
                 session = fastf1.get_session(year, grandprix, 'R')
                 session.load()
 
+                # Boxenrunden raus – die verfälschen die LapTime stark
                 laps = session.laps.pick_teams(self.teams).pick_wo_box()
 
                 if len(laps) == 0:
@@ -38,6 +38,7 @@ class FastF1:
                 max_speeds, min_speeds, valid_indices = [], [], []
 
                 for index, lap in tqdm(laps.iterrows(), total=len(laps), desc=f"Telemetrie {grandprix}"):
+                    # Nur Runden unter grüner Flagge – kein Safety Car, kein VSC
                     if str(lap['TrackStatus']) == '1':
                         try:
                             car_data = lap.get_car_data()
@@ -65,9 +66,14 @@ class FastF1:
         if self.all_laps_data:
             final_df = pd.concat(self.all_laps_data, ignore_index=True)
 
+            # Nur relevante Spalten behalten – alles andere ist für das NN nicht nötig
             keep_cols = ['LapTime', 'LapNumber', 'TyreLife', 'Compound', 'Team', 'MaxSpeed', 'MinSpeed', 'GP']
             final_df = final_df[keep_cols]
+
+            # LapTime von timedelta (0:01:31.456) in Sekunden (91.456) umwandeln
             final_df['LapTime'] = pd.to_timedelta(final_df['LapTime']).dt.total_seconds()
+
+            # Runden mit fehlenden Werten entfernen – NNs können kein NaN verarbeiten
             final_df = final_df.dropna()
 
             final_df.to_csv('DATA.csv', index=False)
@@ -76,7 +82,7 @@ class FastF1:
             print("Keine Daten extrahiert.")
 
         return final_df
-    
+
 
 class NeuronalNetwork:
     def __init__(self):
@@ -84,23 +90,28 @@ class NeuronalNetwork:
 
     def set_df(self, DataFrame):
         self.F1_df = DataFrame
-    
+
     def print_df(self):
         print(self.F1_df)
+
 
 class MAIN:
     def __init__(self):
         F1 = FastF1()
         self.NeuronalNetwork = NeuronalNetwork()
+
         if os.path.exists('DATA.csv'):
             if str(input('Es existiert bereits eine Datenbank. Neu laden und überschreiben? (Y/N) ')).upper() == 'Y':
                 self.NeuronalNetwork.set_df(F1.load_newDataSet())
             else:
+                # Bestehende CSV laden statt neu von der API zu holen (spart 10-15 Minuten)
                 self.NeuronalNetwork.set_df(pd.read_csv('DATA.csv'))
                 print("Runden aus DATA.csv geladen.")
         else:
             self.NeuronalNetwork.set_df(F1.load_newDataSet())
+
         self.NeuronalNetwork.print_df()
-    
+
+
 if __name__ == '__main__':
     MAIN()
