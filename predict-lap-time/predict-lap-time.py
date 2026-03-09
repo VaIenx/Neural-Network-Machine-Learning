@@ -1,6 +1,7 @@
 import fastf1, os
 import pandas as pd
 from tqdm import tqdm
+import visualizer
 
 
 class FastF1:
@@ -89,10 +90,15 @@ class NeuronalNetwork:
         pass
 
     def set_df(self, DataFrame):
-        self.F1_df = DataFrame
+        self.__F1_df = DataFrame
+
+    def get_df(self):
+        return self.__F1_df
 
     def print_df(self):
-        print(self.F1_df)
+        print(self.__F1_df)
+    
+    
 
 
 class MAIN:
@@ -111,6 +117,8 @@ class MAIN:
             self.NeuronalNetwork.set_df(F1.load_newDataSet())
 
         self.NeuronalNetwork.print_df()
+        viz = visualizer.Visualizer(self.NeuronalNetwork.get_df(), "./plots")
+        viz.plot_all() 
 
 
 if __name__ == '__main__':
