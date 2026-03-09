@@ -1,0 +1,1593 @@
+LapTime,LapNumber,TyreLife,Compound,Team,MaxSpeed,MinSpeed,GP
+106.339,1.0,4.0,MEDIUM,Red Bull Racing,305.0,0.0,France
+99.613,2.0,5.0,MEDIUM,Red Bull Racing,309.0,72.0,France
+99.571,3.0,6.0,MEDIUM,Red Bull Racing,307.0,73.0,France
+100.024,4.0,7.0,MEDIUM,Red Bull Racing,306.0,75.0,France
+99.408,5.0,8.0,MEDIUM,Red Bull Racing,308.0,74.0,France
+98.727,6.0,9.0,MEDIUM,Red Bull Racing,309.0,73.0,France
+99.43,7.0,10.0,MEDIUM,Red Bull Racing,307.0,70.0,France
+99.059,8.0,11.0,MEDIUM,Red Bull Racing,307.0,73.0,France
+99.122,9.0,12.0,MEDIUM,Red Bull Racing,307.0,72.0,France
+98.95,10.0,13.0,MEDIUM,Red Bull Racing,308.0,72.0,France
+99.214,11.0,14.0,MEDIUM,Red Bull Racing,308.0,74.0,France
+99.307,12.0,15.0,MEDIUM,Red Bull Racing,307.0,74.0,France
+99.214,13.0,16.0,MEDIUM,Red Bull Racing,307.0,73.0,France
+99.015,14.0,17.0,MEDIUM,Red Bull Racing,307.0,75.0,France
+100.297,15.0,18.0,MEDIUM,Red Bull Racing,308.0,73.0,France
+99.199,16.0,19.0,MEDIUM,Red Bull Racing,308.0,73.0,France
+99.246,17.0,20.0,MEDIUM,Red Bull Racing,307.0,74.0,France
+97.776,20.0,2.0,HARD,Red Bull Racing,315.0,77.0,France
+97.516,21.0,3.0,HARD,Red Bull Racing,306.0,78.0,France
+97.052,22.0,4.0,HARD,Red Bull Racing,307.0,76.0,France
+98.086,23.0,5.0,HARD,Red Bull Racing,307.0,76.0,France
+97.915,24.0,6.0,HARD,Red Bull Racing,309.0,74.0,France
+97.706,25.0,7.0,HARD,Red Bull Racing,307.0,76.0,France
+98.278,26.0,8.0,HARD,Red Bull Racing,306.0,76.0,France
+97.727,27.0,9.0,HARD,Red Bull Racing,311.0,76.0,France
+97.657,28.0,10.0,HARD,Red Bull Racing,307.0,75.0,France
+98.04,29.0,11.0,HARD,Red Bull Racing,310.0,77.0,France
+97.833,30.0,12.0,HARD,Red Bull Racing,308.0,78.0,France
+97.844,31.0,13.0,HARD,Red Bull Racing,306.0,78.0,France
+96.743,34.0,5.0,MEDIUM,Red Bull Racing,308.0,79.0,France
+96.404,35.0,6.0,MEDIUM,Red Bull Racing,315.0,76.0,France
+96.579,36.0,7.0,MEDIUM,Red Bull Racing,305.0,79.0,France
+96.582,37.0,8.0,MEDIUM,Red Bull Racing,309.0,77.0,France
+96.863,38.0,9.0,MEDIUM,Red Bull Racing,308.0,75.0,France
+96.973,39.0,10.0,MEDIUM,Red Bull Racing,309.0,76.0,France
+97.033,40.0,11.0,MEDIUM,Red Bull Racing,312.0,76.0,France
+97.081,41.0,12.0,MEDIUM,Red Bull Racing,330.0,78.0,France
+96.849,42.0,13.0,MEDIUM,Red Bull Racing,312.0,76.0,France
+97.092,43.0,14.0,MEDIUM,Red Bull Racing,332.0,73.0,France
+97.45,44.0,15.0,MEDIUM,Red Bull Racing,333.0,75.0,France
+97.129,45.0,16.0,MEDIUM,Red Bull Racing,310.0,74.0,France
+97.558,46.0,17.0,MEDIUM,Red Bull Racing,312.0,75.0,France
+97.627,47.0,18.0,MEDIUM,Red Bull Racing,311.0,72.0,France
+97.459,48.0,19.0,MEDIUM,Red Bull Racing,315.0,77.0,France
+97.43,49.0,20.0,MEDIUM,Red Bull Racing,338.0,72.0,France
+96.968,50.0,21.0,MEDIUM,Red Bull Racing,310.0,72.0,France
+97.413,51.0,22.0,MEDIUM,Red Bull Racing,314.0,73.0,France
+96.942,52.0,23.0,MEDIUM,Red Bull Racing,335.0,74.0,France
+97.143,53.0,24.0,MEDIUM,Red Bull Racing,313.0,74.0,France
+104.859,1.0,4.0,MEDIUM,Mercedes,296.0,0.0,France
+99.625,2.0,5.0,MEDIUM,Mercedes,298.0,72.0,France
+99.776,3.0,6.0,MEDIUM,Mercedes,299.0,78.0,France
+99.692,4.0,7.0,MEDIUM,Mercedes,299.0,77.0,France
+99.549,5.0,8.0,MEDIUM,Mercedes,303.0,78.0,France
+98.787,6.0,9.0,MEDIUM,Mercedes,303.0,77.0,France
+99.204,7.0,10.0,MEDIUM,Mercedes,300.0,74.0,France
+98.763,8.0,11.0,MEDIUM,Mercedes,307.0,77.0,France
+99.268,9.0,12.0,MEDIUM,Mercedes,303.0,78.0,France
+98.778,10.0,13.0,MEDIUM,Mercedes,301.0,80.0,France
+98.977,11.0,14.0,MEDIUM,Mercedes,301.0,78.0,France
+99.432,12.0,15.0,MEDIUM,Mercedes,302.0,77.0,France
+98.929,13.0,16.0,MEDIUM,Mercedes,300.0,79.0,France
+99.16,14.0,17.0,MEDIUM,Mercedes,302.0,79.0,France
+99.511,15.0,18.0,MEDIUM,Mercedes,303.0,76.0,France
+99.395,16.0,19.0,MEDIUM,Mercedes,301.0,78.0,France
+98.926,17.0,20.0,MEDIUM,Mercedes,301.0,79.0,France
+99.035,18.0,21.0,MEDIUM,Mercedes,303.0,77.0,France
+97.48,21.0,2.0,HARD,Mercedes,318.0,78.0,France
+97.551,22.0,3.0,HARD,Mercedes,324.0,76.0,France
+97.702,23.0,4.0,HARD,Mercedes,311.0,80.0,France
+97.786,24.0,5.0,HARD,Mercedes,322.0,81.0,France
+97.947,25.0,6.0,HARD,Mercedes,325.0,78.0,France
+97.905,26.0,7.0,HARD,Mercedes,322.0,77.0,France
+97.979,27.0,8.0,HARD,Mercedes,323.0,77.0,France
+97.712,28.0,9.0,HARD,Mercedes,322.0,76.0,France
+98.457,29.0,10.0,HARD,Mercedes,319.0,77.0,France
+98.226,30.0,11.0,HARD,Mercedes,307.0,79.0,France
+98.503,31.0,12.0,HARD,Mercedes,308.0,77.0,France
+98.392,32.0,13.0,HARD,Mercedes,305.0,76.0,France
+98.429,33.0,14.0,HARD,Mercedes,304.0,74.0,France
+98.666,34.0,15.0,HARD,Mercedes,305.0,75.0,France
+98.411,35.0,16.0,HARD,Mercedes,304.0,77.0,France
+98.565,36.0,17.0,HARD,Mercedes,303.0,79.0,France
+99.137,37.0,18.0,HARD,Mercedes,306.0,78.0,France
+97.65,38.0,19.0,HARD,Mercedes,309.0,77.0,France
+97.458,39.0,20.0,HARD,Mercedes,308.0,77.0,France
+98.182,40.0,21.0,HARD,Mercedes,307.0,76.0,France
+97.685,41.0,22.0,HARD,Mercedes,309.0,80.0,France
+97.818,42.0,23.0,HARD,Mercedes,310.0,74.0,France
+97.64,43.0,24.0,HARD,Mercedes,309.0,76.0,France
+97.41,44.0,25.0,HARD,Mercedes,312.0,75.0,France
+97.542,45.0,26.0,HARD,Mercedes,308.0,77.0,France
+97.545,46.0,27.0,HARD,Mercedes,311.0,78.0,France
+98.431,47.0,28.0,HARD,Mercedes,309.0,73.0,France
+98.089,48.0,29.0,HARD,Mercedes,314.0,74.0,France
+98.189,49.0,30.0,HARD,Mercedes,314.0,78.0,France
+97.946,50.0,31.0,HARD,Mercedes,306.0,72.0,France
+98.242,51.0,32.0,HARD,Mercedes,311.0,74.0,France
+98.735,52.0,33.0,HARD,Mercedes,315.0,75.0,France
+99.041,53.0,34.0,HARD,Mercedes,327.0,74.0,France
+108.257,1.0,4.0,MEDIUM,Red Bull Racing,310.0,0.0,France
+100.612,2.0,5.0,MEDIUM,Red Bull Racing,306.0,73.0,France
+100.549,3.0,6.0,MEDIUM,Red Bull Racing,305.0,75.0,France
+100.419,4.0,7.0,MEDIUM,Red Bull Racing,305.0,73.0,France
+99.998,5.0,8.0,MEDIUM,Red Bull Racing,305.0,72.0,France
+99.24,6.0,9.0,MEDIUM,Red Bull Racing,305.0,70.0,France
+99.665,7.0,10.0,MEDIUM,Red Bull Racing,305.0,71.0,France
+99.072,8.0,11.0,MEDIUM,Red Bull Racing,306.0,71.0,France
+99.305,9.0,12.0,MEDIUM,Red Bull Racing,307.0,77.0,France
+99.151,10.0,13.0,MEDIUM,Red Bull Racing,306.0,76.0,France
+99.303,11.0,14.0,MEDIUM,Red Bull Racing,308.0,71.0,France
+99.318,12.0,15.0,MEDIUM,Red Bull Racing,308.0,72.0,France
+99.189,13.0,16.0,MEDIUM,Red Bull Racing,306.0,75.0,France
+99.37,14.0,17.0,MEDIUM,Red Bull Racing,309.0,73.0,France
+100.487,15.0,18.0,MEDIUM,Red Bull Racing,307.0,71.0,France
+99.773,16.0,19.0,MEDIUM,Red Bull Racing,308.0,75.0,France
+99.364,17.0,20.0,MEDIUM,Red Bull Racing,305.0,74.0,France
+99.338,18.0,21.0,MEDIUM,Red Bull Racing,307.0,76.0,France
+99.149,19.0,22.0,MEDIUM,Red Bull Racing,306.0,70.0,France
+99.52,20.0,23.0,MEDIUM,Red Bull Racing,308.0,74.0,France
+99.31,21.0,24.0,MEDIUM,Red Bull Racing,307.0,74.0,France
+99.698,22.0,25.0,MEDIUM,Red Bull Racing,308.0,75.0,France
+99.1,23.0,26.0,MEDIUM,Red Bull Racing,310.0,75.0,France
+97.404,26.0,2.0,HARD,Red Bull Racing,306.0,79.0,France
+97.229,27.0,3.0,HARD,Red Bull Racing,304.0,77.0,France
+97.674,28.0,4.0,HARD,Red Bull Racing,305.0,76.0,France
+98.056,29.0,5.0,HARD,Red Bull Racing,306.0,78.0,France
+97.917,30.0,6.0,HARD,Red Bull Racing,310.0,79.0,France
+98.28,31.0,7.0,HARD,Red Bull Racing,307.0,76.0,France
+97.801,32.0,8.0,HARD,Red Bull Racing,310.0,75.0,France
+98.075,33.0,9.0,HARD,Red Bull Racing,309.0,76.0,France
+97.827,34.0,10.0,HARD,Red Bull Racing,312.0,76.0,France
+99.396,35.0,11.0,HARD,Red Bull Racing,310.0,74.0,France
+97.886,36.0,12.0,HARD,Red Bull Racing,327.0,75.0,France
+97.395,37.0,13.0,HARD,Red Bull Racing,309.0,77.0,France
+97.154,38.0,14.0,HARD,Red Bull Racing,309.0,75.0,France
+97.239,39.0,15.0,HARD,Red Bull Racing,309.0,74.0,France
+97.355,40.0,16.0,HARD,Red Bull Racing,310.0,74.0,France
+97.351,41.0,17.0,HARD,Red Bull Racing,313.0,72.0,France
+97.332,42.0,18.0,HARD,Red Bull Racing,315.0,78.0,France
+97.129,43.0,19.0,HARD,Red Bull Racing,313.0,74.0,France
+97.161,44.0,20.0,HARD,Red Bull Racing,312.0,76.0,France
+97.111,45.0,21.0,HARD,Red Bull Racing,309.0,75.0,France
+97.876,46.0,22.0,HARD,Red Bull Racing,314.0,74.0,France
+98.172,47.0,23.0,HARD,Red Bull Racing,325.0,73.0,France
+98.22,48.0,24.0,HARD,Red Bull Racing,334.0,76.0,France
+99.64,49.0,25.0,HARD,Red Bull Racing,337.0,75.0,France
+97.578,50.0,26.0,HARD,Red Bull Racing,308.0,72.0,France
+97.363,51.0,27.0,HARD,Red Bull Racing,329.0,71.0,France
+97.125,52.0,28.0,HARD,Red Bull Racing,333.0,75.0,France
+96.693,53.0,29.0,HARD,Red Bull Racing,310.0,79.0,France
+106.833,1.0,4.0,MEDIUM,Mercedes,313.0,0.0,France
+100.188,2.0,5.0,MEDIUM,Mercedes,308.0,74.0,France
+99.822,3.0,6.0,MEDIUM,Mercedes,303.0,75.0,France
+99.889,4.0,7.0,MEDIUM,Mercedes,304.0,76.0,France
+99.293,5.0,8.0,MEDIUM,Mercedes,305.0,76.0,France
+98.604,6.0,9.0,MEDIUM,Mercedes,318.0,74.0,France
+99.51,7.0,10.0,MEDIUM,Mercedes,320.0,73.0,France
+99.229,8.0,11.0,MEDIUM,Mercedes,305.0,76.0,France
+99.264,9.0,12.0,MEDIUM,Mercedes,309.0,75.0,France
+99.018,10.0,13.0,MEDIUM,Mercedes,311.0,71.0,France
+99.29,11.0,14.0,MEDIUM,Mercedes,309.0,74.0,France
+100.266,12.0,15.0,MEDIUM,Mercedes,308.0,71.0,France
+99.473,13.0,16.0,MEDIUM,Mercedes,307.0,74.0,France
+99.406,14.0,17.0,MEDIUM,Mercedes,308.0,75.0,France
+99.864,15.0,18.0,MEDIUM,Mercedes,308.0,74.0,France
+99.239,16.0,19.0,MEDIUM,Mercedes,309.0,75.0,France
+96.96,19.0,2.0,HARD,Mercedes,307.0,77.0,France
+97.488,20.0,3.0,HARD,Mercedes,323.0,75.0,France
+97.514,21.0,4.0,HARD,Mercedes,321.0,75.0,France
+97.377,22.0,5.0,HARD,Mercedes,323.0,74.0,France
+97.922,23.0,6.0,HARD,Mercedes,324.0,76.0,France
+97.642,24.0,7.0,HARD,Mercedes,324.0,76.0,France
+97.799,25.0,8.0,HARD,Mercedes,322.0,72.0,France
+99.013,26.0,9.0,HARD,Mercedes,329.0,73.0,France
+98.071,27.0,10.0,HARD,Mercedes,305.0,77.0,France
+98.291,28.0,11.0,HARD,Mercedes,307.0,79.0,France
+98.629,29.0,12.0,HARD,Mercedes,305.0,76.0,France
+98.713,30.0,13.0,HARD,Mercedes,306.0,77.0,France
+98.982,31.0,14.0,HARD,Mercedes,302.0,76.0,France
+98.831,32.0,15.0,HARD,Mercedes,303.0,75.0,France
+98.346,33.0,16.0,HARD,Mercedes,310.0,76.0,France
+97.702,34.0,17.0,HARD,Mercedes,305.0,75.0,France
+98.392,35.0,18.0,HARD,Mercedes,307.0,79.0,France
+98.111,36.0,19.0,HARD,Mercedes,309.0,76.0,France
+98.188,37.0,20.0,HARD,Mercedes,308.0,74.0,France
+97.862,38.0,21.0,HARD,Mercedes,312.0,77.0,France
+98.016,39.0,22.0,HARD,Mercedes,306.0,73.0,France
+98.738,40.0,23.0,HARD,Mercedes,320.0,74.0,France
+98.724,41.0,24.0,HARD,Mercedes,308.0,75.0,France
+98.247,42.0,25.0,HARD,Mercedes,308.0,72.0,France
+97.612,43.0,26.0,HARD,Mercedes,307.0,72.0,France
+99.479,44.0,27.0,HARD,Mercedes,314.0,72.0,France
+99.073,45.0,28.0,HARD,Mercedes,317.0,76.0,France
+98.719,46.0,29.0,HARD,Mercedes,304.0,73.0,France
+97.695,47.0,30.0,HARD,Mercedes,309.0,73.0,France
+98.768,48.0,31.0,HARD,Mercedes,311.0,70.0,France
+101.084,49.0,32.0,HARD,Mercedes,310.0,62.0,France
+99.226,50.0,33.0,HARD,Mercedes,325.0,74.0,France
+98.322,51.0,34.0,HARD,Mercedes,310.0,72.0,France
+98.44,52.0,35.0,HARD,Mercedes,312.0,74.0,France
+97.86,53.0,36.0,HARD,Mercedes,310.0,75.0,France
+111.536,1.0,6.0,MEDIUM,McLaren,315.0,0.0,France
+103.526,2.0,7.0,MEDIUM,McLaren,326.0,71.0,France
+101.389,3.0,8.0,MEDIUM,McLaren,301.0,75.0,France
+101.538,4.0,9.0,MEDIUM,McLaren,310.0,72.0,France
+100.54,5.0,10.0,MEDIUM,McLaren,304.0,72.0,France
+100.359,6.0,11.0,MEDIUM,McLaren,308.0,72.0,France
+100.873,7.0,12.0,MEDIUM,McLaren,306.0,73.0,France
+100.685,8.0,13.0,MEDIUM,McLaren,307.0,73.0,France
+100.358,9.0,14.0,MEDIUM,McLaren,309.0,74.0,France
+100.548,10.0,15.0,MEDIUM,McLaren,312.0,71.0,France
+100.42,11.0,16.0,MEDIUM,McLaren,326.0,72.0,France
+100.669,12.0,17.0,MEDIUM,McLaren,324.0,71.0,France
+100.889,13.0,18.0,MEDIUM,McLaren,326.0,69.0,France
+100.995,14.0,19.0,MEDIUM,McLaren,329.0,73.0,France
+101.272,15.0,20.0,MEDIUM,McLaren,321.0,70.0,France
+101.155,16.0,21.0,MEDIUM,McLaren,310.0,69.0,France
+100.294,17.0,22.0,MEDIUM,McLaren,305.0,70.0,France
+99.936,18.0,23.0,MEDIUM,McLaren,304.0,71.0,France
+99.869,19.0,24.0,MEDIUM,McLaren,305.0,70.0,France
+100.503,20.0,25.0,MEDIUM,McLaren,306.0,70.0,France
+100.319,21.0,26.0,MEDIUM,McLaren,303.0,71.0,France
+99.912,22.0,27.0,MEDIUM,McLaren,304.0,69.0,France
+100.393,23.0,28.0,MEDIUM,McLaren,306.0,72.0,France
+98.66,26.0,2.0,HARD,McLaren,321.0,74.0,France
+98.257,27.0,3.0,HARD,McLaren,333.0,73.0,France
+100.829,28.0,4.0,HARD,McLaren,349.0,67.0,France
+99.322,29.0,5.0,HARD,McLaren,340.0,70.0,France
+99.289,30.0,6.0,HARD,McLaren,322.0,69.0,France
+98.263,31.0,7.0,HARD,McLaren,330.0,70.0,France
+98.281,32.0,8.0,HARD,McLaren,308.0,70.0,France
+97.485,33.0,9.0,HARD,McLaren,335.0,68.0,France
+98.019,34.0,10.0,HARD,McLaren,326.0,73.0,France
+98.76,35.0,11.0,HARD,McLaren,307.0,71.0,France
+98.629,36.0,12.0,HARD,McLaren,304.0,74.0,France
+98.607,37.0,13.0,HARD,McLaren,298.0,73.0,France
+98.43,38.0,14.0,HARD,McLaren,296.0,73.0,France
+98.508,39.0,15.0,HARD,McLaren,296.0,71.0,France
+98.552,40.0,16.0,HARD,McLaren,296.0,71.0,France
+99.11,41.0,17.0,HARD,McLaren,297.0,71.0,France
+98.536,42.0,18.0,HARD,McLaren,297.0,76.0,France
+98.715,43.0,19.0,HARD,McLaren,296.0,74.0,France
+98.344,44.0,20.0,HARD,McLaren,295.0,75.0,France
+98.126,45.0,21.0,HARD,McLaren,298.0,76.0,France
+98.485,46.0,22.0,HARD,McLaren,296.0,73.0,France
+98.955,47.0,23.0,HARD,McLaren,296.0,73.0,France
+98.428,48.0,24.0,HARD,McLaren,297.0,75.0,France
+98.467,49.0,25.0,HARD,McLaren,296.0,74.0,France
+98.374,50.0,26.0,HARD,McLaren,296.0,72.0,France
+97.895,51.0,27.0,HARD,McLaren,299.0,73.0,France
+97.425,52.0,28.0,HARD,McLaren,299.0,73.0,France
+97.459,53.0,29.0,HARD,McLaren,312.0,71.0,France
+111.35,1.0,6.0,MEDIUM,McLaren,321.0,0.0,France
+102.492,2.0,7.0,MEDIUM,McLaren,309.0,74.0,France
+101.218,3.0,8.0,MEDIUM,McLaren,321.0,74.0,France
+101.124,4.0,9.0,MEDIUM,McLaren,308.0,74.0,France
+100.531,5.0,10.0,MEDIUM,McLaren,323.0,71.0,France
+100.425,6.0,11.0,MEDIUM,McLaren,327.0,74.0,France
+100.86,7.0,12.0,MEDIUM,McLaren,322.0,74.0,France
+100.85,8.0,13.0,MEDIUM,McLaren,331.0,73.0,France
+100.741,9.0,14.0,MEDIUM,McLaren,322.0,71.0,France
+100.515,10.0,15.0,MEDIUM,McLaren,329.0,73.0,France
+100.862,11.0,16.0,MEDIUM,McLaren,335.0,72.0,France
+100.622,12.0,17.0,MEDIUM,McLaren,305.0,71.0,France
+100.757,13.0,18.0,MEDIUM,McLaren,313.0,71.0,France
+100.424,14.0,19.0,MEDIUM,McLaren,337.0,71.0,France
+101.634,15.0,20.0,MEDIUM,McLaren,309.0,70.0,France
+99.309,18.0,2.0,HARD,McLaren,311.0,73.0,France
+99.203,19.0,3.0,HARD,McLaren,322.0,73.0,France
+99.372,20.0,4.0,HARD,McLaren,311.0,74.0,France
+99.683,21.0,5.0,HARD,McLaren,327.0,73.0,France
+101.066,22.0,6.0,HARD,McLaren,332.0,69.0,France
+100.251,23.0,7.0,HARD,McLaren,334.0,72.0,France
+100.011,24.0,8.0,HARD,McLaren,314.0,75.0,France
+99.909,25.0,9.0,HARD,McLaren,330.0,74.0,France
+101.135,26.0,10.0,HARD,McLaren,332.0,67.0,France
+100.073,27.0,11.0,HARD,McLaren,331.0,73.0,France
+99.187,28.0,12.0,HARD,McLaren,327.0,71.0,France
+99.697,29.0,13.0,HARD,McLaren,304.0,74.0,France
+99.663,30.0,14.0,HARD,McLaren,307.0,74.0,France
+99.51,31.0,15.0,HARD,McLaren,305.0,73.0,France
+99.037,32.0,16.0,HARD,McLaren,306.0,74.0,France
+99.398,33.0,17.0,HARD,McLaren,310.0,73.0,France
+99.284,34.0,18.0,HARD,McLaren,330.0,76.0,France
+98.852,35.0,19.0,HARD,McLaren,322.0,74.0,France
+99.165,36.0,20.0,HARD,McLaren,307.0,73.0,France
+99.217,37.0,21.0,HARD,McLaren,306.0,73.0,France
+99.431,38.0,22.0,HARD,McLaren,305.0,75.0,France
+99.117,39.0,23.0,HARD,McLaren,306.0,73.0,France
+99.15,40.0,24.0,HARD,McLaren,303.0,72.0,France
+99.066,41.0,25.0,HARD,McLaren,306.0,71.0,France
+98.608,42.0,26.0,HARD,McLaren,306.0,70.0,France
+98.717,43.0,27.0,HARD,McLaren,305.0,71.0,France
+98.693,44.0,28.0,HARD,McLaren,304.0,76.0,France
+98.324,45.0,29.0,HARD,McLaren,306.0,74.0,France
+98.661,46.0,30.0,HARD,McLaren,305.0,71.0,France
+99.251,47.0,31.0,HARD,McLaren,307.0,70.0,France
+99.017,48.0,32.0,HARD,McLaren,307.0,69.0,France
+98.72,49.0,33.0,HARD,McLaren,303.0,72.0,France
+98.604,50.0,34.0,HARD,McLaren,307.0,70.0,France
+98.775,51.0,35.0,HARD,McLaren,307.0,71.0,France
+98.787,52.0,36.0,HARD,McLaren,304.0,75.0,France
+99.216,53.0,37.0,HARD,McLaren,309.0,75.0,France
+108.811,1.0,4.0,MEDIUM,Ferrari,310.0,0.0,France
+101.546,2.0,5.0,MEDIUM,Ferrari,316.0,74.0,France
+101.069,3.0,6.0,MEDIUM,Ferrari,309.0,72.0,France
+101.085,4.0,7.0,MEDIUM,Ferrari,311.0,72.0,France
+100.342,5.0,8.0,MEDIUM,Ferrari,311.0,70.0,France
+99.836,6.0,9.0,MEDIUM,Ferrari,312.0,72.0,France
+100.547,7.0,10.0,MEDIUM,Ferrari,311.0,71.0,France
+100.621,8.0,11.0,MEDIUM,Ferrari,310.0,70.0,France
+100.779,9.0,12.0,MEDIUM,Ferrari,309.0,74.0,France
+100.712,10.0,13.0,MEDIUM,Ferrari,310.0,71.0,France
+100.798,11.0,14.0,MEDIUM,Ferrari,308.0,71.0,France
+101.268,12.0,15.0,MEDIUM,Ferrari,308.0,72.0,France
+101.71,13.0,16.0,MEDIUM,Ferrari,308.0,74.0,France
+101.293,14.0,17.0,MEDIUM,Ferrari,310.0,71.0,France
+101.62,15.0,18.0,MEDIUM,Ferrari,310.0,70.0,France
+101.04,16.0,19.0,MEDIUM,Ferrari,310.0,69.0,France
+98.931,19.0,2.0,HARD,Ferrari,328.0,74.0,France
+99.593,20.0,3.0,HARD,Ferrari,329.0,78.0,France
+99.751,21.0,4.0,HARD,Ferrari,313.0,77.0,France
+100.295,22.0,5.0,HARD,Ferrari,332.0,75.0,France
+101.28,23.0,6.0,HARD,Ferrari,330.0,65.0,France
+99.971,24.0,7.0,HARD,Ferrari,310.0,76.0,France
+100.117,25.0,8.0,HARD,Ferrari,325.0,72.0,France
+100.381,26.0,9.0,HARD,Ferrari,328.0,72.0,France
+100.212,27.0,10.0,HARD,Ferrari,329.0,73.0,France
+100.192,28.0,11.0,HARD,Ferrari,324.0,68.0,France
+99.859,29.0,12.0,HARD,Ferrari,329.0,76.0,France
+99.878,30.0,13.0,HARD,Ferrari,304.0,72.0,France
+100.693,31.0,14.0,HARD,Ferrari,307.0,75.0,France
+99.676,32.0,15.0,HARD,Ferrari,311.0,76.0,France
+99.169,33.0,16.0,HARD,Ferrari,310.0,75.0,France
+99.542,34.0,17.0,HARD,Ferrari,307.0,75.0,France
+99.673,35.0,18.0,HARD,Ferrari,305.0,76.0,France
+101.853,36.0,19.0,HARD,Ferrari,306.0,71.0,France
+101.578,37.0,20.0,HARD,Ferrari,312.0,71.0,France
+99.884,38.0,21.0,HARD,Ferrari,304.0,76.0,France
+99.491,39.0,22.0,HARD,Ferrari,310.0,74.0,France
+99.786,40.0,23.0,HARD,Ferrari,311.0,76.0,France
+99.572,41.0,24.0,HARD,Ferrari,312.0,72.0,France
+99.194,42.0,25.0,HARD,Ferrari,313.0,77.0,France
+98.966,43.0,26.0,HARD,Ferrari,312.0,71.0,France
+100.766,44.0,27.0,HARD,Ferrari,310.0,74.0,France
+99.338,45.0,28.0,HARD,Ferrari,313.0,72.0,France
+99.345,46.0,29.0,HARD,Ferrari,310.0,75.0,France
+99.045,47.0,30.0,HARD,Ferrari,314.0,75.0,France
+100.585,48.0,31.0,HARD,Ferrari,311.0,71.0,France
+99.899,49.0,32.0,HARD,Ferrari,310.0,69.0,France
+99.595,50.0,33.0,HARD,Ferrari,313.0,74.0,France
+99.512,51.0,34.0,HARD,Ferrari,313.0,70.0,France
+99.612,52.0,35.0,HARD,Ferrari,311.0,72.0,France
+100.926,53.0,36.0,HARD,Ferrari,310.0,75.0,France
+110.607,1.0,4.0,MEDIUM,Ferrari,322.0,0.0,France
+101.749,2.0,5.0,MEDIUM,Ferrari,314.0,73.0,France
+100.847,3.0,6.0,MEDIUM,Ferrari,313.0,75.0,France
+101.116,4.0,7.0,MEDIUM,Ferrari,320.0,72.0,France
+100.393,5.0,8.0,MEDIUM,Ferrari,324.0,72.0,France
+100.017,6.0,9.0,MEDIUM,Ferrari,328.0,74.0,France
+100.773,7.0,10.0,MEDIUM,Ferrari,324.0,69.0,France
+101.148,8.0,11.0,MEDIUM,Ferrari,313.0,71.0,France
+100.515,9.0,12.0,MEDIUM,Ferrari,312.0,72.0,France
+100.735,10.0,13.0,MEDIUM,Ferrari,316.0,68.0,France
+101.078,11.0,14.0,MEDIUM,Ferrari,325.0,67.0,France
+101.217,12.0,15.0,MEDIUM,Ferrari,315.0,70.0,France
+101.278,13.0,16.0,MEDIUM,Ferrari,325.0,65.0,France
+99.038,16.0,2.0,HARD,Ferrari,306.0,78.0,France
+99.286,17.0,3.0,HARD,Ferrari,303.0,74.0,France
+99.511,18.0,4.0,HARD,Ferrari,332.0,77.0,France
+99.538,19.0,5.0,HARD,Ferrari,302.0,74.0,France
+99.771,20.0,6.0,HARD,Ferrari,311.0,76.0,France
+100.259,21.0,7.0,HARD,Ferrari,310.0,76.0,France
+100.024,22.0,8.0,HARD,Ferrari,327.0,75.0,France
+100.061,23.0,9.0,HARD,Ferrari,311.0,71.0,France
+100.147,24.0,10.0,HARD,Ferrari,327.0,72.0,France
+100.324,25.0,11.0,HARD,Ferrari,325.0,71.0,France
+100.997,26.0,12.0,HARD,Ferrari,330.0,72.0,France
+100.458,27.0,13.0,HARD,Ferrari,304.0,75.0,France
+101.931,28.0,14.0,HARD,Ferrari,311.0,68.0,France
+102.017,29.0,15.0,HARD,Ferrari,310.0,69.0,France
+102.483,30.0,16.0,HARD,Ferrari,326.0,72.0,France
+101.553,31.0,17.0,HARD,Ferrari,310.0,69.0,France
+100.96,32.0,18.0,HARD,Ferrari,315.0,70.0,France
+100.012,33.0,19.0,HARD,Ferrari,309.0,70.0,France
+99.967,34.0,20.0,HARD,Ferrari,309.0,74.0,France
+100.273,35.0,21.0,HARD,Ferrari,311.0,69.0,France
+99.358,36.0,22.0,HARD,Ferrari,311.0,71.0,France
+99.526,37.0,23.0,HARD,Ferrari,311.0,71.0,France
+97.947,40.0,5.0,MEDIUM,Ferrari,325.0,75.0,France
+97.796,41.0,6.0,MEDIUM,Ferrari,313.0,75.0,France
+97.898,42.0,7.0,MEDIUM,Ferrari,314.0,74.0,France
+97.681,43.0,8.0,MEDIUM,Ferrari,316.0,77.0,France
+98.246,44.0,9.0,MEDIUM,Ferrari,314.0,73.0,France
+101.125,45.0,10.0,MEDIUM,Ferrari,323.0,72.0,France
+99.088,46.0,11.0,MEDIUM,Ferrari,327.0,67.0,France
+103.009,47.0,12.0,MEDIUM,Ferrari,326.0,42.0,France
+99.585,48.0,13.0,MEDIUM,Ferrari,315.0,68.0,France
+99.825,49.0,14.0,MEDIUM,Ferrari,312.0,68.0,France
+100.328,50.0,15.0,MEDIUM,Ferrari,313.0,69.0,France
+99.142,51.0,16.0,MEDIUM,Ferrari,308.0,71.0,France
+99.47,52.0,17.0,MEDIUM,Ferrari,310.0,72.0,France
+69.799,4.0,7.0,MEDIUM,Red Bull Racing,291.0,67.0,Austria
+69.735,5.0,8.0,MEDIUM,Red Bull Racing,292.0,67.0,Austria
+69.451,6.0,9.0,MEDIUM,Red Bull Racing,293.0,69.0,Austria
+69.282,7.0,10.0,MEDIUM,Red Bull Racing,295.0,68.0,Austria
+69.327,8.0,11.0,MEDIUM,Red Bull Racing,295.0,68.0,Austria
+69.218,9.0,12.0,MEDIUM,Red Bull Racing,296.0,67.0,Austria
+69.091,10.0,13.0,MEDIUM,Red Bull Racing,297.0,69.0,Austria
+69.132,11.0,14.0,MEDIUM,Red Bull Racing,297.0,70.0,Austria
+69.145,12.0,15.0,MEDIUM,Red Bull Racing,296.0,68.0,Austria
+69.126,13.0,16.0,MEDIUM,Red Bull Racing,297.0,67.0,Austria
+69.1,14.0,17.0,MEDIUM,Red Bull Racing,297.0,68.0,Austria
+69.074,15.0,18.0,MEDIUM,Red Bull Racing,297.0,67.0,Austria
+69.07,16.0,19.0,MEDIUM,Red Bull Racing,297.0,66.0,Austria
+69.071,17.0,20.0,MEDIUM,Red Bull Racing,298.0,67.0,Austria
+69.206,18.0,21.0,MEDIUM,Red Bull Racing,299.0,67.0,Austria
+69.274,19.0,22.0,MEDIUM,Red Bull Racing,299.0,65.0,Austria
+69.355,20.0,23.0,MEDIUM,Red Bull Racing,298.0,67.0,Austria
+69.252,21.0,24.0,MEDIUM,Red Bull Racing,299.0,68.0,Austria
+69.328,22.0,25.0,MEDIUM,Red Bull Racing,298.0,66.0,Austria
+69.494,23.0,26.0,MEDIUM,Red Bull Racing,298.0,65.0,Austria
+69.5,24.0,27.0,MEDIUM,Red Bull Racing,300.0,65.0,Austria
+68.882,25.0,28.0,MEDIUM,Red Bull Racing,314.0,65.0,Austria
+69.611,26.0,29.0,MEDIUM,Red Bull Racing,301.0,67.0,Austria
+69.323,27.0,30.0,MEDIUM,Red Bull Racing,299.0,64.0,Austria
+69.304,28.0,31.0,MEDIUM,Red Bull Racing,300.0,67.0,Austria
+69.498,29.0,32.0,MEDIUM,Red Bull Racing,300.0,65.0,Austria
+69.515,30.0,33.0,MEDIUM,Red Bull Racing,303.0,65.0,Austria
+69.63,31.0,34.0,MEDIUM,Red Bull Racing,303.0,63.0,Austria
+68.473,34.0,2.0,HARD,Red Bull Racing,301.0,70.0,Austria
+68.728,35.0,3.0,HARD,Red Bull Racing,300.0,68.0,Austria
+68.769,36.0,4.0,HARD,Red Bull Racing,298.0,69.0,Austria
+68.904,37.0,5.0,HARD,Red Bull Racing,298.0,70.0,Austria
+68.714,38.0,6.0,HARD,Red Bull Racing,300.0,69.0,Austria
+68.641,39.0,7.0,HARD,Red Bull Racing,300.0,68.0,Austria
+69.147,40.0,8.0,HARD,Red Bull Racing,302.0,65.0,Austria
+68.887,41.0,9.0,HARD,Red Bull Racing,311.0,67.0,Austria
+68.822,42.0,10.0,HARD,Red Bull Racing,301.0,66.0,Austria
+68.887,43.0,11.0,HARD,Red Bull Racing,302.0,66.0,Austria
+68.88,44.0,12.0,HARD,Red Bull Racing,305.0,67.0,Austria
+69.429,45.0,13.0,HARD,Red Bull Racing,330.0,62.0,Austria
+68.833,46.0,14.0,HARD,Red Bull Racing,300.0,68.0,Austria
+68.81,47.0,15.0,HARD,Red Bull Racing,301.0,67.0,Austria
+68.86,48.0,16.0,HARD,Red Bull Racing,303.0,67.0,Austria
+68.769,49.0,17.0,HARD,Red Bull Racing,305.0,67.0,Austria
+68.61,50.0,18.0,HARD,Red Bull Racing,302.0,66.0,Austria
+68.439,51.0,19.0,HARD,Red Bull Racing,315.0,67.0,Austria
+68.489,52.0,20.0,HARD,Red Bull Racing,305.0,67.0,Austria
+68.173,53.0,21.0,HARD,Red Bull Racing,317.0,66.0,Austria
+68.237,54.0,22.0,HARD,Red Bull Racing,304.0,65.0,Austria
+68.147,55.0,23.0,HARD,Red Bull Racing,304.0,67.0,Austria
+68.012,56.0,24.0,HARD,Red Bull Racing,306.0,68.0,Austria
+67.992,57.0,25.0,HARD,Red Bull Racing,305.0,65.0,Austria
+67.835,58.0,26.0,HARD,Red Bull Racing,306.0,68.0,Austria
+68.106,59.0,27.0,HARD,Red Bull Racing,305.0,66.0,Austria
+66.2,62.0,2.0,HARD,Red Bull Racing,308.0,70.0,Austria
+68.549,63.0,3.0,HARD,Red Bull Racing,325.0,68.0,Austria
+68.172,64.0,4.0,HARD,Red Bull Racing,300.0,70.0,Austria
+67.947,65.0,5.0,HARD,Red Bull Racing,301.0,70.0,Austria
+67.95,66.0,6.0,HARD,Red Bull Racing,301.0,71.0,Austria
+67.78,67.0,7.0,HARD,Red Bull Racing,301.0,69.0,Austria
+67.975,68.0,8.0,HARD,Red Bull Racing,303.0,67.0,Austria
+67.86,69.0,9.0,HARD,Red Bull Racing,303.0,70.0,Austria
+67.862,70.0,10.0,HARD,Red Bull Racing,301.0,67.0,Austria
+71.801,4.0,7.0,MEDIUM,Mercedes,308.0,66.0,Austria
+70.598,5.0,8.0,MEDIUM,Mercedes,305.0,65.0,Austria
+70.019,6.0,9.0,MEDIUM,Mercedes,298.0,66.0,Austria
+69.608,7.0,10.0,MEDIUM,Mercedes,314.0,66.0,Austria
+69.894,8.0,11.0,MEDIUM,Mercedes,310.0,69.0,Austria
+70.339,9.0,12.0,MEDIUM,Mercedes,298.0,68.0,Austria
+70.433,10.0,13.0,MEDIUM,Mercedes,294.0,69.0,Austria
+69.96,11.0,14.0,MEDIUM,Mercedes,296.0,69.0,Austria
+69.864,12.0,15.0,MEDIUM,Mercedes,295.0,67.0,Austria
+69.999,13.0,16.0,MEDIUM,Mercedes,295.0,63.0,Austria
+69.568,14.0,17.0,MEDIUM,Mercedes,295.0,66.0,Austria
+69.338,15.0,18.0,MEDIUM,Mercedes,294.0,68.0,Austria
+69.459,16.0,19.0,MEDIUM,Mercedes,296.0,63.0,Austria
+69.503,17.0,20.0,MEDIUM,Mercedes,298.0,65.0,Austria
+69.445,18.0,21.0,MEDIUM,Mercedes,296.0,70.0,Austria
+69.881,19.0,22.0,MEDIUM,Mercedes,297.0,65.0,Austria
+69.994,20.0,23.0,MEDIUM,Mercedes,294.0,65.0,Austria
+70.051,21.0,24.0,MEDIUM,Mercedes,296.0,65.0,Austria
+69.912,22.0,25.0,MEDIUM,Mercedes,295.0,69.0,Austria
+70.203,23.0,26.0,MEDIUM,Mercedes,294.0,66.0,Austria
+69.787,24.0,27.0,MEDIUM,Mercedes,291.0,67.0,Austria
+69.671,25.0,28.0,MEDIUM,Mercedes,293.0,67.0,Austria
+69.682,26.0,29.0,MEDIUM,Mercedes,295.0,66.0,Austria
+69.726,27.0,30.0,MEDIUM,Mercedes,296.0,65.0,Austria
+70.037,28.0,31.0,MEDIUM,Mercedes,294.0,63.0,Austria
+69.692,29.0,32.0,MEDIUM,Mercedes,294.0,67.0,Austria
+69.325,32.0,2.0,HARD,Mercedes,299.0,69.0,Austria
+68.689,33.0,3.0,HARD,Mercedes,294.0,71.0,Austria
+68.73,34.0,4.0,HARD,Mercedes,295.0,68.0,Austria
+69.017,35.0,5.0,HARD,Mercedes,293.0,69.0,Austria
+68.801,36.0,6.0,HARD,Mercedes,294.0,68.0,Austria
+69.001,37.0,7.0,HARD,Mercedes,293.0,69.0,Austria
+68.807,38.0,8.0,HARD,Mercedes,294.0,69.0,Austria
+68.935,39.0,9.0,HARD,Mercedes,295.0,69.0,Austria
+68.874,40.0,10.0,HARD,Mercedes,294.0,68.0,Austria
+69.02,41.0,11.0,HARD,Mercedes,296.0,70.0,Austria
+69.071,42.0,12.0,HARD,Mercedes,296.0,68.0,Austria
+69.038,43.0,13.0,HARD,Mercedes,297.0,68.0,Austria
+69.216,44.0,14.0,HARD,Mercedes,297.0,67.0,Austria
+69.094,45.0,15.0,HARD,Mercedes,298.0,66.0,Austria
+69.214,46.0,16.0,HARD,Mercedes,298.0,67.0,Austria
+69.928,47.0,17.0,HARD,Mercedes,315.0,60.0,Austria
+69.412,48.0,18.0,HARD,Mercedes,307.0,66.0,Austria
+68.833,49.0,19.0,HARD,Mercedes,298.0,65.0,Austria
+68.962,50.0,20.0,HARD,Mercedes,300.0,66.0,Austria
+68.776,51.0,21.0,HARD,Mercedes,311.0,62.0,Austria
+68.374,52.0,22.0,HARD,Mercedes,319.0,55.0,Austria
+68.884,53.0,23.0,HARD,Mercedes,298.0,67.0,Austria
+68.766,54.0,24.0,HARD,Mercedes,292.0,68.0,Austria
+68.854,55.0,25.0,HARD,Mercedes,294.0,67.0,Austria
+68.86,56.0,26.0,HARD,Mercedes,297.0,68.0,Austria
+68.617,57.0,27.0,HARD,Mercedes,314.0,65.0,Austria
+68.673,58.0,28.0,HARD,Mercedes,295.0,69.0,Austria
+68.62,59.0,29.0,HARD,Mercedes,295.0,66.0,Austria
+68.679,60.0,30.0,HARD,Mercedes,295.0,66.0,Austria
+68.71,61.0,31.0,HARD,Mercedes,295.0,67.0,Austria
+68.455,62.0,32.0,HARD,Mercedes,297.0,68.0,Austria
+68.38,63.0,33.0,HARD,Mercedes,298.0,66.0,Austria
+68.619,64.0,34.0,HARD,Mercedes,297.0,66.0,Austria
+68.646,65.0,35.0,HARD,Mercedes,298.0,65.0,Austria
+68.623,66.0,36.0,HARD,Mercedes,299.0,66.0,Austria
+68.896,67.0,37.0,HARD,Mercedes,297.0,66.0,Austria
+69.015,68.0,38.0,HARD,Mercedes,298.0,66.0,Austria
+68.982,69.0,39.0,HARD,Mercedes,299.0,65.0,Austria
+69.302,70.0,40.0,HARD,Mercedes,308.0,66.0,Austria
+71.327,4.0,7.0,MEDIUM,McLaren,295.0,58.0,Austria
+70.1,5.0,8.0,MEDIUM,McLaren,295.0,66.0,Austria
+69.903,6.0,9.0,MEDIUM,McLaren,294.0,64.0,Austria
+69.602,7.0,10.0,MEDIUM,McLaren,296.0,64.0,Austria
+69.694,8.0,11.0,MEDIUM,McLaren,295.0,66.0,Austria
+69.445,9.0,12.0,MEDIUM,McLaren,296.0,65.0,Austria
+69.706,10.0,13.0,MEDIUM,McLaren,296.0,67.0,Austria
+69.541,11.0,14.0,MEDIUM,McLaren,294.0,65.0,Austria
+69.755,12.0,15.0,MEDIUM,McLaren,295.0,63.0,Austria
+69.534,13.0,16.0,MEDIUM,McLaren,296.0,62.0,Austria
+69.603,14.0,17.0,MEDIUM,McLaren,295.0,63.0,Austria
+69.541,15.0,18.0,MEDIUM,McLaren,295.0,63.0,Austria
+69.496,16.0,19.0,MEDIUM,McLaren,296.0,63.0,Austria
+69.649,17.0,20.0,MEDIUM,McLaren,298.0,64.0,Austria
+69.605,18.0,21.0,MEDIUM,McLaren,296.0,64.0,Austria
+69.81,19.0,22.0,MEDIUM,McLaren,296.0,62.0,Austria
+71.188,20.0,23.0,MEDIUM,McLaren,294.0,60.0,Austria
+70.127,21.0,24.0,MEDIUM,McLaren,316.0,57.0,Austria
+70.089,22.0,25.0,MEDIUM,McLaren,296.0,61.0,Austria
+69.946,23.0,26.0,MEDIUM,McLaren,296.0,61.0,Austria
+69.856,24.0,27.0,MEDIUM,McLaren,298.0,62.0,Austria
+69.922,25.0,28.0,MEDIUM,McLaren,296.0,62.0,Austria
+69.666,26.0,29.0,MEDIUM,McLaren,293.0,61.0,Austria
+70.085,27.0,30.0,MEDIUM,McLaren,296.0,61.0,Austria
+70.089,28.0,31.0,MEDIUM,McLaren,293.0,55.0,Austria
+69.957,29.0,32.0,MEDIUM,McLaren,294.0,64.0,Austria
+69.247,32.0,2.0,HARD,McLaren,298.0,66.0,Austria
+69.066,33.0,3.0,HARD,McLaren,293.0,66.0,Austria
+68.566,34.0,4.0,HARD,McLaren,295.0,67.0,Austria
+68.694,35.0,5.0,HARD,McLaren,293.0,68.0,Austria
+69.194,36.0,6.0,HARD,McLaren,295.0,66.0,Austria
+68.91,37.0,7.0,HARD,McLaren,295.0,66.0,Austria
+69.03,38.0,8.0,HARD,McLaren,295.0,66.0,Austria
+69.257,39.0,9.0,HARD,McLaren,294.0,66.0,Austria
+68.984,40.0,10.0,HARD,McLaren,293.0,67.0,Austria
+68.884,41.0,11.0,HARD,McLaren,295.0,67.0,Austria
+68.767,42.0,12.0,HARD,McLaren,296.0,67.0,Austria
+68.74,43.0,13.0,HARD,McLaren,296.0,66.0,Austria
+68.825,44.0,14.0,HARD,McLaren,297.0,66.0,Austria
+68.957,45.0,15.0,HARD,McLaren,295.0,64.0,Austria
+68.893,46.0,16.0,HARD,McLaren,297.0,61.0,Austria
+69.461,47.0,17.0,HARD,McLaren,299.0,65.0,Austria
+69.289,48.0,18.0,HARD,McLaren,303.0,62.0,Austria
+68.817,49.0,19.0,HARD,McLaren,299.0,62.0,Austria
+68.757,50.0,20.0,HARD,McLaren,299.0,63.0,Austria
+68.582,51.0,21.0,HARD,McLaren,301.0,61.0,Austria
+68.912,52.0,22.0,HARD,McLaren,304.0,61.0,Austria
+68.923,53.0,23.0,HARD,McLaren,325.0,58.0,Austria
+68.664,54.0,24.0,HARD,McLaren,298.0,62.0,Austria
+68.494,55.0,25.0,HARD,McLaren,301.0,62.0,Austria
+68.687,56.0,26.0,HARD,McLaren,299.0,62.0,Austria
+68.894,57.0,27.0,HARD,McLaren,301.0,59.0,Austria
+68.686,58.0,28.0,HARD,McLaren,299.0,61.0,Austria
+68.635,59.0,29.0,HARD,McLaren,298.0,60.0,Austria
+68.756,60.0,30.0,HARD,McLaren,302.0,62.0,Austria
+68.499,61.0,31.0,HARD,McLaren,301.0,63.0,Austria
+68.471,62.0,32.0,HARD,McLaren,299.0,63.0,Austria
+68.515,63.0,33.0,HARD,McLaren,300.0,64.0,Austria
+68.574,64.0,34.0,HARD,McLaren,300.0,62.0,Austria
+68.65,65.0,35.0,HARD,McLaren,302.0,63.0,Austria
+68.988,66.0,36.0,HARD,McLaren,301.0,60.0,Austria
+68.973,67.0,37.0,HARD,McLaren,300.0,63.0,Austria
+69.41,68.0,38.0,HARD,McLaren,300.0,54.0,Austria
+68.848,69.0,39.0,HARD,McLaren,300.0,64.0,Austria
+69.003,70.0,40.0,HARD,McLaren,302.0,63.0,Austria
+71.463,4.0,7.0,MEDIUM,Mercedes,307.0,52.0,Austria
+70.109,5.0,8.0,MEDIUM,Mercedes,304.0,69.0,Austria
+70.058,6.0,9.0,MEDIUM,Mercedes,296.0,66.0,Austria
+69.649,7.0,10.0,MEDIUM,Mercedes,311.0,66.0,Austria
+69.746,8.0,11.0,MEDIUM,Mercedes,304.0,67.0,Austria
+69.293,9.0,12.0,MEDIUM,Mercedes,308.0,66.0,Austria
+69.838,10.0,13.0,MEDIUM,Mercedes,318.0,66.0,Austria
+69.473,11.0,14.0,MEDIUM,Mercedes,306.0,63.0,Austria
+69.849,12.0,15.0,MEDIUM,Mercedes,313.0,64.0,Austria
+69.509,13.0,16.0,MEDIUM,Mercedes,310.0,64.0,Austria
+69.601,14.0,17.0,MEDIUM,Mercedes,312.0,65.0,Austria
+69.508,15.0,18.0,MEDIUM,Mercedes,310.0,65.0,Austria
+69.511,16.0,19.0,MEDIUM,Mercedes,308.0,67.0,Austria
+69.793,17.0,20.0,MEDIUM,Mercedes,316.0,67.0,Austria
+69.434,18.0,21.0,MEDIUM,Mercedes,313.0,62.0,Austria
+69.645,19.0,22.0,MEDIUM,Mercedes,318.0,64.0,Austria
+69.46,20.0,23.0,MEDIUM,Mercedes,321.0,63.0,Austria
+69.707,21.0,24.0,MEDIUM,Mercedes,293.0,64.0,Austria
+69.516,22.0,25.0,MEDIUM,Mercedes,296.0,65.0,Austria
+69.686,23.0,26.0,MEDIUM,Mercedes,293.0,66.0,Austria
+69.42,24.0,27.0,MEDIUM,Mercedes,294.0,67.0,Austria
+69.346,25.0,28.0,MEDIUM,Mercedes,297.0,67.0,Austria
+69.594,26.0,29.0,MEDIUM,Mercedes,292.0,64.0,Austria
+69.533,27.0,30.0,MEDIUM,Mercedes,290.0,63.0,Austria
+69.776,28.0,31.0,MEDIUM,Mercedes,298.0,65.0,Austria
+69.615,29.0,32.0,MEDIUM,Mercedes,298.0,68.0,Austria
+70.3,30.0,33.0,MEDIUM,Mercedes,291.0,65.0,Austria
+69.194,33.0,2.0,HARD,Mercedes,293.0,68.0,Austria
+69.235,34.0,3.0,HARD,Mercedes,294.0,68.0,Austria
+69.171,35.0,4.0,HARD,Mercedes,292.0,69.0,Austria
+69.269,36.0,5.0,HARD,Mercedes,291.0,64.0,Austria
+69.155,37.0,6.0,HARD,Mercedes,294.0,68.0,Austria
+69.209,38.0,7.0,HARD,Mercedes,295.0,69.0,Austria
+69.596,39.0,8.0,HARD,Mercedes,295.0,69.0,Austria
+69.363,40.0,9.0,HARD,Mercedes,292.0,70.0,Austria
+69.376,41.0,10.0,HARD,Mercedes,293.0,69.0,Austria
+69.4,42.0,11.0,HARD,Mercedes,293.0,68.0,Austria
+69.214,43.0,12.0,HARD,Mercedes,295.0,70.0,Austria
+69.241,44.0,13.0,HARD,Mercedes,295.0,67.0,Austria
+69.449,45.0,14.0,HARD,Mercedes,296.0,66.0,Austria
+69.534,46.0,15.0,HARD,Mercedes,295.0,68.0,Austria
+69.078,47.0,16.0,HARD,Mercedes,307.0,66.0,Austria
+69.692,48.0,17.0,HARD,Mercedes,293.0,69.0,Austria
+69.046,49.0,18.0,HARD,Mercedes,296.0,69.0,Austria
+69.023,50.0,19.0,HARD,Mercedes,295.0,68.0,Austria
+69.043,51.0,20.0,HARD,Mercedes,295.0,63.0,Austria
+70.286,52.0,21.0,HARD,Mercedes,297.0,63.0,Austria
+68.126,55.0,2.0,HARD,Mercedes,290.0,71.0,Austria
+68.272,56.0,3.0,HARD,Mercedes,293.0,72.0,Austria
+68.389,57.0,4.0,HARD,Mercedes,294.0,72.0,Austria
+68.885,58.0,5.0,HARD,Mercedes,292.0,71.0,Austria
+69.355,59.0,6.0,HARD,Mercedes,293.0,69.0,Austria
+69.161,60.0,7.0,HARD,Mercedes,294.0,67.0,Austria
+69.093,61.0,8.0,HARD,Mercedes,294.0,68.0,Austria
+69.255,62.0,9.0,HARD,Mercedes,298.0,70.0,Austria
+69.331,63.0,10.0,HARD,Mercedes,292.0,68.0,Austria
+68.904,64.0,11.0,HARD,Mercedes,296.0,70.0,Austria
+69.302,65.0,12.0,HARD,Mercedes,296.0,68.0,Austria
+69.852,66.0,13.0,HARD,Mercedes,292.0,68.0,Austria
+69.144,67.0,14.0,HARD,Mercedes,295.0,69.0,Austria
+68.916,68.0,15.0,HARD,Mercedes,296.0,68.0,Austria
+68.974,69.0,16.0,HARD,Mercedes,296.0,69.0,Austria
+69.429,70.0,17.0,HARD,Mercedes,295.0,68.0,Austria
+74.202,4.0,4.0,HARD,Ferrari,315.0,62.0,Austria
+72.562,5.0,5.0,HARD,Ferrari,301.0,65.0,Austria
+71.808,6.0,6.0,HARD,Ferrari,308.0,64.0,Austria
+71.126,7.0,7.0,HARD,Ferrari,322.0,63.0,Austria
+71.088,8.0,8.0,HARD,Ferrari,319.0,60.0,Austria
+71.352,9.0,9.0,HARD,Ferrari,322.0,63.0,Austria
+71.28,10.0,10.0,HARD,Ferrari,325.0,58.0,Austria
+71.288,11.0,11.0,HARD,Ferrari,311.0,60.0,Austria
+70.679,12.0,12.0,HARD,Ferrari,325.0,55.0,Austria
+71.149,13.0,13.0,HARD,Ferrari,306.0,63.0,Austria
+71.446,14.0,14.0,HARD,Ferrari,310.0,61.0,Austria
+71.071,15.0,15.0,HARD,Ferrari,326.0,62.0,Austria
+70.8,16.0,16.0,HARD,Ferrari,319.0,62.0,Austria
+70.873,17.0,17.0,HARD,Ferrari,320.0,58.0,Austria
+70.628,18.0,18.0,HARD,Ferrari,325.0,61.0,Austria
+70.792,19.0,19.0,HARD,Ferrari,320.0,56.0,Austria
+70.645,20.0,20.0,HARD,Ferrari,306.0,63.0,Austria
+70.345,21.0,21.0,HARD,Ferrari,307.0,64.0,Austria
+70.186,22.0,22.0,HARD,Ferrari,305.0,64.0,Austria
+69.987,23.0,23.0,HARD,Ferrari,307.0,64.0,Austria
+70.148,24.0,24.0,HARD,Ferrari,305.0,64.0,Austria
+70.247,25.0,25.0,HARD,Ferrari,306.0,60.0,Austria
+70.037,26.0,26.0,HARD,Ferrari,305.0,60.0,Austria
+70.261,27.0,27.0,HARD,Ferrari,305.0,59.0,Austria
+70.072,28.0,28.0,HARD,Ferrari,305.0,63.0,Austria
+70.002,29.0,29.0,HARD,Ferrari,307.0,64.0,Austria
+70.078,30.0,30.0,HARD,Ferrari,306.0,59.0,Austria
+70.013,31.0,31.0,HARD,Ferrari,305.0,65.0,Austria
+69.94,32.0,32.0,HARD,Ferrari,306.0,64.0,Austria
+69.717,33.0,33.0,HARD,Ferrari,314.0,62.0,Austria
+69.961,34.0,34.0,HARD,Ferrari,307.0,63.0,Austria
+69.907,35.0,35.0,HARD,Ferrari,310.0,62.0,Austria
+69.981,36.0,36.0,HARD,Ferrari,303.0,65.0,Austria
+70.217,37.0,37.0,HARD,Ferrari,304.0,62.0,Austria
+69.536,38.0,38.0,HARD,Ferrari,317.0,63.0,Austria
+69.73,39.0,39.0,HARD,Ferrari,303.0,63.0,Austria
+69.699,40.0,40.0,HARD,Ferrari,303.0,65.0,Austria
+69.778,41.0,41.0,HARD,Ferrari,302.0,63.0,Austria
+69.804,42.0,42.0,HARD,Ferrari,302.0,63.0,Austria
+70.021,43.0,43.0,HARD,Ferrari,303.0,55.0,Austria
+69.938,44.0,44.0,HARD,Ferrari,304.0,63.0,Austria
+69.934,45.0,45.0,HARD,Ferrari,304.0,62.0,Austria
+69.801,46.0,46.0,HARD,Ferrari,303.0,64.0,Austria
+69.835,47.0,47.0,HARD,Ferrari,304.0,64.0,Austria
+69.181,50.0,5.0,MEDIUM,Ferrari,300.0,66.0,Austria
+69.115,51.0,6.0,MEDIUM,Ferrari,303.0,65.0,Austria
+68.766,52.0,7.0,MEDIUM,Ferrari,304.0,64.0,Austria
+68.484,53.0,8.0,MEDIUM,Ferrari,304.0,65.0,Austria
+68.438,54.0,9.0,MEDIUM,Ferrari,304.0,65.0,Austria
+68.113,55.0,10.0,MEDIUM,Ferrari,305.0,66.0,Austria
+68.01,56.0,11.0,MEDIUM,Ferrari,304.0,65.0,Austria
+68.101,57.0,12.0,MEDIUM,Ferrari,306.0,65.0,Austria
+68.211,58.0,13.0,MEDIUM,Ferrari,308.0,64.0,Austria
+68.271,59.0,14.0,MEDIUM,Ferrari,309.0,64.0,Austria
+68.524,60.0,15.0,MEDIUM,Ferrari,308.0,64.0,Austria
+68.455,61.0,16.0,MEDIUM,Ferrari,307.0,63.0,Austria
+68.705,62.0,17.0,MEDIUM,Ferrari,310.0,64.0,Austria
+68.72,63.0,18.0,MEDIUM,Ferrari,313.0,61.0,Austria
+68.979,64.0,19.0,MEDIUM,Ferrari,328.0,53.0,Austria
+68.638,65.0,20.0,MEDIUM,Ferrari,324.0,55.0,Austria
+68.647,66.0,21.0,MEDIUM,Ferrari,306.0,61.0,Austria
+68.919,67.0,22.0,MEDIUM,Ferrari,317.0,61.0,Austria
+69.441,68.0,23.0,MEDIUM,Ferrari,322.0,52.0,Austria
+69.379,69.0,24.0,MEDIUM,Ferrari,324.0,54.0,Austria
+67.762,70.0,25.0,MEDIUM,Ferrari,324.0,56.0,Austria
+76.025,4.0,7.0,MEDIUM,Red Bull Racing,305.0,67.0,Austria
+71.663,5.0,8.0,MEDIUM,Red Bull Racing,299.0,62.0,Austria
+71.316,6.0,9.0,MEDIUM,Red Bull Racing,304.0,63.0,Austria
+71.003,7.0,10.0,MEDIUM,Red Bull Racing,325.0,62.0,Austria
+71.253,8.0,11.0,MEDIUM,Red Bull Racing,327.0,61.0,Austria
+71.063,9.0,12.0,MEDIUM,Red Bull Racing,321.0,63.0,Austria
+71.029,10.0,13.0,MEDIUM,Red Bull Racing,326.0,62.0,Austria
+71.322,11.0,14.0,MEDIUM,Red Bull Racing,325.0,66.0,Austria
+71.737,12.0,15.0,MEDIUM,Red Bull Racing,324.0,63.0,Austria
+71.574,13.0,16.0,MEDIUM,Red Bull Racing,322.0,62.0,Austria
+72.304,14.0,17.0,MEDIUM,Red Bull Racing,323.0,62.0,Austria
+71.039,15.0,18.0,MEDIUM,Red Bull Racing,325.0,64.0,Austria
+70.734,16.0,19.0,MEDIUM,Red Bull Racing,325.0,64.0,Austria
+70.916,17.0,20.0,MEDIUM,Red Bull Racing,326.0,64.0,Austria
+70.466,18.0,21.0,MEDIUM,Red Bull Racing,323.0,58.0,Austria
+70.171,19.0,22.0,MEDIUM,Red Bull Racing,321.0,65.0,Austria
+70.554,20.0,23.0,MEDIUM,Red Bull Racing,321.0,57.0,Austria
+70.043,21.0,24.0,MEDIUM,Red Bull Racing,319.0,63.0,Austria
+70.127,22.0,25.0,MEDIUM,Red Bull Racing,315.0,64.0,Austria
+69.996,23.0,26.0,MEDIUM,Red Bull Racing,318.0,64.0,Austria
+69.996,24.0,27.0,MEDIUM,Red Bull Racing,317.0,63.0,Austria
+69.996,25.0,28.0,MEDIUM,Red Bull Racing,321.0,63.0,Austria
+69.932,26.0,29.0,MEDIUM,Red Bull Racing,316.0,62.0,Austria
+70.293,27.0,30.0,MEDIUM,Red Bull Racing,322.0,59.0,Austria
+70.192,28.0,31.0,MEDIUM,Red Bull Racing,320.0,61.0,Austria
+70.228,29.0,32.0,MEDIUM,Red Bull Racing,324.0,57.0,Austria
+69.709,30.0,33.0,MEDIUM,Red Bull Racing,316.0,65.0,Austria
+70.023,31.0,34.0,MEDIUM,Red Bull Racing,317.0,62.0,Austria
+68.701,34.0,2.0,HARD,Red Bull Racing,302.0,70.0,Austria
+68.917,35.0,3.0,HARD,Red Bull Racing,298.0,66.0,Austria
+69.287,36.0,4.0,HARD,Red Bull Racing,300.0,67.0,Austria
+69.34,37.0,5.0,HARD,Red Bull Racing,303.0,67.0,Austria
+69.495,38.0,6.0,HARD,Red Bull Racing,324.0,65.0,Austria
+69.678,39.0,7.0,HARD,Red Bull Racing,323.0,64.0,Austria
+69.753,40.0,8.0,HARD,Red Bull Racing,324.0,63.0,Austria
+69.344,41.0,9.0,HARD,Red Bull Racing,322.0,64.0,Austria
+69.337,42.0,10.0,HARD,Red Bull Racing,321.0,64.0,Austria
+69.495,43.0,11.0,HARD,Red Bull Racing,324.0,63.0,Austria
+69.758,44.0,12.0,HARD,Red Bull Racing,323.0,61.0,Austria
+70.306,45.0,13.0,HARD,Red Bull Racing,328.0,64.0,Austria
+69.932,46.0,14.0,HARD,Red Bull Racing,325.0,63.0,Austria
+69.164,47.0,15.0,HARD,Red Bull Racing,316.0,66.0,Austria
+69.065,48.0,16.0,HARD,Red Bull Racing,316.0,64.0,Austria
+69.208,49.0,17.0,HARD,Red Bull Racing,317.0,62.0,Austria
+68.845,50.0,18.0,HARD,Red Bull Racing,318.0,63.0,Austria
+69.035,51.0,19.0,HARD,Red Bull Racing,319.0,61.0,Austria
+69.224,52.0,20.0,HARD,Red Bull Racing,322.0,52.0,Austria
+68.787,53.0,21.0,HARD,Red Bull Racing,300.0,66.0,Austria
+68.429,54.0,22.0,HARD,Red Bull Racing,301.0,67.0,Austria
+68.192,55.0,23.0,HARD,Red Bull Racing,302.0,69.0,Austria
+68.444,56.0,24.0,HARD,Red Bull Racing,301.0,65.0,Austria
+68.311,57.0,25.0,HARD,Red Bull Racing,302.0,68.0,Austria
+68.49,58.0,26.0,HARD,Red Bull Racing,300.0,67.0,Austria
+68.758,59.0,27.0,HARD,Red Bull Racing,301.0,66.0,Austria
+68.721,60.0,28.0,HARD,Red Bull Racing,302.0,64.0,Austria
+68.623,61.0,29.0,HARD,Red Bull Racing,298.0,68.0,Austria
+68.35,62.0,30.0,HARD,Red Bull Racing,300.0,67.0,Austria
+68.473,63.0,31.0,HARD,Red Bull Racing,301.0,65.0,Austria
+68.461,64.0,32.0,HARD,Red Bull Racing,303.0,66.0,Austria
+68.329,65.0,33.0,HARD,Red Bull Racing,303.0,65.0,Austria
+68.416,66.0,34.0,HARD,Red Bull Racing,303.0,66.0,Austria
+68.776,67.0,35.0,HARD,Red Bull Racing,306.0,65.0,Austria
+69.056,68.0,36.0,HARD,Red Bull Racing,316.0,62.0,Austria
+68.692,69.0,37.0,HARD,Red Bull Racing,303.0,66.0,Austria
+68.579,70.0,38.0,HARD,Red Bull Racing,303.0,66.0,Austria
+73.293,4.0,4.0,MEDIUM,McLaren,302.0,56.0,Austria
+71.872,5.0,5.0,MEDIUM,McLaren,295.0,63.0,Austria
+71.313,6.0,6.0,MEDIUM,McLaren,298.0,59.0,Austria
+70.948,7.0,7.0,MEDIUM,McLaren,323.0,65.0,Austria
+71.11,8.0,8.0,MEDIUM,McLaren,323.0,60.0,Austria
+71.22,9.0,9.0,MEDIUM,McLaren,322.0,62.0,Austria
+71.165,10.0,10.0,MEDIUM,McLaren,320.0,64.0,Austria
+71.267,11.0,11.0,MEDIUM,McLaren,324.0,59.0,Austria
+71.715,12.0,12.0,MEDIUM,McLaren,325.0,61.0,Austria
+71.361,13.0,13.0,MEDIUM,McLaren,320.0,60.0,Austria
+71.778,14.0,14.0,MEDIUM,McLaren,321.0,59.0,Austria
+70.761,15.0,15.0,MEDIUM,McLaren,316.0,63.0,Austria
+70.657,16.0,16.0,MEDIUM,McLaren,316.0,60.0,Austria
+70.128,17.0,17.0,MEDIUM,McLaren,320.0,57.0,Austria
+70.741,18.0,18.0,MEDIUM,McLaren,295.0,60.0,Austria
+70.29,19.0,19.0,MEDIUM,McLaren,293.0,65.0,Austria
+70.153,20.0,20.0,MEDIUM,McLaren,296.0,63.0,Austria
+70.162,21.0,21.0,MEDIUM,McLaren,295.0,63.0,Austria
+70.338,22.0,22.0,MEDIUM,McLaren,293.0,61.0,Austria
+69.968,23.0,23.0,MEDIUM,McLaren,293.0,62.0,Austria
+70.124,24.0,24.0,MEDIUM,McLaren,296.0,59.0,Austria
+70.02,25.0,25.0,MEDIUM,McLaren,295.0,61.0,Austria
+70.148,26.0,26.0,MEDIUM,McLaren,295.0,64.0,Austria
+70.046,27.0,27.0,MEDIUM,McLaren,295.0,63.0,Austria
+70.021,28.0,28.0,MEDIUM,McLaren,294.0,61.0,Austria
+69.43,31.0,2.0,HARD,McLaren,295.0,63.0,Austria
+69.82,32.0,3.0,HARD,McLaren,295.0,60.0,Austria
+69.46,33.0,4.0,HARD,McLaren,297.0,65.0,Austria
+69.543,34.0,5.0,HARD,McLaren,303.0,64.0,Austria
+69.664,35.0,6.0,HARD,McLaren,300.0,63.0,Austria
+69.649,36.0,7.0,HARD,McLaren,300.0,61.0,Austria
+70.103,37.0,8.0,HARD,McLaren,323.0,61.0,Austria
+69.78,38.0,9.0,HARD,McLaren,323.0,60.0,Austria
+69.622,39.0,10.0,HARD,McLaren,317.0,58.0,Austria
+69.558,40.0,11.0,HARD,McLaren,316.0,60.0,Austria
+69.365,41.0,12.0,HARD,McLaren,318.0,64.0,Austria
+69.391,42.0,13.0,HARD,McLaren,319.0,64.0,Austria
+69.355,43.0,14.0,HARD,McLaren,322.0,58.0,Austria
+69.976,44.0,15.0,HARD,McLaren,321.0,65.0,Austria
+70.388,45.0,16.0,HARD,McLaren,321.0,59.0,Austria
+69.608,46.0,17.0,HARD,McLaren,312.0,62.0,Austria
+69.164,47.0,18.0,HARD,McLaren,312.0,64.0,Austria
+68.992,48.0,19.0,HARD,McLaren,299.0,63.0,Austria
+69.132,49.0,20.0,HARD,McLaren,297.0,61.0,Austria
+68.97,50.0,21.0,HARD,McLaren,297.0,64.0,Austria
+69.155,51.0,22.0,HARD,McLaren,298.0,63.0,Austria
+70.776,52.0,23.0,HARD,McLaren,299.0,61.0,Austria
+68.899,53.0,24.0,HARD,McLaren,321.0,60.0,Austria
+68.874,54.0,25.0,HARD,McLaren,319.0,61.0,Austria
+68.901,55.0,26.0,HARD,McLaren,303.0,62.0,Austria
+68.82,56.0,27.0,HARD,McLaren,302.0,62.0,Austria
+69.147,57.0,28.0,HARD,McLaren,301.0,64.0,Austria
+68.882,58.0,29.0,HARD,McLaren,300.0,63.0,Austria
+69.107,59.0,30.0,HARD,McLaren,300.0,62.0,Austria
+69.205,60.0,31.0,HARD,McLaren,298.0,61.0,Austria
+69.336,61.0,32.0,HARD,McLaren,303.0,59.0,Austria
+68.845,62.0,33.0,HARD,McLaren,304.0,64.0,Austria
+69.06,63.0,34.0,HARD,McLaren,298.0,62.0,Austria
+68.971,64.0,35.0,HARD,McLaren,300.0,61.0,Austria
+68.845,65.0,36.0,HARD,McLaren,299.0,61.0,Austria
+69.167,66.0,37.0,HARD,McLaren,299.0,60.0,Austria
+69.046,67.0,38.0,HARD,McLaren,300.0,60.0,Austria
+69.48,68.0,39.0,HARD,McLaren,301.0,60.0,Austria
+69.448,69.0,40.0,HARD,McLaren,301.0,61.0,Austria
+69.967,70.0,41.0,HARD,McLaren,302.0,59.0,Austria
+74.272,4.0,7.0,MEDIUM,Ferrari,314.0,42.0,Austria
+72.116,5.0,8.0,MEDIUM,Ferrari,309.0,56.0,Austria
+71.675,6.0,9.0,MEDIUM,Ferrari,299.0,66.0,Austria
+70.797,7.0,10.0,MEDIUM,Ferrari,309.0,62.0,Austria
+71.129,8.0,11.0,MEDIUM,Ferrari,321.0,63.0,Austria
+71.13,9.0,12.0,MEDIUM,Ferrari,323.0,67.0,Austria
+71.178,10.0,13.0,MEDIUM,Ferrari,322.0,63.0,Austria
+71.13,11.0,14.0,MEDIUM,Ferrari,319.0,65.0,Austria
+71.433,12.0,15.0,MEDIUM,Ferrari,320.0,60.0,Austria
+71.706,13.0,16.0,MEDIUM,Ferrari,325.0,60.0,Austria
+71.225,14.0,17.0,MEDIUM,Ferrari,330.0,59.0,Austria
+70.986,15.0,18.0,MEDIUM,Ferrari,312.0,62.0,Austria
+70.758,16.0,19.0,MEDIUM,Ferrari,312.0,63.0,Austria
+70.884,17.0,20.0,MEDIUM,Ferrari,318.0,61.0,Austria
+70.33,18.0,21.0,MEDIUM,Ferrari,312.0,64.0,Austria
+70.22,19.0,22.0,MEDIUM,Ferrari,302.0,64.0,Austria
+70.332,20.0,23.0,MEDIUM,Ferrari,301.0,61.0,Austria
+70.134,21.0,24.0,MEDIUM,Ferrari,300.0,64.0,Austria
+70.15,22.0,25.0,MEDIUM,Ferrari,301.0,63.0,Austria
+69.918,23.0,26.0,MEDIUM,Ferrari,303.0,61.0,Austria
+70.15,24.0,27.0,MEDIUM,Ferrari,302.0,60.0,Austria
+69.934,25.0,28.0,MEDIUM,Ferrari,302.0,62.0,Austria
+69.987,26.0,29.0,MEDIUM,Ferrari,311.0,61.0,Austria
+70.262,27.0,30.0,MEDIUM,Ferrari,314.0,57.0,Austria
+70.246,28.0,31.0,MEDIUM,Ferrari,306.0,58.0,Austria
+70.11,29.0,32.0,MEDIUM,Ferrari,305.0,61.0,Austria
+69.616,30.0,33.0,MEDIUM,Ferrari,309.0,63.0,Austria
+70.24,31.0,34.0,MEDIUM,Ferrari,305.0,59.0,Austria
+70.625,32.0,35.0,MEDIUM,Ferrari,303.0,63.0,Austria
+70.201,33.0,36.0,MEDIUM,Ferrari,304.0,62.0,Austria
+68.817,36.0,2.0,HARD,Ferrari,296.0,67.0,Austria
+68.804,37.0,3.0,HARD,Ferrari,306.0,65.0,Austria
+68.933,38.0,4.0,HARD,Ferrari,313.0,63.0,Austria
+69.66,39.0,5.0,HARD,Ferrari,325.0,58.0,Austria
+70.74,40.0,6.0,HARD,Ferrari,333.0,60.0,Austria
+69.19,41.0,7.0,HARD,Ferrari,306.0,66.0,Austria
+69.392,42.0,8.0,HARD,Ferrari,309.0,66.0,Austria
+69.303,43.0,9.0,HARD,Ferrari,311.0,65.0,Austria
+69.471,44.0,10.0,HARD,Ferrari,312.0,61.0,Austria
+69.769,45.0,11.0,HARD,Ferrari,323.0,59.0,Austria
+70.501,46.0,12.0,HARD,Ferrari,329.0,60.0,Austria
+69.214,47.0,13.0,HARD,Ferrari,321.0,61.0,Austria
+69.241,48.0,14.0,HARD,Ferrari,313.0,63.0,Austria
+69.202,49.0,15.0,HARD,Ferrari,312.0,63.0,Austria
+68.823,50.0,16.0,HARD,Ferrari,312.0,64.0,Austria
+69.006,51.0,17.0,HARD,Ferrari,312.0,62.0,Austria
+69.453,52.0,18.0,HARD,Ferrari,313.0,62.0,Austria
+69.144,53.0,19.0,HARD,Ferrari,325.0,60.0,Austria
+69.054,54.0,20.0,HARD,Ferrari,323.0,60.0,Austria
+68.698,55.0,21.0,HARD,Ferrari,318.0,64.0,Austria
+68.915,56.0,22.0,HARD,Ferrari,319.0,59.0,Austria
+69.116,57.0,23.0,HARD,Ferrari,318.0,58.0,Austria
+68.942,58.0,24.0,HARD,Ferrari,316.0,57.0,Austria
+69.16,59.0,25.0,HARD,Ferrari,316.0,59.0,Austria
+68.93,60.0,26.0,HARD,Ferrari,318.0,60.0,Austria
+69.376,61.0,27.0,HARD,Ferrari,323.0,57.0,Austria
+68.954,62.0,28.0,HARD,Ferrari,320.0,57.0,Austria
+69.07,63.0,29.0,HARD,Ferrari,319.0,54.0,Austria
+69.065,64.0,30.0,HARD,Ferrari,319.0,60.0,Austria
+70.53,65.0,31.0,HARD,Ferrari,318.0,55.0,Austria
+69.182,66.0,32.0,HARD,Ferrari,310.0,61.0,Austria
+68.836,67.0,33.0,HARD,Ferrari,311.0,61.0,Austria
+69.299,68.0,34.0,HARD,Ferrari,311.0,62.0,Austria
+69.249,69.0,35.0,HARD,Ferrari,311.0,61.0,Austria
+93.049,5.0,3.0,MEDIUM,Mercedes,305.0,86.0,Silverstone
+93.113,6.0,4.0,MEDIUM,Mercedes,304.0,87.0,Silverstone
+92.738,7.0,5.0,MEDIUM,Mercedes,306.0,84.0,Silverstone
+92.928,8.0,6.0,MEDIUM,Mercedes,309.0,83.0,Silverstone
+93.013,9.0,7.0,MEDIUM,Mercedes,308.0,86.0,Silverstone
+93.458,10.0,8.0,MEDIUM,Mercedes,308.0,86.0,Silverstone
+92.95,11.0,9.0,MEDIUM,Mercedes,310.0,86.0,Silverstone
+92.943,12.0,10.0,MEDIUM,Mercedes,308.0,83.0,Silverstone
+93.158,13.0,11.0,MEDIUM,Mercedes,302.0,81.0,Silverstone
+92.749,14.0,12.0,MEDIUM,Mercedes,307.0,84.0,Silverstone
+92.713,15.0,13.0,MEDIUM,Mercedes,307.0,82.0,Silverstone
+92.473,16.0,14.0,MEDIUM,Mercedes,319.0,85.0,Silverstone
+92.291,17.0,15.0,MEDIUM,Mercedes,320.0,82.0,Silverstone
+92.548,18.0,16.0,MEDIUM,Mercedes,319.0,81.0,Silverstone
+92.597,19.0,17.0,MEDIUM,Mercedes,304.0,84.0,Silverstone
+92.076,20.0,18.0,MEDIUM,Mercedes,306.0,82.0,Silverstone
+92.297,21.0,19.0,MEDIUM,Mercedes,303.0,86.0,Silverstone
+92.189,22.0,20.0,MEDIUM,Mercedes,307.0,86.0,Silverstone
+92.311,23.0,21.0,MEDIUM,Mercedes,306.0,83.0,Silverstone
+92.686,24.0,22.0,MEDIUM,Mercedes,304.0,83.0,Silverstone
+92.115,25.0,23.0,MEDIUM,Mercedes,308.0,83.0,Silverstone
+91.854,26.0,24.0,MEDIUM,Mercedes,309.0,81.0,Silverstone
+90.762,29.0,2.0,HARD,Mercedes,303.0,87.0,Silverstone
+91.113,30.0,3.0,HARD,Mercedes,308.0,85.0,Silverstone
+91.257,31.0,4.0,HARD,Mercedes,320.0,86.0,Silverstone
+92.488,32.0,5.0,HARD,Mercedes,310.0,84.0,Silverstone
+92.038,33.0,6.0,HARD,Mercedes,301.0,85.0,Silverstone
+91.219,34.0,7.0,HARD,Mercedes,306.0,88.0,Silverstone
+90.817,35.0,8.0,HARD,Mercedes,308.0,84.0,Silverstone
+91.025,36.0,9.0,HARD,Mercedes,307.0,85.0,Silverstone
+90.807,37.0,10.0,HARD,Mercedes,306.0,86.0,Silverstone
+90.594,38.0,11.0,HARD,Mercedes,307.0,88.0,Silverstone
+90.859,39.0,12.0,HARD,Mercedes,307.0,84.0,Silverstone
+90.443,40.0,13.0,HARD,Mercedes,317.0,87.0,Silverstone
+90.468,41.0,14.0,HARD,Mercedes,309.0,88.0,Silverstone
+90.16,42.0,15.0,HARD,Mercedes,309.0,86.0,Silverstone
+90.258,43.0,16.0,HARD,Mercedes,307.0,86.0,Silverstone
+89.801,44.0,17.0,HARD,Mercedes,308.0,87.0,Silverstone
+89.699,45.0,18.0,HARD,Mercedes,308.0,87.0,Silverstone
+89.701,46.0,19.0,HARD,Mercedes,309.0,88.0,Silverstone
+90.503,48.0,21.0,HARD,Mercedes,312.0,84.0,Silverstone
+90.525,49.0,22.0,HARD,Mercedes,324.0,84.0,Silverstone
+90.9,50.0,23.0,HARD,Mercedes,325.0,86.0,Silverstone
+91.037,51.0,24.0,HARD,Mercedes,310.0,85.0,Silverstone
+91.635,52.0,25.0,HARD,Mercedes,313.0,86.0,Silverstone
+92.805,5.0,3.0,MEDIUM,Ferrari,302.0,79.0,Silverstone
+92.91,6.0,4.0,MEDIUM,Ferrari,303.0,81.0,Silverstone
+93.003,7.0,5.0,MEDIUM,Ferrari,302.0,78.0,Silverstone
+93.105,8.0,6.0,MEDIUM,Ferrari,303.0,78.0,Silverstone
+92.97,9.0,7.0,MEDIUM,Ferrari,304.0,79.0,Silverstone
+93.232,10.0,8.0,MEDIUM,Ferrari,303.0,83.0,Silverstone
+92.841,11.0,9.0,MEDIUM,Ferrari,304.0,81.0,Silverstone
+92.939,12.0,10.0,MEDIUM,Ferrari,303.0,79.0,Silverstone
+92.969,13.0,11.0,MEDIUM,Ferrari,303.0,79.0,Silverstone
+92.744,14.0,12.0,MEDIUM,Ferrari,305.0,80.0,Silverstone
+93.282,15.0,13.0,MEDIUM,Ferrari,305.0,79.0,Silverstone
+92.623,16.0,14.0,MEDIUM,Ferrari,303.0,81.0,Silverstone
+92.475,17.0,15.0,MEDIUM,Ferrari,302.0,79.0,Silverstone
+92.296,18.0,16.0,MEDIUM,Ferrari,303.0,77.0,Silverstone
+91.985,19.0,17.0,MEDIUM,Ferrari,303.0,77.0,Silverstone
+92.128,20.0,18.0,MEDIUM,Ferrari,302.0,78.0,Silverstone
+91.974,21.0,19.0,MEDIUM,Ferrari,302.0,78.0,Silverstone
+92.223,22.0,20.0,MEDIUM,Ferrari,303.0,79.0,Silverstone
+92.259,23.0,21.0,MEDIUM,Ferrari,304.0,79.0,Silverstone
+92.296,24.0,22.0,MEDIUM,Ferrari,307.0,79.0,Silverstone
+92.048,25.0,23.0,MEDIUM,Ferrari,306.0,77.0,Silverstone
+91.993,26.0,24.0,MEDIUM,Ferrari,307.0,81.0,Silverstone
+92.082,27.0,25.0,MEDIUM,Ferrari,304.0,79.0,Silverstone
+91.958,28.0,26.0,MEDIUM,Ferrari,307.0,80.0,Silverstone
+91.552,31.0,2.0,HARD,Ferrari,302.0,82.0,Silverstone
+91.541,32.0,3.0,HARD,Ferrari,306.0,79.0,Silverstone
+91.716,33.0,4.0,HARD,Ferrari,305.0,80.0,Silverstone
+91.978,34.0,5.0,HARD,Ferrari,305.0,80.0,Silverstone
+91.448,35.0,6.0,HARD,Ferrari,307.0,81.0,Silverstone
+91.384,36.0,7.0,HARD,Ferrari,305.0,80.0,Silverstone
+91.5,37.0,8.0,HARD,Ferrari,306.0,80.0,Silverstone
+91.542,38.0,9.0,HARD,Ferrari,306.0,78.0,Silverstone
+91.599,39.0,10.0,HARD,Ferrari,306.0,80.0,Silverstone
+91.425,40.0,11.0,HARD,Ferrari,308.0,80.0,Silverstone
+91.539,41.0,12.0,HARD,Ferrari,306.0,79.0,Silverstone
+91.271,42.0,13.0,HARD,Ferrari,305.0,78.0,Silverstone
+90.917,43.0,14.0,HARD,Ferrari,306.0,78.0,Silverstone
+90.846,44.0,15.0,HARD,Ferrari,306.0,79.0,Silverstone
+90.569,45.0,16.0,HARD,Ferrari,306.0,82.0,Silverstone
+90.724,46.0,17.0,HARD,Ferrari,305.0,78.0,Silverstone
+91.291,48.0,19.0,HARD,Ferrari,306.0,79.0,Silverstone
+91.149,49.0,20.0,HARD,Ferrari,307.0,77.0,Silverstone
+92.956,50.0,21.0,HARD,Ferrari,320.0,78.0,Silverstone
+92.454,51.0,22.0,HARD,Ferrari,310.0,75.0,Silverstone
+92.857,52.0,23.0,HARD,Ferrari,308.0,77.0,Silverstone
+93.727,5.0,3.0,MEDIUM,Mercedes,310.0,80.0,Silverstone
+93.577,6.0,4.0,MEDIUM,Mercedes,307.0,82.0,Silverstone
+93.543,7.0,5.0,MEDIUM,Mercedes,314.0,81.0,Silverstone
+93.571,8.0,6.0,MEDIUM,Mercedes,305.0,84.0,Silverstone
+93.096,9.0,7.0,MEDIUM,Mercedes,304.0,85.0,Silverstone
+93.312,10.0,8.0,MEDIUM,Mercedes,307.0,85.0,Silverstone
+93.397,11.0,9.0,MEDIUM,Mercedes,307.0,84.0,Silverstone
+93.423,12.0,10.0,MEDIUM,Mercedes,305.0,84.0,Silverstone
+93.38,13.0,11.0,MEDIUM,Mercedes,305.0,83.0,Silverstone
+93.34,14.0,12.0,MEDIUM,Mercedes,304.0,85.0,Silverstone
+92.694,15.0,13.0,MEDIUM,Mercedes,303.0,85.0,Silverstone
+92.415,16.0,14.0,MEDIUM,Mercedes,305.0,85.0,Silverstone
+92.454,17.0,15.0,MEDIUM,Mercedes,308.0,82.0,Silverstone
+92.543,18.0,16.0,MEDIUM,Mercedes,307.0,81.0,Silverstone
+92.639,19.0,17.0,MEDIUM,Mercedes,305.0,82.0,Silverstone
+92.409,20.0,18.0,MEDIUM,Mercedes,304.0,87.0,Silverstone
+92.488,21.0,19.0,MEDIUM,Mercedes,304.0,82.0,Silverstone
+91.988,24.0,2.0,HARD,Mercedes,300.0,90.0,Silverstone
+91.415,25.0,3.0,HARD,Mercedes,301.0,91.0,Silverstone
+91.52,26.0,4.0,HARD,Mercedes,303.0,91.0,Silverstone
+91.804,27.0,5.0,HARD,Mercedes,304.0,88.0,Silverstone
+91.651,28.0,6.0,HARD,Mercedes,305.0,89.0,Silverstone
+92.16,29.0,7.0,HARD,Mercedes,300.0,87.0,Silverstone
+92.48,30.0,8.0,HARD,Mercedes,310.0,87.0,Silverstone
+92.683,31.0,9.0,HARD,Mercedes,304.0,83.0,Silverstone
+92.191,32.0,10.0,HARD,Mercedes,304.0,86.0,Silverstone
+91.72,33.0,11.0,HARD,Mercedes,302.0,87.0,Silverstone
+91.799,34.0,12.0,HARD,Mercedes,302.0,86.0,Silverstone
+91.252,35.0,13.0,HARD,Mercedes,303.0,86.0,Silverstone
+91.435,36.0,14.0,HARD,Mercedes,301.0,82.0,Silverstone
+91.094,37.0,15.0,HARD,Mercedes,301.0,84.0,Silverstone
+91.066,38.0,16.0,HARD,Mercedes,301.0,86.0,Silverstone
+91.146,39.0,17.0,HARD,Mercedes,303.0,86.0,Silverstone
+93.278,40.0,18.0,HARD,Mercedes,302.0,86.0,Silverstone
+91.445,41.0,19.0,HARD,Mercedes,308.0,83.0,Silverstone
+91.084,42.0,20.0,HARD,Mercedes,307.0,83.0,Silverstone
+91.161,43.0,21.0,HARD,Mercedes,303.0,85.0,Silverstone
+90.688,44.0,22.0,HARD,Mercedes,303.0,86.0,Silverstone
+90.524,45.0,23.0,HARD,Mercedes,303.0,88.0,Silverstone
+90.641,46.0,24.0,HARD,Mercedes,304.0,85.0,Silverstone
+91.181,48.0,26.0,HARD,Mercedes,307.0,86.0,Silverstone
+91.473,49.0,27.0,HARD,Mercedes,303.0,87.0,Silverstone
+92.153,50.0,28.0,HARD,Mercedes,307.0,76.0,Silverstone
+91.698,51.0,29.0,HARD,Mercedes,306.0,87.0,Silverstone
+92.424,52.0,30.0,HARD,Mercedes,306.0,86.0,Silverstone
+93.318,5.0,5.0,MEDIUM,McLaren,304.0,85.0,Silverstone
+93.428,6.0,6.0,MEDIUM,McLaren,302.0,79.0,Silverstone
+93.556,7.0,7.0,MEDIUM,McLaren,299.0,78.0,Silverstone
+93.402,8.0,8.0,MEDIUM,McLaren,301.0,82.0,Silverstone
+93.373,9.0,9.0,MEDIUM,McLaren,300.0,82.0,Silverstone
+93.011,10.0,10.0,MEDIUM,McLaren,303.0,83.0,Silverstone
+93.286,11.0,11.0,MEDIUM,McLaren,301.0,82.0,Silverstone
+93.295,12.0,12.0,MEDIUM,McLaren,301.0,80.0,Silverstone
+93.193,13.0,13.0,MEDIUM,McLaren,299.0,79.0,Silverstone
+93.165,14.0,14.0,MEDIUM,McLaren,301.0,80.0,Silverstone
+92.827,15.0,15.0,MEDIUM,McLaren,299.0,77.0,Silverstone
+92.778,16.0,16.0,MEDIUM,McLaren,303.0,76.0,Silverstone
+92.586,17.0,17.0,MEDIUM,McLaren,300.0,76.0,Silverstone
+92.52,18.0,18.0,MEDIUM,McLaren,303.0,74.0,Silverstone
+92.586,19.0,19.0,MEDIUM,McLaren,300.0,77.0,Silverstone
+92.293,20.0,20.0,MEDIUM,McLaren,300.0,75.0,Silverstone
+93.509,23.0,2.0,HARD,McLaren,326.0,77.0,Silverstone
+92.83,24.0,3.0,HARD,McLaren,299.0,80.0,Silverstone
+92.274,25.0,4.0,HARD,McLaren,302.0,81.0,Silverstone
+92.04,26.0,5.0,HARD,McLaren,301.0,82.0,Silverstone
+92.047,27.0,6.0,HARD,McLaren,303.0,79.0,Silverstone
+92.096,28.0,7.0,HARD,McLaren,302.0,78.0,Silverstone
+92.217,29.0,8.0,HARD,McLaren,300.0,75.0,Silverstone
+92.073,30.0,9.0,HARD,McLaren,301.0,75.0,Silverstone
+93.668,31.0,10.0,HARD,McLaren,323.0,78.0,Silverstone
+93.174,32.0,11.0,HARD,McLaren,305.0,76.0,Silverstone
+92.41,33.0,12.0,HARD,McLaren,302.0,77.0,Silverstone
+92.139,34.0,13.0,HARD,McLaren,300.0,77.0,Silverstone
+91.94,35.0,14.0,HARD,McLaren,304.0,78.0,Silverstone
+91.945,36.0,15.0,HARD,McLaren,302.0,78.0,Silverstone
+91.848,37.0,16.0,HARD,McLaren,300.0,73.0,Silverstone
+91.823,38.0,17.0,HARD,McLaren,300.0,75.0,Silverstone
+92.061,39.0,18.0,HARD,McLaren,301.0,72.0,Silverstone
+91.624,40.0,19.0,HARD,McLaren,302.0,75.0,Silverstone
+91.8,41.0,20.0,HARD,McLaren,302.0,74.0,Silverstone
+91.572,42.0,21.0,HARD,McLaren,301.0,75.0,Silverstone
+91.762,43.0,22.0,HARD,McLaren,300.0,77.0,Silverstone
+91.42,44.0,23.0,HARD,McLaren,301.0,75.0,Silverstone
+91.666,45.0,24.0,HARD,McLaren,299.0,79.0,Silverstone
+91.836,46.0,25.0,HARD,McLaren,300.0,75.0,Silverstone
+91.75,48.0,27.0,HARD,McLaren,302.0,76.0,Silverstone
+92.868,49.0,28.0,HARD,McLaren,299.0,76.0,Silverstone
+92.679,50.0,29.0,HARD,McLaren,298.0,74.0,Silverstone
+92.208,51.0,30.0,HARD,McLaren,300.0,82.0,Silverstone
+92.244,52.0,31.0,HARD,McLaren,302.0,74.0,Silverstone
+94.142,5.0,5.0,MEDIUM,McLaren,300.0,79.0,Silverstone
+94.023,6.0,6.0,MEDIUM,McLaren,300.0,84.0,Silverstone
+93.82,7.0,7.0,MEDIUM,McLaren,303.0,79.0,Silverstone
+93.89,8.0,8.0,MEDIUM,McLaren,300.0,82.0,Silverstone
+93.71,9.0,9.0,MEDIUM,McLaren,301.0,78.0,Silverstone
+93.638,10.0,10.0,MEDIUM,McLaren,302.0,81.0,Silverstone
+93.842,11.0,11.0,MEDIUM,McLaren,301.0,80.0,Silverstone
+93.817,12.0,12.0,MEDIUM,McLaren,299.0,77.0,Silverstone
+93.956,13.0,13.0,MEDIUM,McLaren,297.0,82.0,Silverstone
+93.903,14.0,14.0,MEDIUM,McLaren,300.0,80.0,Silverstone
+93.757,15.0,15.0,MEDIUM,McLaren,296.0,80.0,Silverstone
+93.497,16.0,16.0,MEDIUM,McLaren,302.0,81.0,Silverstone
+93.603,17.0,17.0,MEDIUM,McLaren,299.0,77.0,Silverstone
+93.627,18.0,18.0,MEDIUM,McLaren,298.0,79.0,Silverstone
+93.389,19.0,19.0,MEDIUM,McLaren,301.0,78.0,Silverstone
+92.711,22.0,2.0,HARD,McLaren,300.0,85.0,Silverstone
+92.212,23.0,3.0,HARD,McLaren,304.0,84.0,Silverstone
+92.67,24.0,4.0,HARD,McLaren,304.0,82.0,Silverstone
+92.637,25.0,5.0,HARD,McLaren,304.0,80.0,Silverstone
+92.569,26.0,6.0,HARD,McLaren,312.0,80.0,Silverstone
+92.923,27.0,7.0,HARD,McLaren,319.0,78.0,Silverstone
+93.434,28.0,8.0,HARD,McLaren,332.0,79.0,Silverstone
+93.169,29.0,9.0,HARD,McLaren,298.0,84.0,Silverstone
+92.955,30.0,10.0,HARD,McLaren,298.0,80.0,Silverstone
+92.42,31.0,11.0,HARD,McLaren,301.0,79.0,Silverstone
+92.569,32.0,12.0,HARD,McLaren,300.0,79.0,Silverstone
+92.471,33.0,13.0,HARD,McLaren,306.0,81.0,Silverstone
+92.557,34.0,14.0,HARD,McLaren,297.0,77.0,Silverstone
+92.263,35.0,15.0,HARD,McLaren,301.0,78.0,Silverstone
+92.57,36.0,16.0,HARD,McLaren,299.0,78.0,Silverstone
+92.595,37.0,17.0,HARD,McLaren,301.0,77.0,Silverstone
+92.748,38.0,18.0,HARD,McLaren,308.0,80.0,Silverstone
+92.447,39.0,19.0,HARD,McLaren,319.0,78.0,Silverstone
+92.151,40.0,20.0,HARD,McLaren,301.0,81.0,Silverstone
+91.933,41.0,21.0,HARD,McLaren,303.0,81.0,Silverstone
+91.879,42.0,22.0,HARD,McLaren,304.0,77.0,Silverstone
+91.784,43.0,23.0,HARD,McLaren,303.0,79.0,Silverstone
+91.825,44.0,24.0,HARD,McLaren,300.0,82.0,Silverstone
+91.72,45.0,25.0,HARD,McLaren,302.0,81.0,Silverstone
+91.703,46.0,26.0,HARD,McLaren,302.0,77.0,Silverstone
+91.819,48.0,28.0,HARD,McLaren,302.0,79.0,Silverstone
+91.774,49.0,29.0,HARD,McLaren,304.0,79.0,Silverstone
+91.642,50.0,30.0,HARD,McLaren,303.0,81.0,Silverstone
+91.284,51.0,31.0,HARD,McLaren,303.0,82.0,Silverstone
+91.323,52.0,32.0,HARD,McLaren,303.0,78.0,Silverstone
+93.782,5.0,3.0,MEDIUM,Ferrari,312.0,81.0,Silverstone
+94.026,6.0,4.0,MEDIUM,Ferrari,322.0,83.0,Silverstone
+93.807,7.0,5.0,MEDIUM,Ferrari,324.0,80.0,Silverstone
+93.937,8.0,6.0,MEDIUM,Ferrari,322.0,78.0,Silverstone
+93.915,9.0,7.0,MEDIUM,Ferrari,313.0,83.0,Silverstone
+94.001,10.0,8.0,MEDIUM,Ferrari,310.0,82.0,Silverstone
+93.886,11.0,9.0,MEDIUM,Ferrari,310.0,81.0,Silverstone
+93.862,12.0,10.0,MEDIUM,Ferrari,308.0,80.0,Silverstone
+94.135,13.0,11.0,MEDIUM,Ferrari,308.0,77.0,Silverstone
+93.798,14.0,12.0,MEDIUM,Ferrari,306.0,84.0,Silverstone
+93.598,15.0,13.0,MEDIUM,Ferrari,307.0,81.0,Silverstone
+93.637,16.0,14.0,MEDIUM,Ferrari,309.0,82.0,Silverstone
+93.202,17.0,15.0,MEDIUM,Ferrari,307.0,81.0,Silverstone
+93.192,18.0,16.0,MEDIUM,Ferrari,313.0,80.0,Silverstone
+93.344,19.0,17.0,MEDIUM,Ferrari,323.0,78.0,Silverstone
+92.73,20.0,18.0,MEDIUM,Ferrari,328.0,80.0,Silverstone
+92.457,21.0,19.0,MEDIUM,Ferrari,302.0,83.0,Silverstone
+92.366,22.0,20.0,MEDIUM,Ferrari,303.0,85.0,Silverstone
+92.064,23.0,21.0,MEDIUM,Ferrari,306.0,86.0,Silverstone
+92.254,24.0,22.0,MEDIUM,Ferrari,306.0,86.0,Silverstone
+91.885,25.0,23.0,MEDIUM,Ferrari,305.0,85.0,Silverstone
+91.819,26.0,24.0,MEDIUM,Ferrari,307.0,87.0,Silverstone
+92.26,27.0,25.0,MEDIUM,Ferrari,308.0,83.0,Silverstone
+91.306,30.0,2.0,HARD,Ferrari,307.0,84.0,Silverstone
+91.706,31.0,3.0,HARD,Ferrari,309.0,82.0,Silverstone
+92.305,32.0,4.0,HARD,Ferrari,326.0,81.0,Silverstone
+92.335,33.0,5.0,HARD,Ferrari,324.0,80.0,Silverstone
+92.74,34.0,6.0,HARD,Ferrari,315.0,79.0,Silverstone
+92.258,35.0,7.0,HARD,Ferrari,328.0,82.0,Silverstone
+92.701,36.0,8.0,HARD,Ferrari,315.0,79.0,Silverstone
+92.686,37.0,9.0,HARD,Ferrari,304.0,79.0,Silverstone
+92.354,38.0,10.0,HARD,Ferrari,323.0,82.0,Silverstone
+92.569,39.0,11.0,HARD,Ferrari,332.0,77.0,Silverstone
+92.253,40.0,12.0,HARD,Ferrari,327.0,80.0,Silverstone
+91.816,41.0,13.0,HARD,Ferrari,324.0,82.0,Silverstone
+91.868,42.0,14.0,HARD,Ferrari,331.0,81.0,Silverstone
+91.929,43.0,15.0,HARD,Ferrari,316.0,80.0,Silverstone
+91.737,44.0,16.0,HARD,Ferrari,316.0,83.0,Silverstone
+91.745,45.0,17.0,HARD,Ferrari,316.0,82.0,Silverstone
+91.592,46.0,18.0,HARD,Ferrari,314.0,81.0,Silverstone
+91.856,48.0,20.0,HARD,Ferrari,314.0,81.0,Silverstone
+91.784,49.0,21.0,HARD,Ferrari,329.0,83.0,Silverstone
+91.742,50.0,22.0,HARD,Ferrari,330.0,80.0,Silverstone
+91.223,51.0,23.0,HARD,Ferrari,316.0,81.0,Silverstone
+91.302,52.0,24.0,HARD,Ferrari,326.0,78.0,Silverstone
+95.983,5.0,5.0,HARD,Red Bull Racing,322.0,80.0,Silverstone
+95.256,6.0,6.0,HARD,Red Bull Racing,314.0,80.0,Silverstone
+94.763,7.0,7.0,HARD,Red Bull Racing,329.0,78.0,Silverstone
+94.882,8.0,8.0,HARD,Red Bull Racing,323.0,78.0,Silverstone
+94.058,9.0,9.0,HARD,Red Bull Racing,315.0,84.0,Silverstone
+94.621,10.0,10.0,HARD,Red Bull Racing,328.0,82.0,Silverstone
+94.535,11.0,11.0,HARD,Red Bull Racing,330.0,77.0,Silverstone
+94.822,12.0,12.0,HARD,Red Bull Racing,324.0,80.0,Silverstone
+94.837,13.0,13.0,HARD,Red Bull Racing,339.0,80.0,Silverstone
+94.57,14.0,14.0,HARD,Red Bull Racing,325.0,82.0,Silverstone
+94.353,15.0,15.0,HARD,Red Bull Racing,327.0,78.0,Silverstone
+94.182,16.0,16.0,HARD,Red Bull Racing,329.0,79.0,Silverstone
+94.081,17.0,17.0,HARD,Red Bull Racing,329.0,79.0,Silverstone
+92.816,20.0,2.0,MEDIUM,Red Bull Racing,310.0,86.0,Silverstone
+92.609,21.0,3.0,MEDIUM,Red Bull Racing,312.0,80.0,Silverstone
+92.062,22.0,4.0,MEDIUM,Red Bull Racing,329.0,78.0,Silverstone
+92.297,23.0,5.0,MEDIUM,Red Bull Racing,306.0,82.0,Silverstone
+92.159,24.0,6.0,MEDIUM,Red Bull Racing,309.0,82.0,Silverstone
+92.448,25.0,7.0,MEDIUM,Red Bull Racing,314.0,81.0,Silverstone
+92.835,26.0,8.0,MEDIUM,Red Bull Racing,317.0,80.0,Silverstone
+92.755,27.0,9.0,MEDIUM,Red Bull Racing,321.0,82.0,Silverstone
+93.276,28.0,10.0,MEDIUM,Red Bull Racing,332.0,78.0,Silverstone
+93.639,29.0,11.0,MEDIUM,Red Bull Racing,325.0,74.0,Silverstone
+93.373,30.0,12.0,MEDIUM,Red Bull Racing,333.0,74.0,Silverstone
+93.77,31.0,13.0,MEDIUM,Red Bull Racing,326.0,77.0,Silverstone
+93.306,32.0,14.0,MEDIUM,Red Bull Racing,325.0,79.0,Silverstone
+93.135,33.0,15.0,MEDIUM,Red Bull Racing,335.0,79.0,Silverstone
+93.207,34.0,16.0,MEDIUM,Red Bull Racing,340.0,78.0,Silverstone
+93.411,35.0,17.0,MEDIUM,Red Bull Racing,330.0,75.0,Silverstone
+93.045,36.0,18.0,MEDIUM,Red Bull Racing,332.0,82.0,Silverstone
+93.376,37.0,19.0,MEDIUM,Red Bull Racing,325.0,75.0,Silverstone
+91.07,40.0,2.0,MEDIUM,Red Bull Racing,319.0,82.0,Silverstone
+92.14,41.0,3.0,MEDIUM,Red Bull Racing,340.0,73.0,Silverstone
+91.953,42.0,4.0,MEDIUM,Red Bull Racing,330.0,84.0,Silverstone
+92.319,43.0,5.0,MEDIUM,Red Bull Racing,329.0,74.0,Silverstone
+92.617,44.0,6.0,MEDIUM,Red Bull Racing,331.0,75.0,Silverstone
+92.224,45.0,7.0,MEDIUM,Red Bull Racing,327.0,80.0,Silverstone
+88.617,50.0,5.0,SOFT,Red Bull Racing,312.0,88.0,Silverstone
+91.284,51.0,6.0,SOFT,Red Bull Racing,305.0,78.0,Silverstone
+93.756,1.0,4.0,SOFT,Red Bull Racing,315.0,0.0,Abu Dhabi
+89.507,2.0,5.0,SOFT,Red Bull Racing,311.0,66.0,Abu Dhabi
+89.273,3.0,6.0,SOFT,Red Bull Racing,309.0,65.0,Abu Dhabi
+88.902,4.0,7.0,SOFT,Red Bull Racing,308.0,66.0,Abu Dhabi
+89.249,5.0,8.0,SOFT,Red Bull Racing,308.0,66.0,Abu Dhabi
+89.239,6.0,9.0,SOFT,Red Bull Racing,308.0,66.0,Abu Dhabi
+89.022,7.0,10.0,SOFT,Red Bull Racing,308.0,70.0,Abu Dhabi
+88.94,8.0,11.0,SOFT,Red Bull Racing,306.0,67.0,Abu Dhabi
+89.063,9.0,12.0,SOFT,Red Bull Racing,307.0,65.0,Abu Dhabi
+88.937,10.0,13.0,SOFT,Red Bull Racing,309.0,66.0,Abu Dhabi
+88.886,11.0,14.0,SOFT,Red Bull Racing,308.0,65.0,Abu Dhabi
+89.165,12.0,15.0,SOFT,Red Bull Racing,307.0,67.0,Abu Dhabi
+89.267,13.0,16.0,SOFT,Red Bull Racing,310.0,64.0,Abu Dhabi
+89.392,14.0,17.0,SOFT,Red Bull Racing,306.0,65.0,Abu Dhabi
+89.581,15.0,18.0,SOFT,Red Bull Racing,305.0,64.0,Abu Dhabi
+89.683,16.0,19.0,SOFT,Red Bull Racing,307.0,64.0,Abu Dhabi
+89.967,17.0,20.0,SOFT,Red Bull Racing,305.0,63.0,Abu Dhabi
+90.588,18.0,21.0,SOFT,Red Bull Racing,305.0,65.0,Abu Dhabi
+91.034,19.0,22.0,SOFT,Red Bull Racing,305.0,63.0,Abu Dhabi
+94.359,20.0,23.0,SOFT,Red Bull Racing,318.0,51.0,Abu Dhabi
+88.513,23.0,2.0,HARD,Red Bull Racing,304.0,67.0,Abu Dhabi
+88.605,24.0,3.0,HARD,Red Bull Racing,305.0,70.0,Abu Dhabi
+88.051,27.0,6.0,HARD,Red Bull Racing,308.0,64.0,Abu Dhabi
+87.962,28.0,7.0,HARD,Red Bull Racing,308.0,65.0,Abu Dhabi
+87.978,29.0,8.0,HARD,Red Bull Racing,310.0,65.0,Abu Dhabi
+88.339,30.0,9.0,HARD,Red Bull Racing,312.0,64.0,Abu Dhabi
+87.95,31.0,10.0,HARD,Red Bull Racing,307.0,64.0,Abu Dhabi
+87.82,32.0,11.0,HARD,Red Bull Racing,307.0,63.0,Abu Dhabi
+87.96,33.0,12.0,HARD,Red Bull Racing,306.0,65.0,Abu Dhabi
+87.306,34.0,13.0,HARD,Red Bull Racing,307.0,66.0,Abu Dhabi
+87.423,35.0,14.0,HARD,Red Bull Racing,307.0,66.0,Abu Dhabi
+86.75,38.0,2.0,HARD,Red Bull Racing,305.0,68.0,Abu Dhabi
+86.58,39.0,3.0,HARD,Red Bull Racing,305.0,68.0,Abu Dhabi
+86.643,40.0,4.0,HARD,Red Bull Racing,305.0,65.0,Abu Dhabi
+86.661,41.0,5.0,HARD,Red Bull Racing,306.0,69.0,Abu Dhabi
+87.04,42.0,6.0,HARD,Red Bull Racing,306.0,68.0,Abu Dhabi
+86.596,43.0,7.0,HARD,Red Bull Racing,308.0,65.0,Abu Dhabi
+86.914,44.0,8.0,HARD,Red Bull Racing,309.0,67.0,Abu Dhabi
+88.217,45.0,9.0,HARD,Red Bull Racing,314.0,63.0,Abu Dhabi
+87.028,46.0,10.0,HARD,Red Bull Racing,319.0,64.0,Abu Dhabi
+86.642,47.0,11.0,HARD,Red Bull Racing,306.0,68.0,Abu Dhabi
+86.429,48.0,12.0,HARD,Red Bull Racing,306.0,65.0,Abu Dhabi
+86.507,49.0,13.0,HARD,Red Bull Racing,307.0,67.0,Abu Dhabi
+86.428,50.0,14.0,HARD,Red Bull Racing,307.0,67.0,Abu Dhabi
+86.419,51.0,15.0,HARD,Red Bull Racing,309.0,68.0,Abu Dhabi
+86.529,52.0,16.0,HARD,Red Bull Racing,308.0,68.0,Abu Dhabi
+96.143,1.0,4.0,SOFT,Ferrari,325.0,0.0,Abu Dhabi
+91.14,2.0,5.0,SOFT,Ferrari,314.0,61.0,Abu Dhabi
+90.91,3.0,6.0,SOFT,Ferrari,326.0,60.0,Abu Dhabi
+90.509,4.0,7.0,SOFT,Ferrari,319.0,58.0,Abu Dhabi
+90.63,5.0,8.0,SOFT,Ferrari,306.0,59.0,Abu Dhabi
+90.586,6.0,9.0,SOFT,Ferrari,309.0,63.0,Abu Dhabi
+90.32,7.0,10.0,SOFT,Ferrari,308.0,60.0,Abu Dhabi
+90.372,8.0,11.0,SOFT,Ferrari,309.0,59.0,Abu Dhabi
+90.104,9.0,12.0,SOFT,Ferrari,308.0,59.0,Abu Dhabi
+90.268,10.0,13.0,SOFT,Ferrari,308.0,58.0,Abu Dhabi
+89.996,11.0,14.0,SOFT,Ferrari,322.0,60.0,Abu Dhabi
+90.381,12.0,15.0,SOFT,Ferrari,307.0,66.0,Abu Dhabi
+90.323,13.0,16.0,SOFT,Ferrari,308.0,62.0,Abu Dhabi
+92.05,14.0,17.0,SOFT,Ferrari,336.0,56.0,Abu Dhabi
+89.408,17.0,2.0,HARD,Ferrari,321.0,60.0,Abu Dhabi
+89.283,18.0,3.0,HARD,Ferrari,306.0,60.0,Abu Dhabi
+89.641,19.0,4.0,HARD,Ferrari,306.0,62.0,Abu Dhabi
+89.493,20.0,5.0,HARD,Ferrari,311.0,65.0,Abu Dhabi
+89.563,21.0,6.0,HARD,Ferrari,331.0,59.0,Abu Dhabi
+89.588,22.0,7.0,HARD,Ferrari,307.0,62.0,Abu Dhabi
+89.379,23.0,8.0,HARD,Ferrari,306.0,59.0,Abu Dhabi
+89.104,24.0,9.0,HARD,Ferrari,305.0,61.0,Abu Dhabi
+89.215,27.0,12.0,HARD,Ferrari,306.0,62.0,Abu Dhabi
+89.254,28.0,13.0,HARD,Ferrari,307.0,62.0,Abu Dhabi
+89.255,29.0,14.0,HARD,Ferrari,306.0,62.0,Abu Dhabi
+89.093,30.0,15.0,HARD,Ferrari,307.0,62.0,Abu Dhabi
+89.381,31.0,16.0,HARD,Ferrari,307.0,58.0,Abu Dhabi
+88.823,32.0,17.0,HARD,Ferrari,307.0,60.0,Abu Dhabi
+89.148,33.0,18.0,HARD,Ferrari,307.0,60.0,Abu Dhabi
+90.05,34.0,19.0,HARD,Ferrari,325.0,56.0,Abu Dhabi
+88.725,38.0,8.0,MEDIUM,Ferrari,307.0,62.0,Abu Dhabi
+88.907,39.0,9.0,MEDIUM,Ferrari,306.0,61.0,Abu Dhabi
+88.433,40.0,10.0,MEDIUM,Ferrari,308.0,62.0,Abu Dhabi
+88.338,41.0,11.0,MEDIUM,Ferrari,310.0,57.0,Abu Dhabi
+88.729,42.0,12.0,MEDIUM,Ferrari,312.0,56.0,Abu Dhabi
+88.954,43.0,13.0,MEDIUM,Ferrari,329.0,58.0,Abu Dhabi
+89.171,44.0,14.0,MEDIUM,Ferrari,334.0,59.0,Abu Dhabi
+90.335,45.0,15.0,MEDIUM,Ferrari,333.0,55.0,Abu Dhabi
+88.982,46.0,16.0,MEDIUM,Ferrari,335.0,57.0,Abu Dhabi
+88.974,47.0,17.0,MEDIUM,Ferrari,332.0,53.0,Abu Dhabi
+88.638,48.0,18.0,MEDIUM,Ferrari,328.0,56.0,Abu Dhabi
+89.17,49.0,19.0,MEDIUM,Ferrari,333.0,58.0,Abu Dhabi
+88.952,50.0,20.0,MEDIUM,Ferrari,333.0,56.0,Abu Dhabi
+89.998,51.0,21.0,MEDIUM,Ferrari,330.0,58.0,Abu Dhabi
+89.557,58.0,28.0,MEDIUM,Ferrari,312.0,57.0,Abu Dhabi
+98.267,1.0,4.0,SOFT,McLaren,316.0,0.0,Abu Dhabi
+92.138,2.0,5.0,SOFT,McLaren,306.0,62.0,Abu Dhabi
+91.096,3.0,6.0,SOFT,McLaren,331.0,60.0,Abu Dhabi
+91.26,4.0,7.0,SOFT,McLaren,331.0,65.0,Abu Dhabi
+91.06,5.0,8.0,SOFT,McLaren,328.0,61.0,Abu Dhabi
+90.776,6.0,9.0,SOFT,McLaren,322.0,64.0,Abu Dhabi
+91.021,7.0,10.0,SOFT,McLaren,326.0,66.0,Abu Dhabi
+90.954,8.0,11.0,SOFT,McLaren,305.0,66.0,Abu Dhabi
+90.509,9.0,12.0,SOFT,McLaren,304.0,65.0,Abu Dhabi
+90.658,10.0,13.0,SOFT,McLaren,305.0,64.0,Abu Dhabi
+90.714,11.0,14.0,SOFT,McLaren,303.0,63.0,Abu Dhabi
+90.668,12.0,15.0,SOFT,McLaren,304.0,63.0,Abu Dhabi
+91.229,13.0,16.0,SOFT,McLaren,306.0,61.0,Abu Dhabi
+91.146,14.0,17.0,SOFT,McLaren,304.0,63.0,Abu Dhabi
+90.859,15.0,18.0,SOFT,McLaren,306.0,62.0,Abu Dhabi
+90.661,16.0,19.0,SOFT,McLaren,300.0,62.0,Abu Dhabi
+90.828,17.0,20.0,SOFT,McLaren,298.0,61.0,Abu Dhabi
+89.33,20.0,2.0,HARD,McLaren,329.0,59.0,Abu Dhabi
+90.116,21.0,3.0,HARD,McLaren,306.0,63.0,Abu Dhabi
+89.051,22.0,4.0,HARD,McLaren,326.0,61.0,Abu Dhabi
+89.548,23.0,5.0,HARD,McLaren,301.0,63.0,Abu Dhabi
+89.398,24.0,6.0,HARD,McLaren,301.0,61.0,Abu Dhabi
+89.289,27.0,9.0,HARD,McLaren,302.0,66.0,Abu Dhabi
+89.165,28.0,10.0,HARD,McLaren,302.0,63.0,Abu Dhabi
+89.168,29.0,11.0,HARD,McLaren,302.0,67.0,Abu Dhabi
+89.29,30.0,12.0,HARD,McLaren,303.0,63.0,Abu Dhabi
+89.232,31.0,13.0,HARD,McLaren,302.0,61.0,Abu Dhabi
+88.88,32.0,14.0,HARD,McLaren,303.0,61.0,Abu Dhabi
+89.042,33.0,15.0,HARD,McLaren,303.0,62.0,Abu Dhabi
+88.817,34.0,16.0,HARD,McLaren,303.0,62.0,Abu Dhabi
+89.066,38.0,20.0,HARD,McLaren,307.0,63.0,Abu Dhabi
+89.466,39.0,21.0,HARD,McLaren,317.0,63.0,Abu Dhabi
+88.879,40.0,22.0,HARD,McLaren,326.0,59.0,Abu Dhabi
+89.022,41.0,23.0,HARD,McLaren,328.0,58.0,Abu Dhabi
+89.406,42.0,24.0,HARD,McLaren,324.0,59.0,Abu Dhabi
+89.274,43.0,25.0,HARD,McLaren,307.0,64.0,Abu Dhabi
+89.077,44.0,26.0,HARD,McLaren,318.0,60.0,Abu Dhabi
+88.968,45.0,27.0,HARD,McLaren,314.0,60.0,Abu Dhabi
+90.342,46.0,28.0,HARD,McLaren,327.0,61.0,Abu Dhabi
+88.854,47.0,29.0,HARD,McLaren,321.0,60.0,Abu Dhabi
+88.723,48.0,30.0,HARD,McLaren,306.0,63.0,Abu Dhabi
+89.261,49.0,31.0,HARD,McLaren,325.0,60.0,Abu Dhabi
+88.801,50.0,32.0,HARD,McLaren,323.0,61.0,Abu Dhabi
+88.742,51.0,33.0,HARD,McLaren,306.0,62.0,Abu Dhabi
+89.48,57.0,8.0,SOFT,McLaren,303.0,65.0,Abu Dhabi
+92.8,1.0,4.0,SOFT,Red Bull Racing,319.0,0.0,Abu Dhabi
+89.103,2.0,5.0,SOFT,Red Bull Racing,308.0,67.0,Abu Dhabi
+88.827,3.0,6.0,SOFT,Red Bull Racing,309.0,66.0,Abu Dhabi
+89.026,4.0,7.0,SOFT,Red Bull Racing,309.0,66.0,Abu Dhabi
+88.718,5.0,8.0,SOFT,Red Bull Racing,309.0,66.0,Abu Dhabi
+88.707,6.0,9.0,SOFT,Red Bull Racing,309.0,65.0,Abu Dhabi
+88.636,7.0,10.0,SOFT,Red Bull Racing,309.0,65.0,Abu Dhabi
+88.817,8.0,11.0,SOFT,Red Bull Racing,308.0,65.0,Abu Dhabi
+88.671,9.0,12.0,SOFT,Red Bull Racing,310.0,65.0,Abu Dhabi
+88.89,10.0,13.0,SOFT,Red Bull Racing,310.0,66.0,Abu Dhabi
+89.137,11.0,14.0,SOFT,Red Bull Racing,309.0,65.0,Abu Dhabi
+89.282,12.0,15.0,SOFT,Red Bull Racing,308.0,63.0,Abu Dhabi
+88.492,15.0,2.0,HARD,Red Bull Racing,310.0,65.0,Abu Dhabi
+89.006,16.0,3.0,HARD,Red Bull Racing,322.0,63.0,Abu Dhabi
+89.108,17.0,4.0,HARD,Red Bull Racing,329.0,61.0,Abu Dhabi
+88.502,18.0,5.0,HARD,Red Bull Racing,331.0,61.0,Abu Dhabi
+88.713,19.0,6.0,HARD,Red Bull Racing,306.0,65.0,Abu Dhabi
+88.387,20.0,7.0,HARD,Red Bull Racing,307.0,65.0,Abu Dhabi
+88.569,21.0,8.0,HARD,Red Bull Racing,325.0,63.0,Abu Dhabi
+88.322,22.0,9.0,HARD,Red Bull Racing,311.0,64.0,Abu Dhabi
+88.175,23.0,10.0,HARD,Red Bull Racing,310.0,64.0,Abu Dhabi
+88.179,24.0,11.0,HARD,Red Bull Racing,310.0,62.0,Abu Dhabi
+88.041,25.0,12.0,HARD,Red Bull Racing,310.0,64.0,Abu Dhabi
+88.348,27.0,14.0,HARD,Red Bull Racing,309.0,64.0,Abu Dhabi
+87.935,28.0,15.0,HARD,Red Bull Racing,310.0,64.0,Abu Dhabi
+87.904,29.0,16.0,HARD,Red Bull Racing,310.0,65.0,Abu Dhabi
+87.678,30.0,17.0,HARD,Red Bull Racing,310.0,63.0,Abu Dhabi
+87.917,31.0,18.0,HARD,Red Bull Racing,310.0,64.0,Abu Dhabi
+87.913,32.0,19.0,HARD,Red Bull Racing,316.0,63.0,Abu Dhabi
+87.581,33.0,20.0,HARD,Red Bull Racing,310.0,62.0,Abu Dhabi
+87.783,34.0,21.0,HARD,Red Bull Racing,310.0,65.0,Abu Dhabi
+87.761,35.0,22.0,HARD,Red Bull Racing,309.0,66.0,Abu Dhabi
+86.321,38.0,2.0,HARD,Red Bull Racing,305.0,67.0,Abu Dhabi
+86.103,39.0,3.0,HARD,Red Bull Racing,306.0,67.0,Abu Dhabi
+86.552,40.0,4.0,HARD,Red Bull Racing,307.0,65.0,Abu Dhabi
+86.301,41.0,5.0,HARD,Red Bull Racing,310.0,66.0,Abu Dhabi
+86.463,42.0,6.0,HARD,Red Bull Racing,311.0,68.0,Abu Dhabi
+86.437,43.0,7.0,HARD,Red Bull Racing,310.0,67.0,Abu Dhabi
+86.808,44.0,8.0,HARD,Red Bull Racing,312.0,65.0,Abu Dhabi
+86.768,45.0,9.0,HARD,Red Bull Racing,317.0,62.0,Abu Dhabi
+87.048,46.0,10.0,HARD,Red Bull Racing,313.0,65.0,Abu Dhabi
+86.656,47.0,11.0,HARD,Red Bull Racing,323.0,65.0,Abu Dhabi
+86.554,48.0,12.0,HARD,Red Bull Racing,310.0,64.0,Abu Dhabi
+86.657,49.0,13.0,HARD,Red Bull Racing,311.0,66.0,Abu Dhabi
+86.748,50.0,14.0,HARD,Red Bull Racing,314.0,66.0,Abu Dhabi
+87.048,51.0,15.0,HARD,Red Bull Racing,319.0,65.0,Abu Dhabi
+87.559,52.0,16.0,HARD,Red Bull Racing,316.0,64.0,Abu Dhabi
+86.618,58.0,8.0,SOFT,Red Bull Racing,308.0,62.0,Abu Dhabi
+95.658,1.0,4.0,SOFT,McLaren,315.0,0.0,Abu Dhabi
+90.963,2.0,5.0,SOFT,McLaren,305.0,62.0,Abu Dhabi
+90.765,3.0,6.0,SOFT,McLaren,303.0,63.0,Abu Dhabi
+90.355,4.0,7.0,SOFT,McLaren,301.0,64.0,Abu Dhabi
+90.501,5.0,8.0,SOFT,McLaren,301.0,62.0,Abu Dhabi
+90.555,6.0,9.0,SOFT,McLaren,303.0,61.0,Abu Dhabi
+90.312,7.0,10.0,SOFT,McLaren,301.0,61.0,Abu Dhabi
+90.287,8.0,11.0,SOFT,McLaren,301.0,60.0,Abu Dhabi
+90.156,9.0,12.0,SOFT,McLaren,303.0,64.0,Abu Dhabi
+90.243,10.0,13.0,SOFT,McLaren,302.0,61.0,Abu Dhabi
+90.091,11.0,14.0,SOFT,McLaren,303.0,62.0,Abu Dhabi
+90.085,12.0,15.0,SOFT,McLaren,302.0,63.0,Abu Dhabi
+90.583,13.0,16.0,SOFT,McLaren,302.0,61.0,Abu Dhabi
+90.775,14.0,17.0,SOFT,McLaren,309.0,59.0,Abu Dhabi
+90.348,15.0,18.0,SOFT,McLaren,304.0,61.0,Abu Dhabi
+90.106,16.0,19.0,SOFT,McLaren,302.0,62.0,Abu Dhabi
+90.364,19.0,2.0,HARD,McLaren,317.0,61.0,Abu Dhabi
+89.439,20.0,3.0,HARD,McLaren,333.0,58.0,Abu Dhabi
+89.907,21.0,4.0,HARD,McLaren,306.0,56.0,Abu Dhabi
+89.206,22.0,5.0,HARD,McLaren,305.0,60.0,Abu Dhabi
+89.446,23.0,6.0,HARD,McLaren,304.0,59.0,Abu Dhabi
+89.295,24.0,7.0,HARD,McLaren,304.0,62.0,Abu Dhabi
+89.183,27.0,10.0,HARD,McLaren,303.0,58.0,Abu Dhabi
+89.164,28.0,11.0,HARD,McLaren,305.0,58.0,Abu Dhabi
+89.208,29.0,12.0,HARD,McLaren,305.0,57.0,Abu Dhabi
+89.095,30.0,13.0,HARD,McLaren,305.0,60.0,Abu Dhabi
+89.137,31.0,14.0,HARD,McLaren,305.0,57.0,Abu Dhabi
+89.091,32.0,15.0,HARD,McLaren,306.0,58.0,Abu Dhabi
+88.826,33.0,16.0,HARD,McLaren,307.0,59.0,Abu Dhabi
+88.801,34.0,17.0,HARD,McLaren,307.0,60.0,Abu Dhabi
+88.467,38.0,21.0,HARD,McLaren,305.0,60.0,Abu Dhabi
+88.43,39.0,22.0,HARD,McLaren,305.0,61.0,Abu Dhabi
+88.446,40.0,23.0,HARD,McLaren,304.0,56.0,Abu Dhabi
+88.289,41.0,24.0,HARD,McLaren,306.0,58.0,Abu Dhabi
+88.388,42.0,25.0,HARD,McLaren,305.0,60.0,Abu Dhabi
+88.178,43.0,26.0,HARD,McLaren,305.0,60.0,Abu Dhabi
+88.148,44.0,27.0,HARD,McLaren,303.0,58.0,Abu Dhabi
+88.008,45.0,28.0,HARD,McLaren,303.0,58.0,Abu Dhabi
+88.059,46.0,29.0,HARD,McLaren,302.0,56.0,Abu Dhabi
+87.953,47.0,30.0,HARD,McLaren,302.0,57.0,Abu Dhabi
+86.847,50.0,2.0,MEDIUM,McLaren,330.0,58.0,Abu Dhabi
+87.227,51.0,3.0,MEDIUM,McLaren,299.0,57.0,Abu Dhabi
+86.762,58.0,10.0,MEDIUM,McLaren,297.0,61.0,Abu Dhabi
+91.686,1.0,4.0,MEDIUM,Mercedes,304.0,0.0,Abu Dhabi
+88.791,2.0,5.0,MEDIUM,Mercedes,303.0,71.0,Abu Dhabi
+88.587,3.0,6.0,MEDIUM,Mercedes,306.0,68.0,Abu Dhabi
+88.789,4.0,7.0,MEDIUM,Mercedes,306.0,69.0,Abu Dhabi
+88.63,5.0,8.0,MEDIUM,Mercedes,306.0,70.0,Abu Dhabi
+88.593,6.0,9.0,MEDIUM,Mercedes,305.0,69.0,Abu Dhabi
+88.55,7.0,10.0,MEDIUM,Mercedes,304.0,67.0,Abu Dhabi
+88.585,8.0,11.0,MEDIUM,Mercedes,305.0,67.0,Abu Dhabi
+88.356,9.0,12.0,MEDIUM,Mercedes,306.0,67.0,Abu Dhabi
+88.216,10.0,13.0,MEDIUM,Mercedes,306.0,67.0,Abu Dhabi
+88.134,11.0,14.0,MEDIUM,Mercedes,305.0,66.0,Abu Dhabi
+88.566,12.0,15.0,MEDIUM,Mercedes,305.0,67.0,Abu Dhabi
+88.258,13.0,16.0,MEDIUM,Mercedes,307.0,69.0,Abu Dhabi
+87.833,16.0,3.0,HARD,Mercedes,306.0,71.0,Abu Dhabi
+87.78,17.0,4.0,HARD,Mercedes,307.0,71.0,Abu Dhabi
+87.889,18.0,5.0,HARD,Mercedes,308.0,69.0,Abu Dhabi
+88.232,19.0,6.0,HARD,Mercedes,308.0,68.0,Abu Dhabi
+93.443,20.0,7.0,HARD,Mercedes,323.0,50.0,Abu Dhabi
+90.485,21.0,8.0,HARD,Mercedes,318.0,59.0,Abu Dhabi
+88.006,22.0,9.0,HARD,Mercedes,302.0,70.0,Abu Dhabi
+87.663,23.0,10.0,HARD,Mercedes,306.0,68.0,Abu Dhabi
+87.979,24.0,11.0,HARD,Mercedes,304.0,70.0,Abu Dhabi
+87.87,25.0,12.0,HARD,Mercedes,305.0,68.0,Abu Dhabi
+87.975,27.0,14.0,HARD,Mercedes,308.0,69.0,Abu Dhabi
+88.143,28.0,15.0,HARD,Mercedes,308.0,70.0,Abu Dhabi
+87.484,29.0,16.0,HARD,Mercedes,308.0,70.0,Abu Dhabi
+87.508,30.0,17.0,HARD,Mercedes,307.0,68.0,Abu Dhabi
+87.495,31.0,18.0,HARD,Mercedes,312.0,66.0,Abu Dhabi
+87.444,32.0,19.0,HARD,Mercedes,306.0,71.0,Abu Dhabi
+87.742,33.0,20.0,HARD,Mercedes,308.0,68.0,Abu Dhabi
+87.201,34.0,21.0,HARD,Mercedes,308.0,69.0,Abu Dhabi
+87.591,35.0,22.0,HARD,Mercedes,309.0,69.0,Abu Dhabi
+86.762,39.0,26.0,HARD,Mercedes,312.0,68.0,Abu Dhabi
+87.387,40.0,27.0,HARD,Mercedes,313.0,67.0,Abu Dhabi
+86.718,41.0,28.0,HARD,Mercedes,308.0,70.0,Abu Dhabi
+86.782,42.0,29.0,HARD,Mercedes,309.0,68.0,Abu Dhabi
+86.615,43.0,30.0,HARD,Mercedes,311.0,68.0,Abu Dhabi
+87.02,44.0,31.0,HARD,Mercedes,309.0,68.0,Abu Dhabi
+86.966,45.0,32.0,HARD,Mercedes,313.0,71.0,Abu Dhabi
+87.27,46.0,33.0,HARD,Mercedes,317.0,66.0,Abu Dhabi
+87.683,47.0,34.0,HARD,Mercedes,314.0,67.0,Abu Dhabi
+87.553,48.0,35.0,HARD,Mercedes,314.0,66.0,Abu Dhabi
+86.875,49.0,36.0,HARD,Mercedes,307.0,69.0,Abu Dhabi
+86.784,50.0,37.0,HARD,Mercedes,308.0,72.0,Abu Dhabi
+86.934,51.0,38.0,HARD,Mercedes,307.0,67.0,Abu Dhabi
+86.833,52.0,39.0,HARD,Mercedes,309.0,69.0,Abu Dhabi
+89.33,58.0,45.0,HARD,Mercedes,319.0,63.0,Abu Dhabi
+94.819,1.0,4.0,SOFT,Ferrari,313.0,0.0,Abu Dhabi
+90.325,2.0,5.0,SOFT,Ferrari,306.0,63.0,Abu Dhabi
+90.155,3.0,6.0,SOFT,Ferrari,306.0,62.0,Abu Dhabi
+90.356,4.0,7.0,SOFT,Ferrari,302.0,60.0,Abu Dhabi
+90.387,5.0,8.0,SOFT,Ferrari,303.0,60.0,Abu Dhabi
+90.329,6.0,9.0,SOFT,Ferrari,303.0,58.0,Abu Dhabi
+90.316,7.0,10.0,SOFT,Ferrari,301.0,59.0,Abu Dhabi
+90.255,8.0,11.0,SOFT,Ferrari,301.0,60.0,Abu Dhabi
+90.165,9.0,12.0,SOFT,Ferrari,301.0,58.0,Abu Dhabi
+90.174,10.0,13.0,SOFT,Ferrari,301.0,59.0,Abu Dhabi
+89.8,11.0,14.0,SOFT,Ferrari,300.0,60.0,Abu Dhabi
+89.772,12.0,15.0,SOFT,Ferrari,301.0,59.0,Abu Dhabi
+89.801,13.0,16.0,SOFT,Ferrari,301.0,59.0,Abu Dhabi
+89.591,14.0,17.0,SOFT,Ferrari,299.0,60.0,Abu Dhabi
+89.938,15.0,18.0,SOFT,Ferrari,304.0,61.0,Abu Dhabi
+89.591,16.0,19.0,SOFT,Ferrari,302.0,59.0,Abu Dhabi
+89.311,17.0,20.0,SOFT,Ferrari,302.0,58.0,Abu Dhabi
+90.907,18.0,21.0,SOFT,Ferrari,315.0,56.0,Abu Dhabi
+89.752,21.0,2.0,HARD,Ferrari,305.0,61.0,Abu Dhabi
+89.803,22.0,3.0,HARD,Ferrari,306.0,60.0,Abu Dhabi
+89.736,23.0,4.0,HARD,Ferrari,305.0,61.0,Abu Dhabi
+89.576,24.0,5.0,HARD,Ferrari,306.0,62.0,Abu Dhabi
+89.666,27.0,8.0,HARD,Ferrari,309.0,61.0,Abu Dhabi
+89.719,28.0,9.0,HARD,Ferrari,307.0,61.0,Abu Dhabi
+89.259,29.0,10.0,HARD,Ferrari,305.0,61.0,Abu Dhabi
+89.121,30.0,11.0,HARD,Ferrari,306.0,60.0,Abu Dhabi
+89.391,31.0,12.0,HARD,Ferrari,304.0,58.0,Abu Dhabi
+89.116,32.0,13.0,HARD,Ferrari,306.0,60.0,Abu Dhabi
+89.158,33.0,14.0,HARD,Ferrari,305.0,60.0,Abu Dhabi
+88.828,34.0,15.0,HARD,Ferrari,305.0,61.0,Abu Dhabi
+88.292,38.0,19.0,HARD,Ferrari,299.0,61.0,Abu Dhabi
+88.384,39.0,20.0,HARD,Ferrari,300.0,61.0,Abu Dhabi
+88.325,40.0,21.0,HARD,Ferrari,299.0,60.0,Abu Dhabi
+88.279,41.0,22.0,HARD,Ferrari,300.0,59.0,Abu Dhabi
+88.037,42.0,23.0,HARD,Ferrari,299.0,62.0,Abu Dhabi
+88.178,43.0,24.0,HARD,Ferrari,300.0,61.0,Abu Dhabi
+87.643,44.0,25.0,HARD,Ferrari,300.0,61.0,Abu Dhabi
+87.929,45.0,26.0,HARD,Ferrari,299.0,61.0,Abu Dhabi
+87.674,46.0,27.0,HARD,Ferrari,300.0,61.0,Abu Dhabi
+87.797,47.0,28.0,HARD,Ferrari,300.0,62.0,Abu Dhabi
+87.629,48.0,29.0,HARD,Ferrari,300.0,63.0,Abu Dhabi
+87.732,49.0,30.0,HARD,Ferrari,300.0,60.0,Abu Dhabi
+87.639,50.0,31.0,HARD,Ferrari,300.0,60.0,Abu Dhabi
+87.618,51.0,32.0,HARD,Ferrari,300.0,61.0,Abu Dhabi
+88.879,58.0,39.0,HARD,Ferrari,303.0,61.0,Abu Dhabi
+97.28,1.0,6.0,MEDIUM,Mercedes,320.0,0.0,Abu Dhabi
+91.738,2.0,7.0,MEDIUM,Mercedes,316.0,62.0,Abu Dhabi
+90.683,3.0,8.0,MEDIUM,Mercedes,324.0,61.0,Abu Dhabi
+90.997,4.0,9.0,MEDIUM,Mercedes,319.0,65.0,Abu Dhabi
+90.644,5.0,10.0,MEDIUM,Mercedes,316.0,67.0,Abu Dhabi
+90.639,6.0,11.0,MEDIUM,Mercedes,325.0,65.0,Abu Dhabi
+90.195,7.0,12.0,MEDIUM,Mercedes,325.0,63.0,Abu Dhabi
+90.533,8.0,13.0,MEDIUM,Mercedes,312.0,65.0,Abu Dhabi
+90.515,9.0,14.0,MEDIUM,Mercedes,318.0,66.0,Abu Dhabi
+90.704,10.0,15.0,MEDIUM,Mercedes,311.0,64.0,Abu Dhabi
+90.592,11.0,16.0,MEDIUM,Mercedes,311.0,66.0,Abu Dhabi
+90.252,12.0,17.0,MEDIUM,Mercedes,309.0,66.0,Abu Dhabi
+90.079,13.0,18.0,MEDIUM,Mercedes,308.0,66.0,Abu Dhabi
+90.595,14.0,19.0,MEDIUM,Mercedes,311.0,66.0,Abu Dhabi
+91.079,15.0,20.0,MEDIUM,Mercedes,323.0,62.0,Abu Dhabi
+89.754,16.0,21.0,MEDIUM,Mercedes,310.0,67.0,Abu Dhabi
+89.692,17.0,22.0,MEDIUM,Mercedes,310.0,68.0,Abu Dhabi
+89.478,18.0,23.0,MEDIUM,Mercedes,318.0,66.0,Abu Dhabi
+89.652,19.0,24.0,MEDIUM,Mercedes,313.0,66.0,Abu Dhabi
+89.62,20.0,25.0,MEDIUM,Mercedes,321.0,65.0,Abu Dhabi
+89.647,21.0,26.0,MEDIUM,Mercedes,315.0,65.0,Abu Dhabi
+89.559,22.0,27.0,MEDIUM,Mercedes,325.0,61.0,Abu Dhabi
+89.984,23.0,28.0,MEDIUM,Mercedes,321.0,59.0,Abu Dhabi
+89.097,24.0,29.0,MEDIUM,Mercedes,302.0,66.0,Abu Dhabi
+88.871,25.0,30.0,MEDIUM,Mercedes,304.0,67.0,Abu Dhabi
+88.927,27.0,32.0,MEDIUM,Mercedes,304.0,67.0,Abu Dhabi
+89.131,28.0,33.0,MEDIUM,Mercedes,304.0,71.0,Abu Dhabi
+89.204,29.0,34.0,MEDIUM,Mercedes,304.0,68.0,Abu Dhabi
+88.776,32.0,3.0,HARD,Mercedes,328.0,64.0,Abu Dhabi
+88.961,33.0,4.0,HARD,Mercedes,327.0,62.0,Abu Dhabi
+87.918,34.0,5.0,HARD,Mercedes,331.0,57.0,Abu Dhabi
+87.886,38.0,9.0,HARD,Mercedes,300.0,69.0,Abu Dhabi
+87.96,39.0,10.0,HARD,Mercedes,316.0,65.0,Abu Dhabi
+88.481,40.0,11.0,HARD,Mercedes,328.0,60.0,Abu Dhabi
+88.224,41.0,12.0,HARD,Mercedes,317.0,63.0,Abu Dhabi
+88.36,42.0,13.0,HARD,Mercedes,326.0,64.0,Abu Dhabi
+88.327,43.0,14.0,HARD,Mercedes,327.0,61.0,Abu Dhabi
+88.27,44.0,15.0,HARD,Mercedes,312.0,65.0,Abu Dhabi
+87.839,45.0,16.0,HARD,Mercedes,314.0,64.0,Abu Dhabi
+88.039,46.0,17.0,HARD,Mercedes,329.0,61.0,Abu Dhabi
+87.849,47.0,18.0,HARD,Mercedes,323.0,62.0,Abu Dhabi
+88.527,48.0,19.0,HARD,Mercedes,328.0,60.0,Abu Dhabi
+87.239,49.0,20.0,HARD,Mercedes,303.0,69.0,Abu Dhabi
+87.13,50.0,21.0,HARD,Mercedes,303.0,69.0,Abu Dhabi
+86.862,51.0,22.0,HARD,Mercedes,309.0,69.0,Abu Dhabi
+90.479,58.0,29.0,HARD,Mercedes,312.0,58.0,Abu Dhabi
