@@ -80,6 +80,7 @@ class FastF1Collector:
                     except Exception as e:
                         tqdm.write(f"✗ {race} {year}: {e}")
                     pbar.update(1)
+        
 
         self._df = self._df.sort_values('year').reset_index(drop=True)
 
@@ -87,9 +88,10 @@ class FastF1Collector:
         if self._df.empty:
             print("DataFrame ist leer – nichts gespeichert.")
             return
+        self._df = self._df.dropna()
         self._df.to_csv(path, index=False)
         print(f"Gespeichert: {path} ({len(self._df)} Zeilen)")
 
 if __name__ == "__main__":
-    collector = FastF1Collector(years=[2021, 2022])
+    collector = FastF1Collector(years=[2021, 2022, 2023, 2024, 2025])
     collector.save_to_csv()
