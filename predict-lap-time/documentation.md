@@ -1,320 +1,146 @@
-# Dokumentation: Vorhersage der Reifenmischung (S/M/H) mittels Neuronaler Netze
+# FastF1Collector – Technische Dokumentation
 
 ---
 
-## 1. Datenakquise und Initialisierung
+## 1. Überblick
 
-In diesem Schritt wird die Verbindung zur FastF1 API hergestellt. Um die Ladezeiten bei wiederholten Zugriffen zu minimieren, wird ein lokaler Cache-Ordner verwendet.
-
-```python
-import fastf1, os
-import pandas as pd
-
-# Sicherstellen, dass das Cache-Verzeichnis existiert
-if not os.path.exists('cache'):
-    os.makedirs('cache')
-
-# Cache aktivieren
-fastf1.Cache.enable_cache('cache')
-
-# Laden der Session (Beispiel: GP Frankreich 2021, Rennen)
-session = fastf1.get_session(2021, 'France', 'R')
-session.load()
-```
+Die Klasse `FastF1Collector` automatisiert die Datenerhebung aus der FastF1-API. Sie lädt Rennergebnisse für konfigurierte Grands Prix und Jahre, reichert die Rohdaten um berechnete Kennzahlen an und stellt das Ergebnis als strukturierten Pandas DataFrame bereit.
 
 ---
 
-## 2. Konvertierung in Pandas DataFrame
+## 2. Abhängigkeiten
 
-Die Rohdaten der Runden (`laps`) werden in ein Pandas DataFrame umgewandelt. Dies ermöglicht eine effiziente Tabellenansicht und Filterung der Daten für das spätere Machine Learning Modell.
+Das Modul setzt folgende Bibliotheken voraus:
 
-```python
-# Extraktion der Runden-Daten
-laps = session.laps
+- `fastf1` – Zugriff auf die offizielle Formel-1-Telemetrie- und Ergebnis-API
+- `pandas` – Datenstrukturierung und -verarbeitung als DataFrame
 
-# Umwandlung in ein strukturiertes DataFrame
-f1_data = pd.DataFrame(laps)
-
-# Erste Überprüfung der Datenstruktur
-print(f1_data.head())
-print(f"\nDatensatz-Größe: {f1_data.shape}")
-```
+> **Hinweis:** Der Cache wird global vor der Klasseninstanziierung aktiviert: `fastf1.Cache.enable_cache('./cache')`
 
 ---
 
-## ⚠️ Änderung des Projektziels
+## 3. Klassenattribute
 
-> **Hinweis zur Transparenz:** Die ursprüngliche Zielsetzung dieser Dokumentation war die **Klassifikation des Reifentyps** (Soft / Medium / Hard). Im Verlauf der Analyse hat sich gezeigt, dass dieses Ziel für ein erstes Neuronales Netz problematisch ist:
->
-> - Medium- und Hard-Reifen unterscheiden sich im Fahrverhalten kaum messbar
-> - Das Modell würde nicht an der Aufgabe scheitern, sondern daran dass **kein ausreichendes Signal in den Daten vorhanden ist**
-> - Zusätzlich besteht ein **Datenleck-Risiko**: `TyreLife` ist eine direkte Ableitung des Reifentyps und würde die Klassifikation trivial machen
->
-> **Das neue Ziel ist Regression:** Das Modell sagt die **Rundenzeit in Sekunden** vorher, basierend auf Reifenzustand, Reifentyp und Rennsituation. Dies ist strategisch relevanter, technisch sauberer und als Einstieg in Neuronale Netze besser geeignet.
+Die Konfiguration erfolgt direkt im Konstruktor über drei private bzw. geschützte Attribute.
 
----
-
-## 3. Datenaggregation über mehrere Rennen
-
-Ein einzelnes Rennen liefert zu wenig Daten (~50 Runden pro Fahrer). Deshalb werden **5 Grands Prix der Saison 2021** geladen und zusammengeführt. Die Auswahl deckt verschiedene Streckentypen ab, damit das Modell nicht nur auf eine Streckencharakteristik optimiert wird.
-
-```python
-import fastf1, os
-import pandas as pd
-from tqdm import tqdm
-
-if not os.path.exists('cache'):
-    os.makedirs('cache')
-fastf1.Cache.enable_cache('cache')
-
-races_to_load = [
-    (2021, 'Belgium'),
-    (2021, 'France'),
-    (2021, 'Austria'),
-    (2021, 'Silverstone'),
-    (2021, 'Abu Dhabi')
-]
-
-teams = ['Red Bull Racing', 'Mercedes', 'Ferrari', 'McLaren']
-all_laps_data = []
-
-for year, gp in races_to_load:
-    print(f"\n--- Lade {gp} {year} ---")
-    try:
-        session = fastf1.get_session(year, gp, 'R')
-        session.load()
-
-        # Filtern: Nur relevante Teams, keine Boxenrunden, nur Slick-Reifen
-        laps = session.laps.pick_teams(teams).pick_wo_box().pick_compounds(['SOFT', 'MEDIUM', 'HARD'])
-
-        if len(laps) == 0:
-            print(f"Keine Daten für {gp}. Überspringe...")
-            continue
-
-        all_laps_data.append(laps)
-
-    except Exception as e:
-        print(f"Fehler beim Laden von {gp}: {e}")
-```
-
-**Warum diese Filter?**
-- `pick_teams()` – Nur die 4 konkurrenzfähigen Top-Teams, um konsistente Datenqualität zu gewährleisten
-- `pick_wo_box()` – Boxenrunden haben künstlich lange Rundenzeiten und würden das Modell verfälschen
-- `pick_compounds(['SOFT', 'MEDIUM', 'HARD'])` – Regenreifen folgen einer völlig anderen Physik und gehören nicht in dieses Modell
-
----
-
-## 4. Telemetrie-Extraktion und TrackStatus-Filter
-
-Pro Runde werden zusätzliche Telemetriedaten geladen: maximale und minimale Geschwindigkeit. Außerdem wird geprüft ob die Runde unter normalen Rennbedingungen gefahren wurde (`TrackStatus == '1'`). Runden unter Safety Car oder Virtual Safety Car sind künstlich langsam und würden das Modell verzerren.
-
-```python
-for year, gp in races_to_load:
-    session = fastf1.get_session(year, gp, 'R')
-    session.load()
-    laps = session.laps.pick_teams(teams).pick_wo_box().pick_compounds(['SOFT', 'MEDIUM', 'HARD'])
-
-    max_speeds, min_speeds, valid_indices = [], [], []
-
-    for index, lap in tqdm(laps.iterrows(), total=len(laps), desc=f"Telemetrie {gp}"):
-        # Nur Runden unter grüner Flagge (kein Safety Car, kein VSC, kein Unfall)
-        if str(lap['TrackStatus']) == '1':
-            try:
-                car_data = lap.get_car_data()
-                if len(car_data) > 0:
-                    max_speeds.append(car_data['Speed'].max())
-                    min_speeds.append(car_data['Speed'].min())
-                    valid_indices.append(index)
-            except Exception as e:
-                # Runde überspringen, aber Grund festhalten
-                print(f"Runde {index} übersprungen: {e}")
-                continue
-```
-
-**TrackStatus Übersicht:**
-
-| Status | Bedeutung |
-|---|---|
-| `1` | Normales Rennen (grüne Flagge) ✅ |
-| `2` | Gelbe Flagge (Gefahr auf der Strecke) ❌ |
-| `4` | Safety Car ❌ |
-| `5` | Rote Flagge (Rennen unterbrochen) ❌ |
-| `6` | Virtual Safety Car (VSC) ❌ |
-
----
-
-## 5. Datenbereinigung und Export
-
-Die gefilterten Runden werden zusammengeführt, auf die relevanten Spalten reduziert und als CSV gespeichert. Die Rundenzeit wird von einem Zeitdelta-Format in Sekunden (float) umgewandelt, da Neuronale Netze ausschließlich mit Zahlen arbeiten.
-
-```python
-if all_laps_data:
-    final_df = pd.concat(all_laps_data, ignore_index=True)
-
-    # Nur relevante Spalten behalten
-    keep_cols = ['LapTime', 'LapNumber', 'TyreLife', 'Compound', 'Team', 'GP']
-    final_df = final_df[keep_cols]
-
-    # LapTime von timedelta in Sekunden umwandeln
-    # Beispiel: 0:01:31.405 → 91.405
-    final_df['LapTime'] = pd.to_timedelta(final_df['LapTime']).dt.total_seconds()
-
-    # Zeilen mit fehlenden Werten entfernen
-    final_df = final_df.dropna()
-
-    final_df.to_csv('DATA.csv', index=False)
-    print(f"ERFOLG: {len(final_df)} Runden gespeichert.")
-else:
-    print("Keine Daten extrahiert.")
-```
-
-Nach diesem Schritt sieht `DATA.csv` beispielhaft so aus:
-
-| LapTime | LapNumber | TyreLife | Compound | Team | GP |
-|---|---|---|---|---|---|
-| 91.405 | 5 | 4 | SOFT | Mercedes | France |
-| 92.117 | 6 | 5 | SOFT | Mercedes | France |
-| 93.840 | 7 | 6 | SOFT | Mercedes | France |
-
----
-
-## 6. Preprocessing für das Neuronale Netz
-
-Rohdaten können nicht direkt in ein Neuronales Netz gegeben werden. Zwei Schritte sind zwingend notwendig:
-
-### 6.1 One-Hot-Encoding
-
-Kategorische Spalten (`Compound`, `Team`) müssen in Zahlen umgewandelt werden. Das geschieht über One-Hot-Encoding: Jede Kategorie bekommt eine eigene Spalte mit 0 oder 1.
-
-```
-SOFT   → [1, 0, 0]
-MEDIUM → [0, 1, 0]
-HARD   → [0, 0, 1]
-```
-
-```python
-from sklearn.preprocessing import StandardScaler
-import pandas as pd
-
-df = pd.read_csv('DATA.csv')
-
-# One-Hot-Encoding für kategorische Spalten
-df = pd.get_dummies(df, columns=['Compound', 'Team'], drop_first=False)
-
-# GP-Spalte entfernen (nur zur Übersicht gedacht, kein sinnvolles Feature)
-df = df.drop(columns=['GP'])
-```
-
-### 6.2 Normalisierung
-
-Zahlenwerte wie `LapTime` (~90s) und `TyreLife` (~1–40) haben sehr unterschiedliche Größenordnungen. Neuronale Netze lernen deutlich besser wenn alle Inputs auf einem ähnlichen Wertebereich liegen (typischerweise 0–1 oder -1–1).
-
-```python
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-
-# Features (X) und Ziel (y) trennen
-X = df.drop(columns=['LapTime'])
-y = df['LapTime']
-
-# Daten aufteilen: 80% Training, 20% Test
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Normalisierung: Mittelwert 0, Standardabweichung 1
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)  # fit_transform nur auf Trainingsdaten!
-X_test = scaler.transform(X_test)        # transform (nicht fit) auf Testdaten
-```
-
-> **Wichtig:** `fit_transform` darf nur auf den **Trainingsdaten** aufgerufen werden. Würde man den Scaler auf allen Daten fitten, würde Information aus den Testdaten ins Training einfließen – das verfälscht die Bewertung des Modells.
-
----
-
-## 7. Neuronales Netz mit Keras
-
-Jetzt wird das eigentliche Modell gebaut. Die Architektur ist bewusst einfach gehalten: zwei versteckte Schichten mit ReLU-Aktivierung, ein einzelner Output-Neuron für die vorhergesagte Rundenzeit.
-
-```python
-import tensorflow as tf
-from tensorflow import keras
-
-# Anzahl der Input-Features (nach One-Hot-Encoding)
-input_dim = X_train.shape[1]
-
-model = keras.Sequential([
-    keras.layers.Input(shape=(input_dim,)),
-    keras.layers.Dense(64, activation='relu'),   # Versteckte Schicht 1
-    keras.layers.Dense(32, activation='relu'),   # Versteckte Schicht 2
-    keras.layers.Dense(1)                        # Output: eine Zahl (LapTime)
-])
-
-# Modell konfigurieren
-model.compile(
-    optimizer='adam',          # Lernalgorithmus
-    loss='mse',                # Mean Squared Error – Standardverlust für Regression
-    metrics=['mae']            # Mean Absolute Error – intuitiver zu interpretieren
-)
-
-model.summary()
-```
-
-**Warum diese Architektur?**
-- `Dense(64)` und `Dense(32)` – einfach genug um Overfitting zu vermeiden, komplex genug um Muster zu lernen
-- `relu` – Standardaktivierung für versteckte Schichten, funktioniert zuverlässig
-- Kein `activation` im Output-Layer – bei Regression soll der Wert unbegrenzt sein
-
----
-
-## 8. Training
-
-```python
-history = model.fit(
-    X_train, y_train,
-    epochs=100,           # 100 Durchläufe durch die Trainingsdaten
-    batch_size=32,        # 32 Datenpunkte pro Gewichtsanpassung
-    validation_split=0.1, # 10% der Trainingsdaten zur Validierung während des Trainings
-    verbose=1
-)
-```
-
-**Was passiert hier?**
-- Das Netz sieht in jeder **Epoch** alle Trainingsdaten einmal
-- Nach jeweils 32 Datenpunkten (**Batch**) werden die Gewichte angepasst
-- Der **Validation Split** zeigt ob das Modell generalisiert oder nur auswendig lernt
-
----
-
-## 9. Evaluation
-
-```python
-from sklearn.metrics import mean_absolute_error
-
-# Vorhersagen auf den Testdaten
-y_pred = model.predict(X_test).flatten()
-
-# MAE berechnen
-mae = mean_absolute_error(y_test, y_pred)
-print(f"MAE: {mae:.3f} Sekunden")
-```
-
-**Wie gut ist das Modell?**
-
-| MAE | Bewertung |
-|---|---|
-| < 1.0s | Sehr gut |
-| 1.0 – 2.0s | Akzeptabel für Stufe 1 |
-| > 2.0s | Modell lernt kaum etwas |
-
----
-
-## 10. Ausblick: Nächste Schritte
-
-Das hier beschriebene Modell ist **Stufe 1** eines dreistufigen Plans:
-
-| Stufe | Features | Ziel |
+| Attribut | Typ | Beschreibung |
 |---|---|---|
-| **Stufe 1** ← Aktuell | TyreLife, Compound, LapNumber | Erstes funktionierendes NN |
-| **Stufe 2** | + Team, MeanSpeed | Genauigkeit verbessern |
-| **Stufe 3** | + Wetterdaten, Throttle, Brake | Feintuning |
+| `__teams` | `dict` | Mapping von Teamname auf numerischen Schlüssel. Aktuell: McLaren=1, Ferrari=2, Mercedes=3, Red Bull Racing=4. |
+| `_races` | `list[str]` | Liste der zu ladenden Grand-Prix-Namen (FastF1-Bezeichner, z. B. `'France'`). |
+| `_years` | `list[int]` | Liste der Saisons, für die jeder Kurs geladen wird. |
+| `_df` | `pd.DataFrame` | Interner Sammelbehälter. Wird leer initialisiert und durch `create_DataFrame()` befüllt. |
 
-Sobald Stufe 1 einen MAE unter 2.0s erreicht, macht es Sinn weitere Features ergänzen und zu messen ob sie wirklich helfen.
+> **Hinweis:** Das doppelte Unterstrich-Präfix bei `__teams` erzeugt Name-Mangling in Python. Auf das Attribut kann von außen nur über `_FastF1Collector__teams` zugegriffen werden.
+
+---
+
+## 4. Methoden
+
+### 4.1 `__init__(self)`
+
+Initialisiert alle Konfigurationsattribute und ruft unmittelbar `create_DataFrame()` auf. Nach der Instanziierung ist `_df` damit bereits befüllt und auf der Konsole ausgegeben.
+```python
+collector = FastF1Collector()
+# → Konstruktor lädt automatisch alle konfigurierten Rennen
+```
+
+---
+
+### 4.2 `get_session_data(self, year, race) → pd.DataFrame`
+
+Lädt eine einzelne Rennsession über die FastF1-API und gibt einen DataFrame mit folgenden Spalten zurück:
+
+| Spalte | Quelle | Bedeutung |
+|---|---|---|
+| `Abbreviation` | `session.results` | Dreistelliges Fahrerkürzel (z. B. HAM, VER) |
+| `TeamName` | `session.results` | Vollständiger Teamname als Zeichenkette |
+| `GridPosition` | `session.results` | Startposition im Rennen |
+| `Position` | `session.results` | Zielposition / Endplatzierung |
+| `box` | `session.laps` | Anzahl der Boxenstopps (max. Stint − 1) |
+| `year` | Parameter | Übergabewert `year` |
+| `race` | Parameter | Übergabewert `race` |
+
+> **Hinweis:** Die Berechnung der Boxenstopps über `session.laps['Stint'].max() - 1` ist eine Näherung: Sie setzt voraus, dass jeder Stint durch genau einen Stopp getrennt wird und kein Stint durch technische Ausfälle vorzeitig endet.
+```python
+# Beispielaufruf
+df = collector.get_session_data(2021, 'France')
+```
+
+---
+
+### 4.3 `append_data_to_DataFrame(self, data)`
+
+Hängt einen neuen DataFrame an den internen Sammelbehälter `_df` an. Die Methode nutzt `pd.concat` mit `ignore_index=True`, um einen lückenlosen Index zu gewährleisten.
+```python
+self._df = pd.concat([self._df, data], ignore_index=True)
+```
+
+> **Hinweis:** `pd.concat` erzeugt stets eine neue Kopie. Bei sehr großen Datensätzen kann dies zu erhöhtem Speicherbedarf führen. In diesem Fall bietet sich eine Liste als Zwischenpuffer an, die am Ende einmalig konkateniert wird.
+
+---
+
+### 4.4 `create_DataFrame(self)`
+
+Iteriert über alle Kombinationen aus `_years` und `_races`, ruft für jede Kombination `get_session_data()` auf und übergibt das Ergebnis an `append_data_to_DataFrame()`. Nach Abschluss der Schleife wird `_df` alphabetisch nach Fahrerkürzel sortiert und der Index zurückgesetzt.
+```python
+for year in self._years:
+    for race in self._races:
+        data = self.get_session_data(year, race)
+        self.append_data_to_DataFrame(data)
+
+self._df = self._df.sort_values('Abbreviation').reset_index(drop=True)
+print(self._df)
+```
+
+---
+
+## 5. Datenfluss
+
+| Schritt | Aktion | Ergebnis |
+|---|---|---|
+| 1 | Instanziierung: `FastF1Collector()` | Attribute gesetzt, `create_DataFrame()` gestartet |
+| 2 | Äußere Schleife über `_years` | Iteration pro Saison |
+| 3 | Innere Schleife über `_races` | Iteration pro Grand Prix |
+| 4 | `get_session_data(year, race)` | Einzelner DataFrame für diese Session |
+| 5 | `append_data_to_DataFrame(data)` | Daten in `_df` integriert |
+| 6 | Sortierung & Reset | Finaler, sortierter DataFrame |
+
+---
+
+## 6. Konfiguration
+
+Alle inhaltlichen Parameter werden direkt im Konstruktor angepasst.
+
+#### Weitere Rennen hinzufügen
+```python
+self._races = ['France', 'Monaco', 'Silverstone']
+```
+
+#### Weitere Saisons hinzufügen
+```python
+self._years = [2021, 2022, 2023]
+```
+
+#### Teams erweitern
+```python
+self.__teams['Alpine'] = 5
+```
+
+---
+
+## 7. Bekannte Einschränkungen
+
+- **Boxenstopp-Berechnung:** `session.laps['Stint'].max() - 1` liefert einen falschen Wert, wenn ein Fahrer das Rennen nicht beendet oder mehrere Stints ohne echten Stopp protokolliert werden.
+- **Kein Fehlerhandling:** Schlägt `session.load()` fehl (z. B. Netzwerkfehler), bricht die gesamte Initialisierung ab.
+- **`__teams` wird nicht genutzt:** Das Dictionary ist definiert, fließt aber nicht in die erzeugten Daten ein.
+- **Fehlende Normalisierung:** `TeamName` bleibt als Klartext erhalten. Für ML-Anwendungen ist One-Hot-Encoding oder Label-Encoding erforderlich.
+
+---
+
+## 8. Erweiterungsideen
+
+- **Fehlerbehandlung:** `try/except` um `session.load()` mit Logging statt Hard Crash.
+- **`__teams` aktivieren:** `TeamName` mit dem Mapping in eine numerische Spalte umwandeln.
+- **Qualifyingdaten:** Analoge Methode `get_qualifying_data()` für Rundenzeiten aus Q1–Q3.
+- **Telemetrie:** Maximale und mittlere Geschwindigkeit pro Stint über `get_car_data()` ergänzen.
+- **Property-Accessor:** Öffentliche read-only-Property `df`, die `_df` zurückgibt, statt direktem Attributzugriff.

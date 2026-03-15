@@ -1,125 +1,93 @@
-import fastf1, os
+import fastf1
 import pandas as pd
 from tqdm import tqdm
-import visualizer
+import logging
 
+fastf1.Cache.enable_cache('./cache')
+logging.getLogger('fastf1').setLevel(logging.ERROR)
 
-class FastF1:
-    def __init__(self):
-        if not os.path.exists('cache'): os.makedirs('cache')
-        fastf1.Cache.enable_cache('cache')  # Verhindert wiederholte API-Calls bei erneutem Laden
+class FastF1Collector:
+    def __init__(self, years: list):
+        self._years = years
+        self._races = {}
+        for year in self._years:
+            self._races[year] = self.get_races_for_year(year)
 
-        self.races_to_load = [
-            (2021, 'Belgium'),
-            (2021, 'France'),
-            (2021, 'Austria'),
-            (2021, 'Silverstone'),
-            (2021, 'Abu Dhabi')
-        ]
+        self._df = pd.DataFrame()
+        self.create_DataFrame()
 
-        self.teams = ['Red Bull Racing', 'Mercedes', 'Ferrari', 'McLaren']
-        self.all_laps_data = []
+    def get_races_for_year(self, year):
+        schedule = fastf1.get_event_schedule(year)
+        schedule = schedule[schedule['EventFormat'] != 'testing']
+        races = schedule['EventName'].tolist()
+        print(f"{year}: {len(races)} Rennen gefunden")
+        return races
 
-    def load_newDataSet(self):
-        final_df = pd.DataFrame()
+    def get_session_data(self, year, race):
+        session = fastf1.get_session(year, race, "R")
+        session.load()
 
-        for year, grandprix in self.races_to_load:
-            print(f"\n--- Lade {grandprix} {year} ---")
-            try:
-                session = fastf1.get_session(year, grandprix, 'R')
-                session.load()
+        data = session.results[['Abbreviation', 'TeamName', 'GridPosition', 'Position', 'Status']].copy()
 
-                # Boxenrunden raus – die verfälschen die LapTime stark
-                laps = session.laps.pick_teams(self.teams).pick_wo_box()
+        data['Status'] = data['Status'].apply(
+            lambda x: 'DNF' if any(
+                word in str(x) for word in ['Crash', 'Engine', 'Gearbox', 'Hydraulics', 'Brakes', 'Suspension', 'Retired', 'Accident', 'Collision', 'Power', 'Electrical']
+            ) else 'Finished'
+        )
 
-                if len(laps) == 0:
-                    print(f"Keine Daten für {grandprix} gefunden. Überspringe...")
-                    continue
+        stints_per_driver = session.laps.groupby('Driver')['Stint'].max() - 1
+        data['box'] = data['Abbreviation'].map(stints_per_driver)
 
-                max_speeds, min_speeds, valid_indices = [], [], []
+        median_laptimes = (
+            session.laps
+            .pick_wo_box()
+            .groupby('Driver')['LapTime']
+            .median()
+            .dt.total_seconds()
+        )
+        data['median_laptime'] = data['Abbreviation'].map(median_laptimes)
 
-                for index, lap in tqdm(laps.iterrows(), total=len(laps), desc=f"Telemetrie {grandprix}"):
-                    # Nur Runden unter grüner Flagge – kein Safety Car, kein VSC
-                    if str(lap['TrackStatus']) == '1':
-                        try:
-                            car_data = lap.get_car_data()
+        quali = fastf1.get_session(year, race, 'Q')
+        quali.load()
+        def best_quali_time(row):
+            for col in ['Q3', 'Q2', 'Q1']:
+                val = row[col]
+                if pd.notna(val):
+                    return pd.to_timedelta(val).total_seconds()
+            return None
+        quali_times = quali.results[['Abbreviation', 'Q1', 'Q2', 'Q3']].copy()
+        quali_times['Q_best_sec'] = quali_times.apply(best_quali_time, axis=1)
+        data = data.merge(quali_times[['Abbreviation', 'Q_best_sec']], on='Abbreviation', how='left')
 
-                            if len(car_data) > 0:
-                                max_speeds.append(car_data['Speed'].max())
-                                min_speeds.append(car_data['Speed'].min())
-                                valid_indices.append(index)
-                            else:
-                                continue
-                        except Exception as e:
-                            print(f"Übersprungen: {e}")
-                            continue
+        data['year'] = year
+        data['race'] = race
 
-                race_data = laps.loc[valid_indices].copy()
-                race_data['MaxSpeed'] = max_speeds
-                race_data['MinSpeed'] = min_speeds
-                race_data['GP'] = grandprix
+        return data
 
-                self.all_laps_data.append(race_data)
+    def append_data_to_DataFrame(self, data):
+        self._df = pd.concat([self._df, data], ignore_index=True)
 
-            except Exception as e:
-                print(f"Fehler beim Laden von {grandprix}: {e}")
+    def create_DataFrame(self):
+        for year, races in self._races.items():
+            with tqdm(total=len(races), desc=f"{year}", unit="GP", position=0, leave=True, dynamic_ncols=True) as pbar:
+                for race in races:
+                    pbar.set_postfix({"Rennen": race[:12]})
+                    try:
+                        data = self.get_session_data(year, race)
+                        self.append_data_to_DataFrame(data)
+                    except Exception as e:
+                        tqdm.write(f"✗ {race} {year}: {e}")
+                    pbar.update(1)
 
-        if self.all_laps_data:
-            final_df = pd.concat(self.all_laps_data, ignore_index=True)
+        self._df = self._df.sort_values('year').reset_index(drop=True)
 
-            # Nur relevante Spalten behalten – alles andere ist für das NN nicht nötig
-            keep_cols = ['LapTime', 'LapNumber', 'TyreLife', 'Compound', 'Team', 'MaxSpeed', 'MinSpeed', 'GP']
-            final_df = final_df[keep_cols]
+    def save_to_csv(self, path='DATA.csv'):
+        if self._df.empty:
+            print("DataFrame ist leer – nichts gespeichert.")
+            return
+        self._df.to_csv(path, index=False)
+        print(f"Gespeichert: {path} ({len(self._df)} Zeilen)")
 
-            # LapTime von timedelta (0:01:31.456) in Sekunden (91.456) umwandeln
-            final_df['LapTime'] = pd.to_timedelta(final_df['LapTime']).dt.total_seconds()
-
-            # Runden mit fehlenden Werten entfernen – NNs können kein NaN verarbeiten
-            final_df = final_df.dropna()
-
-            final_df.to_csv('DATA.csv', index=False)
-            print(f"\nERFOLG: {len(final_df)} Runden aus {len(self.races_to_load)} Rennen in DATA.csv gespeichert!")
-        else:
-            print("Keine Daten extrahiert.")
-
-        return final_df
-
-
-class NeuronalNetwork:
-    def __init__(self):
-        pass
-
-    def set_df(self, DataFrame):
-        self.__F1_df = DataFrame
-
-    def get_df(self):
-        return self.__F1_df
-
-    def print_df(self):
-        print(self.__F1_df)
-    
-    
-
-
-class MAIN:
-    def __init__(self):
-        F1 = FastF1()
-        self.NeuronalNetwork = NeuronalNetwork()
-
-        if os.path.exists('DATA.csv'):
-            if str(input('Es existiert bereits eine Datenbank. Neu laden und überschreiben? (Y/N) ')).upper() == 'Y':
-                self.NeuronalNetwork.set_df(F1.load_newDataSet())
-            else:
-                # Bestehende CSV laden statt neu von der API zu holen (spart 10-15 Minuten)
-                self.NeuronalNetwork.set_df(pd.read_csv('DATA.csv'))
-                print("Runden aus DATA.csv geladen.")
-        else:
-            self.NeuronalNetwork.set_df(F1.load_newDataSet())
-
-        self.NeuronalNetwork.print_df()
-        viz = visualizer.Visualizer(self.NeuronalNetwork.get_df(), "./plots")
-        viz.plot_all() 
-
-
-if __name__ == '__main__':
-    MAIN()
+if __name__ == "__main__":
+    collector = FastF1Collector(years=[2021, 2022])
+    collector.save_to_csv()
