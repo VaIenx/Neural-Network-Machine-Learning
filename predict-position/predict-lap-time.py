@@ -25,7 +25,8 @@ class FastF1Collector:
 
     def get_session_data(self, year, race):
         session = fastf1.get_session(year, race, "R")
-        session.load()
+        session.load(weather=True)
+        weather = session.weather_data
 
         data = session.results[['Abbreviation', 'TeamName', 'GridPosition', 'Position', 'Status']].copy()
 
@@ -61,6 +62,7 @@ class FastF1Collector:
 
         data['year'] = year
         data['race'] = race
+        data['rainfall'] = bool(weather['Rainfall'].any())
 
         return data
 
