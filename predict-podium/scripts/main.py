@@ -7,5 +7,5 @@ if __name__ == "__main__":
     viz = visualizer.Visualizer(df, save_dir='predict-podium/plots')
     viz.plot_all()
 
-    X_train, X_test, y_train, y_test = preprocessing.run()
+    X_train, X_test, y_train, y_test = preprocessing.preprocessing_data()
     # modelclass(X_train, X_test, y_train, y_test)

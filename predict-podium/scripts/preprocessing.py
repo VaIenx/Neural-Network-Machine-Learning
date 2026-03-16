@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 
-def run():
+def preprocessing_data():
     df = pd.read_csv('predict-podium/DATA.csv')
 
     df['podium'] = (df['Position'] <= 3).astype(int) # Wenn podium dann 1

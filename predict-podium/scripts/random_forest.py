@@ -1,6 +1,8 @@
+from pathlib import Path
 # Data Processing
 import pandas as pd
 import numpy as np
+from preprocessing import preprocessing_data
 
 # Modelling
 from sklearn.ensemble import RandomForestClassifier
@@ -11,4 +13,12 @@ from scipy.stats import randint
 # Tree Visualisation
 from sklearn.tree import export_graphviz
 from IPython.display import Image
-import graphviz
+import graphvi
+
+
+
+DIR = Path(__file__).resolve().parents[1]
+
+print(DIR)
+df = pd.read_csv(str(DIR / "DATA.csv"))
+
