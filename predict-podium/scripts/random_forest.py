@@ -76,7 +76,9 @@ def predict_position():
     prediction = rf.predict(input_df)[0]
     proba = rf.predict_proba(input_df)[0]
     confidence = proba.max() * 100
-
+    print("")
+    print(f"####################################################")
+    print("")
     print(f"\n  Vorhergesagter Platz : {prediction}")
     print(f"  Konfidenz            : {confidence:.1f}%")
 
