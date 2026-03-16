@@ -93,5 +93,5 @@ class FastF1Collector:
         print(f"Gespeichert: {path} ({len(self._df)} Zeilen)")
 
 if __name__ == "__main__":
-    collector = FastF1Collector(years=[2021, 2022, 2023])
+    collector = FastF1Collector(years=[2022, 2023, 2024])
     collector.save_to_csv()

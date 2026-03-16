@@ -1,146 +1,166 @@
-# FastF1Collector – Technische Dokumentation
+# 🏎️ F1 Podium Predictor — Neuronales Netz zur Podiumsvorhersage
+
+> Schulprojekt im Fach Informationstechnik  
+> Thema: Maschinelles Lernen / Neuronale Netze
 
 ---
 
-## 1. Überblick
+## Inhaltsverzeichnis
 
-Die Klasse `FastF1Collector` automatisiert die Datenerhebung aus der FastF1-API. Sie lädt Rennergebnisse für konfigurierte Grands Prix und Jahre, reichert die Rohdaten um berechnete Kennzahlen an und stellt das Ergebnis als strukturierten Pandas DataFrame bereit.
-
----
-
-## 2. Abhängigkeiten
-
-Das Modul setzt folgende Bibliotheken voraus:
-
-- `fastf1` – Zugriff auf die offizielle Formel-1-Telemetrie- und Ergebnis-API
-- `pandas` – Datenstrukturierung und -verarbeitung als DataFrame
-
-> **Hinweis:** Der Cache wird global vor der Klasseninstanziierung aktiviert: `fastf1.Cache.enable_cache('./cache')`
+1. [Projektziel](#1-projektziel)
+2. [Daten & Feature-Engineering](#2-daten--feature-engineering)
+3. [Modellauswahl](#3-modellauswahl)
+4. [Risiken & Limitierungen](#4-risiken--limitierungen)
 
 ---
 
-## 3. Klassenattribute
+## 1. Projektziel
 
-Die Konfiguration erfolgt direkt im Konstruktor über drei private bzw. geschützte Attribute.
+Ziel dieses Projekts ist die Entwicklung eines binären Klassifikationsmodells, das auf Basis historischer Formel-1-Daten vorhersagt, ob ein Fahrer in einem Rennen eine **Podiumsplatzierung (P1–P3)** erreicht.
 
-| Attribut | Typ | Beschreibung |
+Das Modell soll lernen, aus einer Kombination aus Qualifyingdaten, Rennstatistiken und Wetterbedingungen ein verlässliches Signal für die Zielvariable `podium ∈ {0, 1}` zu extrahieren.
+
+### Zielvariable
+
+```
+podium = 1  →  Fahrer belegt Platz 1, 2 oder 3
+podium = 0  →  Fahrer belegt Platz 4 oder schlechter / DNF
+```
+
+---
+
+## 2. Daten & Feature-Engineering
+
+### Datenquelle
+
+Die Rohdaten werden über die Python-Bibliothek **[FastF1](https://theoehrly.github.io/Fast-F1/)** bezogen, welche offizielle Telemetrie-, Ergebnis- und Wetterdaten der Formel-1-Weltmeisterschaft bereitstellt. Erfasst wurden die Saisons **2022, 2023 und 2024**.
+
+### Begründung der Saisonauswahl
+
+Die Saison 2022 markiert eine der größten Regelreformen in der Geschichte der Formel 1: Mit der Einführung der **Ground-Effect-Aerodynamik** wurden die technischen Grundlagen der Fahrzeuge fundamental neu definiert. Dadurch verschoben sich die Kräfteverhältnisse zwischen den Teams erheblich — Fahrer und Konstrukteure, die unter dem alten Reglement dominant waren, fanden sich teils im Mittelfeld wieder.
+
+Würde man Saisons **vor und nach 2022** mischen (z. B. 2021–2023), entstünden widersprüchliche Muster im Datensatz: Dieselben Features (`TeamName`, `median_laptime`, `GridPosition`) hätten je nach Ära eine grundlegend andere Aussagekraft. Ein Modell, das darauf trainiert wird, lernt möglicherweise **kein allgemeingültiges Muster**, sondern einen Mittelwert zweier inkompatibler Ären.
+
+Die bewusste Beschränkung auf **2022–2024** stellt sicher, dass alle Trainingsdaten unter einheitlichen sportlichen und technischen Rahmenbedingungen entstanden sind. Dies verbessert die **interne Konsistenz** des Datensatzes und erhöht die Wahrscheinlichkeit, dass gelernte Muster auf neue Rennen der gleichen Ära übertragbar sind.
+
+### Erhobene Features
+
+| Feature | Beschreibung | Quelle |
 |---|---|---|
-| `__teams` | `dict` | Mapping von Teamname auf numerischen Schlüssel. Aktuell: McLaren=1, Ferrari=2, Mercedes=3, Red Bull Racing=4. |
-| `_races` | `list[str]` | Liste der zu ladenden Grand-Prix-Namen (FastF1-Bezeichner, z. B. `'France'`). |
-| `_years` | `list[int]` | Liste der Saisons, für die jeder Kurs geladen wird. |
-| `_df` | `pd.DataFrame` | Interner Sammelbehälter. Wird leer initialisiert und durch `create_DataFrame()` befüllt. |
+| `Abbreviation` | Fahrerkürzel (z. B. `VER`, `HAM`) | `session.results` |
+| `TeamName` | Konstrukteur / Team | `session.results` |
+| `GridPosition` | Startplatz im Rennen | `session.results` |
+| `Position` | Finale Rennposition | `session.results` |
+| `Status` | `Finished` oder `DNF` (klassifiziert nach Ausfallursache) | `session.results` |
+| `box` | Anzahl der Boxenstopps (Stints − 1) | `session.laps` |
+| `median_laptime` | Median der bereinigten Rundenzeiten in Sekunden (ohne In-/Outlap) | `session.laps` |
+| `Q_best_sec` | Beste Qualifyingzeit in Sekunden (Q3 → Q2 → Q1, fallback) | Qualifying-Session |
+| `year` | Saison | abgeleitet |
+| `race` | Rennen / Grand Prix | abgeleitet |
+| `rainfall` | Ob es während des Rennens geregnet hat (`True`/`False`) | `session.weather_data` |
 
-> **Hinweis:** Das doppelte Unterstrich-Präfix bei `__teams` erzeugt Name-Mangling in Python. Auf das Attribut kann von außen nur über `_FastF1Collector__teams` zugegriffen werden.
+### Datenaufbereitung
 
----
+- **DNF-Klassifikation:** Der `Status`-String wird regelbasiert in `Finished` oder `DNF` überführt. Schlüsselwörter wie `Crash`, `Engine`, `Gearbox` etc. lösen die DNF-Kennzeichnung aus.
+- **Fehlende Werte:** Zeilen mit `NaN`-Werten werden vor dem Speichern entfernt (`.dropna()`).
+- **Zielvariable:** Wird im Preprocessing aus `Position ∈ {1, 2, 3}` abgeleitet und ist **nicht** Teil der Rohdaten.
 
-## 4. Methoden
+### Datenpipeline
 
-### 4.1 `__init__(self)`
-
-Initialisiert alle Konfigurationsattribute und ruft unmittelbar `create_DataFrame()` auf. Nach der Instanziierung ist `_df` damit bereits befüllt und auf der Konsole ausgegeben.
-```python
-collector = FastF1Collector()
-# → Konstruktor lädt automatisch alle konfigurierten Rennen
+```
+FastF1 API
+    │
+    ├── Race Session     →  Ergebnisse, Stint-Daten, Rundenzeiten, Wetter
+    └── Qualifying Session →  Q1/Q2/Q3-Zeiten
+          │
+          ▼
+    FastF1Collector.create_DataFrame()
+          │
+          ▼
+    DATA.csv  (eine Zeile = ein Fahrer pro Rennen)
 ```
 
 ---
 
-### 4.2 `get_session_data(self, year, race) → pd.DataFrame`
+## 3. Modellauswahl
 
-Lädt eine einzelne Rennsession über die FastF1-API und gibt einen DataFrame mit folgenden Spalten zurück:
+### Problemtyp
 
-| Spalte | Quelle | Bedeutung |
-|---|---|---|
-| `Abbreviation` | `session.results` | Dreistelliges Fahrerkürzel (z. B. HAM, VER) |
-| `TeamName` | `session.results` | Vollständiger Teamname als Zeichenkette |
-| `GridPosition` | `session.results` | Startposition im Rennen |
-| `Position` | `session.results` | Zielposition / Endplatzierung |
-| `box` | `session.laps` | Anzahl der Boxenstopps (max. Stint − 1) |
-| `year` | Parameter | Übergabewert `year` |
-| `race` | Parameter | Übergabewert `race` |
+Binäre Klassifikation auf tabellarischen, strukturierten Daten.
 
-> **Hinweis:** Die Berechnung der Boxenstopps über `session.laps['Stint'].max() - 1` ist eine Näherung: Sie setzt voraus, dass jeder Stint durch genau einen Stopp getrennt wird und kein Stint durch technische Ausfälle vorzeitig endet.
-```python
-# Beispielaufruf
-df = collector.get_session_data(2021, 'France')
+### Kandidatenmodelle
+
+| Modell | Begründung |
+|---|---|
+| **Feedforward Neural Network (MLP)** | Primäres Modell des Projekts; geeignet für nicht-lineare Zusammenhänge zwischen numerischen und kategorischen Features |
+| **Random Forest** | Starke Baseline für tabellarische Daten; robust gegenüber Ausreißern und irrelevanten Features |
+| **Gradient Boosting (XGBoost / LightGBM)** | State-of-the-Art für strukturierte Daten; gut interpretierbar via Feature Importance |
+| **Logistische Regression** | Einfache, interpretierbare Baseline; liefert kalibrierte Wahrscheinlichkeiten |
+
+### Empfohlenes Modell
+
+Für den Einstieg eignet sich ein **MLP mit 2–3 Hidden Layers** (z. B. `[64, 32, 16]` Neuronen, ReLU-Aktivierung, Dropout zur Regularisierung, Sigmoid-Ausgabe). Als Verlustfunktion wird **Binary Cross-Entropy** verwendet.
+
+Da pro Rennen nur 3 von 20 Fahrern aufs Podium fahren, ist das Dataset **unbalanciert** (ca. 15 % positive Klasse). Gegenmaßnahmen:
+
+- Class Weights (`class_weight='balanced'`)
+- Oversampling (SMOTE) oder Undersampling
+- Evaluation über **F1-Score, Precision, Recall** statt Accuracy
+
+---
+
+## 4. Risiken & Limitierungen
+
+### 4.1 Datenbias
+
+| Risiko | Beschreibung |
+|---|---|
+| **Konstrukteursbias** | Red Bull dominierte 2022–2024 die Podiumswertung extrem (v. a. 2023 mit 21 von 22 Siegen). Das Modell könnte lernen, `TeamName = Red Bull Racing` als nahezu hinreichende Bedingung für ein Podium zu werten, ohne strukturelle Muster zu erfassen. |
+| **Gridpositions-Bias** | Startplatz 1–3 korreliert stark mit Podiumsergebnissen. Das Modell könnte den Qualifying-Ausgang nahezu deterministisch lernen und echte Renndynamik ignorieren. |
+| **Strecken-Bias** | Bestimmte Kurse (z. B. Monaco) begünstigen strukturell Überholmanöver, andere nicht. Dieser Kontext ist in den Features nicht explizit kodiert. |
+
+### 4.2 Overfitting
+
+- Der Datensatz umfasst ca. 3 Saisons × ~23 Rennen × 20 Fahrer ≈ **~1.380 Datenpunkte** — ein relativ kleiner Datensatz für neuronale Netze.
+- Ein MLP kann bei dieser Datenmenge schnell overfitten. Gegenmaßnahmen: **Dropout**, **Early Stopping**, **Kreuzvalidierung** (z. B. Leave-One-Season-Out).
+- Besonders kritisch: Wenn Fahrerkürzel (`Abbreviation`) oder Teamnamen als kategorische Features direkt kodiert werden, lernt das Modell möglicherweise Identitäten statt Muster.
+
+### 4.3 Datenqualität & -vollständigkeit
+
+| Problem | Ursache |
+|---|---|
+| Fehlende Qualifyingzeiten | Fahrer, die Q1 nicht abschließen, haben kein vollständiges `Q_best_sec`. Wird durch `.dropna()` entfernt. |
+| DNF-Klassifikation unvollständig | Die regelbasierte Keyword-Liste deckt nicht alle Ausfallgründe ab. Neue oder unbekannte Statustexte werden fälschlich als `Finished` klassifiziert. |
+| Wetterfeature grob | `rainfall` ist ein binäres Flag über die gesamte Session — Intensität, Zeitpunkt und Streckenbereiche sind nicht erfasst. |
+| API-Verfügbarkeit | FastF1 ist von den offiziellen F1-Servern abhängig. Fehlende Caches oder API-Änderungen können die Reproduzierbarkeit einschränken. |
+
+### 4.4 Generalisierbarkeit
+
+Das Modell wird auf Daten von 2022–2024 trainiert. Alle drei Saisons entstammen bewusst derselben Reglementära (Ground-Effect-Fahrzeuge ab 2022), um widersprüchliche Muster durch Regelbrüche zu vermeiden. Dennoch können Teamwechsel, Fahrerentwicklungen oder kleinere Regelanpassungen innerhalb der Ära dazu führen, dass gelernte Muster auf zukünftige Saisons nur eingeschränkt übertragbar sind. Eine **temporale Validierung** (Training auf 2022/23, Test auf 2024) ist daher realistischer als ein zufälliger Train-Test-Split und spiegelt den tatsächlichen Anwendungsfall — Vorhersage zukünftiger Rennen — besser wider.
+
+---
+
+## Projektstruktur
+
+```
+f1-podium-predictor/
+├── cache/                  # FastF1 Session Cache
+├── DATA.csv                # Aufbereiteter Rohdatensatz
+├── data_collector.py       # FastF1Collector Klasse
+├── preprocessing.py        # Feature Engineering & Encoding
+├── model.py                # Modellarchitektur & Training
+├── evaluate.py             # Metriken & Visualisierungen
+└── documentation.md        # Diese Dokumentation
 ```
 
 ---
 
-### 4.3 `append_data_to_DataFrame(self, data)`
+## Abhängigkeiten
 
-Hängt einen neuen DataFrame an den internen Sammelbehälter `_df` an. Die Methode nutzt `pd.concat` mit `ignore_index=True`, um einen lückenlosen Index zu gewährleisten.
-```python
-self._df = pd.concat([self._df, data], ignore_index=True)
-```
-
-> **Hinweis:** `pd.concat` erzeugt stets eine neue Kopie. Bei sehr großen Datensätzen kann dies zu erhöhtem Speicherbedarf führen. In diesem Fall bietet sich eine Liste als Zwischenpuffer an, die am Ende einmalig konkateniert wird.
-
----
-
-### 4.4 `create_DataFrame(self)`
-
-Iteriert über alle Kombinationen aus `_years` und `_races`, ruft für jede Kombination `get_session_data()` auf und übergibt das Ergebnis an `append_data_to_DataFrame()`. Nach Abschluss der Schleife wird `_df` alphabetisch nach Fahrerkürzel sortiert und der Index zurückgesetzt.
-```python
-for year in self._years:
-    for race in self._races:
-        data = self.get_session_data(year, race)
-        self.append_data_to_DataFrame(data)
-
-self._df = self._df.sort_values('Abbreviation').reset_index(drop=True)
-print(self._df)
+```bash
+pip install fastf1 pandas tqdm scikit-learn torch
 ```
 
 ---
 
-## 5. Datenfluss
-
-| Schritt | Aktion | Ergebnis |
-|---|---|---|
-| 1 | Instanziierung: `FastF1Collector()` | Attribute gesetzt, `create_DataFrame()` gestartet |
-| 2 | Äußere Schleife über `_years` | Iteration pro Saison |
-| 3 | Innere Schleife über `_races` | Iteration pro Grand Prix |
-| 4 | `get_session_data(year, race)` | Einzelner DataFrame für diese Session |
-| 5 | `append_data_to_DataFrame(data)` | Daten in `_df` integriert |
-| 6 | Sortierung & Reset | Finaler, sortierter DataFrame |
-
----
-
-## 6. Konfiguration
-
-Alle inhaltlichen Parameter werden direkt im Konstruktor angepasst.
-
-#### Weitere Rennen hinzufügen
-```python
-self._races = ['France', 'Monaco', 'Silverstone']
-```
-
-#### Weitere Saisons hinzufügen
-```python
-self._years = [2021, 2022, 2023]
-```
-
-#### Teams erweitern
-```python
-self.__teams['Alpine'] = 5
-```
-
----
-
-## 7. Bekannte Einschränkungen
-
-- **Boxenstopp-Berechnung:** `session.laps['Stint'].max() - 1` liefert einen falschen Wert, wenn ein Fahrer das Rennen nicht beendet oder mehrere Stints ohne echten Stopp protokolliert werden.
-- **Kein Fehlerhandling:** Schlägt `session.load()` fehl (z. B. Netzwerkfehler), bricht die gesamte Initialisierung ab.
-- **`__teams` wird nicht genutzt:** Das Dictionary ist definiert, fließt aber nicht in die erzeugten Daten ein.
-- **Fehlende Normalisierung:** `TeamName` bleibt als Klartext erhalten. Für ML-Anwendungen ist One-Hot-Encoding oder Label-Encoding erforderlich.
-
----
-
-## 8. Erweiterungsideen
-
-- **Fehlerbehandlung:** `try/except` um `session.load()` mit Logging statt Hard Crash.
-- **`__teams` aktivieren:** `TeamName` mit dem Mapping in eine numerische Spalte umwandeln.
-- **Qualifyingdaten:** Analoge Methode `get_qualifying_data()` für Rundenzeiten aus Q1–Q3.
-- **Telemetrie:** Maximale und mittlere Geschwindigkeit pro Stint über `get_car_data()` ergänzen.
-- **Property-Accessor:** Öffentliche read-only-Property `df`, die `_df` zurückgibt, statt direktem Attributzugriff.
+*Erstellt im Rahmen des Informationstechnik-Unterrichts — Thema: Neuronale Netze & maschinelles Lernen*
