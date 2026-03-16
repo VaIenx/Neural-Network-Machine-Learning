@@ -1,17 +1,19 @@
+from pathlib import Path
 import pandas as pd
 import preprocessing
 import visualizer
 import model
 import torch
 
+DIR = Path(__file__).resolve().parents[1]
 
 if __name__ == "__main__":
-    df = pd.read_csv('predict-podium/DATA.csv')
-    viz = visualizer.Visualizer(df, save_dir='predict-podium/plots')
-    #viz.plot_all()
+    df = pd.read_csv(f'{DIR}/DATA.csv')
+    viz = visualizer.Visualizer(df, save_dir=f'{DIR}/plots')
+    # viz.plot_all()
 
     X_train, X_test, y_train, y_test, le, scaler = preprocessing.preprocessing_data()
-    net = model.PodiumNet(X_train, X_test, y_train, y_test, epochs=300)
+    net = model.PodiumNet(X_train, X_test, y_train, y_test, epochs=173)
     net.run()
     loss_list, val_loss_list = net.evaluate()
     viz.plot_training(loss_list, val_loss_list)
