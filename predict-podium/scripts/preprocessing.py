@@ -29,8 +29,8 @@ def preprocessing_data():
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) 
     # splittet zu 80& training und 20% test mit Seed 42
     print("Processing abgeschlossen.")
-    print(X_train.shape, X_test.shape)
-    print(df.head())
-    print(df.dtypes)
-    return X_train, X_test, y_train, y_test
+    #print(X_train.shape, X_test.shape)
+    #print(df.head())
+    #print(df.dtypes)
+    return X_train, X_test, y_train, y_test, le, scaler
 

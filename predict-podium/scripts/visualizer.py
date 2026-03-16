@@ -447,3 +447,17 @@ class Visualizer:
 
         plt.tight_layout()
         self._save_or_show("07_data_overview.png")
+    
+    def plot_training(self, loss_list, val_loss_list):
+        fig, ax = plt.subplots(figsize=(10, 5))
+        fig.suptitle("Training Übersicht", fontsize=14, fontweight='bold')
+
+        ax.plot(loss_list, color='steelblue', linewidth=2, label='Train Loss')
+        ax.plot(val_loss_list, color='darkorange', linewidth=2, label='Validation Loss')
+        ax.set_xlabel("Epoche")
+        ax.set_ylabel("Loss")
+        ax.legend(fontsize=10)
+        ax.grid(True, alpha=0.25)
+
+        plt.tight_layout()
+        self._save_or_show("08_training_overview.png")
