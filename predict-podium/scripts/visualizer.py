@@ -447,9 +447,3 @@ class Visualizer:
 
         plt.tight_layout()
         self._save_or_show("07_data_overview.png")
-
-
-if __name__ == "__main__":
-    df = pd.read_csv('predict-podium/DATA.csv')
-    viz = Visualizer(df, save_dir='predict-podium/plots')
-    viz.plot_all()
