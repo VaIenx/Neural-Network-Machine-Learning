@@ -1,11 +1,13 @@
+from pathlib import Path
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
+DIR = Path(__file__).resolve().parents[1]
 
 def preprocessing_data():
-    df = pd.read_csv('predict-podium/DATA.csv')
+    df = pd.read_csv(f'{DIR}/DATA.csv')
 
     df['podium'] = (df['Position'] <= 3).astype(int) # Wenn podium dann 1
     df = df.drop(columns=['Abbreviation', 'Position', 'year', 'race']) # spalten rauswerfen damit das NN nicht cheated
