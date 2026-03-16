@@ -1,6 +1,11 @@
+import warnings
+from tqdm import TqdmExperimentalWarning
+from tqdm.rich import tqdm
+
 import torch
 import torch.nn as nn
-from tqdm import tqdm
+
+warnings.filterwarnings("ignore", category=TqdmExperimentalWarning)
 
 class PodiumNet(nn.Module):
     def __init__(self, X_train, X_test, y_train, y_test, epochs):

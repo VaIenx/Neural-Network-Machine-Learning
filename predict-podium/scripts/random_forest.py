@@ -1,3 +1,4 @@
+
 from pathlib import Path
 
 # Data Processing
@@ -14,11 +15,14 @@ from sklearn.model_selection import RandomizedSearchCV, train_test_split
 from scipy.stats import randint
 
 # Tree Visualisation
-from tqdm import tqdm
+import warnings
+from tqdm import TqdmExperimentalWarning
+from tqdm.rich import tqdm
 from sklearn.tree import plot_tree
 import matplotlib.pyplot as plt
 from pathlib import Path
 
+warnings.filterwarnings("ignore", category=TqdmExperimentalWarning)
 DIR = Path(__file__).resolve().parents[1]
 DIR.mkdir(exist_ok=True)
 
@@ -45,7 +49,7 @@ class random_forest:
         self.val_loss_list = []
 
     def run(self):
-        for i in tqdm(range(1, self.n_tree + 1), desc="Training Forest", unit="tree"):
+        for i in tqdm(range(1, self.n_tree + 1), desc="Training Forest", unit="tree", dynamic_ncols=False):
             self.random_forest.n_estimators = i
             self.random_forest.fit(self.X_train, self.y_train)
 
