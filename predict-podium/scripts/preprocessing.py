@@ -44,4 +44,4 @@ def preprocessing_data(target="podium"):  # ← "podium" oder "position"
     print(df.head())
     print(df.dtypes)
 
-    return X_train, X_test, y_train, y_test # scaler, le  # ← scaler + le mitgeben für User-Input
+    return X_train, X_test, y_train, y_test, scaler, le  # ← scaler + le mitgeben für User-Input

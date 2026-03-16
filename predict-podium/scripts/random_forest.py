@@ -18,7 +18,7 @@ from pathlib import Path
 DIR = Path(__file__).resolve().parents[1]
 DIR.mkdir(exist_ok=True)
 
-X_train, X_test, y_train, y_test = preprocessing_data("podium")
+X_train, X_test, y_train, y_test, scaler, le = preprocessing_data("podium")
 
 rf = RandomForestClassifier()
 rf.fit(X_train, y_train)
