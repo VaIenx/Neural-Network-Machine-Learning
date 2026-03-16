@@ -84,7 +84,7 @@ class FastF1Collector:
 
         self._df = self._df.sort_values('year').reset_index(drop=True)
 
-    def save_to_csv(self, path='DATA.csv'):
+    def save_to_csv(self, path='predict-podium/DATA.csv'):
         if self._df.empty:
             print("DataFrame ist leer – nichts gespeichert.")
             return

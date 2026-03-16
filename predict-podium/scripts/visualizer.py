@@ -275,7 +275,7 @@ class Visualizer:
                      fontsize=14, fontweight='bold')
 
         df_clean = self.df.dropna(subset=['GridPosition', 'Position'])
-        top_grid = sorted(df_clean['GridPosition'].unique())[:20]
+        top_grid = sorted(df_clean['GridPosition'].unique())[:21]
         df_f = df_clean[df_clean['GridPosition'].isin(top_grid)]
 
         pivot = df_f.pivot_table(
@@ -450,6 +450,6 @@ class Visualizer:
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('DATA.csv')
-    viz = Visualizer(df, save_dir='predict-position/plots')
+    df = pd.read_csv('predict-podium/DATA.csv')
+    viz = Visualizer(df, save_dir='predict-podium/plots')
     viz.plot_all()

@@ -146,10 +146,10 @@ Das Modell wird auf Daten von 2022–2024 trainiert. Alle drei Saisons entstamme
 f1-podium-predictor/
 ├── cache/                  # FastF1 Session Cache
 ├── DATA.csv                # Aufbereiteter Rohdatensatz
-├── data_collector.py       # FastF1Collector Klasse
-├── preprocessing.py        # Feature Engineering & Encoding
+├── F1Collector.py          # FastF1Collector Klasse
 ├── model.py                # Modellarchitektur & Training
-├── evaluate.py             # Metriken & Visualisierungen
+├── visualizer.py           # Visualisierungen
+├── plots/                  # Plots des Visualizers
 └── documentation.md        # Diese Dokumentation
 ```
 
