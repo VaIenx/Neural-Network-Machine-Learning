@@ -2,8 +2,11 @@ import fastf1
 import pandas as pd
 from tqdm import tqdm
 import logging
+from pathlib import Path
 
-fastf1.Cache.enable_cache('./cache')
+CACHE_DIR = Path(__file__).resolve().parent / "cache"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+fastf1.Cache.enable_cache(str(CACHE_DIR))
 logging.getLogger('fastf1').setLevel(logging.ERROR)
 
 class FastF1Collector:
