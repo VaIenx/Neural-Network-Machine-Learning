@@ -3,6 +3,7 @@ import preprocessing
 import visualizer
 import model
 import torch
+import os
 
 
 if __name__ == "__main__":
@@ -10,7 +11,7 @@ if __name__ == "__main__":
     viz = visualizer.Visualizer(df, save_dir='predict-podium/plots')
     #viz.plot_all()
 
-    X_train, X_test, y_train, y_test, le, scaler = preprocessing.preprocessing_data()
+    X_train, X_test, y_train, y_test, scaler, le = preprocessing.preprocessing_data()
     net = model.PodiumNet(X_train, X_test, y_train, y_test, epochs=300)
     net.run()
     loss_list, val_loss_list = net.evaluate()
@@ -48,4 +49,5 @@ if __name__ == "__main__":
             else:
                 print(f"Kein Podium ({prob:.1%})")
     while True:
+        os.system('cls')
         UserInput()
