@@ -12,35 +12,6 @@ TSU,AlphaTauri,20.0,14.0,Finished,2.0,87.3745,82.02,2022,Italian Grand Prix,Fals
 LAT,Williams,20.0,9.0,Finished,2.0,109.9115,91.511,2022,Japanese Grand Prix,True
 STR,Aston Martin,20.0,15.0,Finished,2.0,84.3935,80.52,2022,Mexico City Grand Prix,False
 LAT,Williams,20.0,19.0,DNF,2.0,92.228,86.054,2022,Abu Dhabi Grand Prix,False
-GAS,Alpine,20.0,9.0,Finished,3.0,98.147,92.181,2023,Bahrain Grand Prix,False
-SAR,Williams,20.0,16.0,Finished,1.0,96.05,128.51,2023,Saudi Arabian Grand Prix,False
-HUL,Haas F1 Team,20.0,17.0,Finished,1.0,107.678,102.755,2023,Azerbaijan Grand Prix,False
-SAR,Williams,20.0,20.0,Finished,1.0,93.394,88.577,2023,Miami Grand Prix,False
-PER,Red Bull Racing,20.0,16.0,Finished,5.0,79.699,73.85,2023,Monaco Grand Prix,True
-SAR,Williams,20.0,20.0,Finished,2.0,80.8595,74.699,2023,Spanish Grand Prix,False
-ZHO,Alfa Romeo,20.0,16.0,Finished,2.0,78.385,83.342,2023,Canadian Grand Prix,False
-DEV,AlphaTauri,20.0,17.0,Finished,3.0,71.238,65.974,2023,Austrian Grand Prix,True
-BOT,Alfa Romeo,20.0,12.0,Finished,1.0,93.7005,89.798,2023,British Grand Prix,False
-SAR,Williams,20.0,18.0,DNF,2.0,85.238,79.248,2023,Hungarian Grand Prix,False
-HUL,Haas F1 Team,20.0,18.0,Finished,2.0,113.91,123.166,2023,Belgian Grand Prix,True
-STR,Aston Martin,20.0,16.0,Finished,1.0,87.34,82.86,2023,Italian Grand Prix,False
-PER,Red Bull Racing,20.0,10.0,Finished,3.0,88.031,85.462,2023,Qatar Grand Prix,False
-STR,Aston Martin,20.0,7.0,Finished,2.0,101.631,96.589,2023,United States Grand Prix,False
-ZHO,Alfa Romeo,20.0,17.0,DNF,3.0,77.0745,71.275,2023,São Paulo Grand Prix,True
-TSU,AlphaTauri,20.0,18.0,DNF,2.0,100.209,96.447,2023,Las Vegas Grand Prix,False
-GAS,Alpine,20.0,18.0,Finished,3.0,97.6955,90.948,2024,Bahrain Grand Prix,False
-ZHO,Kick Sauber,20.0,18.0,DNF,3.0,99.794,90.143,2024,Japanese Grand Prix,False
-SAR,Williams,20.0,17.0,Finished,2.0,102.645,96.358,2024,Chinese Grand Prix,False
-RIC,RB,20.0,15.0,Finished,1.0,93.98,88.617,2024,Miami Grand Prix,False
-ALO,Aston Martin,20.0,19.0,Finished,3.0,82.686,76.917,2024,Emilia Romagna Grand Prix,False
-ZHO,Kick Sauber,20.0,15.0,Finished,3.0,88.82,74.292,2024,Canadian Grand Prix,True
-ALB,Williams,20.0,18.0,Finished,2.0,81.4535,73.153,2024,Spanish Grand Prix,True
-ZHO,Kick Sauber,20.0,17.0,Finished,2.0,71.793,66.061,2024,Austrian Grand Prix,True
-PER,Red Bull Racing,20.0,17.0,Finished,4.0,93.219,98.348,2024,British Grand Prix,True
-GAS,Alpine,20.0,20.0,DNF,1.0,85.703,78.166,2024,Hungarian Grand Prix,False
-TSU,RB,20.0,16.0,Finished,1.0,109.627,116.593,2024,Belgian Grand Prix,False
-MAG,Haas F1 Team,20.0,18.0,Finished,1.0,76.97,71.295,2024,Dutch Grand Prix,False
-ZHO,Kick Sauber,20.0,18.0,Finished,1.0,85.944,81.445,2024,Italian Grand Prix,False
 STR,Aston Martin,19.0,12.0,Finished,3.0,100.395,93.032,2022,Bahrain Grand Prix,False
 LAT,Williams,19.0,16.0,Finished,1.0,82.8135,81.971,2022,Emilia Romagna Grand Prix,False
 LAT,Williams,19.0,14.0,Finished,1.0,96.566,91.325,2022,Miami Grand Prix,True
@@ -61,40 +32,6 @@ TSU,AlphaTauri,19.0,10.0,Finished,2.0,103.298,97.147,2022,United States Grand Pr
 MAG,Haas F1 Team,19.0,17.0,Finished,1.0,85.07,79.833,2022,Mexico City Grand Prix,False
 ALB,Williams,19.0,15.0,Finished,3.0,77.868,71.631,2022,São Paulo Grand Prix,False
 ALB,Williams,19.0,13.0,Finished,2.0,91.691,86.028,2022,Abu Dhabi Grand Prix,False
-DEV,AlphaTauri,19.0,14.0,Finished,2.0,99.1715,92.121,2023,Bahrain Grand Prix,False
-NOR,McLaren,19.0,17.0,Finished,2.0,95.634,90.447,2023,Saudi Arabian Grand Prix,False
-BOT,Alfa Romeo,19.0,11.0,Finished,6.0,83.539,78.714,2023,Australian Grand Prix,False
-OCO,Alpine,19.0,15.0,Finished,1.0,107.5695,101.798,2023,Azerbaijan Grand Prix,False
-PIA,McLaren,19.0,19.0,Finished,1.0,93.4825,88.484,2023,Miami Grand Prix,False
-ZHO,Alfa Romeo,19.0,13.0,Finished,2.0,80.398,73.523,2023,Monaco Grand Prix,True
-LEC,Ferrari,19.0,11.0,Finished,2.0,80.316,74.079,2023,Spanish Grand Prix,False
-TSU,AlphaTauri,19.0,14.0,Finished,2.0,77.618,82.746,2023,Canadian Grand Prix,False
-MAG,Haas F1 Team,19.0,18.0,Finished,3.0,71.855,65.971,2023,Austrian Grand Prix,True
-MAG,Haas F1 Team,19.0,19.0,DNF,0.0,94.2955,92.378,2023,British Grand Prix,False
-MAG,Haas F1 Team,19.0,17.0,Finished,2.0,85.991,79.206,2023,Hungarian Grand Prix,False
-RIC,AlphaTauri,19.0,16.0,Finished,2.0,113.3735,122.159,2023,Belgian Grand Prix,True
-LAW,AlphaTauri,19.0,13.0,Finished,7.0,77.778,83.42,2023,Dutch Grand Prix,True
-MAG,Haas F1 Team,19.0,18.0,Finished,2.0,87.384,82.592,2023,Italian Grand Prix,False
-ZHO,Alfa Romeo,19.0,12.0,Finished,2.0,100.833,93.258,2023,Singapore Grand Prix,False
-ZHO,Alfa Romeo,19.0,13.0,Finished,3.0,98.8775,91.398,2023,Japanese Grand Prix,False
-ZHO,Alfa Romeo,19.0,9.0,Finished,3.0,88.561,87.432,2023,Qatar Grand Prix,False
-ALO,Aston Martin,19.0,16.0,DNF,2.0,101.905,96.268,2023,United States Grand Prix,False
-SAR,Williams,19.0,11.0,Finished,4.0,76.658,71.035,2023,São Paulo Grand Prix,True
-STR,Aston Martin,19.0,5.0,Finished,2.0,98.75,94.199,2023,Las Vegas Grand Prix,False
-ZHO,Alfa Romeo,19.0,17.0,Finished,2.0,90.772,85.159,2023,Abu Dhabi Grand Prix,False
-OCO,Alpine,19.0,17.0,Finished,2.0,97.8725,90.793,2024,Bahrain Grand Prix,False
-SAR,Williams,19.0,14.0,Finished,1.0,95.601,89.526,2024,Saudi Arabian Grand Prix,False
-ZHO,Kick Sauber,19.0,15.0,Finished,2.0,83.1525,78.188,2024,Australian Grand Prix,False
-SAR,Williams,19.0,17.0,Finished,4.0,98.13,90.139,2024,Japanese Grand Prix,False
-TSU,RB,19.0,19.0,DNF,2.0,103.174,95.746,2024,Chinese Grand Prix,False
-ZHO,Kick Sauber,19.0,14.0,Finished,1.0,93.703,88.824,2024,Miami Grand Prix,False
-BOT,Kick Sauber,19.0,13.0,Finished,1.0,88.408,73.366,2024,Canadian Grand Prix,True
-SAR,Williams,19.0,20.0,Finished,2.0,82.189,73.509,2024,Spanish Grand Prix,True
-SAR,Williams,19.0,19.0,Finished,3.0,71.968,65.856,2024,Austrian Grand Prix,True
-OCO,Alpine,19.0,18.0,Finished,3.0,85.038,78.049,2024,Hungarian Grand Prix,False
-ZHO,Kick Sauber,19.0,19.0,DNF,0.0,112.2375,117.775,2024,Belgian Grand Prix,False
-ALB,Williams,19.0,14.0,Finished,2.0,76.456,70.653,2024,Dutch Grand Prix,False
-BOT,Kick Sauber,19.0,16.0,Finished,1.0,86.317,81.101,2024,Italian Grand Prix,False
 RIC,McLaren,18.0,14.0,Finished,3.0,100.627,92.945,2022,Bahrain Grand Prix,False
 LAT,Williams,18.0,18.0,DNF,0.0,98.161,91.817,2022,Saudi Arabian Grand Prix,False
 LAT,Williams,18.0,16.0,Finished,2.0,85.375,81.372,2022,Australian Grand Prix,False
@@ -116,42 +53,6 @@ ZHO,Alfa Romeo,18.0,12.0,Finished,2.0,104.066,96.97,2022,United States Grand Pri
 LAT,Williams,18.0,18.0,Finished,2.0,85.389,81.167,2022,Mexico City Grand Prix,False
 LAT,Williams,18.0,16.0,Finished,3.0,77.863,75.095,2022,São Paulo Grand Prix,False
 BOT,Alfa Romeo,18.0,15.0,Finished,1.0,92.561,85.892,2022,Abu Dhabi Grand Prix,False
-PIA,McLaren,18.0,20.0,DNF,0.0,101.1615,92.101,2023,Bahrain Grand Prix,False
-DEV,AlphaTauri,18.0,14.0,Finished,1.0,95.7675,90.244,2023,Saudi Arabian Grand Prix,False
-SAR,Williams,18.0,16.0,DNF,6.0,84.059,78.557,2023,Australian Grand Prix,False
-DEV,AlphaTauri,18.0,20.0,DNF,0.0,109.295,115.282,2023,Azerbaijan Grand Prix,False
-STR,Aston Martin,18.0,12.0,Finished,1.0,92.999,88.476,2023,Miami Grand Prix,False
-HUL,Haas F1 Team,18.0,17.0,Finished,3.0,79.732,73.279,2023,Monaco Grand Prix,True
-ALB,Williams,18.0,16.0,Finished,2.0,80.762,74.063,2023,Spanish Grand Prix,False
-SAR,Williams,18.0,20.0,DNF,0.0,79.166,83.337,2023,Canadian Grand Prix,False
-SAR,Williams,18.0,13.0,Finished,3.0,71.1655,65.948,2023,Austrian Grand Prix,True
-DEV,AlphaTauri,18.0,17.0,Finished,2.0,93.7085,90.513,2023,British Grand Prix,False
-RUS,Mercedes,18.0,6.0,Finished,2.0,83.9285,79.027,2023,Hungarian Grand Prix,False
-SAR,Williams,18.0,17.0,Finished,3.0,113.982,121.535,2023,Belgian Grand Prix,True
-BOT,Alfa Romeo,18.0,14.0,Finished,5.0,78.0,82.26,2023,Dutch Grand Prix,True
-OCO,Alpine,18.0,19.0,DNF,1.0,87.5945,82.548,2023,Italian Grand Prix,False
-SAR,Williams,18.0,14.0,Finished,2.0,100.207,93.252,2023,Singapore Grand Prix,False
-HUL,Haas F1 Team,18.0,14.0,Finished,3.0,98.605,91.299,2023,Japanese Grand Prix,False
-MAG,Haas F1 Team,18.0,14.0,Finished,3.0,88.761,87.046,2023,Qatar Grand Prix,False
-HUL,Haas F1 Team,18.0,11.0,Finished,2.0,102.65,96.235,2023,United States Grand Prix,False
-TSU,AlphaTauri,18.0,12.0,Finished,2.0,83.963,78.89,2023,Mexico City Grand Prix,False
-BOT,Alfa Romeo,18.0,16.0,DNF,3.0,77.022,70.955,2023,São Paulo Grand Prix,True
-PIA,McLaren,18.0,10.0,Finished,2.0,97.8375,94.85,2023,Las Vegas Grand Prix,False
-BOT,Alfa Romeo,18.0,19.0,Finished,1.0,91.308,84.788,2023,Abu Dhabi Grand Prix,False
-SAR,Williams,18.0,20.0,Finished,3.0,97.621,90.77,2024,Bahrain Grand Prix,False
-RIC,RB,18.0,12.0,Finished,2.0,83.058,78.085,2024,Australian Grand Prix,False
-MAG,Haas F1 Team,18.0,13.0,Finished,2.0,98.415,90.131,2024,Japanese Grand Prix,False
-HAM,Mercedes,18.0,9.0,Finished,2.0,101.912,95.573,2024,Chinese Grand Prix,False
-MAG,Haas F1 Team,18.0,19.0,Finished,3.0,93.148,88.619,2024,Miami Grand Prix,False
-MAG,Haas F1 Team,18.0,12.0,Finished,1.0,82.8055,76.854,2024,Emilia Romagna Grand Prix,False
-ZHO,Kick Sauber,18.0,16.0,Finished,2.0,80.954,73.028,2024,Monaco Grand Prix,False
-OCO,Alpine,18.0,10.0,Finished,1.0,88.0575,73.435,2024,Canadian Grand Prix,True
-RIC,RB,18.0,15.0,Finished,2.0,81.337,73.075,2024,Spanish Grand Prix,True
-BOT,Kick Sauber,18.0,16.0,Finished,2.0,71.62,65.847,2024,Austrian Grand Prix,True
-OCO,Alpine,18.0,16.0,Finished,4.0,94.6875,94.557,2024,British Grand Prix,True
-ZHO,Kick Sauber,18.0,19.0,Finished,2.0,85.483,78.037,2024,Hungarian Grand Prix,False
-SAR,Williams,18.0,17.0,Finished,2.0,109.815,117.23,2024,Belgian Grand Prix,False
-COL,Williams,18.0,12.0,Finished,1.0,85.128,81.061,2024,Italian Grand Prix,False
 HUL,Aston Martin,17.0,17.0,Finished,3.0,100.815,92.777,2022,Bahrain Grand Prix,False
 HUL,Aston Martin,17.0,12.0,Finished,1.0,96.5245,90.543,2022,Saudi Arabian Grand Prix,False
 VET,Aston Martin,17.0,19.0,DNF,0.0,86.179,81.149,2022,Australian Grand Prix,False
@@ -174,44 +75,6 @@ LAT,Williams,17.0,17.0,Finished,2.0,104.563,97.244,2022,United States Grand Prix
 ALB,Williams,17.0,12.0,Finished,1.0,84.797,80.859,2022,Mexico City Grand Prix,False
 ALO,Alpine,17.0,5.0,Finished,3.0,76.845,72.504,2022,São Paulo Grand Prix,False
 GAS,AlphaTauri,17.0,14.0,Finished,1.0,92.05,85.859,2022,Abu Dhabi Grand Prix,False
-MAG,Haas F1 Team,17.0,13.0,Finished,3.0,98.791,91.892,2023,Bahrain Grand Prix,False
-ALB,Williams,17.0,19.0,DNF,1.0,96.9385,89.994,2023,Saudi Arabian Grand Prix,False
-ZHO,Alfa Romeo,17.0,9.0,Finished,5.0,83.374,78.54,2023,Australian Grand Prix,False
-GAS,Alpine,17.0,14.0,Finished,2.0,107.206,104.853,2023,Azerbaijan Grand Prix,False
-TSU,AlphaTauri,17.0,11.0,Finished,1.0,92.959,88.429,2023,Miami Grand Prix,False
-MAG,Haas F1 Team,17.0,19.0,DNF,1.0,79.8795,73.27,2023,Monaco Grand Prix,True
-MAG,Haas F1 Team,17.0,18.0,Finished,3.0,80.401,74.042,2023,Spanish Grand Prix,False
-DEV,AlphaTauri,17.0,18.0,Finished,2.0,78.438,83.137,2023,Canadian Grand Prix,False
-ZHO,Alfa Romeo,17.0,12.0,Finished,3.0,71.053,65.818,2023,Austrian Grand Prix,True
-ZHO,Alfa Romeo,17.0,15.0,Finished,3.0,93.7025,90.123,2023,British Grand Prix,False
-TSU,AlphaTauri,17.0,15.0,Finished,2.0,85.519,78.919,2023,Hungarian Grand Prix,False
-ZHO,Alfa Romeo,17.0,13.0,Finished,2.0,113.3745,120.832,2023,Belgian Grand Prix,True
-TSU,AlphaTauri,17.0,15.0,Finished,5.0,77.283,80.23,2023,Dutch Grand Prix,True
-GAS,Alpine,17.0,15.0,Finished,2.0,87.189,82.545,2023,Italian Grand Prix,False
-PIA,McLaren,17.0,7.0,Finished,1.0,100.5935,92.902,2023,Singapore Grand Prix,False
-STR,Aston Martin,17.0,18.0,DNF,1.0,100.052,91.181,2023,Japanese Grand Prix,False
-LAW,AlphaTauri,17.0,17.0,Finished,3.0,89.47,86.635,2023,Qatar Grand Prix,False
-MAG,Haas F1 Team,17.0,14.0,Finished,2.0,103.119,95.88,2023,United States Grand Prix,False
-NOR,McLaren,17.0,5.0,Finished,3.0,83.3825,81.554,2023,Mexico City Grand Prix,False
-RIC,AlphaTauri,17.0,13.0,Finished,4.0,76.139,70.843,2023,São Paulo Grand Prix,True
-ZHO,Alfa Romeo,17.0,15.0,Finished,1.0,99.6225,94.849,2023,Las Vegas Grand Prix,False
-MAG,Haas F1 Team,17.0,20.0,Finished,2.0,90.631,84.764,2023,Abu Dhabi Grand Prix,False
-ZHO,Kick Sauber,17.0,11.0,Finished,2.0,97.4055,90.757,2024,Bahrain Grand Prix,False
-OCO,Alpine,17.0,13.0,Finished,1.0,95.432,89.475,2024,Saudi Arabian Grand Prix,False
-GAS,Alpine,17.0,13.0,Finished,2.0,83.225,77.982,2024,Australian Grand Prix,False
-GAS,Alpine,17.0,16.0,Finished,3.0,98.827,90.119,2024,Japanese Grand Prix,False
-MAG,Haas F1 Team,17.0,16.0,Finished,2.0,103.2295,95.516,2024,Chinese Grand Prix,False
-SAR,Williams,17.0,20.0,DNF,1.0,93.9275,88.487,2024,Miami Grand Prix,False
-ZHO,Kick Sauber,17.0,15.0,Finished,1.0,82.9565,76.834,2024,Emilia Romagna Grand Prix,False
-BOT,Kick Sauber,17.0,13.0,Finished,2.0,80.4935,72.512,2024,Monaco Grand Prix,False
-HUL,Haas F1 Team,17.0,11.0,Finished,3.0,87.6055,73.978,2024,Canadian Grand Prix,True
-TSU,RB,17.0,19.0,Finished,3.0,81.475,72.985,2024,Spanish Grand Prix,True
-STR,Aston Martin,17.0,13.0,Finished,2.0,71.482,65.819,2024,Austrian Grand Prix,True
-MAG,Haas F1 Team,17.0,12.0,Finished,2.0,93.208,92.905,2024,British Grand Prix,True
-RUS,Mercedes,17.0,8.0,Finished,2.0,83.8215,77.968,2024,Hungarian Grand Prix,False
-MAG,Haas F1 Team,17.0,14.0,Finished,1.0,109.777,116.5,2024,Belgian Grand Prix,False
-ZHO,Kick Sauber,17.0,20.0,Finished,2.0,77.555,73.261,2024,Dutch Grand Prix,False
-STR,Aston Martin,17.0,19.0,Finished,3.0,85.2305,81.013,2024,Italian Grand Prix,False
 TSU,AlphaTauri,16.0,8.0,Finished,3.0,99.574,92.75,2022,Bahrain Grand Prix,False
 ALB,Williams,16.0,14.0,DNF,1.0,96.801,90.492,2022,Saudi Arabian Grand Prix,False
 MAG,Haas F1 Team,16.0,14.0,Finished,1.0,85.421,80.254,2022,Australian Grand Prix,False
@@ -232,43 +95,6 @@ MSC,Haas F1 Team,16.0,15.0,Finished,2.0,103.6775,97.111,2022,United States Grand
 VET,Aston Martin,16.0,14.0,Finished,1.0,84.883,80.419,2022,Mexico City Grand Prix,False
 OCO,Alpine,16.0,8.0,Finished,2.0,77.135,72.425,2022,São Paulo Grand Prix,False
 MAG,Haas F1 Team,16.0,17.0,Finished,1.0,92.653,85.834,2022,Abu Dhabi Grand Prix,False
-SAR,Williams,16.0,12.0,Finished,3.0,99.1095,91.652,2023,Bahrain Grand Prix,False
-TSU,AlphaTauri,16.0,11.0,Finished,1.0,95.4525,89.939,2023,Saudi Arabian Grand Prix,False
-PIA,McLaren,16.0,8.0,Finished,4.0,82.995,78.517,2023,Australian Grand Prix,False
-MAG,Haas F1 Team,16.0,13.0,Finished,1.0,107.722,103.417,2023,Azerbaijan Grand Prix,False
-NOR,McLaren,16.0,17.0,Finished,1.0,93.14,88.394,2023,Miami Grand Prix,False
-SAR,Williams,16.0,18.0,Finished,3.0,80.4025,73.113,2023,Monaco Grand Prix,True
-BOT,Alfa Romeo,16.0,19.0,Finished,2.0,81.205,73.977,2023,Spanish Grand Prix,False
-STR,Aston Martin,16.0,9.0,Finished,2.0,77.3625,81.484,2023,Canadian Grand Prix,False
-TSU,AlphaTauri,16.0,19.0,Finished,4.0,71.073,65.784,2023,Austrian Grand Prix,True
-TSU,AlphaTauri,16.0,16.0,Finished,2.0,93.277,90.025,2023,British Grand Prix,False
-ALB,Williams,16.0,11.0,Finished,2.0,84.834,78.917,2023,Hungarian Grand Prix,False
-MAG,Haas F1 Team,16.0,15.0,Finished,2.0,113.8235,114.16,2023,Belgian Grand Prix,True
-OCO,Alpine,16.0,10.0,Finished,6.0,76.743,82.11,2023,Dutch Grand Prix,True
-ZHO,Alfa Romeo,16.0,14.0,Finished,2.0,87.153,82.39,2023,Italian Grand Prix,False
-BOT,Alfa Romeo,16.0,17.0,DNF,1.0,101.288,92.809,2023,Singapore Grand Prix,False
-BOT,Alfa Romeo,16.0,20.0,DNF,2.0,122.755,91.049,2023,Japanese Grand Prix,False
-STR,Aston Martin,16.0,11.0,Finished,3.0,88.522,86.345,2023,Qatar Grand Prix,False
-SAR,Williams,16.0,10.0,Finished,2.0,102.735,96.827,2023,United States Grand Prix,False
-MAG,Haas F1 Team,16.0,19.0,DNF,1.0,85.1695,79.163,2023,Mexico City Grand Prix,False
-TSU,AlphaTauri,16.0,9.0,Finished,4.0,76.142,70.837,2023,São Paulo Grand Prix,True
-OCO,Alpine,16.0,4.0,Finished,1.0,97.732,94.834,2023,Las Vegas Grand Prix,False
-SAI,Ferrari,16.0,18.0,DNF,2.0,90.228,84.738,2023,Abu Dhabi Grand Prix,False
-BOT,Kick Sauber,16.0,19.0,Finished,2.0,97.7695,90.756,2024,Bahrain Grand Prix,False
-BOT,Kick Sauber,16.0,17.0,Finished,2.0,95.619,89.179,2024,Saudi Arabian Grand Prix,False
-HUL,Haas F1 Team,16.0,9.0,Finished,2.0,82.901,77.976,2024,Australian Grand Prix,False
-STR,Aston Martin,16.0,12.0,Finished,4.0,97.681,90.024,2024,Japanese Grand Prix,False
-ZHO,Kick Sauber,16.0,14.0,Finished,3.0,102.107,95.505,2024,Chinese Grand Prix,False
-BOT,Kick Sauber,16.0,16.0,Finished,2.0,93.561,88.463,2024,Miami Grand Prix,False
-BOT,Kick Sauber,16.0,18.0,Finished,1.0,82.737,76.626,2024,Emilia Romagna Grand Prix,False
-PER,Red Bull Racing,16.0,18.0,DNF,2.0,88.718,73.326,2024,Canadian Grand Prix,True
-MAG,Haas F1 Team,16.0,17.0,Finished,2.0,81.287,72.937,2024,Spanish Grand Prix,True
-ALB,Williams,16.0,15.0,Finished,2.0,71.4875,65.736,2024,Austrian Grand Prix,True
-BOT,Kick Sauber,16.0,15.0,Finished,2.0,93.967,92.431,2024,British Grand Prix,True
-PER,Red Bull Racing,16.0,7.0,Finished,2.0,83.485,77.886,2024,Hungarian Grand Prix,False
-HUL,Haas F1 Team,16.0,18.0,Finished,2.0,109.6805,116.308,2024,Belgian Grand Prix,False
-BOT,Kick Sauber,16.0,19.0,Finished,2.0,76.887,72.168,2024,Dutch Grand Prix,False
-TSU,RB,16.0,20.0,DNF,0.0,88.0055,80.945,2024,Italian Grand Prix,False
 ZHO,Alfa Romeo,15.0,10.0,Finished,3.0,99.842,93.543,2022,Bahrain Grand Prix,False
 HAM,Mercedes,15.0,10.0,Finished,1.0,95.6555,90.343,2022,Saudi Arabian Grand Prix,False
 MSC,Haas F1 Team,15.0,13.0,Finished,1.0,84.868,80.465,2022,Australian Grand Prix,False
@@ -291,42 +117,6 @@ RIC,McLaren,15.0,16.0,Finished,2.0,104.2455,97.046,2022,United States Grand Prix
 MSC,Haas F1 Team,15.0,16.0,Finished,1.0,84.4985,80.419,2022,Mexico City Grand Prix,False
 STR,Aston Martin,15.0,10.0,Finished,2.0,77.731,72.21,2022,São Paulo Grand Prix,False
 ZHO,Alfa Romeo,15.0,12.0,Finished,2.0,91.687,85.408,2022,Abu Dhabi Grand Prix,False
-ALB,Williams,15.0,10.0,Finished,3.0,98.176,91.461,2023,Bahrain Grand Prix,False
-VER,Red Bull Racing,15.0,2.0,Finished,1.0,93.193,109.953,2023,Saudi Arabian Grand Prix,False
-DEV,AlphaTauri,15.0,15.0,DNF,4.0,84.2065,78.335,2023,Australian Grand Prix,False
-ZHO,Alfa Romeo,15.0,19.0,DNF,1.0,108.394,102.642,2023,Azerbaijan Grand Prix,False
-DEV,AlphaTauri,15.0,18.0,Finished,1.0,92.945,88.395,2023,Miami Grand Prix,False
-BOT,Alfa Romeo,15.0,11.0,Finished,1.0,80.07,72.625,2023,Monaco Grand Prix,True
-TSU,AlphaTauri,15.0,12.0,Finished,2.0,80.1915,74.477,2023,Spanish Grand Prix,False
-GAS,Alpine,15.0,12.0,Finished,2.0,77.3645,82.886,2023,Canadian Grand Prix,False
-PER,Red Bull Racing,15.0,3.0,Finished,3.0,69.58,126.688,2023,Austrian Grand Prix,True
-PER,Red Bull Racing,15.0,6.0,Finished,1.0,93.2475,89.968,2023,British Grand Prix,False
-ALB,Williams,15.0,14.0,Finished,3.0,113.454,120.314,2023,Belgian Grand Prix,True
-ZHO,Alfa Romeo,15.0,18.0,DNF,4.0,77.181,82.067,2023,Dutch Grand Prix,True
-SAR,Williams,15.0,13.0,Finished,1.0,87.293,81.944,2023,Italian Grand Prix,False
-MAG,Haas F1 Team,15.0,15.0,Finished,2.0,99.2485,90.665,2023,Japanese Grand Prix,False
-SAR,Williams,15.0,18.0,DNF,2.0,89.532,86.21,2023,Qatar Grand Prix,False
-ALB,Williams,15.0,9.0,Finished,2.0,102.882,96.315,2023,United States Grand Prix,False
-OCO,Alpine,15.0,10.0,Finished,1.0,84.658,79.08,2023,Mexico City Grand Prix,False
-GAS,Alpine,15.0,7.0,Finished,4.0,76.082,70.567,2023,São Paulo Grand Prix,True
-NOR,McLaren,15.0,20.0,DNF,0.0,119.327,94.703,2023,Las Vegas Grand Prix,False
-RIC,AlphaTauri,15.0,11.0,Finished,2.0,90.283,84.442,2023,Abu Dhabi Grand Prix,False
-MAG,Haas F1 Team,15.0,12.0,Finished,2.0,97.7705,90.529,2024,Bahrain Grand Prix,False
-HUL,Haas F1 Team,15.0,10.0,Finished,1.0,94.6495,89.055,2024,Saudi Arabian Grand Prix,False
-OCO,Alpine,15.0,16.0,Finished,3.0,82.921,77.697,2024,Australian Grand Prix,False
-OCO,Alpine,15.0,15.0,Finished,3.0,98.7325,89.816,2024,Japanese Grand Prix,False
-GAS,Alpine,15.0,13.0,Finished,3.0,101.8895,95.463,2024,Chinese Grand Prix,False
-ALO,Aston Martin,15.0,9.0,Finished,1.0,93.648,88.427,2024,Miami Grand Prix,False
-GAS,Alpine,15.0,16.0,Finished,2.0,82.395,76.381,2024,Emilia Romagna Grand Prix,False
-SAR,Williams,15.0,15.0,Finished,2.0,80.851,72.02,2024,Monaco Grand Prix,False
-GAS,Alpine,15.0,9.0,Finished,2.0,87.869,72.94,2024,Canadian Grand Prix,True
-ZHO,Kick Sauber,15.0,13.0,Finished,2.0,81.23,72.738,2024,Spanish Grand Prix,True
-ALO,Aston Martin,15.0,18.0,Finished,3.0,71.503,65.639,2024,Austrian Grand Prix,True
-RIC,RB,15.0,13.0,Finished,2.0,93.429,87.949,2024,British Grand Prix,True
-MAG,Haas F1 Team,15.0,15.0,Finished,2.0,85.336,76.548,2024,Hungarian Grand Prix,False
-STR,Aston Martin,15.0,11.0,Finished,1.0,109.5995,115.716,2024,Belgian Grand Prix,False
-OCO,Alpine,15.0,15.0,Finished,1.0,77.218,71.995,2024,Dutch Grand Prix,False
-OCO,Alpine,15.0,14.0,Finished,1.0,86.019,80.766,2024,Italian Grand Prix,False
 ALB,Williams,14.0,13.0,Finished,3.0,100.8,92.664,2022,Bahrain Grand Prix,False
 RIC,McLaren,14.0,17.0,DNF,1.0,95.955,89.773,2022,Saudi Arabian Grand Prix,False
 ZHO,Alfa Romeo,14.0,11.0,Finished,1.0,85.3895,80.155,2022,Australian Grand Prix,False
@@ -349,43 +139,6 @@ ALO,Alpine,14.0,7.0,Finished,2.0,103.5085,95.876,2022,United States Grand Prix,F
 GAS,AlphaTauri,14.0,11.0,Finished,1.0,84.7515,79.672,2022,Mexico City Grand Prix,False
 BOT,Alfa Romeo,14.0,9.0,Finished,2.0,77.081,75.486,2022,São Paulo Grand Prix,False
 STR,Aston Martin,14.0,8.0,Finished,2.0,91.161,85.359,2022,Abu Dhabi Grand Prix,False
-TSU,AlphaTauri,14.0,11.0,Finished,3.0,98.163,92.51,2023,Bahrain Grand Prix,False
-BOT,Alfa Romeo,14.0,18.0,Finished,3.0,96.259,89.668,2023,Saudi Arabian Grand Prix,False
-MAG,Haas F1 Team,14.0,17.0,DNF,2.0,83.304,78.129,2023,Australian Grand Prix,False
-SAR,Williams,14.0,16.0,Finished,1.0,108.044,102.395,2023,Azerbaijan Grand Prix,False
-ZHO,Alfa Romeo,14.0,16.0,Finished,1.0,93.302,88.091,2023,Miami Grand Prix,False
-STR,Aston Martin,14.0,20.0,DNF,1.0,79.2225,72.623,2023,Monaco Grand Prix,True
-DEV,AlphaTauri,14.0,14.0,Finished,2.0,80.553,74.083,2023,Spanish Grand Prix,False
-BOT,Alfa Romeo,14.0,10.0,Finished,1.0,77.86,81.821,2023,Canadian Grand Prix,False
-BOT,Alfa Romeo,14.0,15.0,Finished,3.0,70.7265,65.68,2023,Austrian Grand Prix,True
-SAR,Williams,14.0,11.0,Finished,1.0,93.628,89.031,2023,British Grand Prix,False
-STR,Aston Martin,14.0,10.0,Finished,2.0,84.689,78.144,2023,Hungarian Grand Prix,False
-OCO,Alpine,14.0,8.0,Finished,2.0,112.8445,116.372,2023,Belgian Grand Prix,True
-HUL,Haas F1 Team,14.0,12.0,Finished,5.0,77.593,80.25,2023,Dutch Grand Prix,True
-BOT,Alfa Romeo,14.0,10.0,Finished,1.0,87.203,81.94,2023,Italian Grand Prix,False
-ALB,Williams,14.0,11.0,Finished,2.0,100.826,93.719,2023,Singapore Grand Prix,False
-OCO,Alpine,14.0,9.0,Finished,2.0,98.758,90.586,2023,Japanese Grand Prix,False
-HUL,Haas F1 Team,14.0,16.0,Finished,3.0,88.8455,85.783,2023,Qatar Grand Prix,False
-RIC,AlphaTauri,14.0,15.0,Finished,2.0,103.395,95.974,2023,United States Grand Prix,False
-ALB,Williams,14.0,9.0,Finished,2.0,84.1675,79.147,2023,Mexico City Grand Prix,False
-OCO,Alpine,14.0,10.0,Finished,5.0,76.252,70.562,2023,São Paulo Grand Prix,True
-RIC,AlphaTauri,14.0,14.0,Finished,1.0,99.479,94.308,2023,Las Vegas Grand Prix,False
-ALB,Williams,14.0,14.0,Finished,2.0,90.455,84.439,2023,Abu Dhabi Grand Prix,False
-RIC,RB,14.0,13.0,Finished,2.0,97.758,90.278,2024,Bahrain Grand Prix,False
-RIC,RB,14.0,16.0,Finished,1.0,95.649,89.025,2024,Saudi Arabian Grand Prix,False
-MAG,Haas F1 Team,14.0,10.0,Finished,2.0,83.198,77.427,2024,Australian Grand Prix,False
-ALB,Williams,14.0,12.0,Finished,2.0,102.516,95.241,2024,Chinese Grand Prix,False
-ALB,Williams,14.0,18.0,Finished,2.0,93.683,88.413,2024,Miami Grand Prix,False
-ALB,Williams,14.0,20.0,DNF,4.0,81.839,76.2,2024,Emilia Romagna Grand Prix,False
-ALO,Aston Martin,14.0,11.0,Finished,1.0,80.639,72.019,2024,Monaco Grand Prix,False
-MAG,Haas F1 Team,14.0,12.0,Finished,4.0,87.7195,72.916,2024,Canadian Grand Prix,True
-STR,Aston Martin,14.0,14.0,Finished,2.0,81.262,72.372,2024,Spanish Grand Prix,True
-TSU,RB,14.0,14.0,Finished,2.0,71.5275,65.412,2024,Austrian Grand Prix,True
-ZHO,Kick Sauber,14.0,18.0,Finished,4.0,95.107,87.867,2024,British Grand Prix,True
-SAR,Williams,14.0,17.0,Finished,3.0,85.083,76.543,2024,Hungarian Grand Prix,False
-BOT,Kick Sauber,14.0,15.0,Finished,2.0,109.674,114.764,2024,Belgian Grand Prix,False
-HAM,Mercedes,14.0,8.0,Finished,2.0,75.27,70.948,2024,Dutch Grand Prix,False
-GAS,Alpine,14.0,15.0,Finished,2.0,85.316,80.738,2024,Italian Grand Prix,False
 NOR,McLaren,13.0,15.0,Finished,3.0,101.658,92.008,2022,Bahrain Grand Prix,False
 STR,Aston Martin,13.0,13.0,Finished,1.0,96.685,91.009,2022,Saudi Arabian Grand Prix,False
 TSU,AlphaTauri,13.0,15.0,Finished,1.0,85.428,79.424,2022,Australian Grand Prix,False
@@ -407,43 +160,6 @@ MAG,Haas F1 Team,13.0,9.0,Finished,1.0,103.8765,96.949,2022,United States Grand 
 TSU,AlphaTauri,13.0,20.0,DNF,1.0,84.691,79.589,2022,Mexico City Grand Prix,False
 ZHO,Alfa Romeo,13.0,12.0,Finished,2.0,77.507,75.197,2022,São Paulo Grand Prix,False
 RIC,McLaren,13.0,9.0,Finished,1.0,91.322,85.045,2022,Abu Dhabi Grand Prix,False
-ZHO,Alfa Romeo,13.0,16.0,Finished,3.0,99.232,91.473,2023,Bahrain Grand Prix,False
-MAG,Haas F1 Team,13.0,10.0,Finished,1.0,95.475,89.634,2023,Saudi Arabian Grand Prix,False
-NOR,McLaren,13.0,6.0,Finished,3.0,82.4205,78.119,2023,Australian Grand Prix,False
-BOT,Alfa Romeo,13.0,18.0,Finished,3.0,108.1885,102.259,2023,Azerbaijan Grand Prix,False
-HAM,Mercedes,13.0,6.0,Finished,1.0,92.878,87.975,2023,Miami Grand Prix,False
-ALB,Williams,13.0,14.0,Finished,2.0,80.259,72.527,2023,Monaco Grand Prix,True
-ZHO,Alfa Romeo,13.0,9.0,Finished,2.0,80.353,73.521,2023,Spanish Grand Prix,False
-MAG,Haas F1 Team,13.0,17.0,Finished,2.0,78.494,81.678,2023,Canadian Grand Prix,False
-PIA,McLaren,13.0,16.0,Finished,4.0,70.8945,65.605,2023,Austrian Grand Prix,True
-OCO,Alpine,13.0,20.0,DNF,0.0,94.2295,88.956,2023,British Grand Prix,False
-RIC,AlphaTauri,13.0,13.0,Finished,2.0,84.496,78.002,2023,Hungarian Grand Prix,False
-BOT,Alfa Romeo,13.0,12.0,Finished,2.0,113.4125,114.694,2023,Belgian Grand Prix,True
-HAM,Mercedes,13.0,6.0,Finished,5.0,76.7805,80.151,2023,Dutch Grand Prix,True
-HUL,Haas F1 Team,13.0,17.0,Finished,2.0,87.294,81.776,2023,Italian Grand Prix,False
-PER,Red Bull Racing,13.0,8.0,Finished,1.0,100.6655,92.31,2023,Singapore Grand Prix,False
-ALB,Williams,13.0,16.0,DNF,2.0,100.286,90.537,2023,Japanese Grand Prix,False
-ALB,Williams,13.0,13.0,Finished,3.0,88.358,85.707,2023,Qatar Grand Prix,False
-BOT,Alfa Romeo,13.0,12.0,Finished,2.0,102.91,95.858,2023,United States Grand Prix,False
-ALO,Aston Martin,13.0,18.0,Finished,2.0,85.268,78.738,2023,Mexico City Grand Prix,False
-HUL,Haas F1 Team,13.0,19.0,DNF,2.0,99.004,93.979,2023,Las Vegas Grand Prix,False
-STR,Aston Martin,13.0,10.0,Finished,2.0,90.248,84.422,2023,Abu Dhabi Grand Prix,False
-ALB,Williams,13.0,15.0,Finished,2.0,97.874,90.221,2024,Bahrain Grand Prix,False
-MAG,Haas F1 Team,13.0,12.0,Finished,1.0,95.46,89.02,2024,Saudi Arabian Grand Prix,False
-BOT,Kick Sauber,13.0,14.0,Finished,2.0,82.934,77.34,2024,Australian Grand Prix,False
-BOT,Kick Sauber,13.0,14.0,Finished,3.0,98.0325,89.593,2024,Japanese Grand Prix,False
-OCO,Alpine,13.0,11.0,Finished,2.0,101.993,95.223,2024,Chinese Grand Prix,False
-OCO,Alpine,13.0,10.0,Finished,1.0,93.585,88.371,2024,Miami Grand Prix,False
-STR,Aston Martin,13.0,9.0,Finished,1.0,82.392,75.992,2024,Emilia Romagna Grand Prix,False
-STR,Aston Martin,13.0,14.0,Finished,3.0,79.828,71.563,2024,Monaco Grand Prix,False
-SAR,Williams,13.0,20.0,DNF,0.0,90.012,72.736,2024,Canadian Grand Prix,True
-HUL,Haas F1 Team,13.0,11.0,Finished,2.0,80.9755,72.31,2024,Spanish Grand Prix,True
-GAS,Alpine,13.0,10.0,Finished,2.0,71.213,65.359,2024,Austrian Grand Prix,True
-TSU,RB,13.0,10.0,Finished,2.0,93.0465,87.269,2024,British Grand Prix,True
-ALB,Williams,13.0,14.0,Finished,2.0,84.892,76.429,2024,Hungarian Grand Prix,False
-RIC,RB,13.0,10.0,Finished,2.0,109.0115,114.682,2024,Belgian Grand Prix,False
-RIC,RB,13.0,12.0,Finished,1.0,76.259,71.943,2024,Dutch Grand Prix,False
-MAG,Haas F1 Team,13.0,10.0,Finished,1.0,84.799,80.698,2024,Italian Grand Prix,False
 MSC,Haas F1 Team,12.0,11.0,Finished,2.0,100.62,91.998,2022,Bahrain Grand Prix,False
 ZHO,Alfa Romeo,12.0,11.0,Finished,2.0,96.151,89.819,2022,Saudi Arabian Grand Prix,False
 BOT,Alfa Romeo,12.0,8.0,Finished,1.0,85.028,79.41,2022,Australian Grand Prix,False
@@ -466,42 +182,6 @@ LEC,Ferrari,12.0,3.0,Finished,2.0,101.5735,94.421,2022,United States Grand Prix,
 ZHO,Alfa Romeo,12.0,13.0,Finished,1.0,84.789,79.476,2022,Mexico City Grand Prix,False
 MSC,Haas F1 Team,12.0,13.0,Finished,2.0,77.434,76.361,2022,São Paulo Grand Prix,False
 MSC,Haas F1 Team,12.0,16.0,Finished,2.0,92.045,85.225,2022,Abu Dhabi Grand Prix,False
-BOT,Alfa Romeo,12.0,8.0,Finished,2.0,98.407,91.443,2023,Bahrain Grand Prix,False
-LEC,Ferrari,12.0,7.0,Finished,1.0,94.691,88.42,2023,Saudi Arabian Grand Prix,False
-TSU,AlphaTauri,12.0,10.0,Finished,4.0,83.629,78.099,2023,Australian Grand Prix,False
-ALB,Williams,12.0,12.0,Finished,1.0,107.776,101.818,2023,Azerbaijan Grand Prix,False
-HUL,Haas F1 Team,12.0,15.0,Finished,1.0,93.05,87.903,2023,Miami Grand Prix,False
-DEV,AlphaTauri,12.0,12.0,Finished,1.0,79.973,72.428,2023,Monaco Grand Prix,True
-RUS,Mercedes,12.0,3.0,Finished,2.0,79.5285,73.447,2023,Spanish Grand Prix,False
-PER,Red Bull Racing,12.0,6.0,Finished,2.0,77.52,80.959,2023,Canadian Grand Prix,False
-OCO,Alpine,12.0,14.0,Finished,3.0,70.9755,65.453,2023,Austrian Grand Prix,True
-STR,Aston Martin,12.0,14.0,Finished,1.0,93.75,88.935,2023,British Grand Prix,False
-OCO,Alpine,12.0,19.0,DNF,0.0,106.965,77.841,2023,Hungarian Grand Prix,False
-GAS,Alpine,12.0,11.0,Finished,1.0,113.5085,113.671,2023,Belgian Grand Prix,True
-GAS,Alpine,12.0,3.0,Finished,5.0,76.3715,80.128,2023,Dutch Grand Prix,True
-LAW,AlphaTauri,12.0,11.0,Finished,2.0,87.089,81.758,2023,Italian Grand Prix,False
-GAS,Alpine,12.0,6.0,Finished,1.0,100.675,92.274,2023,Singapore Grand Prix,False
-GAS,Alpine,12.0,10.0,Finished,2.0,98.656,90.509,2023,Japanese Grand Prix,False
-ZHO,Alfa Romeo,12.0,13.0,Finished,2.0,103.042,95.698,2023,United States Grand Prix,False
-HUL,Haas F1 Team,12.0,13.0,Finished,2.0,84.447,78.524,2023,Mexico City Grand Prix,False
-SAI,Ferrari,12.0,6.0,Finished,2.0,98.7015,92.77,2023,Las Vegas Grand Prix,False
-OCO,Alpine,12.0,12.0,Finished,1.0,90.4905,84.391,2023,Abu Dhabi Grand Prix,False
-STR,Aston Martin,12.0,10.0,Finished,2.0,96.871,90.2,2024,Bahrain Grand Prix,False
-ALB,Williams,12.0,11.0,Finished,1.0,95.402,88.98,2024,Saudi Arabian Grand Prix,False
-ALB,Williams,12.0,11.0,Finished,2.0,83.027,77.167,2024,Australian Grand Prix,False
-HUL,Haas F1 Team,12.0,11.0,Finished,3.0,98.346,89.494,2024,Japanese Grand Prix,False
-RIC,RB,12.0,18.0,DNF,1.0,103.609,94.934,2024,Chinese Grand Prix,False
-GAS,Alpine,12.0,12.0,Finished,1.0,93.554,88.324,2024,Miami Grand Prix,False
-OCO,Alpine,12.0,14.0,Finished,1.0,82.759,75.906,2024,Emilia Romagna Grand Prix,False
-RIC,RB,12.0,12.0,Finished,1.0,80.8445,71.482,2024,Monaco Grand Prix,False
-SAI,Ferrari,12.0,16.0,DNF,2.0,88.5745,72.728,2024,Canadian Grand Prix,True
-BOT,Kick Sauber,12.0,16.0,Finished,2.0,81.587,72.227,2024,Spanish Grand Prix,True
-MAG,Haas F1 Team,12.0,8.0,Finished,2.0,71.243,65.347,2024,Austrian Grand Prix,True
-SAR,Williams,12.0,11.0,Finished,2.0,93.075,87.175,2024,British Grand Prix,True
-BOT,Kick Sauber,12.0,16.0,Finished,2.0,85.243,76.384,2024,Hungarian Grand Prix,False
-GAS,Alpine,12.0,13.0,Finished,2.0,109.659,114.635,2024,Belgian Grand Prix,False
-HUL,Haas F1 Team,12.0,11.0,Finished,1.0,76.32,71.215,2024,Dutch Grand Prix,False
-RIC,RB,12.0,13.0,Finished,1.0,85.047,80.479,2024,Italian Grand Prix,False
 OCO,Alpine,11.0,7.0,Finished,3.0,99.766,91.782,2022,Bahrain Grand Prix,False
 NOR,McLaren,11.0,7.0,Finished,1.0,96.015,89.651,2022,Saudi Arabian Grand Prix,False
 GAS,AlphaTauri,11.0,9.0,Finished,1.0,85.063,79.226,2022,Australian Grand Prix,False
@@ -523,41 +203,6 @@ RIC,McLaren,11.0,11.0,Finished,2.0,109.5515,90.659,2022,Japanese Grand Prix,True
 GAS,AlphaTauri,11.0,14.0,Finished,2.0,103.0675,96.74,2022,United States Grand Prix,False
 RIC,McLaren,11.0,7.0,Finished,1.0,84.548,79.325,2022,Mexico City Grand Prix,False
 TSU,AlphaTauri,11.0,11.0,Finished,2.0,91.3995,85.219,2022,Abu Dhabi Grand Prix,False
-NOR,McLaren,11.0,17.0,Finished,6.0,98.347,91.381,2023,Bahrain Grand Prix,False
-ZHO,Alfa Romeo,11.0,13.0,Finished,2.0,95.426,89.461,2023,Saudi Arabian Grand Prix,False
-OCO,Alpine,11.0,14.0,DNF,3.0,82.138,77.768,2023,Australian Grand Prix,False
-RUS,Mercedes,11.0,8.0,Finished,2.0,106.891,101.654,2023,Azerbaijan Grand Prix,False
-ALB,Williams,11.0,14.0,Finished,1.0,92.681,87.795,2023,Miami Grand Prix,False
-PIA,McLaren,11.0,10.0,Finished,1.0,79.359,72.395,2023,Monaco Grand Prix,True
-PER,Red Bull Racing,11.0,4.0,Finished,2.0,79.517,73.334,2023,Spanish Grand Prix,False
-SAI,Ferrari,11.0,5.0,Finished,1.0,77.1585,89.294,2023,Canadian Grand Prix,False
-RUS,Mercedes,11.0,7.0,Finished,3.0,70.617,65.428,2023,Austrian Grand Prix,True
-HUL,Haas F1 Team,11.0,13.0,Finished,2.0,93.493,88.896,2023,British Grand Prix,False
-SAI,Ferrari,11.0,8.0,Finished,2.0,84.501,77.703,2023,Hungarian Grand Prix,False
-TSU,AlphaTauri,11.0,10.0,Finished,2.0,112.7585,113.148,2023,Belgian Grand Prix,True
-STR,Aston Martin,11.0,11.0,Finished,7.0,77.567,80.121,2023,Dutch Grand Prix,True
-VER,Red Bull Racing,11.0,5.0,Finished,1.0,100.375,92.173,2023,Singapore Grand Prix,False
-LAW,AlphaTauri,11.0,11.0,Finished,2.0,98.8105,90.508,2023,Japanese Grand Prix,False
-TSU,AlphaTauri,11.0,15.0,Finished,3.0,88.979,85.301,2023,Qatar Grand Prix,False
-TSU,AlphaTauri,11.0,8.0,Finished,3.0,102.449,95.697,2023,United States Grand Prix,False
-GAS,Alpine,11.0,11.0,Finished,2.0,84.282,78.521,2023,Mexico City Grand Prix,False
-HUL,Haas F1 Team,11.0,12.0,Finished,4.0,76.791,70.547,2023,São Paulo Grand Prix,True
-PER,Red Bull Racing,11.0,3.0,Finished,2.0,97.8375,93.855,2023,Las Vegas Grand Prix,False
-HAM,Mercedes,11.0,9.0,Finished,2.0,89.824,84.359,2023,Abu Dhabi Grand Prix,False
-TSU,RB,11.0,14.0,Finished,2.0,97.575,90.129,2024,Bahrain Grand Prix,False
-BEA,Ferrari,11.0,7.0,Finished,1.0,93.798,88.642,2024,Saudi Arabian Grand Prix,False
-HAM,Mercedes,11.0,18.0,DNF,1.0,83.2055,76.96,2024,Australian Grand Prix,False
-STR,Aston Martin,11.0,15.0,Finished,4.0,101.646,94.838,2024,Chinese Grand Prix,False
-STR,Aston Martin,11.0,17.0,Finished,2.0,93.635,88.222,2024,Miami Grand Prix,False
-PER,Red Bull Racing,11.0,8.0,Finished,1.0,81.94,75.706,2024,Emilia Romagna Grand Prix,False
-LEC,Ferrari,11.0,19.0,DNF,3.0,89.7035,72.691,2024,Canadian Grand Prix,True
-PER,Red Bull Racing,11.0,8.0,Finished,3.0,79.7495,72.061,2024,Spanish Grand Prix,True
-RIC,RB,11.0,9.0,Finished,2.0,71.37,65.289,2024,Austrian Grand Prix,True
-LEC,Ferrari,11.0,14.0,Finished,3.0,92.705,87.097,2024,British Grand Prix,True
-HUL,Haas F1 Team,11.0,13.0,Finished,2.0,84.978,76.317,2024,Hungarian Grand Prix,False
-VER,Red Bull Racing,11.0,4.0,Finished,2.0,108.1915,113.159,2024,Belgian Grand Prix,False
-TSU,RB,11.0,17.0,Finished,2.0,76.816,70.955,2024,Dutch Grand Prix,False
-ALO,Aston Martin,11.0,11.0,Finished,2.0,84.891,80.421,2024,Italian Grand Prix,False
 GAS,AlphaTauri,10.0,20.0,DNF,2.0,99.513,92.338,2022,Bahrain Grand Prix,False
 MAG,Haas F1 Team,10.0,9.0,Finished,1.0,95.574,89.588,2022,Saudi Arabian Grand Prix,False
 ALO,Alpine,10.0,17.0,Finished,2.0,85.16,78.815,2022,Australian Grand Prix,False
@@ -579,44 +224,6 @@ VET,Aston Martin,10.0,8.0,Finished,2.0,102.4685,96.398,2022,United States Grand 
 OCO,Alpine,10.0,8.0,Finished,1.0,84.4495,79.01,2022,Mexico City Grand Prix,False
 GAS,AlphaTauri,10.0,14.0,Finished,3.0,77.392,71.675,2022,São Paulo Grand Prix,False
 ALO,Alpine,10.0,20.0,Finished,1.0,92.278,85.096,2022,Abu Dhabi Grand Prix,False
-HUL,Haas F1 Team,10.0,15.0,Finished,3.0,98.7055,90.809,2023,Bahrain Grand Prix,False
-HUL,Haas F1 Team,10.0,12.0,Finished,1.0,95.8365,89.451,2023,Saudi Arabian Grand Prix,False
-HUL,Haas F1 Team,10.0,7.0,Finished,3.0,82.603,77.735,2023,Australian Grand Prix,False
-PIA,McLaren,10.0,11.0,Finished,1.0,107.625,101.611,2023,Azerbaijan Grand Prix,False
-BOT,Alfa Romeo,10.0,13.0,Finished,1.0,92.851,87.564,2023,Miami Grand Prix,False
-NOR,McLaren,10.0,9.0,Finished,2.0,79.053,72.254,2023,Monaco Grand Prix,True
-GAS,Alpine,10.0,10.0,Finished,2.0,80.0685,72.816,2023,Spanish Grand Prix,False
-LEC,Ferrari,10.0,4.0,Finished,1.0,77.193,80.615,2023,Canadian Grand Prix,False
-ALB,Williams,10.0,11.0,Finished,3.0,70.931,65.823,2023,Austrian Grand Prix,True
-GAS,Alpine,10.0,18.0,DNF,1.0,93.535,87.689,2023,British Grand Prix,False
-HUL,Haas F1 Team,10.0,14.0,Finished,2.0,85.581,77.186,2023,Hungarian Grand Prix,False
-STR,Aston Martin,10.0,9.0,Finished,1.0,113.15,108.841,2023,Belgian Grand Prix,True
-SAR,Williams,10.0,20.0,DNF,0.0,89.878,76.748,2023,Dutch Grand Prix,True
-ALO,Aston Martin,10.0,9.0,Finished,1.0,86.929,81.417,2023,Italian Grand Prix,False
-LAW,AlphaTauri,10.0,9.0,Finished,1.0,101.003,92.268,2023,Singapore Grand Prix,False
-ALO,Aston Martin,10.0,8.0,Finished,2.0,98.637,90.56,2023,Japanese Grand Prix,False
-NOR,McLaren,10.0,3.0,Finished,3.0,86.924,84.685,2023,Qatar Grand Prix,False
-PIA,McLaren,10.0,17.0,DNF,0.0,103.263,95.467,2023,United States Grand Prix,False
-ZHO,Alfa Romeo,10.0,14.0,Finished,2.0,84.404,78.05,2023,Mexico City Grand Prix,False
-PIA,McLaren,10.0,14.0,Finished,4.0,76.3615,70.33,2023,São Paulo Grand Prix,True
-HAM,Mercedes,10.0,7.0,Finished,2.0,98.2565,93.837,2023,Las Vegas Grand Prix,False
-GAS,Alpine,10.0,13.0,Finished,2.0,90.2405,84.548,2023,Abu Dhabi Grand Prix,False
-HUL,Haas F1 Team,10.0,16.0,Finished,3.0,96.816,90.502,2024,Bahrain Grand Prix,False
-STR,Aston Martin,10.0,19.0,DNF,0.0,95.7625,88.572,2024,Saudi Arabian Grand Prix,False
-ALO,Aston Martin,10.0,8.0,Finished,2.0,82.711,77.552,2024,Australian Grand Prix,False
-TSU,RB,10.0,10.0,Finished,3.0,97.497,89.413,2024,Japanese Grand Prix,False
-BOT,Kick Sauber,10.0,20.0,DNF,1.0,102.577,94.665,2024,Chinese Grand Prix,False
-TSU,RB,10.0,7.0,Finished,1.0,93.337,88.192,2024,Miami Grand Prix,False
-HUL,Haas F1 Team,10.0,11.0,Finished,1.0,82.434,75.98,2024,Emilia Romagna Grand Prix,False
-GAS,Alpine,10.0,10.0,Finished,1.0,80.229,71.311,2024,Monaco Grand Prix,False
-ALB,Williams,10.0,17.0,DNF,2.0,88.734,72.796,2024,Canadian Grand Prix,True
-ALO,Aston Martin,10.0,12.0,Finished,2.0,81.093,72.128,2024,Spanish Grand Prix,True
-OCO,Alpine,10.0,12.0,Finished,2.0,71.411,65.883,2024,Austrian Grand Prix,True
-ALO,Aston Martin,10.0,8.0,Finished,2.0,92.673,86.917,2024,British Grand Prix,True
-TSU,RB,10.0,9.0,Finished,1.0,84.579,76.477,2024,Hungarian Grand Prix,False
-ALB,Williams,10.0,12.0,Finished,2.0,109.437,114.473,2024,Belgian Grand Prix,False
-SAI,Ferrari,10.0,5.0,Finished,1.0,75.146,70.914,2024,Dutch Grand Prix,False
-HUL,Haas F1 Team,10.0,17.0,Finished,2.0,85.258,80.339,2024,Italian Grand Prix,False
 RUS,Mercedes,9.0,4.0,Finished,3.0,99.096,92.216,2022,Bahrain Grand Prix,False
 GAS,AlphaTauri,9.0,8.0,Finished,1.0,96.0855,89.254,2022,Saudi Arabian Grand Prix,False
 SAI,Ferrari,9.0,20.0,Finished,0.0,-4611685968.913388,79.408,2022,Australian Grand Prix,False
@@ -638,44 +245,6 @@ PER,Red Bull Racing,9.0,4.0,Finished,2.0,101.7005,94.645,2022,United States Gran
 ALO,Alpine,9.0,19.0,DNF,1.0,84.389,78.939,2022,Mexico City Grand Prix,False
 VET,Aston Martin,9.0,11.0,Finished,2.0,77.137,71.678,2022,São Paulo Grand Prix,False
 VET,Aston Martin,9.0,10.0,Finished,1.0,91.462,84.961,2022,Abu Dhabi Grand Prix,False
-OCO,Alpine,9.0,18.0,DNF,3.0,99.5685,90.984,2023,Bahrain Grand Prix,False
-GAS,Alpine,9.0,9.0,Finished,1.0,94.9345,89.357,2023,Saudi Arabian Grand Prix,False
-GAS,Alpine,9.0,13.0,DNF,2.0,82.188,77.675,2023,Australian Grand Prix,False
-STR,Aston Martin,9.0,7.0,Finished,1.0,106.763,101.611,2023,Azerbaijan Grand Prix,False
-VER,Red Bull Racing,9.0,1.0,Finished,1.0,91.82,86.814,2023,Miami Grand Prix,False
-TSU,AlphaTauri,9.0,15.0,Finished,1.0,79.1415,72.082,2023,Monaco Grand Prix,True
-PIA,McLaren,9.0,13.0,Finished,2.0,80.618,73.682,2023,Spanish Grand Prix,False
-ALB,Williams,9.0,7.0,Finished,1.0,78.0135,78.725,2023,Canadian Grand Prix,False
-GAS,Alpine,9.0,10.0,Finished,3.0,70.649,65.17,2023,Austrian Grand Prix,True
-ALO,Aston Martin,9.0,7.0,Finished,1.0,93.154,87.659,2023,British Grand Prix,False
-PER,Red Bull Racing,9.0,3.0,Finished,2.0,83.675,77.045,2023,Hungarian Grand Prix,False
-ALO,Aston Martin,9.0,5.0,Finished,2.0,112.57,107.843,2023,Belgian Grand Prix,True
-LEC,Ferrari,9.0,19.0,Finished,2.0,78.37,72.665,2023,Dutch Grand Prix,True
-NOR,McLaren,9.0,8.0,Finished,1.0,87.017,80.979,2023,Italian Grand Prix,False
-HUL,Haas F1 Team,9.0,13.0,Finished,1.0,101.1065,91.808,2023,Singapore Grand Prix,False
-TSU,AlphaTauri,9.0,12.0,Finished,2.0,99.2865,90.303,2023,Japanese Grand Prix,False
-BOT,Alfa Romeo,9.0,8.0,Finished,3.0,88.235,85.058,2023,Qatar Grand Prix,False
-PER,Red Bull Racing,9.0,4.0,Finished,2.0,101.3775,95.173,2023,United States Grand Prix,False
-BOT,Alfa Romeo,9.0,15.0,Finished,2.0,84.581,78.032,2023,Mexico City Grand Prix,False
-PER,Red Bull Racing,9.0,4.0,Finished,4.0,75.845,72.321,2023,São Paulo Grand Prix,True
-ALO,Aston Martin,9.0,9.0,Finished,2.0,98.251,93.555,2023,Las Vegas Grand Prix,False
-PER,Red Bull Racing,9.0,4.0,Finished,2.0,89.315,84.171,2023,Abu Dhabi Grand Prix,False
-HAM,Mercedes,9.0,7.0,Finished,2.0,96.666,89.71,2024,Bahrain Grand Prix,False
-TSU,RB,9.0,15.0,Finished,1.0,95.575,88.547,2024,Saudi Arabian Grand Prix,False
-STR,Aston Martin,9.0,6.0,Finished,2.0,83.023,77.072,2024,Australian Grand Prix,False
-RUS,Mercedes,9.0,7.0,Finished,3.0,96.699,89.008,2024,Japanese Grand Prix,False
-HUL,Haas F1 Team,9.0,10.0,Finished,2.0,101.9295,94.604,2024,Chinese Grand Prix,False
-HUL,Haas F1 Team,9.0,11.0,Finished,2.0,93.304,88.146,2024,Miami Grand Prix,False
-RIC,RB,9.0,13.0,Finished,1.0,82.29,75.674,2024,Emilia Romagna Grand Prix,False
-ALB,Williams,9.0,9.0,Finished,1.0,80.222,70.948,2024,Monaco Grand Prix,False
-STR,Aston Martin,9.0,7.0,Finished,2.0,87.2655,72.701,2024,Canadian Grand Prix,True
-PIA,McLaren,9.0,7.0,Finished,2.0,79.864,72.011,2024,Spanish Grand Prix,True
-HUL,Haas F1 Team,9.0,6.0,Finished,2.0,71.177,65.385,2024,Austrian Grand Prix,True
-ALB,Williams,9.0,9.0,Finished,2.0,93.0365,86.64,2024,British Grand Prix,True
-RIC,RB,9.0,12.0,Finished,2.0,84.905,76.447,2024,Hungarian Grand Prix,False
-OCO,Alpine,9.0,9.0,Finished,2.0,109.429,114.81,2024,Belgian Grand Prix,False
-GAS,Alpine,9.0,9.0,Finished,1.0,76.394,70.977,2024,Dutch Grand Prix,False
-ALB,Williams,9.0,9.0,Finished,1.0,85.065,80.299,2024,Italian Grand Prix,False
 ALO,Alpine,8.0,9.0,Finished,3.0,99.874,92.195,2022,Bahrain Grand Prix,False
 BOT,Alfa Romeo,8.0,15.0,Finished,2.0,95.98,89.183,2022,Saudi Arabian Grand Prix,False
 OCO,Alpine,8.0,7.0,Finished,1.0,84.8285,79.061,2022,Australian Grand Prix,False
@@ -695,44 +264,6 @@ RUS,Mercedes,8.0,8.0,Finished,2.0,108.4275,90.389,2022,Japanese Grand Prix,True
 ALB,Williams,8.0,13.0,Finished,2.0,103.913,96.368,2022,United States Grand Prix,False
 NOR,McLaren,8.0,9.0,Finished,1.0,84.4545,78.721,2022,Mexico City Grand Prix,False
 OCO,Alpine,8.0,7.0,Finished,2.0,91.085,84.83,2022,Abu Dhabi Grand Prix,False
-STR,Aston Martin,8.0,6.0,Finished,2.0,98.127,90.836,2023,Bahrain Grand Prix,False
-PIA,McLaren,8.0,15.0,Finished,1.0,95.64,89.243,2023,Saudi Arabian Grand Prix,False
-ALB,Williams,8.0,19.0,DNF,0.0,84.327,77.609,2023,Australian Grand Prix,False
-TSU,AlphaTauri,8.0,10.0,Finished,1.0,107.642,101.581,2023,Azerbaijan Grand Prix,False
-OCO,Alpine,8.0,9.0,Finished,1.0,92.984,87.935,2023,Miami Grand Prix,False
-RUS,Mercedes,8.0,5.0,Finished,1.0,78.4925,71.964,2023,Monaco Grand Prix,True
-ALO,Aston Martin,8.0,7.0,Finished,2.0,80.3215,73.507,2023,Spanish Grand Prix,False
-PIA,McLaren,8.0,11.0,Finished,2.0,78.0485,91.349,2023,Canadian Grand Prix,False
-HUL,Haas F1 Team,8.0,20.0,DNF,2.0,71.254,65.09,2023,Austrian Grand Prix,True
-ALB,Williams,8.0,8.0,Finished,1.0,93.407,87.53,2023,British Grand Prix,False
-ALO,Aston Martin,8.0,9.0,Finished,2.0,84.6595,77.035,2023,Hungarian Grand Prix,False
-RUS,Mercedes,8.0,6.0,Finished,1.0,112.9405,107.805,2023,Belgian Grand Prix,True
-PIA,McLaren,8.0,9.0,Finished,5.0,76.87,71.938,2023,Dutch Grand Prix,True
-HAM,Mercedes,8.0,6.0,Finished,1.0,86.995,80.82,2023,Italian Grand Prix,False
-OCO,Alpine,8.0,18.0,DNF,1.0,100.562,91.673,2023,Singapore Grand Prix,False
-RUS,Mercedes,8.0,7.0,Finished,1.0,98.88,90.219,2023,Japanese Grand Prix,False
-OCO,Alpine,8.0,7.0,Finished,3.0,87.977,84.763,2023,Qatar Grand Prix,False
-OCO,Alpine,8.0,18.0,DNF,0.0,107.31,95.154,2023,United States Grand Prix,False
-RUS,Mercedes,8.0,6.0,Finished,2.0,83.464,77.674,2023,Mexico City Grand Prix,False
-RUS,Mercedes,8.0,15.0,DNF,4.0,76.659,71.59,2023,São Paulo Grand Prix,True
-MAG,Haas F1 Team,8.0,13.0,Finished,2.0,98.8375,93.537,2023,Las Vegas Grand Prix,False
-HUL,Haas F1 Team,8.0,15.0,Finished,2.0,90.4745,84.108,2023,Abu Dhabi Grand Prix,False
-PIA,McLaren,8.0,8.0,Finished,2.0,96.68,89.683,2024,Bahrain Grand Prix,False
-HAM,Mercedes,8.0,9.0,Finished,1.0,93.7175,88.46,2024,Saudi Arabian Grand Prix,False
-TSU,RB,8.0,7.0,Finished,2.0,83.0135,76.788,2024,Australian Grand Prix,False
-LEC,Ferrari,8.0,4.0,Finished,2.0,96.357,88.786,2024,Japanese Grand Prix,False
-RUS,Mercedes,8.0,6.0,Finished,2.0,101.166,94.433,2024,Chinese Grand Prix,False
-HAM,Mercedes,8.0,6.0,Finished,1.0,93.306,88.107,2024,Miami Grand Prix,False
-HAM,Mercedes,8.0,6.0,Finished,1.0,81.415,75.504,2024,Emilia Romagna Grand Prix,False
-TSU,RB,8.0,8.0,Finished,1.0,80.144,70.858,2024,Monaco Grand Prix,False
-TSU,RB,8.0,14.0,Finished,1.0,88.3065,72.414,2024,Canadian Grand Prix,True
-OCO,Alpine,8.0,10.0,Finished,2.0,80.6625,72.125,2024,Spanish Grand Prix,True
-PER,Red Bull Racing,8.0,7.0,Finished,2.0,71.009,65.202,2024,Austrian Grand Prix,True
-STR,Aston Martin,8.0,7.0,Finished,2.0,92.752,86.585,2024,British Grand Prix,True
-STR,Aston Martin,8.0,10.0,Finished,2.0,84.454,76.244,2024,Hungarian Grand Prix,False
-ALO,Aston Martin,8.0,8.0,Finished,1.0,109.411,114.765,2024,Belgian Grand Prix,False
-STR,Aston Martin,8.0,13.0,Finished,1.0,76.322,70.857,2024,Dutch Grand Prix,False
-PER,Red Bull Racing,8.0,8.0,Finished,2.0,84.537,80.062,2024,Italian Grand Prix,False
 MAG,Haas F1 Team,7.0,5.0,Finished,3.0,99.384,91.808,2022,Bahrain Grand Prix,False
 ALO,Alpine,7.0,16.0,Finished,1.0,96.098,89.147,2022,Saudi Arabian Grand Prix,False
 RIC,McLaren,7.0,6.0,Finished,1.0,84.9485,79.032,2022,Australian Grand Prix,False
@@ -755,43 +286,6 @@ BOT,Alfa Romeo,7.0,19.0,Finished,1.0,104.13,96.319,2022,United States Grand Prix
 LEC,Ferrari,7.0,6.0,Finished,1.0,83.738,78.555,2022,Mexico City Grand Prix,False
 SAI,Ferrari,7.0,3.0,Finished,3.0,76.316,72.357,2022,São Paulo Grand Prix,False
 NOR,McLaren,7.0,6.0,Finished,2.0,91.0555,84.769,2022,Abu Dhabi Grand Prix,False
-HAM,Mercedes,7.0,5.0,Finished,2.0,98.308,90.384,2023,Bahrain Grand Prix,False
-HAM,Mercedes,7.0,5.0,Finished,1.0,94.21,89.223,2023,Saudi Arabian Grand Prix,False
-NOR,McLaren,7.0,9.0,Finished,1.0,107.449,101.281,2023,Azerbaijan Grand Prix,False
-LEC,Ferrari,7.0,7.0,Finished,1.0,92.582,87.861,2023,Miami Grand Prix,False
-GAS,Alpine,7.0,7.0,Finished,2.0,78.5615,71.933,2023,Monaco Grand Prix,True
-HUL,Haas F1 Team,7.0,15.0,Finished,3.0,80.001,73.229,2023,Spanish Grand Prix,False
-NOR,McLaren,7.0,13.0,Finished,2.0,77.832,88.046,2023,Canadian Grand Prix,False
-ALO,Aston Martin,7.0,5.0,Finished,3.0,70.314,64.911,2023,Austrian Grand Prix,True
-HAM,Mercedes,7.0,3.0,Finished,1.0,92.965,87.211,2023,British Grand Prix,False
-BOT,Alfa Romeo,7.0,12.0,Finished,2.0,84.995,77.034,2023,Hungarian Grand Prix,False
-NOR,McLaren,7.0,7.0,Finished,2.0,112.688,107.669,2023,Belgian Grand Prix,True
-PER,Red Bull Racing,7.0,4.0,Finished,6.0,75.822,71.88,2023,Dutch Grand Prix,True
-PIA,McLaren,7.0,12.0,Finished,2.0,86.86,80.785,2023,Italian Grand Prix,False
-ALO,Aston Martin,7.0,15.0,Finished,2.0,100.3865,91.615,2023,Singapore Grand Prix,False
-HAM,Mercedes,7.0,5.0,Finished,2.0,98.333,89.908,2023,Japanese Grand Prix,False
-GAS,Alpine,7.0,12.0,Finished,3.0,88.565,84.553,2023,Qatar Grand Prix,False
-GAS,Alpine,7.0,6.0,Finished,2.0,102.1895,95.089,2023,United States Grand Prix,False
-PIA,McLaren,7.0,8.0,Finished,2.0,83.519,77.623,2023,Mexico City Grand Prix,False
-SAI,Ferrari,7.0,6.0,Finished,4.0,75.987,71.989,2023,São Paulo Grand Prix,True
-BOT,Alfa Romeo,7.0,17.0,Finished,2.0,100.9605,93.525,2023,Las Vegas Grand Prix,False
-ALO,Aston Martin,7.0,7.0,Finished,2.0,90.0975,84.084,2023,Abu Dhabi Grand Prix,False
-NOR,McLaren,7.0,6.0,Finished,2.0,96.566,89.614,2024,Bahrain Grand Prix,False
-RUS,Mercedes,7.0,6.0,Finished,1.0,93.756,88.316,2024,Saudi Arabian Grand Prix,False
-RUS,Mercedes,7.0,17.0,DNF,2.0,82.663,76.724,2024,Australian Grand Prix,False
-HAM,Mercedes,7.0,9.0,Finished,3.0,96.601,88.766,2024,Japanese Grand Prix,False
-SAI,Ferrari,7.0,5.0,Finished,1.0,100.741,94.297,2024,Chinese Grand Prix,False
-RUS,Mercedes,7.0,8.0,Finished,1.0,93.423,88.067,2024,Miami Grand Prix,False
-TSU,RB,7.0,10.0,Finished,1.0,82.3105,75.465,2024,Emilia Romagna Grand Prix,False
-HAM,Mercedes,7.0,7.0,Finished,2.0,78.51,70.621,2024,Monaco Grand Prix,False
-HAM,Mercedes,7.0,4.0,Finished,3.0,86.6325,72.28,2024,Canadian Grand Prix,True
-GAS,Alpine,7.0,9.0,Finished,2.0,80.4255,71.857,2024,Spanish Grand Prix,True
-PIA,McLaren,7.0,2.0,Finished,2.0,70.57,65.048,2024,Austrian Grand Prix,True
-SAI,Ferrari,7.0,5.0,Finished,3.0,92.367,86.509,2024,British Grand Prix,True
-ALO,Aston Martin,7.0,11.0,Finished,2.0,84.4915,76.043,2024,Hungarian Grand Prix,False
-SAI,Ferrari,7.0,6.0,Finished,2.0,108.393,114.477,2024,Belgian Grand Prix,False
-ALO,Aston Martin,7.0,10.0,Finished,1.0,76.357,70.633,2024,Dutch Grand Prix,False
-VER,Red Bull Racing,7.0,6.0,Finished,2.0,83.621,80.022,2024,Italian Grand Prix,False
 BOT,Alfa Romeo,6.0,6.0,Finished,3.0,99.777,91.56,2022,Bahrain Grand Prix,False
 RUS,Mercedes,6.0,5.0,Finished,1.0,94.236,89.104,2022,Saudi Arabian Grand Prix,False
 RUS,Mercedes,6.0,3.0,Finished,1.0,84.206,78.933,2022,Australian Grand Prix,False
@@ -814,44 +308,6 @@ NOR,McLaren,6.0,6.0,Finished,2.0,103.161,95.69,2022,United States Grand Prix,Fal
 BOT,Alfa Romeo,6.0,10.0,Finished,1.0,84.376,78.401,2022,Mexico City Grand Prix,False
 NOR,McLaren,6.0,18.0,DNF,2.0,77.257,72.263,2022,São Paulo Grand Prix,False
 RUS,Mercedes,6.0,5.0,Finished,2.0,90.512,84.511,2022,Abu Dhabi Grand Prix,False
-RUS,Mercedes,6.0,7.0,Finished,2.0,98.427,90.34,2023,Bahrain Grand Prix,False
-OCO,Alpine,6.0,8.0,Finished,1.0,94.8925,89.078,2023,Saudi Arabian Grand Prix,False
-STR,Aston Martin,6.0,4.0,Finished,3.0,82.187,77.308,2023,Australian Grand Prix,False
-ALO,Aston Martin,6.0,4.0,Finished,1.0,106.162,101.253,2023,Azerbaijan Grand Prix,False
-RUS,Mercedes,6.0,4.0,Finished,1.0,92.257,87.804,2023,Miami Grand Prix,False
-LEC,Ferrari,6.0,6.0,Finished,2.0,78.363,71.471,2023,Monaco Grand Prix,True
-OCO,Alpine,6.0,8.0,Finished,2.0,80.3155,73.083,2023,Spanish Grand Prix,False
-OCO,Alpine,6.0,8.0,Finished,2.0,77.7135,87.945,2023,Canadian Grand Prix,False
-STR,Aston Martin,6.0,9.0,Finished,4.0,70.136,64.893,2023,Austrian Grand Prix,True
-RUS,Mercedes,6.0,5.0,Finished,1.0,93.067,87.155,2023,British Grand Prix,False
-LEC,Ferrari,6.0,7.0,Finished,2.0,84.534,76.992,2023,Hungarian Grand Prix,False
-VER,Red Bull Racing,6.0,1.0,Finished,2.0,111.5335,106.168,2023,Belgian Grand Prix,True
-SAI,Ferrari,6.0,5.0,Finished,5.0,76.405,71.754,2023,Dutch Grand Prix,True
-ALB,Williams,6.0,7.0,Finished,1.0,86.898,80.76,2023,Italian Grand Prix,False
-MAG,Haas F1 Team,6.0,10.0,Finished,2.0,100.831,91.575,2023,Singapore Grand Prix,False
-SAI,Ferrari,6.0,6.0,Finished,2.0,98.588,89.85,2023,Japanese Grand Prix,False
-PIA,McLaren,6.0,2.0,Finished,3.0,86.959,84.54,2023,Qatar Grand Prix,False
-VER,Red Bull Racing,6.0,1.0,Finished,2.0,101.166,95.081,2023,United States Grand Prix,False
-HAM,Mercedes,6.0,2.0,Finished,2.0,83.19,77.454,2023,Mexico City Grand Prix,False
-NOR,McLaren,6.0,2.0,Finished,4.0,75.6025,71.987,2023,São Paulo Grand Prix,True
-SAR,Williams,6.0,16.0,Finished,1.0,98.8085,93.513,2023,Las Vegas Grand Prix,False
-TSU,AlphaTauri,6.0,8.0,Finished,1.0,90.2085,83.968,2023,Abu Dhabi Grand Prix,False
-ALO,Aston Martin,6.0,9.0,Finished,2.0,97.202,89.542,2024,Bahrain Grand Prix,False
-NOR,McLaren,6.0,8.0,Finished,1.0,93.662,88.132,2024,Saudi Arabian Grand Prix,False
-PER,Red Bull Racing,6.0,5.0,Finished,2.0,81.96,76.274,2024,Australian Grand Prix,False
-PIA,McLaren,6.0,8.0,Finished,3.0,96.984,88.76,2024,Japanese Grand Prix,False
-LEC,Ferrari,6.0,4.0,Finished,1.0,101.347,94.289,2024,Chinese Grand Prix,False
-PIA,McLaren,6.0,13.0,Finished,2.0,92.767,87.675,2024,Miami Grand Prix,False
-RUS,Mercedes,6.0,7.0,Finished,2.0,81.209,75.234,2024,Emilia Romagna Grand Prix,False
-VER,Red Bull Racing,6.0,6.0,Finished,2.0,78.5505,70.567,2024,Monaco Grand Prix,False
-ALO,Aston Martin,6.0,6.0,Finished,2.0,87.008,72.228,2024,Canadian Grand Prix,True
-SAI,Ferrari,6.0,6.0,Finished,2.0,80.016,71.736,2024,Spanish Grand Prix,True
-LEC,Ferrari,6.0,11.0,Finished,4.0,70.543,65.044,2024,Austrian Grand Prix,True
-HUL,Haas F1 Team,6.0,6.0,Finished,2.0,92.6845,86.338,2024,British Grand Prix,True
-LEC,Ferrari,6.0,4.0,Finished,2.0,83.2515,75.905,2024,Hungarian Grand Prix,False
-RUS,Mercedes,6.0,20.0,Finished,1.0,108.1285,114.184,2024,Belgian Grand Prix,False
-LEC,Ferrari,6.0,3.0,Finished,1.0,75.282,70.582,2024,Dutch Grand Prix,False
-HAM,Mercedes,6.0,5.0,Finished,2.0,83.673,79.513,2024,Italian Grand Prix,False
 HAM,Mercedes,5.0,3.0,Finished,3.0,98.542,91.238,2022,Bahrain Grand Prix,False
 OCO,Alpine,5.0,6.0,Finished,1.0,95.241,89.068,2022,Saudi Arabian Grand Prix,False
 HAM,Mercedes,5.0,4.0,Finished,1.0,84.0195,78.825,2022,Australian Grand Prix,False
@@ -874,42 +330,6 @@ STR,Aston Martin,5.0,18.0,DNF,1.0,103.8155,95.598,2022,United States Grand Prix,
 SAI,Ferrari,5.0,5.0,Finished,1.0,83.429,78.351,2022,Mexico City Grand Prix,False
 LEC,Ferrari,5.0,4.0,Finished,3.0,76.364,70.95,2022,São Paulo Grand Prix,False
 HAM,Mercedes,5.0,18.0,DNF,1.0,90.364,84.508,2022,Abu Dhabi Grand Prix,False
-ALO,Aston Martin,5.0,3.0,Finished,2.0,98.009,90.336,2023,Bahrain Grand Prix,False
-STR,Aston Martin,5.0,20.0,DNF,1.0,95.56,88.945,2023,Saudi Arabian Grand Prix,False
-SAI,Ferrari,5.0,12.0,Finished,4.0,82.102,77.27,2023,Australian Grand Prix,False
-HAM,Mercedes,5.0,6.0,Finished,1.0,106.689,101.177,2023,Azerbaijan Grand Prix,False
-GAS,Alpine,5.0,8.0,Finished,1.0,92.52,87.786,2023,Miami Grand Prix,False
-HAM,Mercedes,5.0,4.0,Finished,2.0,78.3635,71.725,2023,Monaco Grand Prix,True
-STR,Aston Martin,5.0,6.0,Finished,2.0,80.202,72.994,2023,Spanish Grand Prix,False
-HUL,Haas F1 Team,5.0,15.0,Finished,2.0,78.348,87.102,2023,Canadian Grand Prix,False
-HAM,Mercedes,5.0,8.0,Finished,3.0,70.457,64.819,2023,Austrian Grand Prix,True
-SAI,Ferrari,5.0,10.0,Finished,1.0,93.1875,87.148,2023,British Grand Prix,False
-ZHO,Alfa Romeo,5.0,16.0,Finished,2.0,85.307,76.971,2023,Hungarian Grand Prix,False
-ALO,Aston Martin,5.0,2.0,Finished,5.0,76.14,71.506,2023,Dutch Grand Prix,True
-PER,Red Bull Racing,5.0,2.0,Finished,1.0,86.354,80.688,2023,Italian Grand Prix,False
-HAM,Mercedes,5.0,3.0,Finished,2.0,99.692,91.485,2023,Singapore Grand Prix,False
-PER,Red Bull Racing,5.0,19.0,DNF,4.0,100.466,89.65,2023,Japanese Grand Prix,False
-LEC,Ferrari,5.0,5.0,Finished,3.0,87.484,84.424,2023,Qatar Grand Prix,False
-RUS,Mercedes,5.0,5.0,Finished,2.0,102.068,95.079,2023,United States Grand Prix,False
-HAM,Mercedes,5.0,8.0,Finished,4.0,76.2785,71.469,2023,São Paulo Grand Prix,True
-ALB,Williams,5.0,12.0,Finished,1.0,98.7915,93.323,2023,Las Vegas Grand Prix,False
-NOR,McLaren,5.0,5.0,Finished,2.0,89.6165,83.816,2023,Abu Dhabi Grand Prix,False
-PER,Red Bull Racing,5.0,2.0,Finished,2.0,96.226,89.537,2024,Bahrain Grand Prix,False
-PIA,McLaren,5.0,4.0,Finished,1.0,93.7045,88.089,2024,Saudi Arabian Grand Prix,False
-PIA,McLaren,5.0,4.0,Finished,2.0,82.031,76.572,2024,Australian Grand Prix,False
-ALO,Aston Martin,5.0,6.0,Finished,3.0,97.289,88.686,2024,Japanese Grand Prix,False
-PIA,McLaren,5.0,8.0,Finished,2.0,101.6085,94.273,2024,Chinese Grand Prix,False
-NOR,McLaren,5.0,1.0,Finished,1.0,92.042,87.594,2024,Miami Grand Prix,False
-PIA,McLaren,5.0,4.0,Finished,1.0,80.979,74.82,2024,Emilia Romagna Grand Prix,False
-RUS,Mercedes,5.0,5.0,Finished,1.0,78.6375,70.543,2024,Monaco Grand Prix,False
-RIC,RB,5.0,8.0,Finished,2.0,87.373,72.178,2024,Canadian Grand Prix,True
-LEC,Ferrari,5.0,5.0,Finished,2.0,79.728,71.731,2024,Spanish Grand Prix,True
-HAM,Mercedes,5.0,4.0,Finished,2.0,70.645,64.903,2024,Austrian Grand Prix,True
-PIA,McLaren,5.0,4.0,Finished,2.0,91.9075,86.237,2024,British Grand Prix,True
-HAM,Mercedes,5.0,3.0,Finished,2.0,83.338,75.854,2024,Hungarian Grand Prix,False
-PIA,McLaren,5.0,2.0,Finished,2.0,108.158,114.027,2024,Belgian Grand Prix,False
-PER,Red Bull Racing,5.0,6.0,Finished,1.0,75.382,70.416,2024,Dutch Grand Prix,False
-SAI,Ferrari,5.0,4.0,Finished,1.0,83.931,79.467,2024,Italian Grand Prix,False
 PER,Red Bull Racing,4.0,18.0,Finished,3.0,98.693,90.921,2022,Bahrain Grand Prix,False
 VER,Red Bull Racing,4.0,1.0,Finished,1.0,93.5665,88.461,2022,Saudi Arabian Grand Prix,False
 NOR,McLaren,4.0,5.0,Finished,1.0,84.9885,78.703,2022,Australian Grand Prix,False
@@ -930,44 +350,6 @@ RUS,Mercedes,4.0,5.0,Finished,3.0,101.9175,94.988,2022,United States Grand Prix,
 PER,Red Bull Racing,4.0,3.0,Finished,1.0,82.991,78.128,2022,Mexico City Grand Prix,False
 PER,Red Bull Racing,4.0,7.0,Finished,2.0,76.328,75.601,2022,São Paulo Grand Prix,False
 SAI,Ferrari,4.0,4.0,Finished,2.0,90.4695,84.242,2022,Abu Dhabi Grand Prix,False
-SAI,Ferrari,4.0,4.0,Finished,2.0,98.222,90.154,2023,Bahrain Grand Prix,False
-SAI,Ferrari,4.0,6.0,Finished,1.0,94.5185,88.931,2023,Saudi Arabian Grand Prix,False
-ALO,Aston Martin,4.0,3.0,Finished,3.0,82.2605,77.139,2023,Australian Grand Prix,False
-SAI,Ferrari,4.0,5.0,Finished,1.0,106.743,101.016,2023,Azerbaijan Grand Prix,False
-MAG,Haas F1 Team,4.0,10.0,Finished,1.0,92.732,87.767,2023,Miami Grand Prix,False
-SAI,Ferrari,4.0,8.0,Finished,2.0,78.296,71.63,2023,Monaco Grand Prix,True
-HAM,Mercedes,4.0,2.0,Finished,2.0,79.4755,72.818,2023,Spanish Grand Prix,False
-RUS,Mercedes,4.0,19.0,DNF,1.0,77.968,87.893,2023,Canadian Grand Prix,False
-NOR,McLaren,4.0,4.0,Finished,3.0,70.214,64.658,2023,Austrian Grand Prix,True
-LEC,Ferrari,4.0,9.0,Finished,2.0,92.938,87.136,2023,British Grand Prix,False
-PIA,McLaren,4.0,5.0,Finished,2.0,84.5095,76.905,2023,Hungarian Grand Prix,False
-SAI,Ferrari,4.0,19.0,DNF,1.0,116.1415,107.152,2023,Belgian Grand Prix,True
-ALB,Williams,4.0,8.0,Finished,4.0,76.754,71.419,2023,Dutch Grand Prix,True
-RUS,Mercedes,4.0,5.0,Finished,1.0,86.426,80.671,2023,Italian Grand Prix,False
-NOR,McLaren,4.0,2.0,Finished,1.0,99.728,91.27,2023,Singapore Grand Prix,False
-LEC,Ferrari,4.0,4.0,Finished,2.0,98.166,89.542,2023,Japanese Grand Prix,False
-ALO,Aston Martin,4.0,6.0,Finished,3.0,87.761,84.369,2023,Qatar Grand Prix,False
-SAI,Ferrari,4.0,3.0,Finished,2.0,101.5145,94.945,2023,United States Grand Prix,False
-RIC,AlphaTauri,4.0,7.0,Finished,2.0,83.599,77.382,2023,Mexico City Grand Prix,False
-ALO,Aston Martin,4.0,3.0,Finished,4.0,75.9465,71.387,2023,São Paulo Grand Prix,True
-GAS,Alpine,4.0,11.0,Finished,1.0,98.7015,93.239,2023,Las Vegas Grand Prix,False
-RUS,Mercedes,4.0,3.0,Finished,2.0,89.5385,83.788,2023,Abu Dhabi Grand Prix,False
-SAI,Ferrari,4.0,3.0,Finished,2.0,96.149,89.507,2024,Bahrain Grand Prix,False
-ALO,Aston Martin,4.0,5.0,Finished,1.0,93.7615,87.846,2024,Saudi Arabian Grand Prix,False
-LEC,Ferrari,4.0,2.0,Finished,2.0,81.8665,76.435,2024,Australian Grand Prix,False
-SAI,Ferrari,4.0,3.0,Finished,3.0,96.901,88.682,2024,Japanese Grand Prix,False
-NOR,McLaren,4.0,2.0,Finished,1.0,101.2745,94.165,2024,Chinese Grand Prix,False
-PER,Red Bull Racing,4.0,4.0,Finished,2.0,92.645,87.46,2024,Miami Grand Prix,False
-SAI,Ferrari,4.0,5.0,Finished,1.0,81.16,75.233,2024,Emilia Romagna Grand Prix,False
-NOR,McLaren,4.0,4.0,Finished,1.0,78.3995,70.542,2024,Monaco Grand Prix,False
-PIA,McLaren,4.0,5.0,Finished,2.0,86.1245,72.103,2024,Canadian Grand Prix,True
-RUS,Mercedes,4.0,4.0,Finished,2.0,79.864,71.703,2024,Spanish Grand Prix,True
-SAI,Ferrari,4.0,3.0,Finished,2.0,70.473,64.851,2024,Austrian Grand Prix,True
-VER,Red Bull Racing,4.0,2.0,Finished,2.0,91.934,86.203,2024,British Grand Prix,True
-SAI,Ferrari,4.0,6.0,Finished,2.0,83.704,75.696,2024,Hungarian Grand Prix,False
-NOR,McLaren,4.0,5.0,Finished,2.0,108.115,113.981,2024,Belgian Grand Prix,False
-RUS,Mercedes,4.0,7.0,Finished,2.0,75.4955,70.244,2024,Dutch Grand Prix,False
-LEC,Ferrari,4.0,1.0,Finished,1.0,83.718,79.461,2024,Italian Grand Prix,False
 SAI,Ferrari,3.0,2.0,Finished,3.0,98.264,90.687,2022,Bahrain Grand Prix,False
 SAI,Ferrari,3.0,3.0,Finished,1.0,93.6705,88.402,2022,Saudi Arabian Grand Prix,False
 PER,Red Bull Racing,3.0,2.0,Finished,1.0,83.8095,78.24,2022,Australian Grand Prix,False
@@ -989,43 +371,6 @@ HAM,Mercedes,3.0,2.0,Finished,2.0,101.307,94.947,2022,United States Grand Prix,F
 HAM,Mercedes,3.0,2.0,Finished,1.0,83.04,78.084,2022,Mexico City Grand Prix,False
 VER,Red Bull Racing,3.0,6.0,Finished,3.0,76.353,71.877,2022,São Paulo Grand Prix,False
 LEC,Ferrari,3.0,2.0,Finished,1.0,90.25,84.092,2022,Abu Dhabi Grand Prix,False
-LEC,Ferrari,3.0,19.0,DNF,2.0,98.509,90.0,2023,Bahrain Grand Prix,False
-RUS,Mercedes,3.0,4.0,Finished,1.0,94.112,88.857,2023,Saudi Arabian Grand Prix,False
-HAM,Mercedes,3.0,2.0,Finished,3.0,82.2125,77.104,2023,Australian Grand Prix,False
-PER,Red Bull Racing,3.0,1.0,Finished,1.0,105.518,100.495,2023,Azerbaijan Grand Prix,False
-SAI,Ferrari,3.0,5.0,Finished,1.0,92.507,87.349,2023,Miami Grand Prix,False
-OCO,Alpine,3.0,3.0,Finished,2.0,78.416,71.553,2023,Monaco Grand Prix,True
-NOR,McLaren,3.0,17.0,Finished,3.0,80.117,72.792,2023,Spanish Grand Prix,False
-HAM,Mercedes,3.0,3.0,Finished,2.0,77.0465,87.627,2023,Canadian Grand Prix,False
-SAI,Ferrari,3.0,6.0,Finished,3.0,70.031,64.581,2023,Austrian Grand Prix,True
-PIA,McLaren,3.0,4.0,Finished,1.0,92.8265,87.092,2023,British Grand Prix,False
-NOR,McLaren,3.0,2.0,Finished,2.0,84.0085,76.694,2023,Hungarian Grand Prix,False
-HAM,Mercedes,3.0,4.0,Finished,3.0,112.2555,107.087,2023,Belgian Grand Prix,True
-RUS,Mercedes,3.0,17.0,Finished,7.0,77.336,71.294,2023,Dutch Grand Prix,True
-LEC,Ferrari,3.0,4.0,Finished,1.0,86.473,80.361,2023,Italian Grand Prix,False
-LEC,Ferrari,3.0,4.0,Finished,1.0,99.971,91.063,2023,Singapore Grand Prix,False
-NOR,McLaren,3.0,2.0,Finished,2.0,97.728,89.493,2023,Japanese Grand Prix,False
-HAM,Mercedes,3.0,19.0,Finished,2.0,101.398,94.862,2023,United States Grand Prix,False
-VER,Red Bull Racing,3.0,1.0,Finished,3.0,82.4255,77.263,2023,Mexico City Grand Prix,False
-STR,Aston Martin,3.0,5.0,Finished,4.0,75.967,71.344,2023,São Paulo Grand Prix,True
-RUS,Mercedes,3.0,8.0,Finished,2.0,98.0735,93.112,2023,Las Vegas Grand Prix,False
-PIA,McLaren,3.0,6.0,Finished,2.0,89.903,83.782,2023,Abu Dhabi Grand Prix,False
-RUS,Mercedes,3.0,5.0,Finished,2.0,96.635,89.485,2024,Bahrain Grand Prix,False
-PER,Red Bull Racing,3.0,2.0,Finished,1.0,92.8315,87.807,2024,Saudi Arabian Grand Prix,False
-NOR,McLaren,3.0,3.0,Finished,2.0,81.747,76.315,2024,Australian Grand Prix,False
-NOR,McLaren,3.0,5.0,Finished,3.0,96.34,88.489,2024,Japanese Grand Prix,False
-ALO,Aston Martin,3.0,7.0,Finished,3.0,100.8815,94.148,2024,Chinese Grand Prix,False
-SAI,Ferrari,3.0,5.0,Finished,1.0,92.64,87.455,2024,Miami Grand Prix,False
-LEC,Ferrari,3.0,3.0,Finished,1.0,80.928,74.97,2024,Emilia Romagna Grand Prix,False
-SAI,Ferrari,3.0,3.0,Finished,1.0,78.5565,70.518,2024,Monaco Grand Prix,False
-NOR,McLaren,3.0,2.0,Finished,2.0,86.203,72.021,2024,Canadian Grand Prix,True
-HAM,Mercedes,3.0,3.0,Finished,2.0,79.9435,71.701,2024,Spanish Grand Prix,True
-RUS,Mercedes,3.0,1.0,Finished,2.0,70.372,64.84,2024,Austrian Grand Prix,True
-NOR,McLaren,3.0,3.0,Finished,2.0,91.863,86.03,2024,British Grand Prix,True
-VER,Red Bull Racing,3.0,5.0,Finished,2.0,83.7405,75.273,2024,Hungarian Grand Prix,False
-HAM,Mercedes,3.0,1.0,Finished,2.0,107.965,113.835,2024,Belgian Grand Prix,False
-PIA,McLaren,3.0,4.0,Finished,1.0,75.315,70.172,2024,Dutch Grand Prix,False
-RUS,Mercedes,3.0,7.0,Finished,2.0,84.521,79.44,2024,Italian Grand Prix,False
 VER,Red Bull Racing,2.0,19.0,Finished,3.0,98.243,90.681,2022,Bahrain Grand Prix,False
 LEC,Ferrari,2.0,2.0,Finished,1.0,93.4955,88.225,2022,Saudi Arabian Grand Prix,False
 VER,Red Bull Racing,2.0,18.0,Finished,1.0,83.966,78.154,2022,Australian Grand Prix,False
@@ -1048,43 +393,6 @@ VER,Red Bull Racing,2.0,1.0,Finished,2.0,100.9375,94.448,2022,United States Gran
 RUS,Mercedes,2.0,4.0,Finished,2.0,83.123,78.079,2022,Mexico City Grand Prix,False
 HAM,Mercedes,2.0,2.0,Finished,2.0,76.339,72.611,2022,São Paulo Grand Prix,False
 PER,Red Bull Racing,2.0,3.0,Finished,2.0,90.2055,84.052,2022,Abu Dhabi Grand Prix,False
-PER,Red Bull Racing,2.0,2.0,Finished,2.0,97.448,89.846,2023,Bahrain Grand Prix,False
-ALO,Aston Martin,2.0,3.0,Finished,1.0,94.0905,88.73,2023,Saudi Arabian Grand Prix,False
-RUS,Mercedes,2.0,18.0,DNF,2.0,83.169,76.968,2023,Australian Grand Prix,False
-VER,Red Bull Racing,2.0,2.0,Finished,1.0,105.474,100.391,2023,Azerbaijan Grand Prix,False
-ALO,Aston Martin,2.0,3.0,Finished,1.0,92.355,87.202,2023,Miami Grand Prix,False
-ALO,Aston Martin,2.0,2.0,Finished,2.0,77.816,71.449,2023,Monaco Grand Prix,True
-SAI,Ferrari,2.0,5.0,Finished,2.0,80.1645,72.734,2023,Spanish Grand Prix,False
-ALO,Aston Martin,2.0,2.0,Finished,2.0,76.9255,87.286,2023,Canadian Grand Prix,False
-LEC,Ferrari,2.0,2.0,Finished,3.0,69.916,64.439,2023,Austrian Grand Prix,True
-NOR,McLaren,2.0,2.0,Finished,1.0,92.746,86.961,2023,British Grand Prix,False
-VER,Red Bull Racing,2.0,1.0,Finished,2.0,83.663,76.612,2023,Hungarian Grand Prix,False
-PER,Red Bull Racing,2.0,2.0,Finished,2.0,112.1575,107.045,2023,Belgian Grand Prix,True
-NOR,McLaren,2.0,7.0,Finished,6.0,76.797,71.104,2023,Dutch Grand Prix,True
-VER,Red Bull Racing,2.0,1.0,Finished,1.0,86.05,80.307,2023,Italian Grand Prix,False
-RUS,Mercedes,2.0,16.0,DNF,2.0,99.7895,91.056,2023,Singapore Grand Prix,False
-PIA,McLaren,2.0,3.0,Finished,2.0,98.44,89.458,2023,Japanese Grand Prix,False
-RUS,Mercedes,2.0,4.0,Finished,4.0,87.228,84.219,2023,Qatar Grand Prix,False
-NOR,McLaren,2.0,2.0,Finished,2.0,101.482,94.853,2023,United States Grand Prix,False
-SAI,Ferrari,2.0,4.0,Finished,2.0,83.259,77.233,2023,Mexico City Grand Prix,False
-VER,Red Bull Racing,2.0,1.0,Finished,2.0,97.6925,93.104,2023,Las Vegas Grand Prix,False
-LEC,Ferrari,2.0,2.0,Finished,2.0,89.5665,83.584,2023,Abu Dhabi Grand Prix,False
-LEC,Ferrari,2.0,4.0,Finished,2.0,96.76,89.407,2024,Bahrain Grand Prix,False
-LEC,Ferrari,2.0,3.0,Finished,1.0,93.2535,87.791,2024,Saudi Arabian Grand Prix,False
-SAI,Ferrari,2.0,1.0,Finished,2.0,81.513,76.185,2024,Australian Grand Prix,False
-PER,Red Bull Racing,2.0,2.0,Finished,3.0,96.568,88.263,2024,Japanese Grand Prix,False
-PER,Red Bull Racing,2.0,3.0,Finished,2.0,100.2135,93.982,2024,Chinese Grand Prix,False
-LEC,Ferrari,2.0,3.0,Finished,1.0,92.279,87.382,2024,Miami Grand Prix,False
-NOR,McLaren,2.0,2.0,Finished,1.0,80.816,74.837,2024,Emilia Romagna Grand Prix,False
-PIA,McLaren,2.0,2.0,Finished,1.0,78.486,70.424,2024,Monaco Grand Prix,False
-VER,Red Bull Racing,2.0,1.0,Finished,2.0,86.584,72.0,2024,Canadian Grand Prix,True
-VER,Red Bull Racing,2.0,1.0,Finished,2.0,79.7975,71.403,2024,Spanish Grand Prix,True
-NOR,McLaren,2.0,20.0,Finished,2.0,70.388,64.718,2024,Austrian Grand Prix,True
-HAM,Mercedes,2.0,1.0,Finished,2.0,91.676,85.99,2024,British Grand Prix,True
-PIA,McLaren,2.0,1.0,Finished,2.0,83.4355,75.249,2024,Hungarian Grand Prix,False
-PER,Red Bull Racing,2.0,7.0,Finished,3.0,108.3645,113.765,2024,Belgian Grand Prix,False
-VER,Red Bull Racing,2.0,2.0,Finished,1.0,75.2415,70.029,2024,Dutch Grand Prix,False
-PIA,McLaren,2.0,2.0,Finished,2.0,83.48,79.436,2024,Italian Grand Prix,False
 LEC,Ferrari,1.0,1.0,Finished,3.0,97.752,90.558,2022,Bahrain Grand Prix,False
 PER,Red Bull Racing,1.0,4.0,Finished,1.0,93.672,88.2,2022,Saudi Arabian Grand Prix,False
 LEC,Ferrari,1.0,1.0,Finished,1.0,82.546,77.868,2022,Australian Grand Prix,False
@@ -1106,6 +414,416 @@ VER,Red Bull Racing,1.0,1.0,Finished,2.0,107.516,89.304,2022,Japanese Grand Prix
 VER,Red Bull Racing,1.0,1.0,Finished,1.0,82.576,77.775,2022,Mexico City Grand Prix,False
 RUS,Mercedes,1.0,1.0,Finished,2.0,76.108,72.059,2022,São Paulo Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,1.0,90.138,83.824,2022,Abu Dhabi Grand Prix,False
+ZHO,Alfa Romeo,0.0,15.0,Finished,1.0,82.801,81.434,2022,Emilia Romagna Grand Prix,False
+STR,Aston Martin,0.0,10.0,Finished,1.0,95.204,90.676,2022,Miami Grand Prix,True
+VET,Aston Martin,0.0,17.0,DNF,1.0,95.644,90.214,2022,Miami Grand Prix,True
+BOT,Alfa Romeo,0.0,11.0,Finished,2.0,71.359,66.319,2022,Austrian Grand Prix,False
+GAS,AlphaTauri,0.0,12.0,Finished,2.0,85.0585,79.527,2022,Hungarian Grand Prix,True
+GAS,AlphaTauri,0.0,9.0,Finished,2.0,114.206,105.827,2022,Belgian Grand Prix,False
+TSU,AlphaTauri,0.0,13.0,Finished,2.0,114.333,106.692,2022,Belgian Grand Prix,False
+RUS,Mercedes,0.0,14.0,Finished,4.0,122.4485,114.012,2022,Singapore Grand Prix,True
+OCO,Alpine,0.0,11.0,Finished,2.0,103.878,97.068,2022,United States Grand Prix,False
+TSU,AlphaTauri,0.0,17.0,Finished,3.0,77.593,76.264,2022,São Paulo Grand Prix,False
+GAS,Alpine,20.0,9.0,Finished,3.0,98.147,92.181,2023,Bahrain Grand Prix,False
+SAR,Williams,20.0,16.0,Finished,1.0,96.05,128.51,2023,Saudi Arabian Grand Prix,False
+HUL,Haas F1 Team,20.0,17.0,Finished,1.0,107.678,102.755,2023,Azerbaijan Grand Prix,False
+SAR,Williams,20.0,20.0,Finished,1.0,93.394,88.577,2023,Miami Grand Prix,False
+PER,Red Bull Racing,20.0,16.0,Finished,5.0,79.699,73.85,2023,Monaco Grand Prix,True
+SAR,Williams,20.0,20.0,Finished,2.0,80.8595,74.699,2023,Spanish Grand Prix,False
+ZHO,Alfa Romeo,20.0,16.0,Finished,2.0,78.385,83.342,2023,Canadian Grand Prix,False
+DEV,AlphaTauri,20.0,17.0,Finished,3.0,71.238,65.974,2023,Austrian Grand Prix,True
+BOT,Alfa Romeo,20.0,12.0,Finished,1.0,93.7005,89.798,2023,British Grand Prix,False
+SAR,Williams,20.0,18.0,DNF,2.0,85.238,79.248,2023,Hungarian Grand Prix,False
+HUL,Haas F1 Team,20.0,18.0,Finished,2.0,113.91,123.166,2023,Belgian Grand Prix,True
+STR,Aston Martin,20.0,16.0,Finished,1.0,87.34,82.86,2023,Italian Grand Prix,False
+PER,Red Bull Racing,20.0,10.0,Finished,3.0,88.031,85.462,2023,Qatar Grand Prix,False
+STR,Aston Martin,20.0,7.0,Finished,2.0,101.631,96.589,2023,United States Grand Prix,False
+ZHO,Alfa Romeo,20.0,17.0,DNF,3.0,77.0745,71.275,2023,São Paulo Grand Prix,True
+TSU,AlphaTauri,20.0,18.0,DNF,2.0,100.209,96.447,2023,Las Vegas Grand Prix,False
+DEV,AlphaTauri,19.0,14.0,Finished,2.0,99.1715,92.121,2023,Bahrain Grand Prix,False
+NOR,McLaren,19.0,17.0,Finished,2.0,95.634,90.447,2023,Saudi Arabian Grand Prix,False
+BOT,Alfa Romeo,19.0,11.0,Finished,6.0,83.539,78.714,2023,Australian Grand Prix,False
+OCO,Alpine,19.0,15.0,Finished,1.0,107.5695,101.798,2023,Azerbaijan Grand Prix,False
+PIA,McLaren,19.0,19.0,Finished,1.0,93.4825,88.484,2023,Miami Grand Prix,False
+ZHO,Alfa Romeo,19.0,13.0,Finished,2.0,80.398,73.523,2023,Monaco Grand Prix,True
+LEC,Ferrari,19.0,11.0,Finished,2.0,80.316,74.079,2023,Spanish Grand Prix,False
+TSU,AlphaTauri,19.0,14.0,Finished,2.0,77.618,82.746,2023,Canadian Grand Prix,False
+MAG,Haas F1 Team,19.0,18.0,Finished,3.0,71.855,65.971,2023,Austrian Grand Prix,True
+MAG,Haas F1 Team,19.0,19.0,DNF,0.0,94.2955,92.378,2023,British Grand Prix,False
+MAG,Haas F1 Team,19.0,17.0,Finished,2.0,85.991,79.206,2023,Hungarian Grand Prix,False
+RIC,AlphaTauri,19.0,16.0,Finished,2.0,113.3735,122.159,2023,Belgian Grand Prix,True
+LAW,AlphaTauri,19.0,13.0,Finished,7.0,77.778,83.42,2023,Dutch Grand Prix,True
+MAG,Haas F1 Team,19.0,18.0,Finished,2.0,87.384,82.592,2023,Italian Grand Prix,False
+ZHO,Alfa Romeo,19.0,12.0,Finished,2.0,100.833,93.258,2023,Singapore Grand Prix,False
+ZHO,Alfa Romeo,19.0,13.0,Finished,3.0,98.8775,91.398,2023,Japanese Grand Prix,False
+ZHO,Alfa Romeo,19.0,9.0,Finished,3.0,88.561,87.432,2023,Qatar Grand Prix,False
+ALO,Aston Martin,19.0,16.0,DNF,2.0,101.905,96.268,2023,United States Grand Prix,False
+SAR,Williams,19.0,11.0,Finished,4.0,76.658,71.035,2023,São Paulo Grand Prix,True
+STR,Aston Martin,19.0,5.0,Finished,2.0,98.75,94.199,2023,Las Vegas Grand Prix,False
+ZHO,Alfa Romeo,19.0,17.0,Finished,2.0,90.772,85.159,2023,Abu Dhabi Grand Prix,False
+PIA,McLaren,18.0,20.0,DNF,0.0,101.1615,92.101,2023,Bahrain Grand Prix,False
+DEV,AlphaTauri,18.0,14.0,Finished,1.0,95.7675,90.244,2023,Saudi Arabian Grand Prix,False
+SAR,Williams,18.0,16.0,DNF,6.0,84.059,78.557,2023,Australian Grand Prix,False
+DEV,AlphaTauri,18.0,20.0,DNF,0.0,109.295,115.282,2023,Azerbaijan Grand Prix,False
+STR,Aston Martin,18.0,12.0,Finished,1.0,92.999,88.476,2023,Miami Grand Prix,False
+HUL,Haas F1 Team,18.0,17.0,Finished,3.0,79.732,73.279,2023,Monaco Grand Prix,True
+ALB,Williams,18.0,16.0,Finished,2.0,80.762,74.063,2023,Spanish Grand Prix,False
+SAR,Williams,18.0,20.0,DNF,0.0,79.166,83.337,2023,Canadian Grand Prix,False
+SAR,Williams,18.0,13.0,Finished,3.0,71.1655,65.948,2023,Austrian Grand Prix,True
+DEV,AlphaTauri,18.0,17.0,Finished,2.0,93.7085,90.513,2023,British Grand Prix,False
+RUS,Mercedes,18.0,6.0,Finished,2.0,83.9285,79.027,2023,Hungarian Grand Prix,False
+SAR,Williams,18.0,17.0,Finished,3.0,113.982,121.535,2023,Belgian Grand Prix,True
+BOT,Alfa Romeo,18.0,14.0,Finished,5.0,78.0,82.26,2023,Dutch Grand Prix,True
+OCO,Alpine,18.0,19.0,DNF,1.0,87.5945,82.548,2023,Italian Grand Prix,False
+SAR,Williams,18.0,14.0,Finished,2.0,100.207,93.252,2023,Singapore Grand Prix,False
+HUL,Haas F1 Team,18.0,14.0,Finished,3.0,98.605,91.299,2023,Japanese Grand Prix,False
+MAG,Haas F1 Team,18.0,14.0,Finished,3.0,88.761,87.046,2023,Qatar Grand Prix,False
+HUL,Haas F1 Team,18.0,11.0,Finished,2.0,102.65,96.235,2023,United States Grand Prix,False
+TSU,AlphaTauri,18.0,12.0,Finished,2.0,83.963,78.89,2023,Mexico City Grand Prix,False
+BOT,Alfa Romeo,18.0,16.0,DNF,3.0,77.022,70.955,2023,São Paulo Grand Prix,True
+PIA,McLaren,18.0,10.0,Finished,2.0,97.8375,94.85,2023,Las Vegas Grand Prix,False
+BOT,Alfa Romeo,18.0,19.0,Finished,1.0,91.308,84.788,2023,Abu Dhabi Grand Prix,False
+MAG,Haas F1 Team,17.0,13.0,Finished,3.0,98.791,91.892,2023,Bahrain Grand Prix,False
+ALB,Williams,17.0,19.0,DNF,1.0,96.9385,89.994,2023,Saudi Arabian Grand Prix,False
+ZHO,Alfa Romeo,17.0,9.0,Finished,5.0,83.374,78.54,2023,Australian Grand Prix,False
+GAS,Alpine,17.0,14.0,Finished,2.0,107.206,104.853,2023,Azerbaijan Grand Prix,False
+TSU,AlphaTauri,17.0,11.0,Finished,1.0,92.959,88.429,2023,Miami Grand Prix,False
+MAG,Haas F1 Team,17.0,19.0,DNF,1.0,79.8795,73.27,2023,Monaco Grand Prix,True
+MAG,Haas F1 Team,17.0,18.0,Finished,3.0,80.401,74.042,2023,Spanish Grand Prix,False
+DEV,AlphaTauri,17.0,18.0,Finished,2.0,78.438,83.137,2023,Canadian Grand Prix,False
+ZHO,Alfa Romeo,17.0,12.0,Finished,3.0,71.053,65.818,2023,Austrian Grand Prix,True
+ZHO,Alfa Romeo,17.0,15.0,Finished,3.0,93.7025,90.123,2023,British Grand Prix,False
+TSU,AlphaTauri,17.0,15.0,Finished,2.0,85.519,78.919,2023,Hungarian Grand Prix,False
+ZHO,Alfa Romeo,17.0,13.0,Finished,2.0,113.3745,120.832,2023,Belgian Grand Prix,True
+TSU,AlphaTauri,17.0,15.0,Finished,5.0,77.283,80.23,2023,Dutch Grand Prix,True
+GAS,Alpine,17.0,15.0,Finished,2.0,87.189,82.545,2023,Italian Grand Prix,False
+PIA,McLaren,17.0,7.0,Finished,1.0,100.5935,92.902,2023,Singapore Grand Prix,False
+STR,Aston Martin,17.0,18.0,DNF,1.0,100.052,91.181,2023,Japanese Grand Prix,False
+LAW,AlphaTauri,17.0,17.0,Finished,3.0,89.47,86.635,2023,Qatar Grand Prix,False
+MAG,Haas F1 Team,17.0,14.0,Finished,2.0,103.119,95.88,2023,United States Grand Prix,False
+NOR,McLaren,17.0,5.0,Finished,3.0,83.3825,81.554,2023,Mexico City Grand Prix,False
+RIC,AlphaTauri,17.0,13.0,Finished,4.0,76.139,70.843,2023,São Paulo Grand Prix,True
+ZHO,Alfa Romeo,17.0,15.0,Finished,1.0,99.6225,94.849,2023,Las Vegas Grand Prix,False
+MAG,Haas F1 Team,17.0,20.0,Finished,2.0,90.631,84.764,2023,Abu Dhabi Grand Prix,False
+SAR,Williams,16.0,12.0,Finished,3.0,99.1095,91.652,2023,Bahrain Grand Prix,False
+TSU,AlphaTauri,16.0,11.0,Finished,1.0,95.4525,89.939,2023,Saudi Arabian Grand Prix,False
+PIA,McLaren,16.0,8.0,Finished,4.0,82.995,78.517,2023,Australian Grand Prix,False
+MAG,Haas F1 Team,16.0,13.0,Finished,1.0,107.722,103.417,2023,Azerbaijan Grand Prix,False
+NOR,McLaren,16.0,17.0,Finished,1.0,93.14,88.394,2023,Miami Grand Prix,False
+SAR,Williams,16.0,18.0,Finished,3.0,80.4025,73.113,2023,Monaco Grand Prix,True
+BOT,Alfa Romeo,16.0,19.0,Finished,2.0,81.205,73.977,2023,Spanish Grand Prix,False
+STR,Aston Martin,16.0,9.0,Finished,2.0,77.3625,81.484,2023,Canadian Grand Prix,False
+TSU,AlphaTauri,16.0,19.0,Finished,4.0,71.073,65.784,2023,Austrian Grand Prix,True
+TSU,AlphaTauri,16.0,16.0,Finished,2.0,93.277,90.025,2023,British Grand Prix,False
+ALB,Williams,16.0,11.0,Finished,2.0,84.834,78.917,2023,Hungarian Grand Prix,False
+MAG,Haas F1 Team,16.0,15.0,Finished,2.0,113.8235,114.16,2023,Belgian Grand Prix,True
+OCO,Alpine,16.0,10.0,Finished,6.0,76.743,82.11,2023,Dutch Grand Prix,True
+ZHO,Alfa Romeo,16.0,14.0,Finished,2.0,87.153,82.39,2023,Italian Grand Prix,False
+BOT,Alfa Romeo,16.0,17.0,DNF,1.0,101.288,92.809,2023,Singapore Grand Prix,False
+BOT,Alfa Romeo,16.0,20.0,DNF,2.0,122.755,91.049,2023,Japanese Grand Prix,False
+STR,Aston Martin,16.0,11.0,Finished,3.0,88.522,86.345,2023,Qatar Grand Prix,False
+SAR,Williams,16.0,10.0,Finished,2.0,102.735,96.827,2023,United States Grand Prix,False
+MAG,Haas F1 Team,16.0,19.0,DNF,1.0,85.1695,79.163,2023,Mexico City Grand Prix,False
+TSU,AlphaTauri,16.0,9.0,Finished,4.0,76.142,70.837,2023,São Paulo Grand Prix,True
+OCO,Alpine,16.0,4.0,Finished,1.0,97.732,94.834,2023,Las Vegas Grand Prix,False
+SAI,Ferrari,16.0,18.0,DNF,2.0,90.228,84.738,2023,Abu Dhabi Grand Prix,False
+ALB,Williams,15.0,10.0,Finished,3.0,98.176,91.461,2023,Bahrain Grand Prix,False
+VER,Red Bull Racing,15.0,2.0,Finished,1.0,93.193,109.953,2023,Saudi Arabian Grand Prix,False
+DEV,AlphaTauri,15.0,15.0,DNF,4.0,84.2065,78.335,2023,Australian Grand Prix,False
+ZHO,Alfa Romeo,15.0,19.0,DNF,1.0,108.394,102.642,2023,Azerbaijan Grand Prix,False
+DEV,AlphaTauri,15.0,18.0,Finished,1.0,92.945,88.395,2023,Miami Grand Prix,False
+BOT,Alfa Romeo,15.0,11.0,Finished,1.0,80.07,72.625,2023,Monaco Grand Prix,True
+TSU,AlphaTauri,15.0,12.0,Finished,2.0,80.1915,74.477,2023,Spanish Grand Prix,False
+GAS,Alpine,15.0,12.0,Finished,2.0,77.3645,82.886,2023,Canadian Grand Prix,False
+PER,Red Bull Racing,15.0,3.0,Finished,3.0,69.58,126.688,2023,Austrian Grand Prix,True
+PER,Red Bull Racing,15.0,6.0,Finished,1.0,93.2475,89.968,2023,British Grand Prix,False
+ALB,Williams,15.0,14.0,Finished,3.0,113.454,120.314,2023,Belgian Grand Prix,True
+ZHO,Alfa Romeo,15.0,18.0,DNF,4.0,77.181,82.067,2023,Dutch Grand Prix,True
+SAR,Williams,15.0,13.0,Finished,1.0,87.293,81.944,2023,Italian Grand Prix,False
+MAG,Haas F1 Team,15.0,15.0,Finished,2.0,99.2485,90.665,2023,Japanese Grand Prix,False
+SAR,Williams,15.0,18.0,DNF,2.0,89.532,86.21,2023,Qatar Grand Prix,False
+ALB,Williams,15.0,9.0,Finished,2.0,102.882,96.315,2023,United States Grand Prix,False
+OCO,Alpine,15.0,10.0,Finished,1.0,84.658,79.08,2023,Mexico City Grand Prix,False
+GAS,Alpine,15.0,7.0,Finished,4.0,76.082,70.567,2023,São Paulo Grand Prix,True
+NOR,McLaren,15.0,20.0,DNF,0.0,119.327,94.703,2023,Las Vegas Grand Prix,False
+RIC,AlphaTauri,15.0,11.0,Finished,2.0,90.283,84.442,2023,Abu Dhabi Grand Prix,False
+TSU,AlphaTauri,14.0,11.0,Finished,3.0,98.163,92.51,2023,Bahrain Grand Prix,False
+BOT,Alfa Romeo,14.0,18.0,Finished,3.0,96.259,89.668,2023,Saudi Arabian Grand Prix,False
+MAG,Haas F1 Team,14.0,17.0,DNF,2.0,83.304,78.129,2023,Australian Grand Prix,False
+SAR,Williams,14.0,16.0,Finished,1.0,108.044,102.395,2023,Azerbaijan Grand Prix,False
+ZHO,Alfa Romeo,14.0,16.0,Finished,1.0,93.302,88.091,2023,Miami Grand Prix,False
+STR,Aston Martin,14.0,20.0,DNF,1.0,79.2225,72.623,2023,Monaco Grand Prix,True
+DEV,AlphaTauri,14.0,14.0,Finished,2.0,80.553,74.083,2023,Spanish Grand Prix,False
+BOT,Alfa Romeo,14.0,10.0,Finished,1.0,77.86,81.821,2023,Canadian Grand Prix,False
+BOT,Alfa Romeo,14.0,15.0,Finished,3.0,70.7265,65.68,2023,Austrian Grand Prix,True
+SAR,Williams,14.0,11.0,Finished,1.0,93.628,89.031,2023,British Grand Prix,False
+STR,Aston Martin,14.0,10.0,Finished,2.0,84.689,78.144,2023,Hungarian Grand Prix,False
+OCO,Alpine,14.0,8.0,Finished,2.0,112.8445,116.372,2023,Belgian Grand Prix,True
+HUL,Haas F1 Team,14.0,12.0,Finished,5.0,77.593,80.25,2023,Dutch Grand Prix,True
+BOT,Alfa Romeo,14.0,10.0,Finished,1.0,87.203,81.94,2023,Italian Grand Prix,False
+ALB,Williams,14.0,11.0,Finished,2.0,100.826,93.719,2023,Singapore Grand Prix,False
+OCO,Alpine,14.0,9.0,Finished,2.0,98.758,90.586,2023,Japanese Grand Prix,False
+HUL,Haas F1 Team,14.0,16.0,Finished,3.0,88.8455,85.783,2023,Qatar Grand Prix,False
+RIC,AlphaTauri,14.0,15.0,Finished,2.0,103.395,95.974,2023,United States Grand Prix,False
+ALB,Williams,14.0,9.0,Finished,2.0,84.1675,79.147,2023,Mexico City Grand Prix,False
+OCO,Alpine,14.0,10.0,Finished,5.0,76.252,70.562,2023,São Paulo Grand Prix,True
+RIC,AlphaTauri,14.0,14.0,Finished,1.0,99.479,94.308,2023,Las Vegas Grand Prix,False
+ALB,Williams,14.0,14.0,Finished,2.0,90.455,84.439,2023,Abu Dhabi Grand Prix,False
+ZHO,Alfa Romeo,13.0,16.0,Finished,3.0,99.232,91.473,2023,Bahrain Grand Prix,False
+MAG,Haas F1 Team,13.0,10.0,Finished,1.0,95.475,89.634,2023,Saudi Arabian Grand Prix,False
+NOR,McLaren,13.0,6.0,Finished,3.0,82.4205,78.119,2023,Australian Grand Prix,False
+BOT,Alfa Romeo,13.0,18.0,Finished,3.0,108.1885,102.259,2023,Azerbaijan Grand Prix,False
+HAM,Mercedes,13.0,6.0,Finished,1.0,92.878,87.975,2023,Miami Grand Prix,False
+ALB,Williams,13.0,14.0,Finished,2.0,80.259,72.527,2023,Monaco Grand Prix,True
+ZHO,Alfa Romeo,13.0,9.0,Finished,2.0,80.353,73.521,2023,Spanish Grand Prix,False
+MAG,Haas F1 Team,13.0,17.0,Finished,2.0,78.494,81.678,2023,Canadian Grand Prix,False
+PIA,McLaren,13.0,16.0,Finished,4.0,70.8945,65.605,2023,Austrian Grand Prix,True
+OCO,Alpine,13.0,20.0,DNF,0.0,94.2295,88.956,2023,British Grand Prix,False
+RIC,AlphaTauri,13.0,13.0,Finished,2.0,84.496,78.002,2023,Hungarian Grand Prix,False
+BOT,Alfa Romeo,13.0,12.0,Finished,2.0,113.4125,114.694,2023,Belgian Grand Prix,True
+HAM,Mercedes,13.0,6.0,Finished,5.0,76.7805,80.151,2023,Dutch Grand Prix,True
+HUL,Haas F1 Team,13.0,17.0,Finished,2.0,87.294,81.776,2023,Italian Grand Prix,False
+PER,Red Bull Racing,13.0,8.0,Finished,1.0,100.6655,92.31,2023,Singapore Grand Prix,False
+ALB,Williams,13.0,16.0,DNF,2.0,100.286,90.537,2023,Japanese Grand Prix,False
+ALB,Williams,13.0,13.0,Finished,3.0,88.358,85.707,2023,Qatar Grand Prix,False
+BOT,Alfa Romeo,13.0,12.0,Finished,2.0,102.91,95.858,2023,United States Grand Prix,False
+ALO,Aston Martin,13.0,18.0,Finished,2.0,85.268,78.738,2023,Mexico City Grand Prix,False
+HUL,Haas F1 Team,13.0,19.0,DNF,2.0,99.004,93.979,2023,Las Vegas Grand Prix,False
+STR,Aston Martin,13.0,10.0,Finished,2.0,90.248,84.422,2023,Abu Dhabi Grand Prix,False
+BOT,Alfa Romeo,12.0,8.0,Finished,2.0,98.407,91.443,2023,Bahrain Grand Prix,False
+LEC,Ferrari,12.0,7.0,Finished,1.0,94.691,88.42,2023,Saudi Arabian Grand Prix,False
+TSU,AlphaTauri,12.0,10.0,Finished,4.0,83.629,78.099,2023,Australian Grand Prix,False
+ALB,Williams,12.0,12.0,Finished,1.0,107.776,101.818,2023,Azerbaijan Grand Prix,False
+HUL,Haas F1 Team,12.0,15.0,Finished,1.0,93.05,87.903,2023,Miami Grand Prix,False
+DEV,AlphaTauri,12.0,12.0,Finished,1.0,79.973,72.428,2023,Monaco Grand Prix,True
+RUS,Mercedes,12.0,3.0,Finished,2.0,79.5285,73.447,2023,Spanish Grand Prix,False
+PER,Red Bull Racing,12.0,6.0,Finished,2.0,77.52,80.959,2023,Canadian Grand Prix,False
+OCO,Alpine,12.0,14.0,Finished,3.0,70.9755,65.453,2023,Austrian Grand Prix,True
+STR,Aston Martin,12.0,14.0,Finished,1.0,93.75,88.935,2023,British Grand Prix,False
+OCO,Alpine,12.0,19.0,DNF,0.0,106.965,77.841,2023,Hungarian Grand Prix,False
+GAS,Alpine,12.0,11.0,Finished,1.0,113.5085,113.671,2023,Belgian Grand Prix,True
+GAS,Alpine,12.0,3.0,Finished,5.0,76.3715,80.128,2023,Dutch Grand Prix,True
+LAW,AlphaTauri,12.0,11.0,Finished,2.0,87.089,81.758,2023,Italian Grand Prix,False
+GAS,Alpine,12.0,6.0,Finished,1.0,100.675,92.274,2023,Singapore Grand Prix,False
+GAS,Alpine,12.0,10.0,Finished,2.0,98.656,90.509,2023,Japanese Grand Prix,False
+ZHO,Alfa Romeo,12.0,13.0,Finished,2.0,103.042,95.698,2023,United States Grand Prix,False
+HUL,Haas F1 Team,12.0,13.0,Finished,2.0,84.447,78.524,2023,Mexico City Grand Prix,False
+SAI,Ferrari,12.0,6.0,Finished,2.0,98.7015,92.77,2023,Las Vegas Grand Prix,False
+OCO,Alpine,12.0,12.0,Finished,1.0,90.4905,84.391,2023,Abu Dhabi Grand Prix,False
+NOR,McLaren,11.0,17.0,Finished,6.0,98.347,91.381,2023,Bahrain Grand Prix,False
+ZHO,Alfa Romeo,11.0,13.0,Finished,2.0,95.426,89.461,2023,Saudi Arabian Grand Prix,False
+OCO,Alpine,11.0,14.0,DNF,3.0,82.138,77.768,2023,Australian Grand Prix,False
+RUS,Mercedes,11.0,8.0,Finished,2.0,106.891,101.654,2023,Azerbaijan Grand Prix,False
+ALB,Williams,11.0,14.0,Finished,1.0,92.681,87.795,2023,Miami Grand Prix,False
+PIA,McLaren,11.0,10.0,Finished,1.0,79.359,72.395,2023,Monaco Grand Prix,True
+PER,Red Bull Racing,11.0,4.0,Finished,2.0,79.517,73.334,2023,Spanish Grand Prix,False
+SAI,Ferrari,11.0,5.0,Finished,1.0,77.1585,89.294,2023,Canadian Grand Prix,False
+RUS,Mercedes,11.0,7.0,Finished,3.0,70.617,65.428,2023,Austrian Grand Prix,True
+HUL,Haas F1 Team,11.0,13.0,Finished,2.0,93.493,88.896,2023,British Grand Prix,False
+SAI,Ferrari,11.0,8.0,Finished,2.0,84.501,77.703,2023,Hungarian Grand Prix,False
+TSU,AlphaTauri,11.0,10.0,Finished,2.0,112.7585,113.148,2023,Belgian Grand Prix,True
+STR,Aston Martin,11.0,11.0,Finished,7.0,77.567,80.121,2023,Dutch Grand Prix,True
+VER,Red Bull Racing,11.0,5.0,Finished,1.0,100.375,92.173,2023,Singapore Grand Prix,False
+LAW,AlphaTauri,11.0,11.0,Finished,2.0,98.8105,90.508,2023,Japanese Grand Prix,False
+TSU,AlphaTauri,11.0,15.0,Finished,3.0,88.979,85.301,2023,Qatar Grand Prix,False
+TSU,AlphaTauri,11.0,8.0,Finished,3.0,102.449,95.697,2023,United States Grand Prix,False
+GAS,Alpine,11.0,11.0,Finished,2.0,84.282,78.521,2023,Mexico City Grand Prix,False
+HUL,Haas F1 Team,11.0,12.0,Finished,4.0,76.791,70.547,2023,São Paulo Grand Prix,True
+PER,Red Bull Racing,11.0,3.0,Finished,2.0,97.8375,93.855,2023,Las Vegas Grand Prix,False
+HAM,Mercedes,11.0,9.0,Finished,2.0,89.824,84.359,2023,Abu Dhabi Grand Prix,False
+HUL,Haas F1 Team,10.0,15.0,Finished,3.0,98.7055,90.809,2023,Bahrain Grand Prix,False
+HUL,Haas F1 Team,10.0,12.0,Finished,1.0,95.8365,89.451,2023,Saudi Arabian Grand Prix,False
+HUL,Haas F1 Team,10.0,7.0,Finished,3.0,82.603,77.735,2023,Australian Grand Prix,False
+PIA,McLaren,10.0,11.0,Finished,1.0,107.625,101.611,2023,Azerbaijan Grand Prix,False
+BOT,Alfa Romeo,10.0,13.0,Finished,1.0,92.851,87.564,2023,Miami Grand Prix,False
+NOR,McLaren,10.0,9.0,Finished,2.0,79.053,72.254,2023,Monaco Grand Prix,True
+GAS,Alpine,10.0,10.0,Finished,2.0,80.0685,72.816,2023,Spanish Grand Prix,False
+LEC,Ferrari,10.0,4.0,Finished,1.0,77.193,80.615,2023,Canadian Grand Prix,False
+ALB,Williams,10.0,11.0,Finished,3.0,70.931,65.823,2023,Austrian Grand Prix,True
+GAS,Alpine,10.0,18.0,DNF,1.0,93.535,87.689,2023,British Grand Prix,False
+HUL,Haas F1 Team,10.0,14.0,Finished,2.0,85.581,77.186,2023,Hungarian Grand Prix,False
+STR,Aston Martin,10.0,9.0,Finished,1.0,113.15,108.841,2023,Belgian Grand Prix,True
+SAR,Williams,10.0,20.0,DNF,0.0,89.878,76.748,2023,Dutch Grand Prix,True
+ALO,Aston Martin,10.0,9.0,Finished,1.0,86.929,81.417,2023,Italian Grand Prix,False
+LAW,AlphaTauri,10.0,9.0,Finished,1.0,101.003,92.268,2023,Singapore Grand Prix,False
+ALO,Aston Martin,10.0,8.0,Finished,2.0,98.637,90.56,2023,Japanese Grand Prix,False
+NOR,McLaren,10.0,3.0,Finished,3.0,86.924,84.685,2023,Qatar Grand Prix,False
+PIA,McLaren,10.0,17.0,DNF,0.0,103.263,95.467,2023,United States Grand Prix,False
+ZHO,Alfa Romeo,10.0,14.0,Finished,2.0,84.404,78.05,2023,Mexico City Grand Prix,False
+PIA,McLaren,10.0,14.0,Finished,4.0,76.3615,70.33,2023,São Paulo Grand Prix,True
+HAM,Mercedes,10.0,7.0,Finished,2.0,98.2565,93.837,2023,Las Vegas Grand Prix,False
+GAS,Alpine,10.0,13.0,Finished,2.0,90.2405,84.548,2023,Abu Dhabi Grand Prix,False
+OCO,Alpine,9.0,18.0,DNF,3.0,99.5685,90.984,2023,Bahrain Grand Prix,False
+GAS,Alpine,9.0,9.0,Finished,1.0,94.9345,89.357,2023,Saudi Arabian Grand Prix,False
+GAS,Alpine,9.0,13.0,DNF,2.0,82.188,77.675,2023,Australian Grand Prix,False
+STR,Aston Martin,9.0,7.0,Finished,1.0,106.763,101.611,2023,Azerbaijan Grand Prix,False
+VER,Red Bull Racing,9.0,1.0,Finished,1.0,91.82,86.814,2023,Miami Grand Prix,False
+TSU,AlphaTauri,9.0,15.0,Finished,1.0,79.1415,72.082,2023,Monaco Grand Prix,True
+PIA,McLaren,9.0,13.0,Finished,2.0,80.618,73.682,2023,Spanish Grand Prix,False
+ALB,Williams,9.0,7.0,Finished,1.0,78.0135,78.725,2023,Canadian Grand Prix,False
+GAS,Alpine,9.0,10.0,Finished,3.0,70.649,65.17,2023,Austrian Grand Prix,True
+ALO,Aston Martin,9.0,7.0,Finished,1.0,93.154,87.659,2023,British Grand Prix,False
+PER,Red Bull Racing,9.0,3.0,Finished,2.0,83.675,77.045,2023,Hungarian Grand Prix,False
+ALO,Aston Martin,9.0,5.0,Finished,2.0,112.57,107.843,2023,Belgian Grand Prix,True
+LEC,Ferrari,9.0,19.0,Finished,2.0,78.37,72.665,2023,Dutch Grand Prix,True
+NOR,McLaren,9.0,8.0,Finished,1.0,87.017,80.979,2023,Italian Grand Prix,False
+HUL,Haas F1 Team,9.0,13.0,Finished,1.0,101.1065,91.808,2023,Singapore Grand Prix,False
+TSU,AlphaTauri,9.0,12.0,Finished,2.0,99.2865,90.303,2023,Japanese Grand Prix,False
+BOT,Alfa Romeo,9.0,8.0,Finished,3.0,88.235,85.058,2023,Qatar Grand Prix,False
+PER,Red Bull Racing,9.0,4.0,Finished,2.0,101.3775,95.173,2023,United States Grand Prix,False
+BOT,Alfa Romeo,9.0,15.0,Finished,2.0,84.581,78.032,2023,Mexico City Grand Prix,False
+PER,Red Bull Racing,9.0,4.0,Finished,4.0,75.845,72.321,2023,São Paulo Grand Prix,True
+ALO,Aston Martin,9.0,9.0,Finished,2.0,98.251,93.555,2023,Las Vegas Grand Prix,False
+PER,Red Bull Racing,9.0,4.0,Finished,2.0,89.315,84.171,2023,Abu Dhabi Grand Prix,False
+STR,Aston Martin,8.0,6.0,Finished,2.0,98.127,90.836,2023,Bahrain Grand Prix,False
+PIA,McLaren,8.0,15.0,Finished,1.0,95.64,89.243,2023,Saudi Arabian Grand Prix,False
+ALB,Williams,8.0,19.0,DNF,0.0,84.327,77.609,2023,Australian Grand Prix,False
+TSU,AlphaTauri,8.0,10.0,Finished,1.0,107.642,101.581,2023,Azerbaijan Grand Prix,False
+OCO,Alpine,8.0,9.0,Finished,1.0,92.984,87.935,2023,Miami Grand Prix,False
+RUS,Mercedes,8.0,5.0,Finished,1.0,78.4925,71.964,2023,Monaco Grand Prix,True
+ALO,Aston Martin,8.0,7.0,Finished,2.0,80.3215,73.507,2023,Spanish Grand Prix,False
+PIA,McLaren,8.0,11.0,Finished,2.0,78.0485,91.349,2023,Canadian Grand Prix,False
+HUL,Haas F1 Team,8.0,20.0,DNF,2.0,71.254,65.09,2023,Austrian Grand Prix,True
+ALB,Williams,8.0,8.0,Finished,1.0,93.407,87.53,2023,British Grand Prix,False
+ALO,Aston Martin,8.0,9.0,Finished,2.0,84.6595,77.035,2023,Hungarian Grand Prix,False
+RUS,Mercedes,8.0,6.0,Finished,1.0,112.9405,107.805,2023,Belgian Grand Prix,True
+PIA,McLaren,8.0,9.0,Finished,5.0,76.87,71.938,2023,Dutch Grand Prix,True
+HAM,Mercedes,8.0,6.0,Finished,1.0,86.995,80.82,2023,Italian Grand Prix,False
+OCO,Alpine,8.0,18.0,DNF,1.0,100.562,91.673,2023,Singapore Grand Prix,False
+RUS,Mercedes,8.0,7.0,Finished,1.0,98.88,90.219,2023,Japanese Grand Prix,False
+OCO,Alpine,8.0,7.0,Finished,3.0,87.977,84.763,2023,Qatar Grand Prix,False
+OCO,Alpine,8.0,18.0,DNF,0.0,107.31,95.154,2023,United States Grand Prix,False
+RUS,Mercedes,8.0,6.0,Finished,2.0,83.464,77.674,2023,Mexico City Grand Prix,False
+RUS,Mercedes,8.0,15.0,DNF,4.0,76.659,71.59,2023,São Paulo Grand Prix,True
+MAG,Haas F1 Team,8.0,13.0,Finished,2.0,98.8375,93.537,2023,Las Vegas Grand Prix,False
+HUL,Haas F1 Team,8.0,15.0,Finished,2.0,90.4745,84.108,2023,Abu Dhabi Grand Prix,False
+HAM,Mercedes,7.0,5.0,Finished,2.0,98.308,90.384,2023,Bahrain Grand Prix,False
+HAM,Mercedes,7.0,5.0,Finished,1.0,94.21,89.223,2023,Saudi Arabian Grand Prix,False
+NOR,McLaren,7.0,9.0,Finished,1.0,107.449,101.281,2023,Azerbaijan Grand Prix,False
+LEC,Ferrari,7.0,7.0,Finished,1.0,92.582,87.861,2023,Miami Grand Prix,False
+GAS,Alpine,7.0,7.0,Finished,2.0,78.5615,71.933,2023,Monaco Grand Prix,True
+HUL,Haas F1 Team,7.0,15.0,Finished,3.0,80.001,73.229,2023,Spanish Grand Prix,False
+NOR,McLaren,7.0,13.0,Finished,2.0,77.832,88.046,2023,Canadian Grand Prix,False
+ALO,Aston Martin,7.0,5.0,Finished,3.0,70.314,64.911,2023,Austrian Grand Prix,True
+HAM,Mercedes,7.0,3.0,Finished,1.0,92.965,87.211,2023,British Grand Prix,False
+BOT,Alfa Romeo,7.0,12.0,Finished,2.0,84.995,77.034,2023,Hungarian Grand Prix,False
+NOR,McLaren,7.0,7.0,Finished,2.0,112.688,107.669,2023,Belgian Grand Prix,True
+PER,Red Bull Racing,7.0,4.0,Finished,6.0,75.822,71.88,2023,Dutch Grand Prix,True
+PIA,McLaren,7.0,12.0,Finished,2.0,86.86,80.785,2023,Italian Grand Prix,False
+ALO,Aston Martin,7.0,15.0,Finished,2.0,100.3865,91.615,2023,Singapore Grand Prix,False
+HAM,Mercedes,7.0,5.0,Finished,2.0,98.333,89.908,2023,Japanese Grand Prix,False
+GAS,Alpine,7.0,12.0,Finished,3.0,88.565,84.553,2023,Qatar Grand Prix,False
+GAS,Alpine,7.0,6.0,Finished,2.0,102.1895,95.089,2023,United States Grand Prix,False
+PIA,McLaren,7.0,8.0,Finished,2.0,83.519,77.623,2023,Mexico City Grand Prix,False
+SAI,Ferrari,7.0,6.0,Finished,4.0,75.987,71.989,2023,São Paulo Grand Prix,True
+BOT,Alfa Romeo,7.0,17.0,Finished,2.0,100.9605,93.525,2023,Las Vegas Grand Prix,False
+ALO,Aston Martin,7.0,7.0,Finished,2.0,90.0975,84.084,2023,Abu Dhabi Grand Prix,False
+RUS,Mercedes,6.0,7.0,Finished,2.0,98.427,90.34,2023,Bahrain Grand Prix,False
+OCO,Alpine,6.0,8.0,Finished,1.0,94.8925,89.078,2023,Saudi Arabian Grand Prix,False
+STR,Aston Martin,6.0,4.0,Finished,3.0,82.187,77.308,2023,Australian Grand Prix,False
+ALO,Aston Martin,6.0,4.0,Finished,1.0,106.162,101.253,2023,Azerbaijan Grand Prix,False
+RUS,Mercedes,6.0,4.0,Finished,1.0,92.257,87.804,2023,Miami Grand Prix,False
+LEC,Ferrari,6.0,6.0,Finished,2.0,78.363,71.471,2023,Monaco Grand Prix,True
+OCO,Alpine,6.0,8.0,Finished,2.0,80.3155,73.083,2023,Spanish Grand Prix,False
+OCO,Alpine,6.0,8.0,Finished,2.0,77.7135,87.945,2023,Canadian Grand Prix,False
+STR,Aston Martin,6.0,9.0,Finished,4.0,70.136,64.893,2023,Austrian Grand Prix,True
+RUS,Mercedes,6.0,5.0,Finished,1.0,93.067,87.155,2023,British Grand Prix,False
+LEC,Ferrari,6.0,7.0,Finished,2.0,84.534,76.992,2023,Hungarian Grand Prix,False
+VER,Red Bull Racing,6.0,1.0,Finished,2.0,111.5335,106.168,2023,Belgian Grand Prix,True
+SAI,Ferrari,6.0,5.0,Finished,5.0,76.405,71.754,2023,Dutch Grand Prix,True
+ALB,Williams,6.0,7.0,Finished,1.0,86.898,80.76,2023,Italian Grand Prix,False
+MAG,Haas F1 Team,6.0,10.0,Finished,2.0,100.831,91.575,2023,Singapore Grand Prix,False
+SAI,Ferrari,6.0,6.0,Finished,2.0,98.588,89.85,2023,Japanese Grand Prix,False
+PIA,McLaren,6.0,2.0,Finished,3.0,86.959,84.54,2023,Qatar Grand Prix,False
+VER,Red Bull Racing,6.0,1.0,Finished,2.0,101.166,95.081,2023,United States Grand Prix,False
+HAM,Mercedes,6.0,2.0,Finished,2.0,83.19,77.454,2023,Mexico City Grand Prix,False
+NOR,McLaren,6.0,2.0,Finished,4.0,75.6025,71.987,2023,São Paulo Grand Prix,True
+SAR,Williams,6.0,16.0,Finished,1.0,98.8085,93.513,2023,Las Vegas Grand Prix,False
+TSU,AlphaTauri,6.0,8.0,Finished,1.0,90.2085,83.968,2023,Abu Dhabi Grand Prix,False
+ALO,Aston Martin,5.0,3.0,Finished,2.0,98.009,90.336,2023,Bahrain Grand Prix,False
+STR,Aston Martin,5.0,20.0,DNF,1.0,95.56,88.945,2023,Saudi Arabian Grand Prix,False
+SAI,Ferrari,5.0,12.0,Finished,4.0,82.102,77.27,2023,Australian Grand Prix,False
+HAM,Mercedes,5.0,6.0,Finished,1.0,106.689,101.177,2023,Azerbaijan Grand Prix,False
+GAS,Alpine,5.0,8.0,Finished,1.0,92.52,87.786,2023,Miami Grand Prix,False
+HAM,Mercedes,5.0,4.0,Finished,2.0,78.3635,71.725,2023,Monaco Grand Prix,True
+STR,Aston Martin,5.0,6.0,Finished,2.0,80.202,72.994,2023,Spanish Grand Prix,False
+HUL,Haas F1 Team,5.0,15.0,Finished,2.0,78.348,87.102,2023,Canadian Grand Prix,False
+HAM,Mercedes,5.0,8.0,Finished,3.0,70.457,64.819,2023,Austrian Grand Prix,True
+SAI,Ferrari,5.0,10.0,Finished,1.0,93.1875,87.148,2023,British Grand Prix,False
+ZHO,Alfa Romeo,5.0,16.0,Finished,2.0,85.307,76.971,2023,Hungarian Grand Prix,False
+ALO,Aston Martin,5.0,2.0,Finished,5.0,76.14,71.506,2023,Dutch Grand Prix,True
+PER,Red Bull Racing,5.0,2.0,Finished,1.0,86.354,80.688,2023,Italian Grand Prix,False
+HAM,Mercedes,5.0,3.0,Finished,2.0,99.692,91.485,2023,Singapore Grand Prix,False
+PER,Red Bull Racing,5.0,19.0,DNF,4.0,100.466,89.65,2023,Japanese Grand Prix,False
+LEC,Ferrari,5.0,5.0,Finished,3.0,87.484,84.424,2023,Qatar Grand Prix,False
+RUS,Mercedes,5.0,5.0,Finished,2.0,102.068,95.079,2023,United States Grand Prix,False
+HAM,Mercedes,5.0,8.0,Finished,4.0,76.2785,71.469,2023,São Paulo Grand Prix,True
+ALB,Williams,5.0,12.0,Finished,1.0,98.7915,93.323,2023,Las Vegas Grand Prix,False
+NOR,McLaren,5.0,5.0,Finished,2.0,89.6165,83.816,2023,Abu Dhabi Grand Prix,False
+SAI,Ferrari,4.0,4.0,Finished,2.0,98.222,90.154,2023,Bahrain Grand Prix,False
+SAI,Ferrari,4.0,6.0,Finished,1.0,94.5185,88.931,2023,Saudi Arabian Grand Prix,False
+ALO,Aston Martin,4.0,3.0,Finished,3.0,82.2605,77.139,2023,Australian Grand Prix,False
+SAI,Ferrari,4.0,5.0,Finished,1.0,106.743,101.016,2023,Azerbaijan Grand Prix,False
+MAG,Haas F1 Team,4.0,10.0,Finished,1.0,92.732,87.767,2023,Miami Grand Prix,False
+SAI,Ferrari,4.0,8.0,Finished,2.0,78.296,71.63,2023,Monaco Grand Prix,True
+HAM,Mercedes,4.0,2.0,Finished,2.0,79.4755,72.818,2023,Spanish Grand Prix,False
+RUS,Mercedes,4.0,19.0,DNF,1.0,77.968,87.893,2023,Canadian Grand Prix,False
+NOR,McLaren,4.0,4.0,Finished,3.0,70.214,64.658,2023,Austrian Grand Prix,True
+LEC,Ferrari,4.0,9.0,Finished,2.0,92.938,87.136,2023,British Grand Prix,False
+PIA,McLaren,4.0,5.0,Finished,2.0,84.5095,76.905,2023,Hungarian Grand Prix,False
+SAI,Ferrari,4.0,19.0,DNF,1.0,116.1415,107.152,2023,Belgian Grand Prix,True
+ALB,Williams,4.0,8.0,Finished,4.0,76.754,71.419,2023,Dutch Grand Prix,True
+RUS,Mercedes,4.0,5.0,Finished,1.0,86.426,80.671,2023,Italian Grand Prix,False
+NOR,McLaren,4.0,2.0,Finished,1.0,99.728,91.27,2023,Singapore Grand Prix,False
+LEC,Ferrari,4.0,4.0,Finished,2.0,98.166,89.542,2023,Japanese Grand Prix,False
+ALO,Aston Martin,4.0,6.0,Finished,3.0,87.761,84.369,2023,Qatar Grand Prix,False
+SAI,Ferrari,4.0,3.0,Finished,2.0,101.5145,94.945,2023,United States Grand Prix,False
+RIC,AlphaTauri,4.0,7.0,Finished,2.0,83.599,77.382,2023,Mexico City Grand Prix,False
+ALO,Aston Martin,4.0,3.0,Finished,4.0,75.9465,71.387,2023,São Paulo Grand Prix,True
+GAS,Alpine,4.0,11.0,Finished,1.0,98.7015,93.239,2023,Las Vegas Grand Prix,False
+RUS,Mercedes,4.0,3.0,Finished,2.0,89.5385,83.788,2023,Abu Dhabi Grand Prix,False
+LEC,Ferrari,3.0,19.0,DNF,2.0,98.509,90.0,2023,Bahrain Grand Prix,False
+RUS,Mercedes,3.0,4.0,Finished,1.0,94.112,88.857,2023,Saudi Arabian Grand Prix,False
+HAM,Mercedes,3.0,2.0,Finished,3.0,82.2125,77.104,2023,Australian Grand Prix,False
+PER,Red Bull Racing,3.0,1.0,Finished,1.0,105.518,100.495,2023,Azerbaijan Grand Prix,False
+SAI,Ferrari,3.0,5.0,Finished,1.0,92.507,87.349,2023,Miami Grand Prix,False
+OCO,Alpine,3.0,3.0,Finished,2.0,78.416,71.553,2023,Monaco Grand Prix,True
+NOR,McLaren,3.0,17.0,Finished,3.0,80.117,72.792,2023,Spanish Grand Prix,False
+HAM,Mercedes,3.0,3.0,Finished,2.0,77.0465,87.627,2023,Canadian Grand Prix,False
+SAI,Ferrari,3.0,6.0,Finished,3.0,70.031,64.581,2023,Austrian Grand Prix,True
+PIA,McLaren,3.0,4.0,Finished,1.0,92.8265,87.092,2023,British Grand Prix,False
+NOR,McLaren,3.0,2.0,Finished,2.0,84.0085,76.694,2023,Hungarian Grand Prix,False
+HAM,Mercedes,3.0,4.0,Finished,3.0,112.2555,107.087,2023,Belgian Grand Prix,True
+RUS,Mercedes,3.0,17.0,Finished,7.0,77.336,71.294,2023,Dutch Grand Prix,True
+LEC,Ferrari,3.0,4.0,Finished,1.0,86.473,80.361,2023,Italian Grand Prix,False
+LEC,Ferrari,3.0,4.0,Finished,1.0,99.971,91.063,2023,Singapore Grand Prix,False
+NOR,McLaren,3.0,2.0,Finished,2.0,97.728,89.493,2023,Japanese Grand Prix,False
+HAM,Mercedes,3.0,19.0,Finished,2.0,101.398,94.862,2023,United States Grand Prix,False
+VER,Red Bull Racing,3.0,1.0,Finished,3.0,82.4255,77.263,2023,Mexico City Grand Prix,False
+STR,Aston Martin,3.0,5.0,Finished,4.0,75.967,71.344,2023,São Paulo Grand Prix,True
+RUS,Mercedes,3.0,8.0,Finished,2.0,98.0735,93.112,2023,Las Vegas Grand Prix,False
+PIA,McLaren,3.0,6.0,Finished,2.0,89.903,83.782,2023,Abu Dhabi Grand Prix,False
+PER,Red Bull Racing,2.0,2.0,Finished,2.0,97.448,89.846,2023,Bahrain Grand Prix,False
+ALO,Aston Martin,2.0,3.0,Finished,1.0,94.0905,88.73,2023,Saudi Arabian Grand Prix,False
+RUS,Mercedes,2.0,18.0,DNF,2.0,83.169,76.968,2023,Australian Grand Prix,False
+VER,Red Bull Racing,2.0,2.0,Finished,1.0,105.474,100.391,2023,Azerbaijan Grand Prix,False
+ALO,Aston Martin,2.0,3.0,Finished,1.0,92.355,87.202,2023,Miami Grand Prix,False
+ALO,Aston Martin,2.0,2.0,Finished,2.0,77.816,71.449,2023,Monaco Grand Prix,True
+SAI,Ferrari,2.0,5.0,Finished,2.0,80.1645,72.734,2023,Spanish Grand Prix,False
+ALO,Aston Martin,2.0,2.0,Finished,2.0,76.9255,87.286,2023,Canadian Grand Prix,False
+LEC,Ferrari,2.0,2.0,Finished,3.0,69.916,64.439,2023,Austrian Grand Prix,True
+NOR,McLaren,2.0,2.0,Finished,1.0,92.746,86.961,2023,British Grand Prix,False
+VER,Red Bull Racing,2.0,1.0,Finished,2.0,83.663,76.612,2023,Hungarian Grand Prix,False
+PER,Red Bull Racing,2.0,2.0,Finished,2.0,112.1575,107.045,2023,Belgian Grand Prix,True
+NOR,McLaren,2.0,7.0,Finished,6.0,76.797,71.104,2023,Dutch Grand Prix,True
+VER,Red Bull Racing,2.0,1.0,Finished,1.0,86.05,80.307,2023,Italian Grand Prix,False
+RUS,Mercedes,2.0,16.0,DNF,2.0,99.7895,91.056,2023,Singapore Grand Prix,False
+PIA,McLaren,2.0,3.0,Finished,2.0,98.44,89.458,2023,Japanese Grand Prix,False
+RUS,Mercedes,2.0,4.0,Finished,4.0,87.228,84.219,2023,Qatar Grand Prix,False
+NOR,McLaren,2.0,2.0,Finished,2.0,101.482,94.853,2023,United States Grand Prix,False
+SAI,Ferrari,2.0,4.0,Finished,2.0,83.259,77.233,2023,Mexico City Grand Prix,False
+VER,Red Bull Racing,2.0,1.0,Finished,2.0,97.6925,93.104,2023,Las Vegas Grand Prix,False
+LEC,Ferrari,2.0,2.0,Finished,2.0,89.5665,83.584,2023,Abu Dhabi Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,2.0,97.614,89.708,2023,Bahrain Grand Prix,False
 PER,Red Bull Racing,1.0,1.0,Finished,1.0,93.248,88.265,2023,Saudi Arabian Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,3.0,81.998,76.732,2023,Australian Grand Prix,False
@@ -1128,6 +846,300 @@ LEC,Ferrari,1.0,3.0,Finished,2.0,83.163,77.166,2023,Mexico City Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,4.0,75.4375,70.727,2023,São Paulo Grand Prix,True
 LEC,Ferrari,1.0,2.0,Finished,1.0,98.07,92.726,2023,Las Vegas Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,2.0,89.1525,83.445,2023,Abu Dhabi Grand Prix,False
+MAG,Haas F1 Team,0.0,16.0,Finished,6.0,77.733,82.192,2023,Dutch Grand Prix,True
+STR,Aston Martin,0.0,17.0,DNF,2.0,84.646,79.227,2023,Mexico City Grand Prix,False
+GAS,Alpine,20.0,18.0,Finished,3.0,97.6955,90.948,2024,Bahrain Grand Prix,False
+ZHO,Kick Sauber,20.0,18.0,DNF,3.0,99.794,90.143,2024,Japanese Grand Prix,False
+SAR,Williams,20.0,17.0,Finished,2.0,102.645,96.358,2024,Chinese Grand Prix,False
+RIC,RB,20.0,15.0,Finished,1.0,93.98,88.617,2024,Miami Grand Prix,False
+ALO,Aston Martin,20.0,19.0,Finished,3.0,82.686,76.917,2024,Emilia Romagna Grand Prix,False
+ZHO,Kick Sauber,20.0,15.0,Finished,3.0,88.82,74.292,2024,Canadian Grand Prix,True
+ALB,Williams,20.0,18.0,Finished,2.0,81.4535,73.153,2024,Spanish Grand Prix,True
+ZHO,Kick Sauber,20.0,17.0,Finished,2.0,71.793,66.061,2024,Austrian Grand Prix,True
+PER,Red Bull Racing,20.0,17.0,Finished,4.0,93.219,98.348,2024,British Grand Prix,True
+GAS,Alpine,20.0,20.0,DNF,1.0,85.703,78.166,2024,Hungarian Grand Prix,False
+TSU,RB,20.0,16.0,Finished,1.0,109.627,116.593,2024,Belgian Grand Prix,False
+MAG,Haas F1 Team,20.0,18.0,Finished,1.0,76.97,71.295,2024,Dutch Grand Prix,False
+ZHO,Kick Sauber,20.0,18.0,Finished,1.0,85.944,81.445,2024,Italian Grand Prix,False
+OCO,Alpine,19.0,17.0,Finished,2.0,97.8725,90.793,2024,Bahrain Grand Prix,False
+SAR,Williams,19.0,14.0,Finished,1.0,95.601,89.526,2024,Saudi Arabian Grand Prix,False
+ZHO,Kick Sauber,19.0,15.0,Finished,2.0,83.1525,78.188,2024,Australian Grand Prix,False
+SAR,Williams,19.0,17.0,Finished,4.0,98.13,90.139,2024,Japanese Grand Prix,False
+TSU,RB,19.0,19.0,DNF,2.0,103.174,95.746,2024,Chinese Grand Prix,False
+ZHO,Kick Sauber,19.0,14.0,Finished,1.0,93.703,88.824,2024,Miami Grand Prix,False
+BOT,Kick Sauber,19.0,13.0,Finished,1.0,88.408,73.366,2024,Canadian Grand Prix,True
+SAR,Williams,19.0,20.0,Finished,2.0,82.189,73.509,2024,Spanish Grand Prix,True
+SAR,Williams,19.0,19.0,Finished,3.0,71.968,65.856,2024,Austrian Grand Prix,True
+OCO,Alpine,19.0,18.0,Finished,3.0,85.038,78.049,2024,Hungarian Grand Prix,False
+ZHO,Kick Sauber,19.0,19.0,DNF,0.0,112.2375,117.775,2024,Belgian Grand Prix,False
+ALB,Williams,19.0,14.0,Finished,2.0,76.456,70.653,2024,Dutch Grand Prix,False
+BOT,Kick Sauber,19.0,16.0,Finished,1.0,86.317,81.101,2024,Italian Grand Prix,False
+SAR,Williams,18.0,20.0,Finished,3.0,97.621,90.77,2024,Bahrain Grand Prix,False
+RIC,RB,18.0,12.0,Finished,2.0,83.058,78.085,2024,Australian Grand Prix,False
+MAG,Haas F1 Team,18.0,13.0,Finished,2.0,98.415,90.131,2024,Japanese Grand Prix,False
+HAM,Mercedes,18.0,9.0,Finished,2.0,101.912,95.573,2024,Chinese Grand Prix,False
+MAG,Haas F1 Team,18.0,19.0,Finished,3.0,93.148,88.619,2024,Miami Grand Prix,False
+MAG,Haas F1 Team,18.0,12.0,Finished,1.0,82.8055,76.854,2024,Emilia Romagna Grand Prix,False
+ZHO,Kick Sauber,18.0,16.0,Finished,2.0,80.954,73.028,2024,Monaco Grand Prix,False
+OCO,Alpine,18.0,10.0,Finished,1.0,88.0575,73.435,2024,Canadian Grand Prix,True
+RIC,RB,18.0,15.0,Finished,2.0,81.337,73.075,2024,Spanish Grand Prix,True
+BOT,Kick Sauber,18.0,16.0,Finished,2.0,71.62,65.847,2024,Austrian Grand Prix,True
+OCO,Alpine,18.0,16.0,Finished,4.0,94.6875,94.557,2024,British Grand Prix,True
+ZHO,Kick Sauber,18.0,19.0,Finished,2.0,85.483,78.037,2024,Hungarian Grand Prix,False
+SAR,Williams,18.0,17.0,Finished,2.0,109.815,117.23,2024,Belgian Grand Prix,False
+COL,Williams,18.0,12.0,Finished,1.0,85.128,81.061,2024,Italian Grand Prix,False
+ZHO,Kick Sauber,17.0,11.0,Finished,2.0,97.4055,90.757,2024,Bahrain Grand Prix,False
+OCO,Alpine,17.0,13.0,Finished,1.0,95.432,89.475,2024,Saudi Arabian Grand Prix,False
+GAS,Alpine,17.0,13.0,Finished,2.0,83.225,77.982,2024,Australian Grand Prix,False
+GAS,Alpine,17.0,16.0,Finished,3.0,98.827,90.119,2024,Japanese Grand Prix,False
+MAG,Haas F1 Team,17.0,16.0,Finished,2.0,103.2295,95.516,2024,Chinese Grand Prix,False
+SAR,Williams,17.0,20.0,DNF,1.0,93.9275,88.487,2024,Miami Grand Prix,False
+ZHO,Kick Sauber,17.0,15.0,Finished,1.0,82.9565,76.834,2024,Emilia Romagna Grand Prix,False
+BOT,Kick Sauber,17.0,13.0,Finished,2.0,80.4935,72.512,2024,Monaco Grand Prix,False
+HUL,Haas F1 Team,17.0,11.0,Finished,3.0,87.6055,73.978,2024,Canadian Grand Prix,True
+TSU,RB,17.0,19.0,Finished,3.0,81.475,72.985,2024,Spanish Grand Prix,True
+STR,Aston Martin,17.0,13.0,Finished,2.0,71.482,65.819,2024,Austrian Grand Prix,True
+MAG,Haas F1 Team,17.0,12.0,Finished,2.0,93.208,92.905,2024,British Grand Prix,True
+RUS,Mercedes,17.0,8.0,Finished,2.0,83.8215,77.968,2024,Hungarian Grand Prix,False
+MAG,Haas F1 Team,17.0,14.0,Finished,1.0,109.777,116.5,2024,Belgian Grand Prix,False
+ZHO,Kick Sauber,17.0,20.0,Finished,2.0,77.555,73.261,2024,Dutch Grand Prix,False
+STR,Aston Martin,17.0,19.0,Finished,3.0,85.2305,81.013,2024,Italian Grand Prix,False
+BOT,Kick Sauber,16.0,19.0,Finished,2.0,97.7695,90.756,2024,Bahrain Grand Prix,False
+BOT,Kick Sauber,16.0,17.0,Finished,2.0,95.619,89.179,2024,Saudi Arabian Grand Prix,False
+HUL,Haas F1 Team,16.0,9.0,Finished,2.0,82.901,77.976,2024,Australian Grand Prix,False
+STR,Aston Martin,16.0,12.0,Finished,4.0,97.681,90.024,2024,Japanese Grand Prix,False
+ZHO,Kick Sauber,16.0,14.0,Finished,3.0,102.107,95.505,2024,Chinese Grand Prix,False
+BOT,Kick Sauber,16.0,16.0,Finished,2.0,93.561,88.463,2024,Miami Grand Prix,False
+BOT,Kick Sauber,16.0,18.0,Finished,1.0,82.737,76.626,2024,Emilia Romagna Grand Prix,False
+PER,Red Bull Racing,16.0,18.0,DNF,2.0,88.718,73.326,2024,Canadian Grand Prix,True
+MAG,Haas F1 Team,16.0,17.0,Finished,2.0,81.287,72.937,2024,Spanish Grand Prix,True
+ALB,Williams,16.0,15.0,Finished,2.0,71.4875,65.736,2024,Austrian Grand Prix,True
+BOT,Kick Sauber,16.0,15.0,Finished,2.0,93.967,92.431,2024,British Grand Prix,True
+PER,Red Bull Racing,16.0,7.0,Finished,2.0,83.485,77.886,2024,Hungarian Grand Prix,False
+HUL,Haas F1 Team,16.0,18.0,Finished,2.0,109.6805,116.308,2024,Belgian Grand Prix,False
+BOT,Kick Sauber,16.0,19.0,Finished,2.0,76.887,72.168,2024,Dutch Grand Prix,False
+TSU,RB,16.0,20.0,DNF,0.0,88.0055,80.945,2024,Italian Grand Prix,False
+MAG,Haas F1 Team,15.0,12.0,Finished,2.0,97.7705,90.529,2024,Bahrain Grand Prix,False
+HUL,Haas F1 Team,15.0,10.0,Finished,1.0,94.6495,89.055,2024,Saudi Arabian Grand Prix,False
+OCO,Alpine,15.0,16.0,Finished,3.0,82.921,77.697,2024,Australian Grand Prix,False
+OCO,Alpine,15.0,15.0,Finished,3.0,98.7325,89.816,2024,Japanese Grand Prix,False
+GAS,Alpine,15.0,13.0,Finished,3.0,101.8895,95.463,2024,Chinese Grand Prix,False
+ALO,Aston Martin,15.0,9.0,Finished,1.0,93.648,88.427,2024,Miami Grand Prix,False
+GAS,Alpine,15.0,16.0,Finished,2.0,82.395,76.381,2024,Emilia Romagna Grand Prix,False
+SAR,Williams,15.0,15.0,Finished,2.0,80.851,72.02,2024,Monaco Grand Prix,False
+GAS,Alpine,15.0,9.0,Finished,2.0,87.869,72.94,2024,Canadian Grand Prix,True
+ZHO,Kick Sauber,15.0,13.0,Finished,2.0,81.23,72.738,2024,Spanish Grand Prix,True
+ALO,Aston Martin,15.0,18.0,Finished,3.0,71.503,65.639,2024,Austrian Grand Prix,True
+RIC,RB,15.0,13.0,Finished,2.0,93.429,87.949,2024,British Grand Prix,True
+MAG,Haas F1 Team,15.0,15.0,Finished,2.0,85.336,76.548,2024,Hungarian Grand Prix,False
+STR,Aston Martin,15.0,11.0,Finished,1.0,109.5995,115.716,2024,Belgian Grand Prix,False
+OCO,Alpine,15.0,15.0,Finished,1.0,77.218,71.995,2024,Dutch Grand Prix,False
+OCO,Alpine,15.0,14.0,Finished,1.0,86.019,80.766,2024,Italian Grand Prix,False
+RIC,RB,14.0,13.0,Finished,2.0,97.758,90.278,2024,Bahrain Grand Prix,False
+RIC,RB,14.0,16.0,Finished,1.0,95.649,89.025,2024,Saudi Arabian Grand Prix,False
+MAG,Haas F1 Team,14.0,10.0,Finished,2.0,83.198,77.427,2024,Australian Grand Prix,False
+ALB,Williams,14.0,12.0,Finished,2.0,102.516,95.241,2024,Chinese Grand Prix,False
+ALB,Williams,14.0,18.0,Finished,2.0,93.683,88.413,2024,Miami Grand Prix,False
+ALB,Williams,14.0,20.0,DNF,4.0,81.839,76.2,2024,Emilia Romagna Grand Prix,False
+ALO,Aston Martin,14.0,11.0,Finished,1.0,80.639,72.019,2024,Monaco Grand Prix,False
+MAG,Haas F1 Team,14.0,12.0,Finished,4.0,87.7195,72.916,2024,Canadian Grand Prix,True
+STR,Aston Martin,14.0,14.0,Finished,2.0,81.262,72.372,2024,Spanish Grand Prix,True
+TSU,RB,14.0,14.0,Finished,2.0,71.5275,65.412,2024,Austrian Grand Prix,True
+ZHO,Kick Sauber,14.0,18.0,Finished,4.0,95.107,87.867,2024,British Grand Prix,True
+SAR,Williams,14.0,17.0,Finished,3.0,85.083,76.543,2024,Hungarian Grand Prix,False
+BOT,Kick Sauber,14.0,15.0,Finished,2.0,109.674,114.764,2024,Belgian Grand Prix,False
+HAM,Mercedes,14.0,8.0,Finished,2.0,75.27,70.948,2024,Dutch Grand Prix,False
+GAS,Alpine,14.0,15.0,Finished,2.0,85.316,80.738,2024,Italian Grand Prix,False
+ALB,Williams,13.0,15.0,Finished,2.0,97.874,90.221,2024,Bahrain Grand Prix,False
+MAG,Haas F1 Team,13.0,12.0,Finished,1.0,95.46,89.02,2024,Saudi Arabian Grand Prix,False
+BOT,Kick Sauber,13.0,14.0,Finished,2.0,82.934,77.34,2024,Australian Grand Prix,False
+BOT,Kick Sauber,13.0,14.0,Finished,3.0,98.0325,89.593,2024,Japanese Grand Prix,False
+OCO,Alpine,13.0,11.0,Finished,2.0,101.993,95.223,2024,Chinese Grand Prix,False
+OCO,Alpine,13.0,10.0,Finished,1.0,93.585,88.371,2024,Miami Grand Prix,False
+STR,Aston Martin,13.0,9.0,Finished,1.0,82.392,75.992,2024,Emilia Romagna Grand Prix,False
+STR,Aston Martin,13.0,14.0,Finished,3.0,79.828,71.563,2024,Monaco Grand Prix,False
+SAR,Williams,13.0,20.0,DNF,0.0,90.012,72.736,2024,Canadian Grand Prix,True
+HUL,Haas F1 Team,13.0,11.0,Finished,2.0,80.9755,72.31,2024,Spanish Grand Prix,True
+GAS,Alpine,13.0,10.0,Finished,2.0,71.213,65.359,2024,Austrian Grand Prix,True
+TSU,RB,13.0,10.0,Finished,2.0,93.0465,87.269,2024,British Grand Prix,True
+ALB,Williams,13.0,14.0,Finished,2.0,84.892,76.429,2024,Hungarian Grand Prix,False
+RIC,RB,13.0,10.0,Finished,2.0,109.0115,114.682,2024,Belgian Grand Prix,False
+RIC,RB,13.0,12.0,Finished,1.0,76.259,71.943,2024,Dutch Grand Prix,False
+MAG,Haas F1 Team,13.0,10.0,Finished,1.0,84.799,80.698,2024,Italian Grand Prix,False
+STR,Aston Martin,12.0,10.0,Finished,2.0,96.871,90.2,2024,Bahrain Grand Prix,False
+ALB,Williams,12.0,11.0,Finished,1.0,95.402,88.98,2024,Saudi Arabian Grand Prix,False
+ALB,Williams,12.0,11.0,Finished,2.0,83.027,77.167,2024,Australian Grand Prix,False
+HUL,Haas F1 Team,12.0,11.0,Finished,3.0,98.346,89.494,2024,Japanese Grand Prix,False
+RIC,RB,12.0,18.0,DNF,1.0,103.609,94.934,2024,Chinese Grand Prix,False
+GAS,Alpine,12.0,12.0,Finished,1.0,93.554,88.324,2024,Miami Grand Prix,False
+OCO,Alpine,12.0,14.0,Finished,1.0,82.759,75.906,2024,Emilia Romagna Grand Prix,False
+RIC,RB,12.0,12.0,Finished,1.0,80.8445,71.482,2024,Monaco Grand Prix,False
+SAI,Ferrari,12.0,16.0,DNF,2.0,88.5745,72.728,2024,Canadian Grand Prix,True
+BOT,Kick Sauber,12.0,16.0,Finished,2.0,81.587,72.227,2024,Spanish Grand Prix,True
+MAG,Haas F1 Team,12.0,8.0,Finished,2.0,71.243,65.347,2024,Austrian Grand Prix,True
+SAR,Williams,12.0,11.0,Finished,2.0,93.075,87.175,2024,British Grand Prix,True
+BOT,Kick Sauber,12.0,16.0,Finished,2.0,85.243,76.384,2024,Hungarian Grand Prix,False
+GAS,Alpine,12.0,13.0,Finished,2.0,109.659,114.635,2024,Belgian Grand Prix,False
+HUL,Haas F1 Team,12.0,11.0,Finished,1.0,76.32,71.215,2024,Dutch Grand Prix,False
+RIC,RB,12.0,13.0,Finished,1.0,85.047,80.479,2024,Italian Grand Prix,False
+TSU,RB,11.0,14.0,Finished,2.0,97.575,90.129,2024,Bahrain Grand Prix,False
+BEA,Ferrari,11.0,7.0,Finished,1.0,93.798,88.642,2024,Saudi Arabian Grand Prix,False
+HAM,Mercedes,11.0,18.0,DNF,1.0,83.2055,76.96,2024,Australian Grand Prix,False
+STR,Aston Martin,11.0,15.0,Finished,4.0,101.646,94.838,2024,Chinese Grand Prix,False
+STR,Aston Martin,11.0,17.0,Finished,2.0,93.635,88.222,2024,Miami Grand Prix,False
+PER,Red Bull Racing,11.0,8.0,Finished,1.0,81.94,75.706,2024,Emilia Romagna Grand Prix,False
+LEC,Ferrari,11.0,19.0,DNF,3.0,89.7035,72.691,2024,Canadian Grand Prix,True
+PER,Red Bull Racing,11.0,8.0,Finished,3.0,79.7495,72.061,2024,Spanish Grand Prix,True
+RIC,RB,11.0,9.0,Finished,2.0,71.37,65.289,2024,Austrian Grand Prix,True
+LEC,Ferrari,11.0,14.0,Finished,3.0,92.705,87.097,2024,British Grand Prix,True
+HUL,Haas F1 Team,11.0,13.0,Finished,2.0,84.978,76.317,2024,Hungarian Grand Prix,False
+VER,Red Bull Racing,11.0,4.0,Finished,2.0,108.1915,113.159,2024,Belgian Grand Prix,False
+TSU,RB,11.0,17.0,Finished,2.0,76.816,70.955,2024,Dutch Grand Prix,False
+ALO,Aston Martin,11.0,11.0,Finished,2.0,84.891,80.421,2024,Italian Grand Prix,False
+HUL,Haas F1 Team,10.0,16.0,Finished,3.0,96.816,90.502,2024,Bahrain Grand Prix,False
+STR,Aston Martin,10.0,19.0,DNF,0.0,95.7625,88.572,2024,Saudi Arabian Grand Prix,False
+ALO,Aston Martin,10.0,8.0,Finished,2.0,82.711,77.552,2024,Australian Grand Prix,False
+TSU,RB,10.0,10.0,Finished,3.0,97.497,89.413,2024,Japanese Grand Prix,False
+BOT,Kick Sauber,10.0,20.0,DNF,1.0,102.577,94.665,2024,Chinese Grand Prix,False
+TSU,RB,10.0,7.0,Finished,1.0,93.337,88.192,2024,Miami Grand Prix,False
+HUL,Haas F1 Team,10.0,11.0,Finished,1.0,82.434,75.98,2024,Emilia Romagna Grand Prix,False
+GAS,Alpine,10.0,10.0,Finished,1.0,80.229,71.311,2024,Monaco Grand Prix,False
+ALB,Williams,10.0,17.0,DNF,2.0,88.734,72.796,2024,Canadian Grand Prix,True
+ALO,Aston Martin,10.0,12.0,Finished,2.0,81.093,72.128,2024,Spanish Grand Prix,True
+OCO,Alpine,10.0,12.0,Finished,2.0,71.411,65.883,2024,Austrian Grand Prix,True
+ALO,Aston Martin,10.0,8.0,Finished,2.0,92.673,86.917,2024,British Grand Prix,True
+TSU,RB,10.0,9.0,Finished,1.0,84.579,76.477,2024,Hungarian Grand Prix,False
+ALB,Williams,10.0,12.0,Finished,2.0,109.437,114.473,2024,Belgian Grand Prix,False
+SAI,Ferrari,10.0,5.0,Finished,1.0,75.146,70.914,2024,Dutch Grand Prix,False
+HUL,Haas F1 Team,10.0,17.0,Finished,2.0,85.258,80.339,2024,Italian Grand Prix,False
+HAM,Mercedes,9.0,7.0,Finished,2.0,96.666,89.71,2024,Bahrain Grand Prix,False
+TSU,RB,9.0,15.0,Finished,1.0,95.575,88.547,2024,Saudi Arabian Grand Prix,False
+STR,Aston Martin,9.0,6.0,Finished,2.0,83.023,77.072,2024,Australian Grand Prix,False
+RUS,Mercedes,9.0,7.0,Finished,3.0,96.699,89.008,2024,Japanese Grand Prix,False
+HUL,Haas F1 Team,9.0,10.0,Finished,2.0,101.9295,94.604,2024,Chinese Grand Prix,False
+HUL,Haas F1 Team,9.0,11.0,Finished,2.0,93.304,88.146,2024,Miami Grand Prix,False
+RIC,RB,9.0,13.0,Finished,1.0,82.29,75.674,2024,Emilia Romagna Grand Prix,False
+ALB,Williams,9.0,9.0,Finished,1.0,80.222,70.948,2024,Monaco Grand Prix,False
+STR,Aston Martin,9.0,7.0,Finished,2.0,87.2655,72.701,2024,Canadian Grand Prix,True
+PIA,McLaren,9.0,7.0,Finished,2.0,79.864,72.011,2024,Spanish Grand Prix,True
+HUL,Haas F1 Team,9.0,6.0,Finished,2.0,71.177,65.385,2024,Austrian Grand Prix,True
+ALB,Williams,9.0,9.0,Finished,2.0,93.0365,86.64,2024,British Grand Prix,True
+RIC,RB,9.0,12.0,Finished,2.0,84.905,76.447,2024,Hungarian Grand Prix,False
+OCO,Alpine,9.0,9.0,Finished,2.0,109.429,114.81,2024,Belgian Grand Prix,False
+GAS,Alpine,9.0,9.0,Finished,1.0,76.394,70.977,2024,Dutch Grand Prix,False
+ALB,Williams,9.0,9.0,Finished,1.0,85.065,80.299,2024,Italian Grand Prix,False
+PIA,McLaren,8.0,8.0,Finished,2.0,96.68,89.683,2024,Bahrain Grand Prix,False
+HAM,Mercedes,8.0,9.0,Finished,1.0,93.7175,88.46,2024,Saudi Arabian Grand Prix,False
+TSU,RB,8.0,7.0,Finished,2.0,83.0135,76.788,2024,Australian Grand Prix,False
+LEC,Ferrari,8.0,4.0,Finished,2.0,96.357,88.786,2024,Japanese Grand Prix,False
+RUS,Mercedes,8.0,6.0,Finished,2.0,101.166,94.433,2024,Chinese Grand Prix,False
+HAM,Mercedes,8.0,6.0,Finished,1.0,93.306,88.107,2024,Miami Grand Prix,False
+HAM,Mercedes,8.0,6.0,Finished,1.0,81.415,75.504,2024,Emilia Romagna Grand Prix,False
+TSU,RB,8.0,8.0,Finished,1.0,80.144,70.858,2024,Monaco Grand Prix,False
+TSU,RB,8.0,14.0,Finished,1.0,88.3065,72.414,2024,Canadian Grand Prix,True
+OCO,Alpine,8.0,10.0,Finished,2.0,80.6625,72.125,2024,Spanish Grand Prix,True
+PER,Red Bull Racing,8.0,7.0,Finished,2.0,71.009,65.202,2024,Austrian Grand Prix,True
+STR,Aston Martin,8.0,7.0,Finished,2.0,92.752,86.585,2024,British Grand Prix,True
+STR,Aston Martin,8.0,10.0,Finished,2.0,84.454,76.244,2024,Hungarian Grand Prix,False
+ALO,Aston Martin,8.0,8.0,Finished,1.0,109.411,114.765,2024,Belgian Grand Prix,False
+STR,Aston Martin,8.0,13.0,Finished,1.0,76.322,70.857,2024,Dutch Grand Prix,False
+PER,Red Bull Racing,8.0,8.0,Finished,2.0,84.537,80.062,2024,Italian Grand Prix,False
+NOR,McLaren,7.0,6.0,Finished,2.0,96.566,89.614,2024,Bahrain Grand Prix,False
+RUS,Mercedes,7.0,6.0,Finished,1.0,93.756,88.316,2024,Saudi Arabian Grand Prix,False
+RUS,Mercedes,7.0,17.0,DNF,2.0,82.663,76.724,2024,Australian Grand Prix,False
+HAM,Mercedes,7.0,9.0,Finished,3.0,96.601,88.766,2024,Japanese Grand Prix,False
+SAI,Ferrari,7.0,5.0,Finished,1.0,100.741,94.297,2024,Chinese Grand Prix,False
+RUS,Mercedes,7.0,8.0,Finished,1.0,93.423,88.067,2024,Miami Grand Prix,False
+TSU,RB,7.0,10.0,Finished,1.0,82.3105,75.465,2024,Emilia Romagna Grand Prix,False
+HAM,Mercedes,7.0,7.0,Finished,2.0,78.51,70.621,2024,Monaco Grand Prix,False
+HAM,Mercedes,7.0,4.0,Finished,3.0,86.6325,72.28,2024,Canadian Grand Prix,True
+GAS,Alpine,7.0,9.0,Finished,2.0,80.4255,71.857,2024,Spanish Grand Prix,True
+PIA,McLaren,7.0,2.0,Finished,2.0,70.57,65.048,2024,Austrian Grand Prix,True
+SAI,Ferrari,7.0,5.0,Finished,3.0,92.367,86.509,2024,British Grand Prix,True
+ALO,Aston Martin,7.0,11.0,Finished,2.0,84.4915,76.043,2024,Hungarian Grand Prix,False
+SAI,Ferrari,7.0,6.0,Finished,2.0,108.393,114.477,2024,Belgian Grand Prix,False
+ALO,Aston Martin,7.0,10.0,Finished,1.0,76.357,70.633,2024,Dutch Grand Prix,False
+VER,Red Bull Racing,7.0,6.0,Finished,2.0,83.621,80.022,2024,Italian Grand Prix,False
+ALO,Aston Martin,6.0,9.0,Finished,2.0,97.202,89.542,2024,Bahrain Grand Prix,False
+NOR,McLaren,6.0,8.0,Finished,1.0,93.662,88.132,2024,Saudi Arabian Grand Prix,False
+PER,Red Bull Racing,6.0,5.0,Finished,2.0,81.96,76.274,2024,Australian Grand Prix,False
+PIA,McLaren,6.0,8.0,Finished,3.0,96.984,88.76,2024,Japanese Grand Prix,False
+LEC,Ferrari,6.0,4.0,Finished,1.0,101.347,94.289,2024,Chinese Grand Prix,False
+PIA,McLaren,6.0,13.0,Finished,2.0,92.767,87.675,2024,Miami Grand Prix,False
+RUS,Mercedes,6.0,7.0,Finished,2.0,81.209,75.234,2024,Emilia Romagna Grand Prix,False
+VER,Red Bull Racing,6.0,6.0,Finished,2.0,78.5505,70.567,2024,Monaco Grand Prix,False
+ALO,Aston Martin,6.0,6.0,Finished,2.0,87.008,72.228,2024,Canadian Grand Prix,True
+SAI,Ferrari,6.0,6.0,Finished,2.0,80.016,71.736,2024,Spanish Grand Prix,True
+LEC,Ferrari,6.0,11.0,Finished,4.0,70.543,65.044,2024,Austrian Grand Prix,True
+HUL,Haas F1 Team,6.0,6.0,Finished,2.0,92.6845,86.338,2024,British Grand Prix,True
+LEC,Ferrari,6.0,4.0,Finished,2.0,83.2515,75.905,2024,Hungarian Grand Prix,False
+RUS,Mercedes,6.0,20.0,Finished,1.0,108.1285,114.184,2024,Belgian Grand Prix,False
+LEC,Ferrari,6.0,3.0,Finished,1.0,75.282,70.582,2024,Dutch Grand Prix,False
+HAM,Mercedes,6.0,5.0,Finished,2.0,83.673,79.513,2024,Italian Grand Prix,False
+PER,Red Bull Racing,5.0,2.0,Finished,2.0,96.226,89.537,2024,Bahrain Grand Prix,False
+PIA,McLaren,5.0,4.0,Finished,1.0,93.7045,88.089,2024,Saudi Arabian Grand Prix,False
+PIA,McLaren,5.0,4.0,Finished,2.0,82.031,76.572,2024,Australian Grand Prix,False
+ALO,Aston Martin,5.0,6.0,Finished,3.0,97.289,88.686,2024,Japanese Grand Prix,False
+PIA,McLaren,5.0,8.0,Finished,2.0,101.6085,94.273,2024,Chinese Grand Prix,False
+NOR,McLaren,5.0,1.0,Finished,1.0,92.042,87.594,2024,Miami Grand Prix,False
+PIA,McLaren,5.0,4.0,Finished,1.0,80.979,74.82,2024,Emilia Romagna Grand Prix,False
+RUS,Mercedes,5.0,5.0,Finished,1.0,78.6375,70.543,2024,Monaco Grand Prix,False
+RIC,RB,5.0,8.0,Finished,2.0,87.373,72.178,2024,Canadian Grand Prix,True
+LEC,Ferrari,5.0,5.0,Finished,2.0,79.728,71.731,2024,Spanish Grand Prix,True
+HAM,Mercedes,5.0,4.0,Finished,2.0,70.645,64.903,2024,Austrian Grand Prix,True
+PIA,McLaren,5.0,4.0,Finished,2.0,91.9075,86.237,2024,British Grand Prix,True
+HAM,Mercedes,5.0,3.0,Finished,2.0,83.338,75.854,2024,Hungarian Grand Prix,False
+PIA,McLaren,5.0,2.0,Finished,2.0,108.158,114.027,2024,Belgian Grand Prix,False
+PER,Red Bull Racing,5.0,6.0,Finished,1.0,75.382,70.416,2024,Dutch Grand Prix,False
+SAI,Ferrari,5.0,4.0,Finished,1.0,83.931,79.467,2024,Italian Grand Prix,False
+SAI,Ferrari,4.0,3.0,Finished,2.0,96.149,89.507,2024,Bahrain Grand Prix,False
+ALO,Aston Martin,4.0,5.0,Finished,1.0,93.7615,87.846,2024,Saudi Arabian Grand Prix,False
+LEC,Ferrari,4.0,2.0,Finished,2.0,81.8665,76.435,2024,Australian Grand Prix,False
+SAI,Ferrari,4.0,3.0,Finished,3.0,96.901,88.682,2024,Japanese Grand Prix,False
+NOR,McLaren,4.0,2.0,Finished,1.0,101.2745,94.165,2024,Chinese Grand Prix,False
+PER,Red Bull Racing,4.0,4.0,Finished,2.0,92.645,87.46,2024,Miami Grand Prix,False
+SAI,Ferrari,4.0,5.0,Finished,1.0,81.16,75.233,2024,Emilia Romagna Grand Prix,False
+NOR,McLaren,4.0,4.0,Finished,1.0,78.3995,70.542,2024,Monaco Grand Prix,False
+PIA,McLaren,4.0,5.0,Finished,2.0,86.1245,72.103,2024,Canadian Grand Prix,True
+RUS,Mercedes,4.0,4.0,Finished,2.0,79.864,71.703,2024,Spanish Grand Prix,True
+SAI,Ferrari,4.0,3.0,Finished,2.0,70.473,64.851,2024,Austrian Grand Prix,True
+VER,Red Bull Racing,4.0,2.0,Finished,2.0,91.934,86.203,2024,British Grand Prix,True
+SAI,Ferrari,4.0,6.0,Finished,2.0,83.704,75.696,2024,Hungarian Grand Prix,False
+NOR,McLaren,4.0,5.0,Finished,2.0,108.115,113.981,2024,Belgian Grand Prix,False
+RUS,Mercedes,4.0,7.0,Finished,2.0,75.4955,70.244,2024,Dutch Grand Prix,False
+LEC,Ferrari,4.0,1.0,Finished,1.0,83.718,79.461,2024,Italian Grand Prix,False
+RUS,Mercedes,3.0,5.0,Finished,2.0,96.635,89.485,2024,Bahrain Grand Prix,False
+PER,Red Bull Racing,3.0,2.0,Finished,1.0,92.8315,87.807,2024,Saudi Arabian Grand Prix,False
+NOR,McLaren,3.0,3.0,Finished,2.0,81.747,76.315,2024,Australian Grand Prix,False
+NOR,McLaren,3.0,5.0,Finished,3.0,96.34,88.489,2024,Japanese Grand Prix,False
+ALO,Aston Martin,3.0,7.0,Finished,3.0,100.8815,94.148,2024,Chinese Grand Prix,False
+SAI,Ferrari,3.0,5.0,Finished,1.0,92.64,87.455,2024,Miami Grand Prix,False
+LEC,Ferrari,3.0,3.0,Finished,1.0,80.928,74.97,2024,Emilia Romagna Grand Prix,False
+SAI,Ferrari,3.0,3.0,Finished,1.0,78.5565,70.518,2024,Monaco Grand Prix,False
+NOR,McLaren,3.0,2.0,Finished,2.0,86.203,72.021,2024,Canadian Grand Prix,True
+HAM,Mercedes,3.0,3.0,Finished,2.0,79.9435,71.701,2024,Spanish Grand Prix,True
+RUS,Mercedes,3.0,1.0,Finished,2.0,70.372,64.84,2024,Austrian Grand Prix,True
+NOR,McLaren,3.0,3.0,Finished,2.0,91.863,86.03,2024,British Grand Prix,True
+VER,Red Bull Racing,3.0,5.0,Finished,2.0,83.7405,75.273,2024,Hungarian Grand Prix,False
+HAM,Mercedes,3.0,1.0,Finished,2.0,107.965,113.835,2024,Belgian Grand Prix,False
+PIA,McLaren,3.0,4.0,Finished,1.0,75.315,70.172,2024,Dutch Grand Prix,False
+RUS,Mercedes,3.0,7.0,Finished,2.0,84.521,79.44,2024,Italian Grand Prix,False
+LEC,Ferrari,2.0,4.0,Finished,2.0,96.76,89.407,2024,Bahrain Grand Prix,False
+LEC,Ferrari,2.0,3.0,Finished,1.0,93.2535,87.791,2024,Saudi Arabian Grand Prix,False
+SAI,Ferrari,2.0,1.0,Finished,2.0,81.513,76.185,2024,Australian Grand Prix,False
+PER,Red Bull Racing,2.0,2.0,Finished,3.0,96.568,88.263,2024,Japanese Grand Prix,False
+PER,Red Bull Racing,2.0,3.0,Finished,2.0,100.2135,93.982,2024,Chinese Grand Prix,False
+LEC,Ferrari,2.0,3.0,Finished,1.0,92.279,87.382,2024,Miami Grand Prix,False
+NOR,McLaren,2.0,2.0,Finished,1.0,80.816,74.837,2024,Emilia Romagna Grand Prix,False
+PIA,McLaren,2.0,2.0,Finished,1.0,78.486,70.424,2024,Monaco Grand Prix,False
+VER,Red Bull Racing,2.0,1.0,Finished,2.0,86.584,72.0,2024,Canadian Grand Prix,True
+VER,Red Bull Racing,2.0,1.0,Finished,2.0,79.7975,71.403,2024,Spanish Grand Prix,True
+NOR,McLaren,2.0,20.0,Finished,2.0,70.388,64.718,2024,Austrian Grand Prix,True
+HAM,Mercedes,2.0,1.0,Finished,2.0,91.676,85.99,2024,British Grand Prix,True
+PIA,McLaren,2.0,1.0,Finished,2.0,83.4355,75.249,2024,Hungarian Grand Prix,False
+PER,Red Bull Racing,2.0,7.0,Finished,3.0,108.3645,113.765,2024,Belgian Grand Prix,False
+VER,Red Bull Racing,2.0,2.0,Finished,1.0,75.2415,70.029,2024,Dutch Grand Prix,False
+PIA,McLaren,2.0,2.0,Finished,2.0,83.48,79.436,2024,Italian Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,2.0,95.581,89.179,2024,Bahrain Grand Prix,False
 VER,Red Bull Racing,1.0,1.0,Finished,1.0,92.7885,87.472,2024,Saudi Arabian Grand Prix,False
 VER,Red Bull Racing,1.0,19.0,DNF,0.0,84.099,75.915,2024,Australian Grand Prix,False
@@ -1144,15 +1156,360 @@ NOR,McLaren,1.0,2.0,Finished,2.0,83.5705,75.227,2024,Hungarian Grand Prix,False
 LEC,Ferrari,1.0,3.0,Finished,2.0,108.124,113.754,2024,Belgian Grand Prix,False
 NOR,McLaren,1.0,1.0,Finished,1.0,74.9015,69.673,2024,Dutch Grand Prix,False
 NOR,McLaren,1.0,3.0,Finished,2.0,83.601,79.327,2024,Italian Grand Prix,False
-ZHO,Alfa Romeo,0.0,15.0,Finished,1.0,82.801,81.434,2022,Emilia Romagna Grand Prix,False
-STR,Aston Martin,0.0,10.0,Finished,1.0,95.204,90.676,2022,Miami Grand Prix,True
-VET,Aston Martin,0.0,17.0,DNF,1.0,95.644,90.214,2022,Miami Grand Prix,True
-BOT,Alfa Romeo,0.0,11.0,Finished,2.0,71.359,66.319,2022,Austrian Grand Prix,False
-GAS,AlphaTauri,0.0,12.0,Finished,2.0,85.0585,79.527,2022,Hungarian Grand Prix,True
-GAS,AlphaTauri,0.0,9.0,Finished,2.0,114.206,105.827,2022,Belgian Grand Prix,False
-TSU,AlphaTauri,0.0,13.0,Finished,2.0,114.333,106.692,2022,Belgian Grand Prix,False
-RUS,Mercedes,0.0,14.0,Finished,4.0,122.4485,114.012,2022,Singapore Grand Prix,True
-OCO,Alpine,0.0,11.0,Finished,2.0,103.878,97.068,2022,United States Grand Prix,False
-TSU,AlphaTauri,0.0,17.0,Finished,3.0,77.593,76.264,2022,São Paulo Grand Prix,False
-MAG,Haas F1 Team,0.0,16.0,Finished,6.0,77.733,82.192,2023,Dutch Grand Prix,True
-STR,Aston Martin,0.0,17.0,DNF,2.0,84.646,79.227,2023,Mexico City Grand Prix,False
+HAM,Mercedes,2.0,1.0,Finished,2.0,94.99,89.385,2021,Bahrain Grand Prix,False
+VER,Red Bull Racing,1.0,2.0,Finished,2.0,95.183,88.997,2021,Bahrain Grand Prix,False
+BOT,Mercedes,3.0,3.0,Finished,3.0,95.0845,89.586,2021,Bahrain Grand Prix,False
+NOR,McLaren,7.0,4.0,Finished,2.0,96.0645,89.974,2021,Bahrain Grand Prix,False
+PER,Red Bull Racing,0.0,5.0,Finished,3.0,95.796,90.659,2021,Bahrain Grand Prix,False
+LEC,Ferrari,4.0,6.0,Finished,2.0,96.3135,89.678,2021,Bahrain Grand Prix,False
+RIC,McLaren,6.0,7.0,Finished,2.0,96.4205,89.927,2021,Bahrain Grand Prix,False
+SAI,Ferrari,8.0,8.0,Finished,2.0,96.4595,90.215,2021,Bahrain Grand Prix,False
+TSU,AlphaTauri,13.0,9.0,Finished,2.0,96.66,91.203,2021,Bahrain Grand Prix,False
+STR,Aston Martin,10.0,10.0,Finished,2.0,96.861,90.601,2021,Bahrain Grand Prix,False
+RAI,Alfa Romeo Racing,14.0,11.0,Finished,2.0,96.7885,91.238,2021,Bahrain Grand Prix,False
+GIO,Alfa Romeo Racing,12.0,12.0,Finished,2.0,96.936,90.708,2021,Bahrain Grand Prix,False
+OCO,Alpine,16.0,13.0,Finished,2.0,97.03,91.724,2021,Bahrain Grand Prix,False
+RUS,Williams,15.0,14.0,Finished,2.0,97.337,93.43,2021,Bahrain Grand Prix,False
+VET,Aston Martin,20.0,15.0,Finished,1.0,97.964,92.056,2021,Bahrain Grand Prix,False
+MSC,Haas F1 Team,18.0,16.0,Finished,2.0,97.997,92.449,2021,Bahrain Grand Prix,False
+GAS,AlphaTauri,5.0,17.0,DNF,3.0,96.512,89.809,2021,Bahrain Grand Prix,False
+LAT,Williams,17.0,18.0,DNF,2.0,98.165,91.936,2021,Bahrain Grand Prix,False
+ALO,Alpine,9.0,19.0,DNF,2.0,97.758,90.249,2021,Bahrain Grand Prix,False
+VER,Red Bull Racing,3.0,1.0,Finished,2.0,83.743,74.498,2021,Emilia Romagna Grand Prix,True
+HAM,Mercedes,1.0,2.0,Finished,4.0,83.218,74.411,2021,Emilia Romagna Grand Prix,True
+NOR,McLaren,7.0,3.0,Finished,2.0,84.987,74.875,2021,Emilia Romagna Grand Prix,True
+LEC,Ferrari,4.0,4.0,Finished,2.0,84.395,74.74,2021,Emilia Romagna Grand Prix,True
+SAI,Ferrari,11.0,5.0,Finished,2.0,85.28,75.199,2021,Emilia Romagna Grand Prix,True
+RIC,McLaren,6.0,6.0,Finished,2.0,85.815,74.826,2021,Emilia Romagna Grand Prix,True
+GAS,AlphaTauri,5.0,7.0,Finished,4.0,84.0325,74.79,2021,Emilia Romagna Grand Prix,True
+STR,Aston Martin,10.0,8.0,Finished,3.0,86.478,75.138,2021,Emilia Romagna Grand Prix,True
+OCO,Alpine,9.0,9.0,Finished,5.0,84.183,75.21,2021,Emilia Romagna Grand Prix,True
+ALO,Alpine,15.0,10.0,Finished,3.0,87.5485,75.593,2021,Emilia Romagna Grand Prix,True
+PER,Red Bull Racing,2.0,11.0,Finished,2.0,86.456,74.446,2021,Emilia Romagna Grand Prix,True
+RAI,Alfa Romeo Racing,16.0,13.0,Finished,3.0,86.761,75.974,2021,Emilia Romagna Grand Prix,True
+GIO,Alfa Romeo Racing,17.0,14.0,Finished,4.0,89.089,76.122,2021,Emilia Romagna Grand Prix,True
+VET,Aston Martin,0.0,15.0,DNF,5.0,83.239,75.394,2021,Emilia Romagna Grand Prix,True
+MSC,Haas F1 Team,18.0,16.0,Finished,4.0,84.078,76.279,2021,Emilia Romagna Grand Prix,True
+MAZ,Haas F1 Team,19.0,17.0,Finished,4.0,87.831,76.797,2021,Emilia Romagna Grand Prix,True
+BOT,Mercedes,8.0,18.0,DNF,1.0,90.774,74.898,2021,Emilia Romagna Grand Prix,True
+RUS,Williams,12.0,19.0,DNF,1.0,90.729,75.261,2021,Emilia Romagna Grand Prix,True
+HAM,Mercedes,2.0,1.0,Finished,3.0,81.995,78.355,2021,Portuguese Grand Prix,False
+VER,Red Bull Racing,3.0,2.0,Finished,4.0,82.19,78.746,2021,Portuguese Grand Prix,False
+BOT,Mercedes,1.0,3.0,Finished,4.0,82.261,78.348,2021,Portuguese Grand Prix,False
+PER,Red Bull Racing,4.0,4.0,Finished,3.0,82.46,78.89,2021,Portuguese Grand Prix,False
+NOR,McLaren,7.0,5.0,Finished,3.0,82.94,79.116,2021,Portuguese Grand Prix,False
+LEC,Ferrari,8.0,6.0,Finished,3.0,82.811,79.306,2021,Portuguese Grand Prix,False
+OCO,Alpine,6.0,7.0,Finished,3.0,82.806,79.042,2021,Portuguese Grand Prix,False
+ALO,Alpine,13.0,8.0,Finished,3.0,82.992,79.456,2021,Portuguese Grand Prix,False
+RIC,McLaren,16.0,9.0,Finished,3.0,82.939,79.839,2021,Portuguese Grand Prix,False
+GAS,AlphaTauri,9.0,10.0,Finished,3.0,83.055,79.475,2021,Portuguese Grand Prix,False
+SAI,Ferrari,5.0,11.0,Finished,3.0,83.361,79.039,2021,Portuguese Grand Prix,False
+GIO,Alfa Romeo Racing,12.0,12.0,Finished,3.0,83.1455,79.216,2021,Portuguese Grand Prix,False
+VET,Aston Martin,10.0,13.0,Finished,3.0,83.393,79.659,2021,Portuguese Grand Prix,False
+STR,Aston Martin,17.0,14.0,Finished,3.0,83.3805,79.913,2021,Portuguese Grand Prix,False
+TSU,AlphaTauri,14.0,15.0,Finished,3.0,83.6345,79.463,2021,Portuguese Grand Prix,False
+RUS,Williams,11.0,16.0,Finished,3.0,84.366,79.109,2021,Portuguese Grand Prix,False
+MSC,Haas F1 Team,19.0,17.0,Finished,3.0,84.81,80.452,2021,Portuguese Grand Prix,False
+LAT,Williams,18.0,18.0,Finished,3.0,84.903,80.285,2021,Portuguese Grand Prix,False
+MAZ,Haas F1 Team,20.0,19.0,Finished,4.0,85.261,80.912,2021,Portuguese Grand Prix,False
+RAI,Alfa Romeo Racing,15.0,20.0,DNF,0.0,-4611685971.590888,79.812,2021,Portuguese Grand Prix,False
+HAM,Mercedes,1.0,1.0,Finished,2.0,82.0375,76.741,2021,Spanish Grand Prix,False
+VER,Red Bull Racing,2.0,2.0,Finished,2.0,82.55,76.777,2021,Spanish Grand Prix,False
+BOT,Mercedes,3.0,3.0,Finished,2.0,82.561,76.873,2021,Spanish Grand Prix,False
+LEC,Ferrari,4.0,4.0,Finished,2.0,82.986,77.51,2021,Spanish Grand Prix,False
+PER,Red Bull Racing,8.0,5.0,Finished,2.0,83.1455,77.701,2021,Spanish Grand Prix,False
+RIC,McLaren,7.0,6.0,Finished,2.0,83.358,77.622,2021,Spanish Grand Prix,False
+SAI,Ferrari,6.0,7.0,Finished,2.0,83.51,77.62,2021,Spanish Grand Prix,False
+NOR,McLaren,9.0,8.0,Finished,2.0,84.378,78.01,2021,Spanish Grand Prix,False
+OCO,Alpine,5.0,9.0,Finished,1.0,84.729,77.58,2021,Spanish Grand Prix,False
+GAS,AlphaTauri,12.0,10.0,Finished,2.0,84.139,77.982,2021,Spanish Grand Prix,False
+STR,Aston Martin,11.0,11.0,Finished,2.0,84.606,77.974,2021,Spanish Grand Prix,False
+RAI,Alfa Romeo Racing,17.0,12.0,Finished,1.0,84.949,78.917,2021,Spanish Grand Prix,False
+VET,Aston Martin,13.0,13.0,Finished,2.0,84.465,78.079,2021,Spanish Grand Prix,False
+RUS,Williams,15.0,14.0,Finished,2.0,85.104,79.154,2021,Spanish Grand Prix,False
+GIO,Alfa Romeo Racing,14.0,15.0,Finished,2.0,85.013,78.356,2021,Spanish Grand Prix,False
+LAT,Williams,19.0,16.0,Finished,3.0,84.998,79.219,2021,Spanish Grand Prix,False
+ALO,Alpine,10.0,17.0,Finished,2.0,84.733,78.147,2021,Spanish Grand Prix,False
+MSC,Haas F1 Team,18.0,18.0,Finished,2.0,85.229,79.117,2021,Spanish Grand Prix,False
+MAZ,Haas F1 Team,20.0,19.0,Finished,2.0,86.4045,79.807,2021,Spanish Grand Prix,False
+TSU,AlphaTauri,16.0,20.0,DNF,0.0,86.189,78.556,2021,Spanish Grand Prix,False
+VER,Red Bull Racing,2.0,1.0,Finished,1.0,75.6395,70.576,2021,Monaco Grand Prix,False
+SAI,Ferrari,4.0,2.0,Finished,1.0,75.7285,70.611,2021,Monaco Grand Prix,False
+NOR,McLaren,5.0,3.0,Finished,1.0,75.806,70.62,2021,Monaco Grand Prix,False
+PER,Red Bull Racing,9.0,4.0,Finished,1.0,75.7625,71.573,2021,Monaco Grand Prix,False
+VET,Aston Martin,8.0,5.0,Finished,1.0,76.0795,71.419,2021,Monaco Grand Prix,False
+GAS,AlphaTauri,6.0,6.0,Finished,1.0,76.178,70.9,2021,Monaco Grand Prix,False
+HAM,Mercedes,7.0,7.0,Finished,2.0,76.346,71.095,2021,Monaco Grand Prix,False
+STR,Aston Martin,13.0,8.0,Finished,1.0,76.538,71.6,2021,Monaco Grand Prix,False
+OCO,Alpine,11.0,9.0,Finished,1.0,76.935,71.486,2021,Monaco Grand Prix,False
+GIO,Alfa Romeo Racing,10.0,10.0,Finished,1.0,76.974,71.779,2021,Monaco Grand Prix,False
+RAI,Alfa Romeo Racing,14.0,11.0,Finished,1.0,77.073,71.642,2021,Monaco Grand Prix,False
+RIC,McLaren,12.0,12.0,Finished,1.0,77.26,71.598,2021,Monaco Grand Prix,False
+ALO,Alpine,17.0,13.0,Finished,1.0,77.263,72.205,2021,Monaco Grand Prix,False
+RUS,Williams,15.0,14.0,Finished,1.0,77.165,71.83,2021,Monaco Grand Prix,False
+LAT,Williams,18.0,15.0,Finished,1.0,77.363,72.366,2021,Monaco Grand Prix,False
+TSU,AlphaTauri,16.0,16.0,Finished,1.0,77.556,72.096,2021,Monaco Grand Prix,False
+MAZ,Haas F1 Team,19.0,17.0,Finished,1.0,78.949,72.958,2021,Monaco Grand Prix,False
+BOT,Mercedes,3.0,19.0,Finished,0.0,76.575,70.601,2021,Monaco Grand Prix,False
+PER,Red Bull Racing,6.0,1.0,Finished,3.0,105.8785,101.917,2021,Azerbaijan Grand Prix,False
+VET,Aston Martin,11.0,2.0,Finished,3.0,106.601,102.224,2021,Azerbaijan Grand Prix,False
+GAS,AlphaTauri,4.0,3.0,Finished,3.0,106.8285,101.565,2021,Azerbaijan Grand Prix,False
+LEC,Ferrari,1.0,4.0,Finished,3.0,106.789,101.218,2021,Azerbaijan Grand Prix,False
+NOR,McLaren,9.0,5.0,Finished,3.0,106.7625,101.747,2021,Azerbaijan Grand Prix,False
+ALO,Alpine,8.0,6.0,Finished,4.0,108.116,102.327,2021,Azerbaijan Grand Prix,False
+TSU,AlphaTauri,7.0,7.0,Finished,3.0,106.7075,102.211,2021,Azerbaijan Grand Prix,False
+SAI,Ferrari,5.0,8.0,Finished,3.0,107.2475,101.576,2021,Azerbaijan Grand Prix,False
+RIC,McLaren,13.0,9.0,Finished,3.0,107.022,102.558,2021,Azerbaijan Grand Prix,False
+RAI,Alfa Romeo Racing,14.0,10.0,Finished,3.0,107.6715,102.587,2021,Azerbaijan Grand Prix,False
+BOT,Mercedes,10.0,12.0,Finished,3.0,106.963,102.659,2021,Azerbaijan Grand Prix,False
+MSC,Haas F1 Team,17.0,13.0,Finished,5.0,108.479,104.158,2021,Azerbaijan Grand Prix,False
+MAZ,Haas F1 Team,18.0,14.0,Finished,6.0,109.15,104.238,2021,Azerbaijan Grand Prix,False
+HAM,Mercedes,2.0,15.0,Finished,3.0,106.1085,101.45,2021,Azerbaijan Grand Prix,False
+LAT,Williams,16.0,16.0,Finished,2.0,108.063,103.128,2021,Azerbaijan Grand Prix,False
+RUS,Williams,15.0,17.0,DNF,3.0,108.199,102.758,2021,Azerbaijan Grand Prix,False
+VER,Red Bull Racing,3.0,18.0,DNF,1.0,105.723,101.563,2021,Azerbaijan Grand Prix,False
+OCO,Alpine,12.0,20.0,Finished,0.0,115.4495,102.273,2021,Azerbaijan Grand Prix,False
+VER,Red Bull Racing,1.0,1.0,Finished,2.0,97.727,89.99,2021,French Grand Prix,False
+HAM,Mercedes,2.0,2.0,Finished,1.0,98.431,90.248,2021,French Grand Prix,False
+PER,Red Bull Racing,4.0,3.0,Finished,1.0,98.28,90.445,2021,French Grand Prix,False
+BOT,Mercedes,3.0,4.0,Finished,1.0,98.719,90.376,2021,French Grand Prix,False
+NOR,McLaren,8.0,5.0,Finished,1.0,99.289,91.252,2021,French Grand Prix,False
+RIC,McLaren,10.0,6.0,Finished,1.0,99.431,91.382,2021,French Grand Prix,False
+GAS,AlphaTauri,6.0,7.0,Finished,1.0,99.851,90.868,2021,French Grand Prix,False
+ALO,Alpine,9.0,8.0,Finished,1.0,99.534,91.34,2021,French Grand Prix,False
+VET,Aston Martin,12.0,9.0,Finished,1.0,100.256,91.767,2021,French Grand Prix,False
+SAI,Ferrari,5.0,11.0,Finished,1.0,100.192,90.84,2021,French Grand Prix,False
+RUS,Williams,14.0,12.0,Finished,1.0,100.1605,92.065,2021,French Grand Prix,False
+OCO,Alpine,11.0,14.0,Finished,1.0,100.809,91.736,2021,French Grand Prix,False
+GIO,Alfa Romeo Racing,13.0,15.0,Finished,1.0,100.8325,91.813,2021,French Grand Prix,False
+LEC,Ferrari,7.0,16.0,Finished,2.0,100.266,90.987,2021,French Grand Prix,False
+RAI,Alfa Romeo Racing,17.0,17.0,Finished,1.0,101.086,93.354,2021,French Grand Prix,False
+LAT,Williams,16.0,18.0,Finished,1.0,100.848,93.062,2021,French Grand Prix,False
+MSC,Haas F1 Team,15.0,19.0,Finished,1.0,100.743,92.942,2021,French Grand Prix,False
+MAZ,Haas F1 Team,18.0,20.0,Finished,1.0,101.796,93.554,2021,French Grand Prix,False
+VER,Red Bull Racing,1.0,1.0,Finished,1.0,69.148,63.841,2021,Styrian Grand Prix,False
+HAM,Mercedes,2.0,2.0,Finished,2.0,69.424,64.067,2021,Styrian Grand Prix,False
+BOT,Mercedes,5.0,3.0,Finished,1.0,69.717,64.035,2021,Styrian Grand Prix,False
+PER,Red Bull Racing,4.0,4.0,Finished,2.0,69.342,64.168,2021,Styrian Grand Prix,False
+NOR,McLaren,3.0,5.0,Finished,1.0,70.02,64.12,2021,Styrian Grand Prix,False
+SAI,Ferrari,12.0,6.0,Finished,1.0,70.0465,64.8,2021,Styrian Grand Prix,False
+LEC,Ferrari,7.0,7.0,Finished,2.0,70.3985,64.472,2021,Styrian Grand Prix,False
+STR,Aston Martin,9.0,8.0,Finished,1.0,70.363,64.708,2021,Styrian Grand Prix,False
+ALO,Alpine,8.0,9.0,Finished,1.0,70.5675,64.574,2021,Styrian Grand Prix,False
+TSU,AlphaTauri,11.0,10.0,Finished,1.0,70.423,64.514,2021,Styrian Grand Prix,False
+RAI,Alfa Romeo Racing,18.0,11.0,Finished,1.0,70.798,65.429,2021,Styrian Grand Prix,False
+VET,Aston Martin,14.0,12.0,Finished,1.0,70.564,64.875,2021,Styrian Grand Prix,False
+RIC,McLaren,13.0,13.0,Finished,1.0,71.045,64.808,2021,Styrian Grand Prix,False
+OCO,Alpine,17.0,14.0,Finished,1.0,71.0895,65.217,2021,Styrian Grand Prix,False
+GIO,Alfa Romeo Racing,15.0,15.0,Finished,1.0,70.6325,64.913,2021,Styrian Grand Prix,False
+MSC,Haas F1 Team,19.0,16.0,Finished,1.0,71.861,66.041,2021,Styrian Grand Prix,False
+LAT,Williams,16.0,17.0,Finished,2.0,71.205,65.175,2021,Styrian Grand Prix,False
+MAZ,Haas F1 Team,20.0,18.0,Finished,1.0,72.2235,66.192,2021,Styrian Grand Prix,False
+RUS,Williams,10.0,19.0,DNF,2.0,71.5265,64.671,2021,Styrian Grand Prix,False
+VER,Red Bull Racing,1.0,1.0,Finished,2.0,68.887,63.72,2021,Austrian Grand Prix,True
+BOT,Mercedes,5.0,2.0,Finished,1.0,69.216,64.049,2021,Austrian Grand Prix,True
+NOR,McLaren,2.0,3.0,Finished,1.0,69.247,63.768,2021,Austrian Grand Prix,True
+HAM,Mercedes,4.0,4.0,Finished,2.0,69.434,64.014,2021,Austrian Grand Prix,True
+SAI,Ferrari,10.0,5.0,Finished,1.0,69.961,64.559,2021,Austrian Grand Prix,True
+PER,Red Bull Racing,3.0,6.0,Finished,1.0,69.709,63.99,2021,Austrian Grand Prix,True
+RIC,McLaren,13.0,7.0,Finished,1.0,69.82,64.719,2021,Austrian Grand Prix,True
+LEC,Ferrari,12.0,8.0,Finished,1.0,69.934,64.6,2021,Austrian Grand Prix,True
+GAS,AlphaTauri,6.0,9.0,Finished,2.0,69.783,64.107,2021,Austrian Grand Prix,True
+ALO,Alpine,14.0,10.0,Finished,1.0,70.0785,64.856,2021,Austrian Grand Prix,True
+RUS,Williams,8.0,11.0,Finished,1.0,70.269,64.591,2021,Austrian Grand Prix,True
+TSU,AlphaTauri,7.0,12.0,Finished,2.0,70.041,64.273,2021,Austrian Grand Prix,True
+STR,Aston Martin,9.0,13.0,Finished,2.0,70.3095,64.618,2021,Austrian Grand Prix,True
+GIO,Alfa Romeo Racing,15.0,14.0,Finished,2.0,70.168,65.083,2021,Austrian Grand Prix,True
+RAI,Alfa Romeo Racing,16.0,15.0,Finished,1.0,70.3395,65.009,2021,Austrian Grand Prix,True
+LAT,Williams,18.0,16.0,Finished,1.0,70.6785,65.195,2021,Austrian Grand Prix,True
+VET,Aston Martin,11.0,17.0,DNF,2.0,69.966,64.57,2021,Austrian Grand Prix,True
+MSC,Haas F1 Team,19.0,18.0,Finished,1.0,71.079,65.427,2021,Austrian Grand Prix,True
+MAZ,Haas F1 Team,20.0,19.0,Finished,2.0,71.798,65.951,2021,Austrian Grand Prix,True
+HAM,Mercedes,2.0,1.0,Finished,2.0,91.946,86.134,2021,British Grand Prix,False
+LEC,Ferrari,4.0,2.0,Finished,2.0,92.0205,86.828,2021,British Grand Prix,False
+BOT,Mercedes,3.0,3.0,Finished,2.0,92.1565,86.328,2021,British Grand Prix,False
+NOR,McLaren,5.0,4.0,Finished,2.0,92.2835,86.897,2021,British Grand Prix,False
+RIC,McLaren,6.0,5.0,Finished,2.0,92.616,86.899,2021,British Grand Prix,False
+SAI,Ferrari,10.0,6.0,Finished,2.0,92.36,87.007,2021,British Grand Prix,False
+ALO,Alpine,7.0,7.0,Finished,2.0,93.2655,87.245,2021,British Grand Prix,False
+STR,Aston Martin,14.0,8.0,Finished,2.0,93.3415,87.665,2021,British Grand Prix,False
+OCO,Alpine,9.0,9.0,Finished,2.0,93.0825,87.34,2021,British Grand Prix,False
+TSU,AlphaTauri,16.0,10.0,Finished,2.0,93.455,88.043,2021,British Grand Prix,False
+GAS,AlphaTauri,11.0,11.0,Finished,3.0,92.9985,87.273,2021,British Grand Prix,False
+RUS,Williams,12.0,12.0,Finished,2.0,93.566,86.971,2021,British Grand Prix,False
+GIO,Alfa Romeo Racing,15.0,13.0,Finished,2.0,93.726,87.617,2021,British Grand Prix,False
+LAT,Williams,17.0,14.0,Finished,2.0,93.566,88.254,2021,British Grand Prix,False
+RAI,Alfa Romeo Racing,13.0,15.0,Finished,2.0,93.56,88.062,2021,British Grand Prix,False
+PER,Red Bull Racing,0.0,16.0,Finished,4.0,93.2415,86.844,2021,British Grand Prix,False
+MAZ,Haas F1 Team,19.0,17.0,Finished,2.0,95.376,89.051,2021,British Grand Prix,False
+MSC,Haas F1 Team,18.0,18.0,Finished,2.0,95.452,88.738,2021,British Grand Prix,False
+VET,Aston Martin,8.0,19.0,DNF,2.0,93.709,87.179,2021,British Grand Prix,False
+OCO,Alpine,8.0,1.0,Finished,3.0,82.77,76.653,2021,Hungarian Grand Prix,True
+HAM,Mercedes,1.0,2.0,Finished,4.0,81.668,75.419,2021,Hungarian Grand Prix,True
+SAI,Ferrari,15.0,3.0,Finished,3.0,82.203,76.649,2021,Hungarian Grand Prix,True
+ALO,Alpine,9.0,4.0,Finished,3.0,82.599,76.715,2021,Hungarian Grand Prix,True
+GAS,AlphaTauri,5.0,5.0,Finished,4.0,82.616,76.483,2021,Hungarian Grand Prix,True
+TSU,AlphaTauri,16.0,6.0,Finished,3.0,83.182,77.919,2021,Hungarian Grand Prix,True
+LAT,Williams,18.0,7.0,Finished,3.0,83.535,78.036,2021,Hungarian Grand Prix,True
+RUS,Williams,17.0,8.0,Finished,3.0,83.496,77.944,2021,Hungarian Grand Prix,True
+VER,Red Bull Racing,3.0,9.0,Finished,5.0,83.252,75.84,2021,Hungarian Grand Prix,True
+RAI,Alfa Romeo Racing,13.0,10.0,Finished,4.0,83.3165,77.564,2021,Hungarian Grand Prix,True
+RIC,McLaren,11.0,11.0,Finished,3.0,84.0005,76.871,2021,Hungarian Grand Prix,True
+GIO,Alfa Romeo Racing,0.0,13.0,Finished,5.0,83.537,77.583,2021,Hungarian Grand Prix,True
+VET,Aston Martin,10.0,20.0,Finished,3.0,82.565,76.75,2021,Hungarian Grand Prix,True
+VER,Red Bull Racing,1.0,1.0,Finished,2.0,74.495,68.885,2021,Dutch Grand Prix,False
+HAM,Mercedes,2.0,2.0,Finished,3.0,74.5365,68.923,2021,Dutch Grand Prix,False
+BOT,Mercedes,3.0,3.0,Finished,2.0,75.1605,69.222,2021,Dutch Grand Prix,False
+GAS,AlphaTauri,4.0,4.0,Finished,1.0,75.989,69.478,2021,Dutch Grand Prix,False
+LEC,Ferrari,5.0,5.0,Finished,1.0,76.196,69.527,2021,Dutch Grand Prix,False
+ALO,Alpine,9.0,6.0,Finished,1.0,76.352,69.956,2021,Dutch Grand Prix,False
+SAI,Ferrari,6.0,7.0,Finished,1.0,76.295,69.537,2021,Dutch Grand Prix,False
+PER,Red Bull Racing,0.0,8.0,Finished,2.0,75.8625,70.53,2021,Dutch Grand Prix,False
+OCO,Alpine,8.0,9.0,Finished,1.0,76.575,69.933,2021,Dutch Grand Prix,False
+NOR,McLaren,13.0,10.0,Finished,1.0,76.313,70.406,2021,Dutch Grand Prix,False
+RIC,McLaren,10.0,11.0,Finished,1.0,76.782,70.166,2021,Dutch Grand Prix,False
+STR,Aston Martin,12.0,12.0,Finished,1.0,76.8795,70.367,2021,Dutch Grand Prix,False
+VET,Aston Martin,15.0,13.0,Finished,2.0,76.777,70.731,2021,Dutch Grand Prix,False
+GIO,Alfa Romeo Racing,7.0,14.0,Finished,2.0,76.9375,69.59,2021,Dutch Grand Prix,False
+KUB,Alfa Romeo Racing,16.0,15.0,Finished,1.0,77.758,71.301,2021,Dutch Grand Prix,False
+LAT,Williams,0.0,16.0,Finished,1.0,77.452,71.161,2021,Dutch Grand Prix,False
+RUS,Williams,11.0,17.0,DNF,2.0,76.785,70.332,2021,Dutch Grand Prix,False
+MSC,Haas F1 Team,17.0,18.0,Finished,2.0,77.656,71.387,2021,Dutch Grand Prix,False
+TSU,AlphaTauri,14.0,19.0,DNF,1.0,77.323,71.314,2021,Dutch Grand Prix,False
+MAZ,Haas F1 Team,18.0,20.0,DNF,1.0,78.4255,71.875,2021,Dutch Grand Prix,False
+RIC,McLaren,2.0,1.0,Finished,1.0,86.313,79.995,2021,Italian Grand Prix,False
+NOR,McLaren,3.0,2.0,Finished,1.0,86.497,79.989,2021,Italian Grand Prix,False
+BOT,Mercedes,19.0,3.0,Finished,1.0,86.597,79.555,2021,Italian Grand Prix,False
+LEC,Ferrari,5.0,4.0,Finished,1.0,86.543,80.51,2021,Italian Grand Prix,False
+PER,Red Bull Racing,8.0,5.0,Finished,1.0,86.594,80.611,2021,Italian Grand Prix,False
+SAI,Ferrari,6.0,6.0,Finished,1.0,86.985,80.462,2021,Italian Grand Prix,False
+STR,Aston Martin,9.0,7.0,Finished,1.0,87.254,81.02,2021,Italian Grand Prix,False
+ALO,Alpine,10.0,8.0,Finished,1.0,87.319,81.069,2021,Italian Grand Prix,False
+RUS,Williams,14.0,9.0,Finished,1.0,87.456,81.392,2021,Italian Grand Prix,False
+OCO,Alpine,12.0,10.0,Finished,1.0,87.463,81.103,2021,Italian Grand Prix,False
+LAT,Williams,13.0,11.0,Finished,1.0,87.469,81.925,2021,Italian Grand Prix,False
+VET,Aston Martin,11.0,12.0,Finished,2.0,87.224,80.913,2021,Italian Grand Prix,False
+GIO,Alfa Romeo Racing,7.0,13.0,Finished,2.0,87.023,80.808,2021,Italian Grand Prix,False
+KUB,Alfa Romeo Racing,17.0,14.0,Finished,1.0,87.733,82.53,2021,Italian Grand Prix,False
+MSC,Haas F1 Team,18.0,15.0,Finished,1.0,88.469,82.248,2021,Italian Grand Prix,False
+MAZ,Haas F1 Team,16.0,16.0,DNF,3.0,88.8275,82.716,2021,Italian Grand Prix,False
+HAM,Mercedes,4.0,17.0,DNF,0.0,86.778,79.651,2021,Italian Grand Prix,False
+VER,Red Bull Racing,1.0,18.0,DNF,1.0,86.6795,79.966,2021,Italian Grand Prix,False
+GAS,AlphaTauri,0.0,19.0,DNF,0.0,89.005,80.26,2021,Italian Grand Prix,False
+HAM,Mercedes,4.0,1.0,Finished,2.0,101.478,104.05,2021,Russian Grand Prix,True
+SAI,Ferrari,2.0,3.0,Finished,2.0,101.332,102.51,2021,Russian Grand Prix,True
+RIC,McLaren,5.0,4.0,Finished,2.0,101.548,104.156,2021,Russian Grand Prix,True
+BOT,Mercedes,16.0,5.0,Finished,2.0,101.8,104.71,2021,Russian Grand Prix,True
+ALO,Alpine,6.0,6.0,Finished,2.0,101.412,104.204,2021,Russian Grand Prix,True
+NOR,McLaren,1.0,7.0,Finished,2.0,100.906,101.993,2021,Russian Grand Prix,True
+RAI,Alfa Romeo Racing,13.0,8.0,Finished,2.0,101.317,109.586,2021,Russian Grand Prix,True
+PER,Red Bull Racing,8.0,9.0,Finished,2.0,101.498,105.337,2021,Russian Grand Prix,True
+RUS,Williams,3.0,10.0,Finished,2.0,101.632,102.983,2021,Russian Grand Prix,True
+STR,Aston Martin,7.0,11.0,Finished,2.0,101.392,104.956,2021,Russian Grand Prix,True
+VET,Aston Martin,10.0,12.0,Finished,2.0,101.436,106.573,2021,Russian Grand Prix,True
+GAS,AlphaTauri,11.0,13.0,Finished,2.0,101.769,106.641,2021,Russian Grand Prix,True
+OCO,Alpine,9.0,14.0,Finished,2.0,101.397,105.865,2021,Russian Grand Prix,True
+LEC,Ferrari,19.0,15.0,Finished,2.0,100.9205,108.47,2021,Russian Grand Prix,True
+GIO,Alfa Romeo Racing,17.0,16.0,Finished,2.0,102.1615,111.023,2021,Russian Grand Prix,True
+TSU,AlphaTauri,12.0,17.0,Finished,3.0,101.3065,106.751,2021,Russian Grand Prix,True
+MAZ,Haas F1 Team,15.0,18.0,Finished,2.0,103.132,113.764,2021,Russian Grand Prix,True
+LAT,Williams,18.0,19.0,DNF,1.0,101.38,108.252,2021,Russian Grand Prix,True
+MSC,Haas F1 Team,14.0,20.0,Finished,1.0,103.647,109.83,2021,Russian Grand Prix,True
+BOT,Mercedes,1.0,1.0,Finished,1.0,93.884,82.998,2021,Turkish Grand Prix,False
+VER,Red Bull Racing,2.0,2.0,Finished,1.0,94.1865,83.196,2021,Turkish Grand Prix,False
+PER,Red Bull Racing,6.0,3.0,Finished,1.0,94.4825,83.706,2021,Turkish Grand Prix,False
+LEC,Ferrari,3.0,4.0,Finished,1.0,94.338,83.265,2021,Turkish Grand Prix,False
+HAM,Mercedes,11.0,5.0,Finished,1.0,94.5875,82.868,2021,Turkish Grand Prix,False
+GAS,AlphaTauri,4.0,6.0,Finished,1.0,94.2955,83.326,2021,Turkish Grand Prix,False
+NOR,McLaren,7.0,7.0,Finished,1.0,94.597,83.954,2021,Turkish Grand Prix,False
+SAI,Ferrari,19.0,8.0,Finished,1.0,94.51,85.177,2021,Turkish Grand Prix,False
+STR,Aston Martin,8.0,9.0,Finished,1.0,94.8865,84.305,2021,Turkish Grand Prix,False
+OCO,Alpine,12.0,10.0,Finished,0.0,95.714,84.842,2021,Turkish Grand Prix,False
+GIO,Alfa Romeo Racing,16.0,11.0,Finished,1.0,95.447,86.43,2021,Turkish Grand Prix,False
+RAI,Alfa Romeo Racing,17.0,12.0,Finished,1.0,95.543,87.525,2021,Turkish Grand Prix,False
+RIC,McLaren,20.0,13.0,Finished,1.0,95.263,85.881,2021,Turkish Grand Prix,False
+TSU,AlphaTauri,9.0,14.0,Finished,1.0,95.619,84.368,2021,Turkish Grand Prix,False
+RUS,Williams,13.0,15.0,Finished,1.0,95.732,85.007,2021,Turkish Grand Prix,False
+ALO,Alpine,5.0,16.0,Finished,1.0,95.602,83.477,2021,Turkish Grand Prix,False
+LAT,Williams,15.0,17.0,Finished,1.0,95.298,86.086,2021,Turkish Grand Prix,False
+VET,Aston Martin,10.0,18.0,Finished,2.0,95.212,84.795,2021,Turkish Grand Prix,False
+MSC,Haas F1 Team,14.0,19.0,Finished,1.0,97.2155,85.2,2021,Turkish Grand Prix,False
+MAZ,Haas F1 Team,18.0,20.0,Finished,1.0,97.638,88.449,2021,Turkish Grand Prix,False
+VER,Red Bull Racing,1.0,1.0,Finished,2.0,100.439,92.91,2021,United States Grand Prix,False
+HAM,Mercedes,2.0,2.0,Finished,2.0,100.5705,93.119,2021,United States Grand Prix,False
+PER,Red Bull Racing,3.0,3.0,Finished,2.0,101.093,93.134,2021,United States Grand Prix,False
+LEC,Ferrari,4.0,4.0,Finished,2.0,101.1135,93.606,2021,United States Grand Prix,False
+RIC,McLaren,6.0,5.0,Finished,2.0,101.665,93.808,2021,United States Grand Prix,False
+BOT,Mercedes,9.0,6.0,Finished,2.0,101.386,93.475,2021,United States Grand Prix,False
+SAI,Ferrari,5.0,7.0,Finished,2.0,101.7805,93.792,2021,United States Grand Prix,False
+NOR,McLaren,7.0,8.0,Finished,2.0,101.758,93.887,2021,United States Grand Prix,False
+TSU,AlphaTauri,10.0,9.0,Finished,2.0,102.666,94.918,2021,United States Grand Prix,False
+VET,Aston Martin,18.0,10.0,Finished,2.0,102.504,95.5,2021,United States Grand Prix,False
+GIO,Alfa Romeo Racing,12.0,11.0,Finished,2.0,103.096,95.794,2021,United States Grand Prix,False
+STR,Aston Martin,13.0,12.0,Finished,2.0,103.408,95.983,2021,United States Grand Prix,False
+RAI,Alfa Romeo Racing,15.0,13.0,Finished,2.0,102.824,96.311,2021,United States Grand Prix,False
+RUS,Williams,20.0,14.0,Finished,2.0,103.549,95.746,2021,United States Grand Prix,False
+LAT,Williams,14.0,15.0,Finished,2.0,103.709,95.995,2021,United States Grand Prix,False
+MSC,Haas F1 Team,16.0,16.0,Finished,2.0,104.0845,96.499,2021,United States Grand Prix,False
+MAZ,Haas F1 Team,17.0,17.0,Finished,3.0,105.182,96.796,2021,United States Grand Prix,False
+ALO,Alpine,19.0,18.0,Finished,3.0,103.084,104.549,2021,United States Grand Prix,False
+OCO,Alpine,11.0,19.0,Finished,2.0,103.816,95.377,2021,United States Grand Prix,False
+GAS,AlphaTauri,8.0,20.0,DNF,1.0,104.237,94.118,2021,United States Grand Prix,False
+VER,Red Bull Racing,3.0,1.0,Finished,1.0,80.877,76.225,2021,Mexico City Grand Prix,False
+HAM,Mercedes,2.0,2.0,Finished,1.0,80.772,76.02,2021,Mexico City Grand Prix,False
+PER,Red Bull Racing,4.0,3.0,Finished,1.0,81.173,76.342,2021,Mexico City Grand Prix,False
+GAS,AlphaTauri,5.0,4.0,Finished,1.0,81.491,76.456,2021,Mexico City Grand Prix,False
+LEC,Ferrari,8.0,5.0,Finished,1.0,81.918,76.837,2021,Mexico City Grand Prix,False
+SAI,Ferrari,6.0,6.0,Finished,1.0,81.9055,76.761,2021,Mexico City Grand Prix,False
+VET,Aston Martin,9.0,7.0,Finished,1.0,81.8555,77.746,2021,Mexico City Grand Prix,False
+RAI,Alfa Romeo Racing,10.0,8.0,Finished,1.0,81.928,77.958,2021,Mexico City Grand Prix,False
+ALO,Alpine,12.0,9.0,Finished,1.0,82.198,78.452,2021,Mexico City Grand Prix,False
+NOR,McLaren,18.0,10.0,Finished,1.0,82.2885,96.83,2021,Mexico City Grand Prix,False
+GIO,Alfa Romeo Racing,11.0,11.0,Finished,1.0,82.727,78.29,2021,Mexico City Grand Prix,False
+RIC,McLaren,7.0,12.0,Finished,2.0,82.515,76.763,2021,Mexico City Grand Prix,False
+OCO,Alpine,19.0,13.0,Finished,1.0,83.005,78.405,2021,Mexico City Grand Prix,False
+STR,Aston Martin,20.0,14.0,Finished,2.0,82.62,80.873,2021,Mexico City Grand Prix,False
+BOT,Mercedes,1.0,15.0,Finished,4.0,82.889,75.875,2021,Mexico City Grand Prix,False
+RUS,Williams,16.0,16.0,Finished,1.0,83.395,78.172,2021,Mexico City Grand Prix,False
+LAT,Williams,13.0,17.0,Finished,2.0,83.494,78.756,2021,Mexico City Grand Prix,False
+MAZ,Haas F1 Team,15.0,18.0,Finished,2.0,84.6165,79.303,2021,Mexico City Grand Prix,False
+HAM,Mercedes,10.0,1.0,Finished,4.0,73.503,67.934,2021,São Paulo Grand Prix,False
+VER,Red Bull Racing,2.0,2.0,Finished,4.0,74.0,68.372,2021,São Paulo Grand Prix,False
+BOT,Mercedes,1.0,3.0,Finished,4.0,73.5835,68.469,2021,São Paulo Grand Prix,False
+PER,Red Bull Racing,4.0,4.0,Finished,5.0,73.664,68.483,2021,São Paulo Grand Prix,False
+LEC,Ferrari,6.0,5.0,Finished,4.0,74.621,68.96,2021,São Paulo Grand Prix,False
+SAI,Ferrari,3.0,6.0,Finished,4.0,74.5455,68.826,2021,São Paulo Grand Prix,False
+GAS,AlphaTauri,7.0,7.0,Finished,4.0,74.859,68.777,2021,São Paulo Grand Prix,False
+OCO,Alpine,8.0,8.0,Finished,3.0,75.811,69.189,2021,São Paulo Grand Prix,False
+ALO,Alpine,12.0,9.0,Finished,3.0,75.589,69.113,2021,São Paulo Grand Prix,False
+NOR,McLaren,5.0,10.0,Finished,5.0,75.753,68.98,2021,São Paulo Grand Prix,False
+VET,Aston Martin,9.0,11.0,Finished,4.0,75.348,69.399,2021,São Paulo Grand Prix,False
+RAI,Alfa Romeo Racing,0.0,12.0,Finished,4.0,75.231,69.503,2021,São Paulo Grand Prix,False
+RUS,Williams,17.0,13.0,Finished,4.0,76.457,69.953,2021,São Paulo Grand Prix,False
+GIO,Alfa Romeo Racing,13.0,14.0,Finished,4.0,75.813,70.227,2021,São Paulo Grand Prix,False
+TSU,AlphaTauri,15.0,15.0,Finished,5.0,76.1085,69.483,2021,São Paulo Grand Prix,False
+LAT,Williams,16.0,16.0,Finished,4.0,76.004,69.897,2021,São Paulo Grand Prix,False
+MAZ,Haas F1 Team,19.0,17.0,Finished,3.0,77.4135,70.589,2021,São Paulo Grand Prix,False
+MSC,Haas F1 Team,18.0,18.0,Finished,5.0,76.4195,70.329,2021,São Paulo Grand Prix,False
+RIC,McLaren,11.0,19.0,DNF,3.0,75.607,69.039,2021,São Paulo Grand Prix,False
+STR,Aston Martin,14.0,20.0,DNF,3.0,76.382,69.663,2021,São Paulo Grand Prix,False
+HAM,Mercedes,1.0,1.0,Finished,2.0,87.423,80.827,2021,Qatar Grand Prix,True
+VER,Red Bull Racing,7.0,2.0,Finished,3.0,87.174,81.282,2021,Qatar Grand Prix,True
+ALO,Alpine,3.0,3.0,Finished,1.0,88.539,81.67,2021,Qatar Grand Prix,True
+PER,Red Bull Racing,11.0,4.0,Finished,2.0,88.373,82.346,2021,Qatar Grand Prix,True
+OCO,Alpine,9.0,5.0,Finished,1.0,88.905,82.028,2021,Qatar Grand Prix,True
+STR,Aston Martin,12.0,6.0,Finished,1.0,88.744,82.46,2021,Qatar Grand Prix,True
+SAI,Ferrari,5.0,7.0,Finished,1.0,89.731,81.84,2021,Qatar Grand Prix,True
+LEC,Ferrari,13.0,8.0,Finished,1.0,89.763,82.463,2021,Qatar Grand Prix,True
+NOR,McLaren,4.0,9.0,Finished,2.0,89.4555,81.731,2021,Qatar Grand Prix,True
+VET,Aston Martin,10.0,10.0,Finished,1.0,89.3365,82.785,2021,Qatar Grand Prix,True
+GAS,AlphaTauri,2.0,11.0,Finished,2.0,88.7425,81.64,2021,Qatar Grand Prix,True
+RIC,McLaren,14.0,12.0,Finished,1.0,90.007,82.597,2021,Qatar Grand Prix,True
+TSU,AlphaTauri,8.0,13.0,Finished,2.0,89.262,81.881,2021,Qatar Grand Prix,True
+RAI,Alfa Romeo Racing,16.0,14.0,Finished,2.0,89.4755,83.156,2021,Qatar Grand Prix,True
+GIO,Alfa Romeo Racing,18.0,15.0,Finished,2.0,89.3105,83.262,2021,Qatar Grand Prix,True
+MSC,Haas F1 Team,19.0,16.0,Finished,1.0,90.36,83.407,2021,Qatar Grand Prix,True
+RUS,Williams,15.0,17.0,Finished,2.0,89.699,82.756,2021,Qatar Grand Prix,True
+MAZ,Haas F1 Team,20.0,18.0,Finished,1.0,91.838,85.859,2021,Qatar Grand Prix,True
+LAT,Williams,17.0,19.0,Finished,1.0,90.142,83.213,2021,Qatar Grand Prix,True
+BOT,Mercedes,6.0,20.0,Finished,1.0,88.819,81.478,2021,Qatar Grand Prix,True
