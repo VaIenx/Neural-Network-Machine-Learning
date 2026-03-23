@@ -53,11 +53,15 @@ class PodiumNet(nn.Module):
                 print(f"Accuracy: {accuracy.item():.4f}")
                 self.accuracy = accuracy.item()
             else:
-                # Ausgabe auf 1–20 clippen, MAE als Metrik
                 outputs = torch.clamp(self(X_test_t), 1, 20)
                 mae = (outputs - y_test_t).abs().float().mean()
                 print(f"MAE: {mae.item():.4f} Positionen")
                 self.mae = mae.item()
+
+                # Accuracy: wie oft liegt die Vorhersage innerhalb von ±2 Plätzen?
+                close = (outputs - y_test_t).abs() <= 2
+                self.accuracy = close.float().mean().item()
+                print(f"Accuracy (±2 Pos): {self.accuracy:.4f}")
         return self.loss_list, self.val_loss_list
 
     def run(self, verbose=1):
