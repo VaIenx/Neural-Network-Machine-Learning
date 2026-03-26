@@ -37,17 +37,25 @@ def predict(net, input_df, scaler, le, target):
 
 
 def predict_row(net, row, scaler, le, target):
-    true_col = 'podium' if target == 'podium' else 'Position'
+    pos = row.get('Position', '?')
+    if target == 'podium':
+        if isinstance(pos, (int, float)):
+            true_display = f"P{int(pos)} → {'Podium' if pos <= 3 else 'Kein Podium'}"
+        else:
+            true_display = '?'
+    else:
+        true_display = pos
+
     print(f"  Fahrer: {row.get('Abbreviation','?')}  |  "
           f"Team: {row.get('TeamName','?')}  |  "
           f"Grid: {row.get('GridPosition','?')}  |  "
           f"Rennen: {row.get('race','?')} {row.get('year','')}  |  "
-          f"Echter Wert: {row.get(true_col,'?')}")
+          f"Echter Wert: {true_display}")
 
     input_df = pd.DataFrame([{
         'TeamName':       row['TeamName'],
         'GridPosition':   row['GridPosition'],
-        'Status':         row['Status'],      # noch Rohwert z.B. 'Finished'
+        'Status':         row['Status'],
         'box':            row['box'],
         'median_laptime': row['median_laptime'],
         'Q_best_sec':     row['Q_best_sec'],
@@ -88,7 +96,7 @@ def custom_input(net, scaler, le, target):
 
 
 def training_data_input(net, df_raw, scaler, le, target):
-    true_col = 'podium' if target == 'podium' else 'Position'
+    true_col = 'Podium' if target == 'Podium' else 'Position'
 
     while True:
         print("\n--- Trainingsdaten testen ---")
