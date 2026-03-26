@@ -87,7 +87,7 @@ class FastF1Collector:
 
         self._df = self._df.sort_values('year').reset_index(drop=True)
 
-    def save_to_csv(self, path='predict-podium/DATA_addon.csv'):
+    def save_to_csv(self, path='predict-podium/DATA.csv'):
         if self._df.empty:
             print("DataFrame ist leer – nichts gespeichert.")
             return
@@ -96,5 +96,5 @@ class FastF1Collector:
         print(f"Gespeichert: {path} ({len(self._df)} Zeilen)")
 
 if __name__ == "__main__":
-    collector = FastF1Collector(years=[2021])
+    collector = FastF1Collector(years=[2021, 2022, 2023, 2024])
     collector.save_to_csv()

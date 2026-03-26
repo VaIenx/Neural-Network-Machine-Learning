@@ -1,12 +1,10 @@
-
 from pathlib import Path
 
 # Data Processing
 import pandas as pd
 import numpy as np
 from contourpy.util import data
-
-from preprocessing import preprocessing_data
+from preprocessing import preprocessing_data_for_rf
 
 # Modelling
 from sklearn.ensemble import RandomForestClassifier
@@ -118,7 +116,8 @@ class random_forest:
 
 
 if __name__ == "__main__":
-    X_train, X_test, y_train, y_test, le, scaler = preprocessing_data(verbose=1)
+    X_train, X_test, y_train, y_test, le, scaler = preprocessing_data_for_rf("position",verbose=2)
     random_forest = random_forest( X_train, X_test, y_train, y_test, n_tree=100, verbose=2)
     random_forest.run()
+    random_forest.predict_position()
 
